@@ -1,15 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Point to the new csv file
+    // Point to the new, richer CSV file
     const CSV_PATH = '../items_parsed_v2.csv'; 
     
     let allItems = [];
     const raritySet = new Set();
     const classSet = new Set();
     const supertypeSet = new Set();
-    // Store relationships like: "Melee" -> {"Sword", "Axe", "Shovel"}
     const superToSubtypeMap = new Map();
 
-    // Get all the filter elements
+    // These are the stats we'll look for when building Attributes
+    const SLOTS = ["MainHand", "OffHand", "Head", "Chest", "Legs", "Feet"];
+    const STATS = ["Armor", "ArmorToughness", "KnockbackResistance", "Health", "AttackSpeed", "MovementSpeed", "Damage", "Luck"];
+
+    // Get all the new filter elements
     const rarityFilter = document.getElementById('rarityFilter');
     const classFilter = document.getElementById('classFilter');
     const supertypeFilter = document.getElementById('supertypeFilter');
@@ -24,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 1. Data Loading and Filter Population ---
     fetch(CSV_PATH)
       .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV.' + response);
+        if (!response.ok) throw new Error('Could not fetch CSV.');
         return response.text();
       })
       .then(csvText => {
@@ -32,13 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         allItems = results.data.filter(r => r.ItemName); // Ensure item has a name
         
-        // Use a single pass to populate all Sets and Maps
+        // Use a single pass to populate all our Sets and Maps
         allItems.forEach(item => {
           if (item.Rarity) raritySet.add(item.Rarity);
           if (item.Class) classSet.add(item.Class);
           if (item.Supertype) supertypeSet.add(item.Supertype);
-          
-          // Populate the Supertype -> Subtype mapping
           if (item.Supertype && item.Subtype) {
             if (!superToSubtypeMap.has(item.Supertype)) {
               superToSubtypeMap.set(item.Supertype, new Set());
@@ -47,17 +48,15 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         });
         
-        // Populate the static filter dropdowns
         populateSelect(rarityFilter, raritySet);
         populateSelect(classFilter, classSet);
         populateSelect(supertypeFilter, supertypeSet);
 
-        // Set initial state for the dynamic subtype filter
         updateSubtypeFilter('Any');
       })
-      .catch(err => alert('Error loading item templates: ' + err.message));
+      .catch(err => alert('Error loading item templates: '.concat(err.message)));
 
-    /** Helper to fill a <select> element from a Set */
+    /** Helper to fill a <select> element */
     function populateSelect(selectElement, itemSet) {
       const sortedItems = [...itemSet].sort();
       sortedItems.forEach(item => {
@@ -68,36 +67,29 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    /**
-     * Dynamically updates the Subtype filter based on the selected Supertype
-     */
+    /** DYNAMICALLY updates the Subtype filter */
     function updateSubtypeFilter(selectedSupertype) {
-        // Clear old options
         subtypeFilter.innerHTML = '';
         const anyOpt = document.createElement('option');
         anyOpt.value = "Any";
         anyOpt.text = "Any Subtype";
         subtypeFilter.add(anyOpt);
 
-        // Check if we have subtypes for this supertype
         if (selectedSupertype !== 'Any' && superToSubtypeMap.has(selectedSupertype)) {
             subtypeFilter.disabled = false;
             const subtypes = superToSubtypeMap.get(selectedSupertype);
             populateSelect(subtypeFilter, subtypes);
         } else {
-            // No supertype selected, or no subtypes exist for it
             subtypeFilter.disabled = true;
         }
     }
 
     // --- 2. Event Listeners ---
 
-    // Add the listener for the Supertype dropdown
     supertypeFilter.addEventListener('change', () => {
         updateSubtypeFilter(supertypeFilter.value);
     });
 
-    // The main Generate button logic
     generateBtn.addEventListener('click', () => {
       const level = parseInt(levelInput.value) || 1;
       const selectedRarity = rarityFilter.value;
@@ -105,7 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const selectedSupertype = supertypeFilter.value;
       const selectedSubtype = subtypeFilter.value;
 
-      // Filter the items based on ALL selections
       const filteredItems = allItems.filter(item => {
         const rarityMatch = (selectedRarity === 'Any' || item.Rarity === selectedRarity);
         const classMatch = (selectedClass === 'Any' || item.Class === selectedClass);
@@ -120,25 +111,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Select a random item from the filtered list
       const baseItem = filteredItems[Math.floor(Math.random() * filteredItems.length)];
-      
-      // Scale the item to the desired level
       const scaledItem = scaleItem(baseItem, level);
 
-      // Format and display the output
-      const outputString = formatItemOutput(scaledItem, level);
-      outputCommand.value = outputString;
+      // --- Generate YAML output ---
+      const outputYaml = generateItemYaml(scaledItem, level);
+      outputCommand.value = outputYaml;
       outputSection.style.display = 'block';
     });
     
     copyBtn.onclick = () => {
-        outputCommand.select();
-        // Using document.execCommand as navigator.clipboard might be restricted in some environments
         try {
             outputCommand.select();
             document.execCommand('copy');
-            alert('Output copied to clipboard!');
+            alert('YAML copied to clipboard!');
         } catch (err) {
             alert('Failed to copy. Please copy manually.');
         }
@@ -147,9 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 3. Item Scaling and Formatting ---
 
-    /**
-     * Scales an item based on the fake math (10% of base per level).
-     */
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
 
@@ -157,7 +140,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const scaleRate = 0.10; // 10% per level
       const levelMultiplier = (level - 1) * scaleRate;
 
-      // Scale all numeric stats
       for (const key in scaledItem) {
         if (key.includes('_') && !key.startsWith('Option_')) {
           const baseValue = parseFloat(scaledItem[key]);
@@ -168,7 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
-      // Scale Enchantments
       if (scaledItem.Enchantments) {
         const baseEnchants = scaledItem.Enchantments.split('\n');
         const scaledEnchants = baseEnchants.map(ench => {
@@ -190,43 +171,89 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Creates a human-readable string stub for the final command.
+     * Converts a flat CSV row object into a nested
+     * object suitable for YAML conversion.
      */
-    function formatItemOutput(item, level) {
-      let output = `## ${item.Display || item.ItemName} (Level ${level}) ##\n\n`;
-      
-      output += `## ITEM DETAILS ##\n`;
-      output += `Internal Name: ${item.ItemName}\n`;
-      output += `Minecraft ID: ${item.Id}\n`;
-      output += `Rarity: ${item.Rarity || 'N/A'}\n`;
-      output += `Class: ${item.Class || 'N/A'}\n`;
-      output += `Type: ${item.Supertype || 'N/A'}${item.Subtype ? ` (${item.Subtype})` : ''}\n\n`;
+    function convertCsvRowToYamlObject(item) {
+        const nestedItem = {};
 
-      if (item.Enchantments) {
-        output += `## SCALED ENCHANTMENTS ##\n${item.Enchantments}\n\n`;
-      }
-
-      output += `## SCALED STATS ##\n`;
-      let hasStats = false;
-      for (const key in item) {
-        if (key.includes('_') && !key.startsWith('Option_') && item[key]) {
-          const value = item[key];
-          // Check for a non-zero, parsable number
-          const numValue = parseFloat(value);
-          if (!isNaN(numValue) && numValue !== 0) {
-             output += `${key}: ${value}\n`;
-             hasStats = true;
-          } else if (isNaN(numValue) && typeof value === 'string' && value.includes('%')) {
-            // Also capture percentage-based stats like "+30%"
-            output += `${key}: ${value}\n`;
-            hasStats = true;
-          }
+        // 1. Basic Fields
+        if (item.Id) nestedItem.Id = item.Id;
+        if (item.Data) {
+            const dataNum = parseFloat(item.Data);
+            nestedItem.Data = isNaN(dataNum) ? item.Data : dataNum;
         }
+        if (item.Display) nestedItem.Display = item.Display;
+        
+        // 2. List Fields
+        if (item.Lore) nestedItem.Lore = item.Lore.split('\n').filter(Boolean);
+        if (item.Enchantments) nestedItem.Enchantments = item.Enchantments.split('\n').filter(Boolean);
+
+        // 3. Options (nested under 'Options')
+        const options = {};
+        if (item.Option_Unbreakable === 'True' || item.Option_Unbreakable === true) {
+            options.Unbreakable = true;
+        }
+        if (item.Option_Color) options.Color = item.Option_Color;
+        
+        if (Object.keys(options).length > 0) {
+            nestedItem.Options = options;
+        }
+
+        // 4. Attributes (nested under 'Attributes')
+        const attributes = {};
+        for (const slot of SLOTS) {
+            const slotData = {};
+            let hasData = false;
+            for (const stat of STATS) {
+                const key = `${slot}_${stat}`;
+                const value = item[key];
+                
+                if (value) {
+                    const floatVal = parseFloat(value);
+                    if (!isNaN(floatVal) && String(floatVal) === String(value).trim()) {
+                        slotData[stat] = floatVal; // Store as number
+                    } else {
+                        slotData[stat] = value; // Store as string (e.g., "+30%")
+                    }
+                    hasData = true;
+                }
+            }
+            if (hasData) {
+                attributes[slot] = slotData;
+            }
+        }
+        if (Object.keys(attributes).length > 0) {
+            nestedItem.Attributes = attributes;
+        }
+
+        return nestedItem;
+    }
+
+    /**
+     * Generates the final, copy-pasteable YAML string
+     * for a single item.
+     */
+    function generateItemYaml(item, level) {
+      // Convert the flat CSV row object to the nested structure
+      const nestedObject = convertCsvRowToYamlObject(item);
+      
+      // Wrap it in its ItemName (e.g., "AdamDefenderofFaith: { ... }")
+      const finalObject = { [item.ItemName]: nestedObject };
+
+      // Create a header
+      const header = `# ${item.Display || item.ItemName} (Level ${level})\n# Generated by Item Randomizer\n\n`;
+
+      // Dump to YAML string
+      try {
+        const yamlString = jsyaml.dump(finalObject, {
+            lineWidth: -1, // No line wrapping
+            quotingType: '"' // Use double quotes for strings
+        });
+        return header + yamlString;
+      } catch (e) {
+        console.error("Error dumping YAML:", e);
+        return "Error generating YAML. Check console.";
       }
-      if (!hasStats) output += `(No numerical stats to scale for this item)\n`;
-      
-      output += `\n## ORIGINAL LORE ##\n${item.Lore}\n`;
-      
-      return output;
     }
 });

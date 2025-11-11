@@ -59,8 +59,8 @@
     <hr class="mt-4" />
 
     <div id="outputSection" class="mt-4" style="display:none;">
-      <h4>Generated Item Command Stub</h4>
-      <p>Use this information to build your <code>/give</code> command.</p>
+      <h4>Generated Item YAML</h4>
+      <p>Copy and paste this block into your <code>items.yml</code> file.</p>
       <textarea id="outputCommand" class="form-control" rows="20" readonly></textarea>
       <button type="button" id="copyBtn" class="btn btn-info mt-2">Copy to Clipboard</button>
     </div>
@@ -68,6 +68,8 @@
 
   <!-- Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <!-- ADDED js-yaml library -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
   <script src="randomizer.js"></script>
 </body>
 </html>
