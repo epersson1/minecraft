@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Point to the new, richer CSV file
-    const CSV_PATH = '../items_parsed_v2.csv'; 
+    const CSV_PATH = '../item-creator/items_parsed_v2.csv'; 
     
     let allItems = [];
     const raritySet = new Set();
@@ -8,38 +7,39 @@ document.addEventListener('DOMContentLoaded', () => {
     const supertypeSet = new Set();
     const superToSubtypeMap = new Map();
 
-    // These are the stats we'll look for when building Attributes
     const SLOTS = ["MainHand", "OffHand", "Head", "Chest", "Legs", "Feet"];
     const STATS = ["Armor", "ArmorToughness", "KnockbackResistance", "Health", "AttackSpeed", "MovementSpeed", "Damage", "Luck"];
 
-    // Get all the new filter elements
+    // --- Filter Elements ---
     const rarityFilter = document.getElementById('rarityFilter');
     const classFilter = document.getElementById('classFilter');
     const supertypeFilter = document.getElementById('supertypeFilter');
     const subtypeFilter = document.getElementById('subtypeFilter');
-    
     const levelInput = document.getElementById('itemLevel');
     const generateBtn = document.getElementById('generateBtn');
+
+    // --- Output Elements ---
     const outputSection = document.getElementById('outputSection');
     const outputCommand = document.getElementById('outputCommand');
     const copyBtn = document.getElementById('copyBtn');
+    const previewPane = document.getElementById('previewPane'); // For new preview
 
     // --- 1. Data Loading and Filter Population ---
     fetch(CSV_PATH)
       .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV.');
+        if (!response.ok) throw new Error('Could not fetch CSV. Make sure "items_parsed_v2.csv" is in the "item-creator" folder.');
         return response.text();
       })
       .then(csvText => {
         const results = Papa.parse(csvText, { header: true, skipEmptyLines: true });
         
-        allItems = results.data.filter(r => r.ItemName); // Ensure item has a name
+        allItems = results.data.filter(r => r.ItemName);
         
-        // Use a single pass to populate all our Sets and Maps
         allItems.forEach(item => {
           if (item.Rarity) raritySet.add(item.Rarity);
           if (item.Class) classSet.add(item.Class);
           if (item.Supertype) supertypeSet.add(item.Supertype);
+          
           if (item.Supertype && item.Subtype) {
             if (!superToSubtypeMap.has(item.Supertype)) {
               superToSubtypeMap.set(item.Supertype, new Set());
@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
         populateSelect(rarityFilter, raritySet);
         populateSelect(classFilter, classSet);
         populateSelect(supertypeFilter, supertypeSet);
-
         updateSubtypeFilter('Any');
       })
       .catch(err => alert('Error loading item templates: '.concat(err.message)));
@@ -85,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 2. Event Listeners ---
-
     supertypeFilter.addEventListener('change', () => {
         updateSubtypeFilter(supertypeFilter.value);
     });
@@ -102,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const classMatch = (selectedClass === 'Any' || item.Class === selectedClass);
         const supertypeMatch = (selectedSupertype === 'Any' || item.Supertype === selectedSupertype);
         const subtypeMatch = (selectedSubtype === 'Any' || item.Subtype === selectedSubtype);
-        
         return rarityMatch && classMatch && supertypeMatch && subtypeMatch;
       });
 
@@ -114,10 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const baseItem = filteredItems[Math.floor(Math.random() * filteredItems.length)];
       const scaledItem = scaleItem(baseItem, level);
 
-      // --- Generate YAML output ---
+      // --- Generate BOTH outputs ---
       const outputYaml = generateItemYaml(scaledItem, level);
       outputCommand.value = outputYaml;
-      outputSection.style.display = 'block';
+      
+      generateItemPreview(scaledItem, level); // New function call
+      
+      outputSection.style.display = 'flex'; // Use flex for row
     });
     
     copyBtn.onclick = () => {
@@ -131,13 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
 
-    // --- 3. Item Scaling and Formatting ---
-
+    // --- 3. Item Scaling (Unchanged) ---
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
-
       const scaledItem = { ...baseItem };
-      const scaleRate = 0.10; // 10% per level
+      const scaleRate = 0.10; 
       const levelMultiplier = (level - 1) * scaleRate;
 
       for (const key in scaledItem) {
@@ -166,18 +164,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         scaledItem.Enchantments = scaledEnchants.join('\n');
       }
-
       return scaledItem;
     }
 
-    /**
-     * Converts a flat CSV row object into a nested
-     * object suitable for YAML conversion.
-     */
+    // --- 4. YAML Generation (Request 1) ---
     function convertCsvRowToYamlObject(item) {
         const nestedItem = {};
-
-        // 1. Basic Fields
         if (item.Id) nestedItem.Id = item.Id;
         if (item.Data) {
             const dataNum = parseFloat(item.Data);
@@ -185,22 +177,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (item.Display) nestedItem.Display = item.Display;
         
-        // 2. List Fields
-        if (item.Lore) nestedItem.Lore = item.Lore.split('\n').filter(Boolean);
+        // --- CHANGE: Removed .filter(Boolean) to preserve empty lines ---
+        if (item.Lore) nestedItem.Lore = item.Lore.split('\n'); 
         if (item.Enchantments) nestedItem.Enchantments = item.Enchantments.split('\n').filter(Boolean);
 
-        // 3. Options (nested under 'Options')
         const options = {};
         if (item.Option_Unbreakable === 'True' || item.Option_Unbreakable === true) {
             options.Unbreakable = true;
         }
         if (item.Option_Color) options.Color = item.Option_Color;
-        
-        if (Object.keys(options).length > 0) {
-            nestedItem.Options = options;
-        }
+        if (Object.keys(options).length > 0) nestedItem.Options = options;
 
-        // 4. Attributes (nested under 'Attributes')
         const attributes = {};
         for (const slot of SLOTS) {
             const slotData = {};
@@ -208,52 +195,125 @@ document.addEventListener('DOMContentLoaded', () => {
             for (const stat of STATS) {
                 const key = `${slot}_${stat}`;
                 const value = item[key];
-                
                 if (value) {
                     const floatVal = parseFloat(value);
                     if (!isNaN(floatVal) && String(floatVal) === String(value).trim()) {
-                        slotData[stat] = floatVal; // Store as number
+                        slotData[stat] = floatVal;
                     } else {
-                        slotData[stat] = value; // Store as string (e.g., "+30%")
+                        slotData[stat] = value;
                     }
                     hasData = true;
                 }
             }
-            if (hasData) {
-                attributes[slot] = slotData;
-            }
+            if (hasData) attributes[slot] = slotData;
         }
-        if (Object.keys(attributes).length > 0) {
-            nestedItem.Attributes = attributes;
-        }
-
+        if (Object.keys(attributes).length > 0) nestedItem.Attributes = attributes;
         return nestedItem;
     }
 
-    /**
-     * Generates the final, copy-pasteable YAML string
-     * for a single item.
-     */
     function generateItemYaml(item, level) {
-      // Convert the flat CSV row object to the nested structure
       const nestedObject = convertCsvRowToYamlObject(item);
-      
-      // Wrap it in its ItemName (e.g., "AdamDefenderofFaith: { ... }")
       const finalObject = { [item.ItemName]: nestedObject };
-
-      // Create a header
       const header = `# ${item.Display || item.ItemName} (Level ${level})\n# Generated by Item Randomizer\n\n`;
 
-      // Dump to YAML string
       try {
+        // --- CHANGE: Set quotingType to single quote ---
         const yamlString = jsyaml.dump(finalObject, {
-            lineWidth: -1, // No line wrapping
-            quotingType: '"' // Use double quotes for strings
+            lineWidth: -1, 
+            quotingType: "'" 
         });
         return header + yamlString;
       } catch (e) {
         console.error("Error dumping YAML:", e);
         return "Error generating YAML. Check console.";
       }
+    }
+
+    // --- 5. Preview Generation (Request 2) ---
+
+    /**
+     * Helper function to parse a line of MC-formatted text to HTML
+     */
+    function formatLine(line) {
+        if (!line) return '<br>'; // Preserve empty lines
+        
+        let classes = [];
+        const codes = line.match(/&([0-9a-fklmnor])/g); // Find all codes
+        if (codes) {
+            codes.forEach(code => {
+                classes.push('mc-' + code[1]); // e.g., 'mc-b', 'mc-l'
+            });
+        }
+        // Strip codes from the text for display
+        const text = line.replace(/&[0-9a-fklmnor]/g, '');
+        return `<div class="${classes.join(' ')}">${text || '&nbsp;'}</div>`; // Use &nbsp; for empty-but-styled lines
+    }
+
+    /**
+     * NEW: Generates the HTML for the preview pane
+     */
+    function generateItemPreview(item, level) {
+        previewPane.innerHTML = ''; // Clear old preview
+
+        // 1. Title (from Display field)
+        previewPane.innerHTML += formatLine(item.Display);
+        
+        // 2. Enchantments (scaled)
+        if (item.Enchantments) {
+            const enchants = item.Enchantments.split('\n');
+            enchants.forEach(ench => {
+                // Mimic screenshot: enchants are purple (&5)
+                previewPane.innerHTML += formatLine('&5' + ench); 
+            });
+        }
+
+        // 3. Lore (from original Lore field)
+        if (item.Lore) {
+            item.Lore.split('\n').forEach(line => {
+                previewPane.innerHTML += formatLine(line);
+            });
+        }
+        
+        // 4. Stats (scaled)
+        let hasStats = false;
+        const statGroups = new Map(); // Group stats by slot
+
+        for (const key in item) {
+            if (key.includes('_') && !key.startsWith('Option_') && item[key]) {
+                const [slot, stat] = key.split('_');
+                const value = item[key];
+                
+                if (value && (parseFloat(value) !== 0 || String(value).includes('%'))) {
+                    if (!statGroups.has(slot)) statGroups.set(slot, []);
+                    statGroups.get(slot).push({ stat, value });
+                    hasStats = true;
+                }
+            }
+        }
+
+        if (hasStats) {
+            previewPane.innerHTML += '<div class="mc-separator"></div>';
+            
+            for (const [slot, stats] of statGroups.entries()) {
+                // Add header like "When on Feet:" (Gray)
+                previewPane.innerHTML += formatLine(`&7When on ${slot}:`); 
+                
+                stats.forEach(({ stat, value }) => {
+                    // Format stat name (e.g., "ArmorToughness" -> "Armor Toughness")
+                    const statName = stat.replace(/([A-Z])/g, ' $1').trim();
+                    
+                    let displayValue = '';
+                    if (String(value).includes('%')) {
+                        displayValue = value.startsWith('+') ? value : `+${value}`;
+                    } else {
+                        const numVal = parseFloat(value);
+                        displayValue = numVal > 0 ? `+${numVal}` : String(numVal);
+                    }
+                    
+                    // Stats are blue (&9)
+                    previewPane.innerHTML += formatLine(`&9 ${displayValue} ${statName}`);
+                });
+            }
+        }
     }
 });

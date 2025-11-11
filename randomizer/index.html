@@ -5,42 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RPG Item Randomizer</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Added pixel font for preview -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
   <style>
-    body { font-family: sans-serif; padding: 2rem; }
+    body { 
+      font-family: sans-serif; 
+      padding: 2rem; 
+    }
+
+    /* --- New Preview Pane Styles --- */
+    #previewPane {
+      font-family: 'VT323', monospace; /* Pixel font */
+      font-size: 1.5rem; /* Make pixel font readable */
+      line-height: 1.2;
+      background-color: #0d001a; /* Dark purple background */
+      border: 2px solid #2a002a;
+      padding: 0.75rem;
+      border-radius: 4px;
+      color: #FFFFFF; /* Default color: white */
+      min-height: 400px;
+    }
+
+    #previewPane div {
+      /* Prevent margins from collapsing */
+      overflow: auto;
+    }
+    
+    .mc-separator {
+      height: 1px;
+      background-color: #2a002a;
+      margin: 0.5rem 0;
+      border-top: 1px solid #500050;
+    }
+
+    /* --- Minecraft Color Codes --- */
+    /* Colors */
+    .mc-0 { color: #000000; } /* Black */
+    .mc-1 { color: #0000AA; } /* Dark Blue */
+    .mc-2 { color: #00AA00; } /* Dark Green */
+    .mc-3 { color: #00AAAA; } /* Dark Aqua */
+    .mc-4 { color: #AA0000; } /* Dark Red */
+    .mc-5 { color: #AA00AA; } /* Dark Purple */
+    .mc-6 { color: #FFAA00; } /* Gold */
+    .mc-7 { color: #AAAAAA; } /* Gray */
+    .mc-8 { color: #555555; } /* Dark Gray */
+    .mc-9 { color: #5555FF; } /* Blue (for stats) */
+    .mc-a { color: #55FF55; } /* Green */
+    .mc-b { color: #55FFFF; } /* Aqua (Unique) */
+    .mc-c { color: #FF5555; } /* Red */
+    .mc-d { color: #FF55FF; } /* Light Purple */
+    .mc-e { color: #FFFF55; } /* Yellow */
+    .mc-f { color: #FFFFFF; } /* White */
+
+    /* Formatting */
+    .mc-l { font-weight: bold; } /* Bold */
+    .mc-o { font-style: italic; } /* Italic */
+    .mc-n { text-decoration: underline; } /* Underline */
+    .mc-m { text-decoration: line-through; } /* Strikethrough */
+    /* .mc-k is "obfuscated", skipping for now */
   </style>
 </head>
 <body class="p-4">
-  <div class="container">
+  <div class="container-fluid"> <!-- Use fluid container for more space -->
     <h1>RPG Item Randomizer</h1>
     <p>Select filters and a level to generate a scaled item.</p>
 
+    <!-- Filters -->
     <div class="form-row">
       <div class="form-group col-md-3">
         <label for="rarityFilter">Rarity</label>
         <select id="rarityFilter" class="form-control">
           <option value="Any" selected>Any Rarity</option>
-          <!-- Options will be added by JS -->
         </select>
       </div>
       <div class="form-group col-md-3">
         <label for="classFilter">Class</label>
         <select id="classFilter" class="form-control">
           <option value="Any" selected>Any Class</option>
-          <!-- Options will be added by JS -->
         </select>
       </div>
       <div class="form-group col-md-3">
         <label for="supertypeFilter">Supertype</label>
         <select id="supertypeFilter" class="form-control">
           <option value="Any" selected>Any Supertype</option>
-          <!-- Options will be added by JS -->
         </select>
       </div>
       <div class="form-group col-md-3">
         <label for="subtypeFilter">Subtype</label>
         <select id="subtypeFilter" class="form-control" disabled>
           <option value="Any" selected>Any Subtype</option>
-          <!-- Options will be added by JS based on Supertype -->
         </select>
       </div>
     </div>
@@ -52,24 +108,39 @@
         </div>
     </div>
 
-
     <button id="generateBtn" class="btn btn-primary btn-lg mt-3">Generate Item</button>
     <a href="../index.html" class="btn btn-link mt-3">Back to Main Menu</a>
 
     <hr class="mt-4" />
 
-    <div id="outputSection" class="mt-4" style="display:none;">
-      <h4>Generated Item YAML</h4>
-      <p>Copy and paste this block into your <code>items.yml</code> file.</p>
-      <textarea id="outputCommand" class="form-control" rows="20" readonly></textarea>
-      <button type="button" id="copyBtn" class="btn btn-info mt-2">Copy to Clipboard</button>
-    </div>
-  </div>
+    <!-- NEW Side-by-Side Output Section -->
+    <div id="outputSection" class="mt-4 row" style="display:none;">
+      
+      <!-- Column 1: YAML Output -->
+      <div class="col-lg-6">
+        <h4>Generated Item YAML</h4>
+        <p>Copy and paste this block into your <code>items.yml</code> file.</p>
+        <textarea id="outputCommand" class="form-control" rows="25" readonly></textarea>
+        <button type="button" id="copyBtn" class="btn btn-info mt-2">Copy YAML</button>
+      </div>
+      
+      <!-- Column 2: Visual Preview -->
+      <div class="col-lg-6">
+        <h4>In-Game Preview</h4>
+        <p>An approximation of the item's tooltip.</p>
+        <div id="previewPane">
+          <!-- Preview will be generated here -->
+        </div>
+      </div>
+
+    </div> <!-- /outputSection -->
+
+  </div> <!-- /container-fluid -->
 
   <!-- Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-  <!-- ADDED js-yaml library -->
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-  <script src="randomizer.js"></script>
+  <!-- Cache-busting ?v=3 -->
+  <script src="randomizer.js?v=3"></script>
 </body>
 </html>
