@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetch(CSV_PATH)
       .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV.');
+        if (!response.ok) throw new Error('Could not fetch CSV.' + response);
         return response.text();
       })
       .then(csvText => {
