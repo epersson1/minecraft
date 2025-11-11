@@ -13,6 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const basicFieldsDiv = document.getElementById('basicFields');
     const slotSectionsDiv = document.getElementById('slotSections');
 
+    const outputSection = document.getElementById('outputSection');
+    const yamlOutput = document.getElementById('yamlOutput');
+    const jsonOutput = document.getElementById('jsonOutput');
+    const copyYamlBtn = document.getElementById('copyYamlBtn');
+    const copyJsonBtn = document.getElementById('copyJsonBtn');
+    const doneBtn = document.getElementById('doneBtn');
+
     // Load CSV templates via fetch + PapaParse
     fetch(CSV_PATH)
       .then(response => {
@@ -43,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function showStart() {
       itemForm.style.display = 'none';
       startScreen.style.display = 'block';
+      outputSection.style.display = 'none'; // Hide output when going back
     }
 
     function showItemForm() {
@@ -112,6 +120,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function saveItem() {
       const name = document.getElementById('ItemName').value.trim();
       if (!name) { alert('Item name is required'); return; }
+      
+      // This is all your existing logic to build the item object
       const item = {
         Id: document.getElementById('Id').value,
         Display: document.getElementById('Display').value
@@ -140,13 +150,49 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       if (Object.keys(attrs).length) item.Attributes = attrs;
 
+      // This is also your existing logic for full-file download
       savedItems[name] = item;
       localStorage.setItem(STORAGE_KEY, JSON.stringify(savedItems));
-      const yamlStr = jsyaml.dump(savedItems);
-      const blob = new Blob([yamlStr], { type: 'text/yaml' });
+      const fullYamlStr = jsyaml.dump(savedItems);
+      const blob = new Blob([fullYamlStr], { type: 'text/yaml' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a'); a.href = url; a.download = 'items.yml';
       document.body.appendChild(a); a.click(); document.body.removeChild(a);
-      showStart();
+      
+      // --- NEW LOGIC STARTS HERE ---
+
+      // 1. Generate YAML and JSON for *only this item*
+      // The server likely expects the item name as the key
+      const singleItemObject = { [name]: item };
+      
+      const singleYamlStr = jsyaml.dump(singleItemObject);
+      const singleJsonStr = JSON.stringify(singleItemObject, null, 2); // 'null, 2' formats it nicely
+
+      // 2. Populate the textareas
+      yamlOutput.value = singleYamlStr;
+      jsonOutput.value = singleJsonStr;
+
+      // 3. Hide the form and show the output section
+      itemForm.style.display = 'none';
+      outputSection.style.display = 'block';
     }
-  });
+    
+    copyYamlBtn.onclick = () => {
+        yamlOutput.select();
+        navigator.clipboard.writeText(yamlOutput.value)
+            .then(() => alert('YAML copied to clipboard!'))
+            .catch(err => alert('Failed to copy YAML: ' + err));
+    };
+
+    copyJsonBtn.onclick = () => {
+        jsonOutput.select();
+        navigator.clipboard.writeText(jsonOutput.value)
+            .then(() => alert('JSON copied to clipboard!'))
+            .catch(err => alert('Failed to copy JSON: ' + err));
+    };
+    
+    doneBtn.onclick = () => {
+        showStart();
+    };
+
+});
