@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Point to the new, richer CSV file
+    // Point to the new csv file
     const CSV_PATH = '../items_parsed_v2.csv'; 
     
     let allItems = [];
     const raritySet = new Set();
     const classSet = new Set();
     const supertypeSet = new Set();
-    // This map will store relationships like: "Melee" -> {"Sword", "Axe", "Shovel"}
+    // Store relationships like: "Melee" -> {"Sword", "Axe", "Shovel"}
     const superToSubtypeMap = new Map();
 
-    // Get all the new filter elements
+    // Get all the filter elements
     const rarityFilter = document.getElementById('rarityFilter');
     const classFilter = document.getElementById('classFilter');
     const supertypeFilter = document.getElementById('supertypeFilter');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetch(CSV_PATH)
       .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV. Make sure "items_parsed_v2.csv" is in the "item-creator" folder.');
+        if (!response.ok) throw new Error('Could not fetch CSV.');
         return response.text();
       })
       .then(csvText => {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         allItems = results.data.filter(r => r.ItemName); // Ensure item has a name
         
-        // Use a single pass to populate all our Sets and Maps
+        // Use a single pass to populate all Sets and Maps
         allItems.forEach(item => {
           if (item.Rarity) raritySet.add(item.Rarity);
           if (item.Class) classSet.add(item.Class);
@@ -149,8 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 3. Item Scaling and Formatting ---
 
     /**
-     * Scales an item based on the "fake math" (10% of base per level).
-     * (This logic is unchanged)
+     * Scales an item based on the fake math (10% of base per level).
      */
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
@@ -193,7 +192,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Creates a human-readable string stub for the final command.
-     * Now updated to use the clean, parsed data.
      */
     function formatItemOutput(item, level) {
       let output = `## ${item.Display || item.ItemName} (Level ${level}) ##\n\n`;
