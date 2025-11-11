@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * UPDATED: Generates the HTML for the preview pane
+     * Generates the HTML for the preview pane
      */
     function generateItemPreview(item, level) {
         previewPane.innerHTML = ''; // Clear old preview
@@ -370,8 +370,12 @@ document.addEventListener('DOMContentLoaded', () => {
             previewPane.innerHTML += '<div class="mc-separator"></div>';
             
             for (const [slot, stats] of statGroups.entries()) {
+              if (slot === 'MainHand' || slot === 'OffHand') {
+                  previewPane.innerHTML += formatLine(`&7When in ${slot}:`);
+              } else {
                 previewPane.innerHTML += formatLine(`&7When on ${slot}:`); 
-                
+              }
+              
                 stats.forEach(({ stat, value }) => {
                     const statName = stat.replace(/([A-Z])/g, ' $1').trim();
                     let displayValue = '';
