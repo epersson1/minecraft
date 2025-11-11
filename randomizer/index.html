@@ -12,26 +12,46 @@
 <body class="p-4">
   <div class="container">
     <h1>RPG Item Randomizer</h1>
-    <p>Select class, type, rarity, and level.</p>
+    <p>Select filters and a level to generate a scaled item.</p>
 
     <div class="form-row">
-      <div class="form-group col-md-4">
-        <label for="factionFilter">Faction</label>
-        <select id="factionFilter" class="form-control">
-          <option value="Any" selected>Any Faction</option>
-          </select>
+      <div class="form-group col-md-3">
+        <label for="rarityFilter">Rarity</label>
+        <select id="rarityFilter" class="form-control">
+          <option value="Any" selected>Any Rarity</option>
+          <!-- Options will be added by JS -->
+        </select>
       </div>
-      <div class="form-group col-md-4">
-        <label for="typeFilter">Item Type</label>
-        <select id="typeFilter" class="form-control">
-          <option value="Any" selected>Any Type</option>
-          </select>
+      <div class="form-group col-md-3">
+        <label for="classFilter">Class</label>
+        <select id="classFilter" class="form-control">
+          <option value="Any" selected>Any Class</option>
+          <!-- Options will be added by JS -->
+        </select>
       </div>
-      <div class="form-group col-md-4">
-        <label for="itemLevel">Item Level</label>
-        <input type="number" class="form-control" id="itemLevel" value="1" min="1" />
+      <div class="form-group col-md-3">
+        <label for="supertypeFilter">Supertype</label>
+        <select id="supertypeFilter" class="form-control">
+          <option value="Any" selected>Any Supertype</option>
+          <!-- Options will be added by JS -->
+        </select>
+      </div>
+      <div class="form-group col-md-3">
+        <label for="subtypeFilter">Subtype</label>
+        <select id="subtypeFilter" class="form-control" disabled>
+          <option value="Any" selected>Any Subtype</option>
+          <!-- Options will be added by JS based on Supertype -->
+        </select>
       </div>
     </div>
+    
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="itemLevel">Item Level</label>
+            <input type="number" class="form-control" id="itemLevel" value="1" min="1" />
+        </div>
+    </div>
+
 
     <button id="generateBtn" class="btn btn-primary btn-lg mt-3">Generate Item</button>
     <a href="../index.html" class="btn btn-link mt-3">Back to Main Menu</a>
@@ -39,13 +59,14 @@
     <hr class="mt-4" />
 
     <div id="outputSection" class="mt-4" style="display:none;">
-      <h4>Generated Item Command</h4>
-      <p>TODO: update this to actually give the right output command</p>
-      <textarea id="outputCommand" class="form-control" rows="15" readonly></textarea>
+      <h4>Generated Item Command Stub</h4>
+      <p>Use this information to build your <code>/give</code> command.</p>
+      <textarea id="outputCommand" class="form-control" rows="20" readonly></textarea>
       <button type="button" id="copyBtn" class="btn btn-info mt-2">Copy to Clipboard</button>
     </div>
   </div>
 
+  <!-- Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <script src="randomizer.js"></script>
 </body>

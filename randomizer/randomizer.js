@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Note the path change to go *up* one directory to find the item-creator folder
-    const CSV_PATH = '../item-creator/items_parsed.csv';
+    // Point to the new, richer CSV file
+    const CSV_PATH = '../item-creator/items_parsed_v2.csv'; 
+    
     let allItems = [];
-    const factionSet = new Set();
-    const typeSet = new Set();
+    const raritySet = new Set();
+    const classSet = new Set();
+    const supertypeSet = new Set();
+    // This map will store relationships like: "Melee" -> {"Sword", "Axe", "Shovel"}
+    const superToSubtypeMap = new Map();
 
-    const factionFilter = document.getElementById('factionFilter');
-    const typeFilter = document.getElementById('typeFilter');
+    // Get all the new filter elements
+    const rarityFilter = document.getElementById('rarityFilter');
+    const classFilter = document.getElementById('classFilter');
+    const supertypeFilter = document.getElementById('supertypeFilter');
+    const subtypeFilter = document.getElementById('subtypeFilter');
+    
     const levelInput = document.getElementById('itemLevel');
     const generateBtn = document.getElementById('generateBtn');
     const outputSection = document.getElementById('outputSection');
@@ -17,80 +25,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetch(CSV_PATH)
       .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV');
+        if (!response.ok) throw new Error('Could not fetch CSV. Make sure "items_parsed_v2.csv" is in the "item-creator" folder.');
         return response.text();
       })
       .then(csvText => {
         const results = Papa.parse(csvText, { header: true, skipEmptyLines: true });
-        allItems = results.data
-          .filter(r => r.ItemName) // Ensure item has a name
-          .map(item => {
-            // Parse Lore to find Faction and Type
-            const [faction, itemType] = parseLore(item.Lore);
-            item.faction = faction;
-            item.itemType = itemType;
-            if (faction) factionSet.add(faction);
-            if (itemType) typeSet.add(itemType);
-            return item;
-          });
         
-        // Populate filter dropdowns
-        populateSelect(factionFilter, factionSet);
-        populateSelect(typeFilter, typeSet);
+        allItems = results.data.filter(r => r.ItemName); // Ensure item has a name
+        
+        // Use a single pass to populate all our Sets and Maps
+        allItems.forEach(item => {
+          if (item.Rarity) raritySet.add(item.Rarity);
+          if (item.Class) classSet.add(item.Class);
+          if (item.Supertype) supertypeSet.add(item.Supertype);
+          
+          // Populate the Supertype -> Subtype mapping
+          if (item.Supertype && item.Subtype) {
+            if (!superToSubtypeMap.has(item.Supertype)) {
+              superToSubtypeMap.set(item.Supertype, new Set());
+            }
+            superToSubtypeMap.get(item.Supertype).add(item.Subtype);
+          }
+        });
+        
+        // Populate the static filter dropdowns
+        populateSelect(rarityFilter, raritySet);
+        populateSelect(classFilter, classSet);
+        populateSelect(supertypeFilter, supertypeSet);
+
+        // Set initial state for the dynamic subtype filter
+        updateSubtypeFilter('Any');
       })
       .catch(err => alert('Error loading item templates: ' + err.message));
-
-    /**
-     * Parses Faction and Type from a Lore string.
-     * Example Lore: "&9[Angelic]\n&9[Melee, Sword]\n&9[1 Removal]"
-     */
-    function parseLore(loreString) {
-      let faction = null;
-      let type = null;
-
-      if (typeof loreString !== 'string') return [null, null];
-
-      const lines = loreString.split('\n');
-      const tags = [];
-      
-      // 1. Extract all tags in order
-      for (const line of lines) {
-        if (line.includes('[') && line.includes(']')) {
-          const tag = line.substring(line.indexOf('[') + 1, line.indexOf(']'));
-          tags.push(tag);
-        }
-      }
-
-      // 2. Process tags based on user's rules
-      const tag0 = tags[0];
-      const tag1 = tags[1];
-
-      // Check tag 0
-      if (tag0) {
-        // Test for Faction: simple tag (no comma) AND no numbers (to exclude '1 Removal')
-        if (!tag0.includes(',') && !/\d/.test(tag0)) {
-          faction = tag0;
-        } 
-        // Test for Type: complex tag (has comma)
-        else if (tag0.includes(',')) {
-          type = tag0.split(',')[0].trim();
-        }
-        // (If it's a simple tag *with* a number, it's a modification and ignored)
-      }
-
-      // Check tag 1
-      // This only runs if we found a faction in tag0
-      if (faction && tag1) {
-        // Test for Type: complex tag (has comma)
-        if (tag1.includes(',')) {
-          type = tag1.split(',')[0].trim();
-        }
-        // (If tag1 is simple, it's a modification and ignored)
-      }
-      
-      return [faction, type];
-    }
-
 
     /** Helper to fill a <select> element from a Set */
     function populateSelect(selectElement, itemSet) {
@@ -103,18 +69,51 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    // --- 2. Item Generation Logic ---
+    /**
+     * DYNAMICALLY updates the Subtype filter based on the selected Supertype
+     */
+    function updateSubtypeFilter(selectedSupertype) {
+        // Clear old options
+        subtypeFilter.innerHTML = '';
+        const anyOpt = document.createElement('option');
+        anyOpt.value = "Any";
+        anyOpt.text = "Any Subtype";
+        subtypeFilter.add(anyOpt);
 
+        // Check if we have subtypes for this supertype
+        if (selectedSupertype !== 'Any' && superToSubtypeMap.has(selectedSupertype)) {
+            subtypeFilter.disabled = false;
+            const subtypes = superToSubtypeMap.get(selectedSupertype);
+            populateSelect(subtypeFilter, subtypes);
+        } else {
+            // No supertype selected, or no subtypes exist for it
+            subtypeFilter.disabled = true;
+        }
+    }
+
+    // --- 2. Event Listeners ---
+
+    // Add the listener for the Supertype dropdown
+    supertypeFilter.addEventListener('change', () => {
+        updateSubtypeFilter(supertypeFilter.value);
+    });
+
+    // The main Generate button logic
     generateBtn.addEventListener('click', () => {
       const level = parseInt(levelInput.value) || 1;
-      const selectedFaction = factionFilter.value;
-      const selectedType = typeFilter.value;
+      const selectedRarity = rarityFilter.value;
+      const selectedClass = classFilter.value;
+      const selectedSupertype = supertypeFilter.value;
+      const selectedSubtype = subtypeFilter.value;
 
-      // Filter the items based on selection
+      // Filter the items based on ALL selections
       const filteredItems = allItems.filter(item => {
-        const factionMatch = (selectedFaction === 'Any' || item.faction === selectedFaction);
-        const typeMatch = (selectedType === 'Any' || item.itemType === selectedType);
-        return factionMatch && typeMatch;
+        const rarityMatch = (selectedRarity === 'Any' || item.Rarity === selectedRarity);
+        const classMatch = (selectedClass === 'Any' || item.Class === selectedClass);
+        const supertypeMatch = (selectedSupertype === 'Any' || item.Supertype === selectedSupertype);
+        const subtypeMatch = (selectedSubtype === 'Any' || item.Subtype === selectedSubtype);
+        
+        return rarityMatch && classMatch && supertypeMatch && subtypeMatch;
       });
 
       if (filteredItems.length === 0) {
@@ -133,9 +132,25 @@ document.addEventListener('DOMContentLoaded', () => {
       outputCommand.value = outputString;
       outputSection.style.display = 'block';
     });
+    
+    copyBtn.onclick = () => {
+        outputCommand.select();
+        // Using document.execCommand as navigator.clipboard might be restricted in some environments
+        try {
+            outputCommand.select();
+            document.execCommand('copy');
+            alert('Output copied to clipboard!');
+        } catch (err) {
+            alert('Failed to copy. Please copy manually.');
+        }
+    };
+
+
+    // --- 3. Item Scaling and Formatting ---
 
     /**
      * Scales an item based on the "fake math" (10% of base per level).
+     * (This logic is unchanged)
      */
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
@@ -146,19 +161,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Scale all numeric stats
       for (const key in scaledItem) {
-        // Check if key is a stat (e.g., "MainHand_Damage", "Chest_Armor")
         if (key.includes('_') && !key.startsWith('Option_')) {
           const baseValue = parseFloat(scaledItem[key]);
           if (!isNaN(baseValue) && baseValue !== 0) {
-            // Formula: scaledStat = baseStat + (baseStat * (level - 1) * 0.10)
             const scaledValue = baseValue + (baseValue * levelMultiplier);
-            // Round to 2 decimal places
             scaledItem[key] = Math.round(scaledValue * 100) / 100;
           }
         }
       }
 
-      // Scale Enchantments (e.g., "DAMAGE_ALL:97")
+      // Scale Enchantments
       if (scaledItem.Enchantments) {
         const baseEnchants = scaledItem.Enchantments.split('\n');
         const scaledEnchants = baseEnchants.map(ench => {
@@ -167,13 +179,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const name = parts[0];
             const baseLevel = parseInt(parts[1]);
             if (!isNaN(baseLevel)) {
-              // Same scaling logic
               const scaledLevel = baseLevel + (baseLevel * levelMultiplier);
-              // Enchant levels are usually integers
               return `${name}:${Math.max(1, Math.round(scaledLevel))}`;
             }
           }
-          return ench; // Return as-is if format is unexpected
+          return ench;
         });
         scaledItem.Enchantments = scaledEnchants.join('\n');
       }
@@ -183,14 +193,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Creates a human-readable string stub for the final command.
+     * Now updated to use the clean, parsed data.
      */
     function formatItemOutput(item, level) {
       let output = `## ${item.Display || item.ItemName} (Level ${level}) ##\n\n`;
-      output += `Internal Name: ${item.ItemName}\n`;
-      output += `Minecraft ID: ${item.Id}\n\n`;
-
-      output += `## BASE LORE ##\n${item.Lore}\n\n`;
       
+      output += `## ITEM DETAILS ##\n`;
+      output += `Internal Name: ${item.ItemName}\n`;
+      output += `Minecraft ID: ${item.Id}\n`;
+      output += `Rarity: ${item.Rarity || 'N/A'}\n`;
+      output += `Class: ${item.Class || 'N/A'}\n`;
+      output += `Type: ${item.Supertype || 'N/A'}${item.Subtype ? ` (${item.Subtype})` : ''}\n\n`;
+
       if (item.Enchantments) {
         output += `## SCALED ENCHANTMENTS ##\n${item.Enchantments}\n\n`;
       }
@@ -200,27 +214,22 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const key in item) {
         if (key.includes('_') && !key.startsWith('Option_') && item[key]) {
           const value = item[key];
-          // Check for a non-zero, parsable number, or a string that's a number (like "+30%")
-          if (value && (!isNaN(parseFloat(value)) || typeof value === 'string')) {
-             // Only print stats that have a value
-             const numValue = parseFloat(value);
-             if (numValue !== 0 || (typeof value === 'string' && value.length > 0 && numValue === 0)) {
-                output += `${key}: ${value}\n`;
-                hasStats = true;
-             }
+          // Check for a non-zero, parsable number
+          const numValue = parseFloat(value);
+          if (!isNaN(numValue) && numValue !== 0) {
+             output += `${key}: ${value}\n`;
+             hasStats = true;
+          } else if (isNaN(numValue) && typeof value === 'string' && value.includes('%')) {
+            // Also capture percentage-based stats like "+30%"
+            output += `${key}: ${value}\n`;
+            hasStats = true;
           }
         }
       }
       if (!hasStats) output += `(No numerical stats to scale for this item)\n`;
       
+      output += `\n## ORIGINAL LORE ##\n${item.Lore}\n`;
+      
       return output;
     }
-
-    // --- 3. Utility ---
-    copyBtn.onclick = () => {
-        outputCommand.select();
-        navigator.clipboard.writeText(outputCommand.value)
-            .then(() => alert('Output copied to clipboard!'))
-            .catch(err => alert('Failed to copy: ' + err));
-    };
 });
