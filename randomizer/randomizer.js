@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Point to the new, richer CSV file
-    const CSV_PATH = '../item-creator/items_parsed_v2.csv'; 
+    const CSV_PATH = '../items_parsed_v2.csv'; 
     
     let allItems = [];
     const raritySet = new Set();
