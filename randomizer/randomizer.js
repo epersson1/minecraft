@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    /** DYNAMICALLY updates the Subtype filter */
+    /** Dynamically updates the Subtype filter */
     function updateSubtypeFilter(selectedSupertype) {
         subtypeFilter.innerHTML = '';
         const anyOpt = document.createElement('option');
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
 
-    // --- 3. Item Scaling (Unchanged) ---
+    // --- 3. Item Scaling (TODO) ---
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
       const scaledItem = { ...baseItem };
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return scaledItem;
     }
 
-    // --- 4. YAML Generation (Unchanged) ---
+    // --- 4. YAML Generation ---
     function convertCsvRowToYamlObject(item) {
         const nestedItem = {};
         if (item.Id) nestedItem.Id = item.Id;
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // --- 5. Preview Generation (Updated) ---
+    // --- 5. Preview Generation  ---
 
     /**
      * Helper function to convert numbers to Roman Numerals
@@ -325,14 +325,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const level = parseInt(levelStr);
 
                 if (!bukkitName || isNaN(level)) {
-                    previewPane.innerHTML += formatLine('&5' + ench); // Fallback
+                    previewPane.innerHTML += formatLine('&7' + ench); // Fallback
                     return; 
                 }
                 
                 const minecraftName = ENCHANTMENT_MAP[bukkitName] || bukkitName; 
                 const levelDisplay = formatEnchantmentDisplay(minecraftName, level);
                     
-                previewPane.innerHTML += formatLine(`&5${levelDisplay}`);
+                previewPane.innerHTML += formatLine(`&7${levelDisplay}`);
             });
         }
 
