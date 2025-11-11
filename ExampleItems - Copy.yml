@@ -1,0 +1,6928 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#Players
+AdamDefenderofFaith:
+  Id: NETHERITE_SWORD
+  Display: '&b&lDefender of Faith'
+  Lore:
+  - '&b&o"You<&sq>ll never break my city or my people."'
+  - '&b&o-Queen Lunalai'
+  - ''
+  - '&9Grants damage resistance'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_UNDEAD:17
+  - DAMAGE_ARTHROPODS:27
+  - DAMAGE_ALL:97
+  - SWEEPING_EDGE:64
+  - DURABILITY:73
+  - LOOT_BONUS_MOBS:10
+  Attributes:
+    MainHand:
+      Damage: +98
+      Armor: +23
+      ArmorToughness: +33
+      KnockbackResistance: +25%
+      Health: +32
+      AttackSpeed: +30%
+      MovementSpeed: +31%
+AdamSandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +32%
+      AttackSpeed: +33%
+      Armor: +31
+      ArmorToughness: +32
+      KnockbackResistance: +108%
+      Health: +15
+      Damage: +15
+AdamBubblingMass:
+  Id: POPPED_CHORUS_FRUIT
+  Data: 0
+  Display: '&b&lStrange Bubbling Mass'
+  Lore:
+  - '&b&o&kaojdwunu                 ansfcklmonfduaw'
+  - '&b&o&kaojdwunfcklma          onfduawaa'
+  - '&b&o&kaojdwunuansfcklmao  nfdaw'
+  - '&b&o&kaojdwunuans3         cddgsdgcklmaonfduaw'
+  - '&b&o&kaojdwunua             nsfcklmduaw'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +23
+      KnockbackResistance: +54%
+      Damage: +26
+      MovementSpeed: +24%
+      Armor: +30
+      AttackSpeed: +24%
+      ArmorToughness: +28
+AdamHelmetNether:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of the Firey Fall'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:62
+  - THORNS:1
+  - PROTECTION_FIRE:22
+  - PROTECTION_PROJECTILE:28
+  Attributes:
+    Head:
+      Armor: +60
+      ArmorToughness: +61
+      Damage: +19
+      AttackSpeed: +36%
+      MovementSpeed: -13%
+      Health: -5
+      KnockbackResistance: +9%
+  Options:
+    Unbreakable: true
+AdamGownofHeavensGrace:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&b&lGown of Heaven<&sq>s Grace'
+  Lore:
+  - '&b&oAwarded to the most loyal of all'
+  - '&b&oHeaven<&sq>s angels.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - THORNS:21
+  - PROTECTION_PROJECTILE:28
+  - PROTECTION_ENVIRONMENTAL:58
+  - PROTECTION_FIRE:15
+  Attributes:
+    Legs:
+      Armor: +68
+      ArmorToughness: +73
+      Health: +40
+      MovementSpeed: +26%
+      AttackSpeed: +4%
+      Damage: +1
+      KnockbackResistance: +29%
+  Options:
+    Unbreakable: true
+AdamChestplateNether:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lBurning Chestplate'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:59
+  - PROTECTION_FIRE:32
+  - PROTECTION_PROJECTILE:11
+  - THORNS:3
+  Attributes:
+    Chest:
+      Armor: +60
+      ArmorToughness: +61
+      Health: +10
+      Damage: +28
+      AttackSpeed: +21%
+      MovementSpeed: +4%
+      KnockbackResistance: -11%
+  Options:
+    Unbreakable: true
+AdamBootsNether:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of Searing Fire'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:51
+  - PROTECTION_FALL:9
+  - PROTECTION_PROJECTILE:1
+  - PROTECTION_FIRE:25
+  Attributes:
+    Feet:
+      Armor: +52
+      ArmorToughness: +50
+      Damage: +21
+      Health: +7
+      MovementSpeed: +27%
+      AttackSpeed: +5%
+  Options:
+    Unbreakable: true
+AdamStoneofJordan:
+  Id: DIAMOND
+  Display: '&5&lStone of Jordan'
+  Lore:
+  - '&5&oNot pretty enough to be a ring.'
+  - ''
+  - '&9Grants regeneration'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +9
+      ArmorToughness: +10
+      Health: +20
+      Damage: +14
+      KnockbackResistance: +16%
+      MovementSpeed: +11%
+      AttackSpeed: +18%
+AJPrincesCoronet:
+  Id: NETHERITE_HELMET
+  Display: '&b&lPrince<&sq>s Coronet'
+  Lore:
+  - '&b&oThe peasants of Lothera dined on the dead.'
+  - '&b&oThe royalty of Lothera dined on the peasants.'
+  - ''
+  - '&9Grants night vision'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:54
+  - PROTECTION_PROJECTILE:25
+  - OXYGEN:1
+  Attributes:
+    Head:
+      Armor: +57
+      ArmorToughness: +60
+      Health: +29
+      KnockbackResistance: +25%
+      MovementSpeed: -5%
+      AttackSpeed: +1%
+  Options:
+    Unbreakable: true
+AJChestplateUndead:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lCreeping Chestplate'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Chestplate]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:52
+  - PROTECTION_PROJECTILE:17
+  - PROTECTION_FIRE:8
+  - THORNS:6
+  Attributes:
+    Chest:
+      KnockbackResistance: -17%
+      Armor: +56
+      ArmorToughness: +58
+      Damage: +18
+      Health: +18
+      AttackSpeed: -10%
+  Options:
+    Unbreakable: true
+AJBootsUndead:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lTreads of Decayed Flesh'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:56
+  - PROTECTION_FALL:15
+  - DEPTH_STRIDER:1
+  Attributes:
+    Feet:
+      Armor: +47
+      Health: +31
+      ArmorToughness: +64
+      Damage: +15
+      AttackSpeed: +29%
+      MovementSpeed: -10%
+  Options:
+    Unbreakable: true
+AJSandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +30%
+      AttackSpeed: +37%
+      Damage: +72
+      Health: +11
+      Armor: +39
+      ArmorToughness: +41
+      KnockbackResistance: +123%
+AJSwordinStoneReborn:
+  Id: GOLDEN_SWORD
+  Display: '&b&lSword in the Stone Reborn'
+  Lore:
+  - '&b&oCoveted by many.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  - '&9[2 Removals]'
+  Enchantments:
+  - DAMAGE_ALL:65
+  - DAMAGE_ARTHROPODS:21
+  - FIRE_ASPECT:1
+  - LOOT_BONUS_MOBS:3
+  - DAMAGE_UNDEAD:20
+  - SWEEPING_EDGE:31
+  - DURABILITY:46
+  Attributes:
+    MainHand:
+      Damage: +74
+      MovementSpeed: +41%
+      AttackSpeed: +18%
+      ArmorToughness: +7
+      Health: +10
+      KnockbackResistance: +14%
+      Armor: +4
+  Options:
+    Unbreakable: true
+AJBonesoftheLiving:
+  Id: NETHERITE_LEGGINGS
+  Data: 0
+  Display: '&b&lBones of the Living'
+  Lore:
+  - '&b&oIt grows stronger for every fallen...'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_PROJECTILE:41
+  - DURABILITY:64
+  - PROTECTION_ENVIRONMENTAL:48
+  - PROTECTION_FALL:4
+  - PROTECTION_FIRE:18
+  - MENDING:1
+  Attributes:
+    Legs:
+      Armor: +62
+      ArmorToughness: +66
+      MovementSpeed: +18%
+      AttackSpeed: +13%
+      Damage: +18
+      KnockbackResistance: +2%
+      Health: +10
+AJFleshOftheLiving:
+  Id: phantom_membrane
+  Display: '&b&lFlesh of the Living'
+  Lore:
+  - '&b&oFresh off their corpse.'
+  - ''
+  - '&9Grants saturation'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  - '&9[1 Removal]'
+  Attributes:
+    OffHand:
+      Armor: +31
+      ArmorToughness: +4
+      Health: +8
+      KnockbackResistance: +6%
+      Damage: +29
+      MovementSpeed: +32%
+      AttackSpeed: +41%
+CamHelmetAngelic:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of Royalty'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:65
+  - THORNS:14
+  - PROTECTION_PROJECTILE:20
+  - PROTECTION_FIRE:4
+  Attributes:
+    Head:
+      Armor: +64
+      ArmorToughness: +67
+      Health: +35
+      Damage: +6
+      KnockbackResistance: +19%
+      MovementSpeed: -10%
+      AttackSpeed: +11%
+  Options:
+    Unbreakable: true
+CamChestplateAngelic:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lBrilliant Chestplate'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Chestplate]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:72
+  - THORNS:10
+  - PROTECTION_FIRE:50
+  Attributes:
+    Chest:
+      Armor: +76
+      ArmorToughness: +77
+      Health: +47
+      AttackSpeed: -5%
+  Options:
+    Unbreakable: true
+CamLeggingsAngelic:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Radiant'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:70
+  - PROTECTION_FALL:7
+  - PROTECTION_FIRE:27
+  - PROTECTION_PROJECTILE:28
+  - THORNS:17
+  Attributes:
+    Legs:
+      Armor: +67
+      ArmorToughness: +68
+      Health: +30
+      AttackSpeed: -9%
+      MovementSpeed: +19%
+      Damage: +7
+      KnockbackResistance: +15%
+  Options:
+    Unbreakable: true
+CamBootsAngelic:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of the Luminous'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:70
+  - PROTECTION_PROJECTILE:5
+  - PROTECTION_FALL:10
+  - PROTECTION_FIRE:11
+  - THORNS:14
+  Attributes:
+    Feet:
+      Armor: +61
+      AttackSpeed: +15%
+      MovementSpeed: +7%
+      ArmorToughness: +73
+      Health: +50
+  Options:
+    Unbreakable: true
+CamSandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +36%
+      AttackSpeed: +44%
+      Armor: +58
+      Damage: 55
+      ArmorToughness: +61
+      KnockbackResistance: +100%
+      Health: +39
+CamTheThrone:
+  Id: DIAMOND_SWORD
+  Display: '&6&l&nThe Throne'
+  Lore:
+  - '&6&o"You will rule over your kingdom of ruin."'
+  - '&6&o-Archangel Karellia'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  - '&9[Offhand, Trinket]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - DURABILITY:25
+  - MENDING:1
+  - DAMAGE_ALL:90
+  - DAMAGE_UNDEAD:50
+  - DAMAGE_ARTHROPODS:50
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      Damage: +90
+      Armor: +45
+      ArmorToughness: +45
+    OffHand:
+      Health: +40
+CamTheAvenger:
+  Id: NETHERITE_SWORD
+  Display: '&b&lThe Avenger'
+  Lore:
+  - '&b&o"You<&sq>ll pay for that Lunalai."'
+  - '&b&o-Archangel Karellia'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - DAMAGE_ALL:91
+  - DAMAGE_UNDEAD:33
+  - DAMAGE_ARTHROPODS:34
+  - SWEEPING_EDGE:64
+  - DURABILITY:50
+  - FIRE_ASPECT:11
+  - MENDING:1
+  Attributes:
+    MainHand:
+      Damage: +91
+      Armor: +8
+      ArmorToughness: +21
+      KnockbackResistance: +50%
+      Health: +19
+      AttackSpeed: +21%
+      MovementSpeed: +13%
+IanHelmetAishan:
+  Id: NETHERITE_HELMET
+  Display: '&5&lHelm of the Streams'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:55
+  - PROTECTION_PROJECTILE:10
+  - OXYGEN:5
+  - WATER_WORKER:1
+  Attributes:
+    Head:
+      Armor: +55
+      ArmorToughness: +59
+      Damage: +15
+      Health: +20
+      AttackSpeed: +10%
+      MovementSpeed: +11%
+  Options:
+    Unbreakable: true
+IanChestplateNether:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&5&lBurning Chestplate'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:58
+  - THORNS:5
+  - PROTECTION_FIRE:22
+  Attributes:
+    Chest:
+      Armor: +58
+      ArmorToughness: +61
+      Damage: +27
+      AttackSpeed: +12%
+      MovementSpeed: +12%
+  Options:
+    Unbreakable: true
+IanLeggingsNether:
+  Id: NETHERITE_LEGGINGS
+  Display: '&5&lLeggings of the Burning Embers'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:56
+  - PROTECTION_FIRE:22
+  Attributes:
+    Legs:
+      Armor: +53
+      ArmorToughness: +54
+      Damage: +26
+      AttackSpeed: +15%
+      Health: +25
+      MovementSpeed: +12%
+  Options:
+    Unbreakable: true
+IanBootsAishan:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lTreads of Blossoming Life'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:53
+  - PROTECTION_FIRE:14
+  - PROTECTION_PROJECTILE:12
+  - PROTECTION_FALL:10
+  Attributes:
+    Feet:
+      AttackSpeed: +10%
+      Armor: +57
+      ArmorToughness: +67
+      Health: +23
+      Damage: +18
+      MovementSpeed: +10%
+  Options:
+    Unbreakable: true
+IanSandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +20%
+      Damage: +29
+      Health: +12
+      AttackSpeed: +39%
+      Armor: +30
+      ArmorToughness: +35
+      KnockbackResistance: +122%
+JimStoneofJordan:
+  Id: DIAMOND
+  Display: '&5&lStone of Jordan'
+  Lore:
+  - '&5&oNot pretty enough to be a ring.'
+  - ''
+  - '&9Grants regeneration and resistance'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +48
+      ArmorToughness: +60
+      Health: +29
+      KnockbackResistance: +27%
+      Damage: +29
+      MovementSpeed: +40%
+      AttackSpeed: +42%
+JimChopper:
+  Id: BOW
+  Data: 0
+  Display: '&5&lChopper'
+  Lore:
+  - '&5&oGet to it.'
+  - ''
+  - '&9DO NOT SWAP TO OTHER ITEMS'
+  - '&9WHILE FIRING! THEY WILL DELETE!'
+  - ''
+  - '&9[Ender]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:69
+  - DURABILITY:30
+  - ARROW_INFINITE:1
+  - ARROW_KNOCKBACK:2
+  Attributes:
+    MainHand:
+      Armor: +5
+      ArmorToughness: +5
+      MovementSpeed: +31%
+      KnockbackResistance: +25%
+    OffHand:
+      AttackSpeed: +25%
+      Damage: +15
+JimSandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - '&9Grants resistance.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +38%
+      AttackSpeed: +44%
+      Armor: +32
+      Damage: +48
+      Health: +29
+      ArmorToughness: +39
+      KnockbackResistance: +122%
+JimChestplateNether:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&5&lBurning Chestplate'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:60
+  - PROTECTION_FIRE:51
+  Attributes:
+    Chest:
+      Armor: +60
+      ArmorToughness: +60
+      Health: +9
+      Damage: +32
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+JimLeggingsNether:
+  Id: NETHERITE_LEGGINGS
+  Display: '&5&lLeggings of the Burning Embers'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:57
+  - PROTECTION_FIRE:33
+  - PROTECTION_PROJECTILE:20
+  - THORNS:4
+  Attributes:
+    Legs:
+      MovementSpeed: +8%
+      Armor: +56
+      ArmorToughness: +58
+      Damage: +22
+      AttackSpeed: +6%
+      Health: +16
+      KnockbackResistance: -9%
+  Options:
+    Unbreakable: true
+JimHelmetNether:
+  Id: NETHERITE_HELMET
+  Display: '&5&lHelm of the Firey Fall'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  - '&9[1 Removal]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:62
+  - OXYGEN:2
+  - WATER_WORKER:1
+  - PROTECTION_PROJECTILE:22
+  - PROTECTION_FIRE:25
+  Attributes:
+    Head:
+      Armor: +62
+      ArmorToughness: +65
+      Damage: +20
+      AttackSpeed: +33%
+      MovementSpeed: -19%
+      Health: +6
+  Options:
+    Unbreakable: true
+JimBootsNether:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lTreads of Searing Fire'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:61
+  - PROTECTION_FIRE:25
+  - PROTECTION_FALL:12
+  - PROTECTION_PROJECTILE:8
+  - THORNS:7
+  Attributes:
+    Feet:
+      Armor: +67
+      ArmorToughness: +58
+      Damage: +13
+      Health: +7
+      MovementSpeed: +22%
+      AttackSpeed: +14%
+  Options:
+    Unbreakable: true
+#CustomItems
+PrisonVest:
+  Id: LEATHER_CHESTPLATE
+  Display: '&5&lPrison Vest'
+  Lore:
+  - '&5&oYou are C31.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:40
+  Attributes:
+    Chest:
+      Armor: +40
+      ArmorToughness: +40
+      Health: -20
+      Damage: +30
+  Options:
+    Unbreakable: true
+    Color: 150,10,10
+EdgeofTomorrow:
+  Id: SHIELD
+  Display: '&5&lEdge of Tomorrow'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - BLACK BASE
+  - WHITE MOJANG
+  - BLACK FLOWER
+  - BLUE GRADIENT_UP
+  - WHITE CIRCLE_MIDDLE
+  - BLACK SQUARE_BOTTOM_LEFT
+  - BLACK TRIANGLES_BOTTOM
+  Attributes:
+    OffHand:
+      Armor: +55
+      ArmorToughness: +55
+      Health: +15
+      AttackSpeed: +15%
+      Damage: +15
+      MovementSpeed: +15%
+      KnockbackResistance: +15%
+  Options:
+    Unbreakable: true
+SinnersBane:
+  Id: IRON_SWORD
+  Display: '&5&lSinner<&sq>s Bane'
+  Lore:
+  - '&5&oYou will answer for your crimes.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:55
+  - DAMAGE_UNDEAD:20
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +55
+      Health: +20
+      Armor: +20
+      ArmorToughness: +20
+      AttackSpeed: -25%
+      MovementSpeed: +20%
+SculptingClay:
+  Id: Clay_ball
+  Display: '&5&lSculpting Clay'
+  Lore:
+  - '&5&oReady to become something incredible.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +15
+      Armor: +25
+      ArmorToughness: +25
+      Damage: +15
+      KnockbackResistance: +30%
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+GreenAxe2:
+  Id: IRON_AXE
+  Display: '&2&lChopper<&sq>s Axe'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DURABILITY:10
+  Attributes:
+    MainHand:
+      Damage: +20
+      AttackSpeed: -75%
+      Health: +5
+GreenHelm2:
+  Id: IRON_HELMET
+  Display: '&2&lHelm of Truth'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:12
+  - DURABILITY:15
+  Attributes:
+    Head:
+      Armor: +10
+      ArmorToughness: +10
+      Health: +8
+      KnockbackResistance: +5%
+      Damage: -4
+GreenChest2:
+  Id: IRON_CHESTPLATE
+  Display: '&2&lChestplate of Faith'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:20
+  - DURABILITY:10
+  Attributes:
+    Chest:
+      Armor: +14
+      ArmorToughness: +14
+      Health: +6
+      KnockbackResistance: +10%
+GreenLeggings2:
+  Id: IRON_LEGGINGS
+  Display: '&2&lLeggings of Resilience'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - DURABILITY:15
+  Attributes:
+    Legs:
+      Armor: +12
+      ArmorToughness: +12
+      Health: +12
+GreenBoots2:
+  Id: IRON_BOOTS
+  Display: '&2&lBoots of the Mountain Climber'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - DURABILITY:15
+  Attributes:
+    Feet:
+      Armor: +10
+      ArmorToughness: +10
+      KnockbackResistance: -15%
+      MovementSpeed: +15%
+GreenSword2:
+  Id: IRON_SWORD
+  Display: '&2&lHardened Blade'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      Damage: +20
+      AttackSpeed: +10%
+      Armor: -2
+      ArmorToughness: -2
+ReapandSowPurple:
+  Id: IRON_SWORD
+  Data: 0 
+  Display: '&5&lReap and Sow'
+  Lore:
+  - ''
+  - '&9Heals you over time.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:15
+  - DAMAGE_ALL:15
+  - DAMAGE_UNDEAD:12
+  - SWEEPING_EDGE:10
+  Attributes:
+    MainHand:
+      AttackSpeed: -25%
+      Health: +12
+      MovementSpeed: +10%
+      Armor: +10
+      ArmorToughness: +10
+      Damage: +15
+Gateway:
+  Id: SHIELD
+  BannerLayers:
+  - PURPLE BASE
+  - MAGENTA STRIPE_SMALL
+  - PURPLE BRICKS
+  - MAGENTA CURLY_BORDER
+  - BLACK BORDER
+  Display: '&5&lGateway'
+  Lore:
+  - '&5&oThink before you enter.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:30
+  Attributes:
+    OffHand:
+      Armor: -10
+      ArmorToughness: -10
+      Health: +20
+      MovementSpeed: +10%
+      Damage: +35
+      AttackSpeed: +25%
+BlueHelm2:
+  Id: DIAMOND_HELMET
+  Display: '&1&lDisciple<&sq>s Hood'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:22
+  - DURABILITY:22
+  Attributes:
+    Head:
+      Armor: +22
+      ArmorToughness: +24
+      Health: +10
+      KnockbackResistance: +10%
+      Damage: +10
+PrisonerBrand:
+  Id: BOW
+  Data: 0
+  Display: '&5&lPrisoner Brand'
+  Lore:
+  - '&5&oThey are all marked forever.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:60
+  - ARROW_FIRE:15
+  - DURABILITY:35
+  Attributes:
+    MainHand:
+      Health: -15
+      ArmorToughness: +30
+      MovementSpeed: +15%
+      KnockbackResistance: +25%
+DrapesoftheLight:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&5&lDrapes of the Light'
+  Lore:
+  - '&5&oShow me your inner light.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:35
+  - MENDING:1
+  Attributes:
+    Legs:
+      Armor: +24
+      ArmorToughness: +24
+      MovementSpeed: +5%
+      Health: +15
+      Damage: +5
+      AttackSpeed: -15%
+Merinax:
+  Id: Netherite_Sword
+  Display: '&5&lMerinax, the Fire Stoker'
+  Lore:
+  - '&5&oStand close and get burned.'
+  - ''
+  - '&9Grants fire resistance'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:65
+  - SWEEPING_EDGE:20
+  - FIRE_ASPECT:20
+  Attributes:
+    MainHand:
+      Damage: +65
+      AttackSpeed: +10%
+      MovementSpeed: +15%
+      Armor: -10
+      ArmorToughness: -10
+      Health: -10
+TwistedTorture:
+  Id: NETHERITE_SWORD
+  Display: '&5&lTwisted Torture'
+  Lore:
+  - '&5&oYour screams are beautiful.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:60
+  - SWEEPING_EDGE:20
+  - FIRE_ASPECT:10
+  Attributes:
+    MainHand:
+      Damage: +60
+      MovementSpeed: +10%
+      Armor: -10
+      ArmorToughness: +10
+      Health: -10
+PhadraBladeofReflection:
+  Id: NETHERITE_SWORD
+  Display: '&5&lPhadra, Blade of Reflection'
+  Lore:
+  - '&5&oSee what I see.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:45
+  - DAMAGE_UNDEAD:10
+  - DAMAGE_ARTHROPODS:10
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +40
+      MovementSpeed: +10%
+      Armor: -10
+      ArmorToughness: +10
+      Health: -5
+DrapesoftheVeil:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&5&lDrapes of the Veil'
+  Lore:
+  - '&5&oTheir silhouette is on all worlds.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:20
+  - PROTECTION_ENVIRONMENTAL:25
+  Attributes:
+    Feet:
+      Armor: +24
+      ArmorToughness: +12
+      MovementSpeed: +15%
+      Health: +10
+      Damage: +10
+      AttackSpeed: -25%
+BlackCrown:
+  Id: Leather_Helmet
+  Data: 0
+  Display: '&5&lBlack Crown'
+  Lore:
+  - '&5&oIt is easy to see the darkness from here.'
+  - ''
+  - '&9Grants resistance'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:50
+  Attributes:
+    Feet:
+      Armor: +40
+      ArmorToughness: +40
+  Options:
+    Unbreakable: true
+    Color: 10,10,10
+DarknessSteps:
+  Id: DIAMOND_BOOTS
+  Data: 0
+  Display: '&5&lDarkness Steps'
+  Lore:
+  - '&5&oOnce in, never out.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:20
+  - PROTECTION_FALL:20
+  - PROTECTION_ENVIRONMENTAL:20
+  Attributes:
+    Feet:
+      Armor: +10
+      ArmorToughness: +50
+      MovementSpeed: +15%
+      Damage: +10
+TreadsoftheLight:
+  Id: DIAMOND_BOOTS
+  Data: 0
+  Display: '&5&lTreads of the Light'
+  Lore:
+  - '&5&oShow me your faith.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:45
+  - PROTECTION_FALL:10
+  - PROTECTION_ENVIRONMENTAL:30
+  - PROTECTION_FIRE:30
+  Attributes:
+    Feet:
+      Armor: +35
+      ArmorToughness: +35
+      MovementSpeed: +20%
+      Health: +15
+PrismarineBreastplateBlue:
+  Id: DIAMOND_CHESTPLATE
+  Data: 0
+  Display: '&1&lPrismarine Breastplate'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_FIRE:20
+  - DURABILITY:10
+  - PROTECTION_ENVIRONMENTAL:20
+  Attributes:
+    Chest:
+      Armor: +22
+      ArmorToughness: +22
+      Health: +12
+BlueBoots2:
+  Id: DIAMOND_BOOTS
+  Display: '&1&lDisciple<&sq>s Boots'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:25
+  - PROTECTION_FALL:8
+  - DURABILITY:25
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +22
+      Health: +12
+      KnockbackResistance: -25%
+      MovementSpeed: -10%
+OvergrownBreastplate:
+  Id: DIAMOND_CHESTPLATE
+  Data: 0
+  Display: '&5&lOvergrown Breastplate'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:30
+  Attributes:
+    Chest:
+      MovementSpeed: +10%
+      Armor: +30
+      ArmorToughness: +30
+      Health: +20
+  Options:
+    Unbreakable: true
+PrismarineBreastplatePurple:
+  Id: DIAMOND_CHESTPLATE
+  Data: 0
+  Display: '&5&lPrismarine Breastplate'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_FIRE:25
+  - DURABILITY:12
+  - PROTECTION_ENVIRONMENTAL:25
+  Attributes:
+    Chest:
+      Armor: +25
+      ArmorToughness: +25
+      Health: +15
+      Damage: +5
+BoneMarrowPurple:
+  Id: Bone_meal
+  Display: '&5&lBone Marrow'
+  Lore:
+  - '&5&oIt<&sq>s good for you!'
+  - ''
+  - '&9Grants slow fall and night vision'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +24
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+BoilerRoomBritches:
+  Id: NETHERITE_LEGGINGS
+  Data: 0
+  Display: '&5&lBoiler Room Britches'
+  Lore:
+  - '&5&oStay away from the heat.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:25
+  - PROTECTION_ENVIRONMENTAL:25
+  - PROTECTION_FIRE:20
+  Attributes:
+    Legs:
+      Armor: +30
+      Damage: +12
+      Health: -10
+      ArmorToughness: +35
+      MovementSpeed: +15%
+      KnockbackResistance: +25%
+ExterminatorPurple:
+  Id: DIAMOND_SWORD
+  Display: '&5&lExterminator'
+  Lore:
+  - '&5&oBUGS!!!'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ARTHROPODS:30
+  - SWEEPING_EDGE:20
+  - DURABILITY:20
+  Attributes:
+    MainHand:
+      Damage: +22
+      AttackSpeed: +12%
+    OffHand:
+      Damage: +22
+      AttackSpeed: +12%
+Pallion:
+  Id: BOW
+  Display: '&5&lPallion'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:33
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      Armor: -5
+      ArmorToughness: -5
+HeavensWail:
+  Id: BOW
+  Data: 0
+  Display: '&5&lHeaven<&sq>s Wail'
+  Lore:
+  - '&5&oSend them to Hell.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:70
+  - DURABILITY:40
+  - ARROW_FIRE:10
+  - ARROW_KNOCKBACK:2
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      Armor: +20
+      ArmorToughness: +20
+      Health: +20
+Quantum:
+  Id: BOW
+  Data: 0
+  Display: '&5&lQuantum'
+  Lore:
+  - '&5&oEverywhere at once.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:65
+  - DURABILITY:40
+  - ARROW_INFINITE:1
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      KnockbackResistance: +50%
+VanguardBow:
+  Id: BOW
+  Display: '&5&lVanguard Bow'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:80
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      MovementSpeed: +15%
+      Health: +15
+TheRecurve:
+  Id: BOW
+  Display: '&1&lThe Recurve'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:25
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      Armor: +8
+      ArmorToughness: +8
+SapphireHelm:
+  Id: DIAMOND_HELMET
+  Display: '&5&lSapphire Helm'
+  Lore:
+  - '&5&oShe<&sq>s beautiful...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:30
+  - DURABILITY:25
+  Attributes:
+    Head:
+      Armor: +20
+      ArmorToughness: +20
+      Health: -10
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      KnockbackResistance: -25%
+FurnaceCore:
+  Id: NETHER_STAR
+  Display: '&5&lFurnace Core'
+  Lore:
+  - '&5&oIt pulsates quietly in the burning'
+  - '&5&oheart of the Citadel.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +20
+      Health: -10
+      KnockbackResistance: -10%
+      Armor: +10
+      ArmorToughness: +10
+      AttackSpeed: +25%
+CelliaGardenGuardian:
+  Id: DIAMOND_SWORD
+  Display: '&5&lCellia, Garden Guardian'
+  Lore:
+  - '&5&oShe protected it with her life.'
+  - ''
+  - '&9Grants regeneration'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:60
+  - DAMAGE_ARTHROPODS:20
+  - SWEEPING_EDGE:15
+  - DURABILITY:20
+  Attributes:
+    MainHand:
+      Damage: +60
+      AttackSpeed: +15%
+      Health: +10
+      MovementSpeed: +10%
+ToriLostLove:
+  Id: DIAMOND_SWORD
+  Display: '&5&lTori, the Lost Love'
+  Lore:
+  - '&5&oShe was mine. Now she is yours.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:50
+  - DAMAGE_UNDEAD:15
+  - DAMAGE_ARTHROPODS:15
+  - DURABILITY:18
+  Attributes:
+    MainHand:
+      Damage: +30
+      AttackSpeed: +5%
+      MovementSpeed: +5%
+      Health: -10
+Torvalon:
+  Id: Diamond_Pickaxe
+  Display: '&5&lTorvalon'
+  Lore:
+  - '&5&oShe is the hammer of the people.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Pickaxe]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:45
+  Attributes:
+    MainHand:
+      Damage: +35
+      ArmorToughness: -10
+      Health: +30
+      Armor: -10
+NethersCaretaker:
+  Id: NETHERITE_SWORD
+  Display: '&5&lNether<&sq>s Caretaker'
+  Lore:
+  - '&5&oYou can<&sq>t rule over the Nether without'
+  - '&5&oa little tyranny.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:60
+  - DURABILITY:30
+  - SWEEPING_EDGE:30
+  - FIRE_ASPECT:20
+  Attributes:
+    MainHand:
+      Damage: +60
+      AttackSpeed: +5%
+      MovementSpeed: +10%
+      Armor: +10
+      ArmorToughness: -20
+    OffHand:
+      Damage: +50
+SkyGrazer:
+  Id: DIAMOND_SWORD
+  Display: '&5&lSky Grazer'
+  Lore:
+  - '&5&oEndless skies and a thousand eyes.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:55
+  - DURABILITY:22
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +55
+      AttackSpeed: -25%
+      MovementSpeed: +10%
+      KnockbackResistance: +10%
+      Armor: +20
+      ArmorToughness: -20
+TheTerrorizer:
+  Id: DIAMOND_AXE
+  Display: '&5&lThe Terrorizer'
+  Lore:
+  - '&5&oKneel in my shadow...'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:60
+  - DURABILITY:15
+  - FIRE_ASPECT:15
+  Attributes:
+    MainHand:
+      Damage: +60
+      AttackSpeed: -25%
+RubyBoots:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lRuby Boots'
+  Lore:
+  - '&5&oLined in blood.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:40
+  - THORNS:20
+  Attributes:
+    Feet:
+      Armor: +40
+      ArmorToughness: +40
+      Health: +25
+      AttackSpeed: -10%
+      Damage: -20
+  Options:
+    Unbreakable: true
+PeridotLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lPeridot Leggings'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:45
+  - THORNS:25
+  Attributes:
+    Legs:
+      Armor: +48
+      ArmorToughness: +48
+      Health: +20
+      MovementSpeed: -10%
+      AttackSpeed: -10%
+  Options:
+    Unbreakable: true
+WaterwayBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lBoots of the Waterways'
+  Lore:
+  - ''
+  - '&9Grants dolphin<&sq>s grace and conduit power'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:25
+  - DEPTH_STRIDER:10
+  - DURABILITY:16
+  Attributes:
+    Feet:
+      Armor: +15
+      ArmorToughness: +30
+      Health: +10
+      MovementSpeed: +10%
+Tellanon:
+  Id: Diamond_Sword
+  Display: '&5&lTellanon'
+  Lore:
+  - '&5&oShe is the sword of the people.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:65
+  - DAMAGE_UNDEAD:15
+  - DAMAGE_ARTHROPODS:15
+  Attributes:
+    MainHand:
+      Damage: +65
+      ArmorToughness: +25
+      Health: +15
+      MovementSpeed: -10%
+DarknessIncarnate:
+  Id: DIAMOND_SWORD
+  Display: '&5&lDarkness Incarnate'
+  Lore:
+  - '&5&oDisappear into its blade.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:30
+  - SWEEPING_EDGE:10
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      Damage: +35
+      Armor: +10
+      ArmorToughness: +10
+TouchoftheVoid:
+  Id: BLACK_DYE
+  Display: '&5&lTouch of the Void'
+  Lore:
+  - '&5&oIt spreads beyond its world.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: -15%
+      KnockbackResistance: +25%
+      Damage: +50
+      Armor: +30
+      ArmorToughness: +30
+      Health: -25
+DirectiontoOtherWorlds:
+  Id: COMPASS
+  Display: '&5&lDirection to Other Worlds'
+  Lore:
+  - '&5&oIt points somewhere...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: -15%
+      Damage: +50
+      Armor: +25
+      ArmorToughness: +25
+      AttackSpeed: +15%
+FurnaceGuardBoots:
+  Id: NETHERITE_BOOTS
+  Data: 0
+  Display: '&5&lBoots of the Furnace Guards'
+  Lore:
+  - '&5&oThe Great Furnace never smolders...'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:25
+  - PROTECTION_FIRE:20
+  Attributes:
+    Feet:
+      Armor: +28
+      Damage: +20
+      ArmorToughness: +28
+      Health: -15
+CrownofElite:
+  Id: DIAMOND_HELMET
+  Data: 0
+  Display: '&5&lCrown of the Elite'
+  Lore:
+  - '&5&oFits like a charm.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:45
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Feet:
+      Armor: +40
+      ArmorToughness: +40
+      Health: +30
+      Damage: -20
+LotheraMageDress:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&5&lLothera Mage Dress'
+  Lore:
+  - '&5&oPOWER!'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:45
+  Attributes:
+    Feet:
+      Armor: +30
+      ArmorToughness: +40
+      Health: -20
+      Damage: +30
+LotheraGuardBoots:
+  Id: DIAMOND_BOOTS
+  Data: 0
+  Display: '&5&lLothera Guard Boots'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:45
+  - PROTECTION_PROJECTILE:20
+  Attributes:
+    Feet:
+      Armor: +45
+      Health: -20
+WatchmanBow:
+  Id: BOW
+  Data: 0
+  Display: '&5&lWatchman<&sq>s Bow'
+  Lore: 
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:55
+  - DURABILITY:10
+  Attributes:
+    MainHand:
+      MovementSpeed: +15%
+      Armor: +25
+      ArmorToughness: +25
+CellBlockEKey:
+  Id: Stick
+  Display: '&5&lCell Block E Key'
+  Lore:
+  - '&5&oThe worst block in the whole world.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +15%
+      KnockbackResistance: +30%
+      Damage: +30
+      Armor: +16
+      ArmorToughness: +16
+      Health: -15
+RoaringFire:
+  Id: Blaze_Powder
+  Display: '&5&lRoaring Fire'
+  Enchantments:
+  - FIRE_ASPECT:25
+  Lore:
+  - '&5&o"Put him in the incinerator'
+  - '&5&owith the rest of the trash."'
+  - '&5&o-The Warden'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      KnockbackResistance: +10%
+      Damage: +12
+      Armor: +7
+      AttackSpeed: +25%
+    OffHand:
+      MovementSpeed: +15%
+      KnockbackResistance: +20%
+      Damage: +17
+      Armor: +10
+AngelDust:
+  Id: glowstone_dust
+  Display: '&5&lAngel Dust'
+  Lore:
+  - '&5&oWith the blessing from his grace...'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: -15
+      Health: +27
+      ArmorToughness: +27
+      Armor: +27
+      MovementSpeed: +27%
+      KnockbackResistance: +27%
+AngelDustBlue:
+  Id: glowstone_dust
+  Display: '&1&lAngel Dust'
+  Lore:
+  - '&1&oWith the blessing from his grace...'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: -12
+      Health: +24
+      ArmorToughness: +24
+      Armor: +24
+      MovementSpeed: +24%
+      KnockbackResistance: +24%
+TheHammer:
+  Id: DIAMOND_AXE
+  Data: 0
+  Display: '&1&lThe Hammer'
+  Lore:
+  - '&1&oTake me to pound town.'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:15
+  - DAMAGE_ALL:25
+  - DAMAGE_ARTHROPODS:15
+  Attributes:
+    MainHand:
+      Damage: +15
+      MovementSpeed: +10%
+      AttackSpeed: -25%
+Punishment:
+  Id: BOW
+  Display: '&5&lPunishment'
+  Lore:
+  - '&5&oIf I told you to kill yourself, would you?'
+  - ''
+  - '&9[Nether]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:55
+  Attributes:
+    MainHand:
+      Armor: +15
+      ArmorToughness: +15
+RagingStorm:
+  Id: Diamond_Sword
+  Display: '&5&lThe Raging Storm'
+  Lore:
+  - '&5&oI am a force of nature.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:40
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +40
+      AttackSpeed: +25%
+      MovementSpeed: +25%
+ColorstormPurple:
+  Id: light_blue_dye
+  Display: '&5&lColorstorm'
+  Lore:
+  - '&5&oWeeeeeeeee'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +30%
+      AttackSpeed: +30%
+      Health: +15
+      Damage: +5
+      Armor: +5
+SeedsofLife:
+  Id: beetroot_seeds
+  Display: '&5&lSeeds of Life'
+  Lore:
+  - '&5&oThey are the start of something beautiful.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +10
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      Damage: +10
+      Armor: +10
+ToughHide:
+  Id: leather
+  Display: '&5&lTough Hide'
+  Lore:
+  - '&5&oAs rough as it is tough.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +40
+      ArmorToughness: +40
+Colorstorm:
+  Id: Yellow_dye
+  Display: '&1&lColorstorm'
+  Lore:
+  - '&1&oWeeeeeeeee'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +30%
+      AttackSpeed: +30%
+      Health: +8
+Winterchill:
+  Id: Diamond_Sword
+  Display: '&5&lWinterchill'
+  Lore:
+  - '&5&oWinter has come...'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:55
+  - SWEEPING_EDGE:25
+  Attributes:
+    MainHand:
+      Damage: +55
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      Armor: -20
+Frostbite:
+  Id: Diamond_Sword
+  Display: '&5&lFrostbite'
+  Lore:
+  - '&5&oDon<&sq>t come near me'
+  - ''
+  - '&9Enemies are slowed when hit'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:50
+  - SWEEPING_EDGE:15
+  Attributes:
+    MainHand:
+      Damage: +50
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      Armor: -6
+      ArmorToughness: -6
+      Health: -6
+WardensBanner:
+  Id: SHIELD
+  BannerLayers:
+  - BLACK BASE
+  - PURPLE STRAIGHT_CROSS
+  - BLACK STRAIGHT_CROSS
+  - PURPLE GLOBE
+  - BLACK FLOWER
+  - PURPLE CURLY_BORDER
+  - BLACK CURLY_BORDER
+  Display: '&5&lWarden<&sq>s Banner'
+  Lore:
+  - '&5&oDon<&sq>t get caught.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:50
+  Attributes:
+    OffHand:
+      Armor: +50
+      ArmorToughness: +50
+      Damage: +40
+      AttackSpeed: -15%
+  Options:
+    Unbreakable: true
+TheMonarch:
+  Id: SHIELD
+  BannerLayers:
+  - WHITE BASE
+  - YELLOW CROSS
+  - ORANGE RHOMBUS_MIDDLE
+  - WHITE STRIPE_DOWNRIGHT
+  - WHITE DIAGONAL_LEFT_MIRROR
+  - WHITE CIRCLE_MIDDLE
+  - WHITE BORDER
+  Display: '&5&lThe Monarch'
+  Lore:
+  - '&5&oHer beauty is unbound.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Shield]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      Armor: +40
+      ArmorToughness: +40
+      Damage: -10
+      Health: +30
+  Options:
+    Unbreakable: true
+LinkedBoots:
+  Id: Chainmail_Boots
+  Display: '&1&lLinked Boots'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - DURABILITY:25
+  Attributes:
+    Feet:
+      MovementSpeed: +15%
+      ArmorToughness: +25
+      Damage: +15
+      Health: -10
+ForgedLeggings:
+  Id: Chainmail_Leggings
+  Display: '&1&lForged Leggings'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:11
+  - DURABILITY:19
+  - PROTECTION_PROJECTILE:11
+  Attributes:
+    Legs:
+      MovementSpeed: +10%
+      Damage: +8
+      ArmorToughness: +10
+      KnockbackResistance: +25%
+      Armor: +10
+GuardPlate:
+  Id: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Display: '&1&lGuard<&sq>s Platemail'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - DURABILITY:25
+  - PROTECTION_ENVIRONMENTAL:15
+  - THORNS:5
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Chest:
+      Armor: +20
+      ArmorToughness: +15
+      Health: +5
+GuardHelm:
+  Id: CHAINMAIL_HELMET
+  Data: 0
+  Display: '&1&lGuard<&sq>s Platemail'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:25
+  - PROTECTION_ENVIRONMENTAL:15
+  - THORNS:5
+  Attributes:
+    Head:
+      Armor: +15
+      ArmorToughness: +15
+      Damage: +5
+      MovementSpeed: +5%
+DressPious:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lDress of the Pious'
+  Lore:
+  - '&5&oThe clean and holy are rewarded.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:25
+  - THORNS:20
+  - DURABILITY:20
+  Attributes:
+    Legs:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +20
+      Damage: -5
+      KnockbackResistance: +50%
+SharpeningStone:
+  Id: Flint
+  Display: '&5&lSharpening Stone'
+  Lore:
+  - '&5&oHow much is too much?'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: -10
+      ArmorToughness: -10
+      Health: -10
+      MovementSpeed: +10%
+      Damage: +35
+TheCopperConundrum:
+  Id: Copper_Ingot
+  Display: '&5&lThe Copper Conundrum'
+  Lore:
+  - '&5&oIt has an ideal thermal equilibrium!'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +10
+      Health: +10
+      Armor: +10
+      ArmorToughness: +10
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      KnockbackResistance: +10%
+DivineCrown:
+  Id: Raw_Gold
+  Display: '&5&lThe Divine Crown'
+  Lore:
+  - '&5&oWith all my heart, you will be'
+  - '&5&omy chosen of destiny and holy light.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +30
+      ArmorToughness: +36
+      Health: +16
+      MovementSpeed: +20%
+      KnockbackResistance: -20%
+KillerInstinct:
+  Id: NETHERITE_SWORD
+  Display: '&5&lKiller Instinct'
+  Lore:
+  - '&5&oDown with the dead.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:50
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +50
+      MovementSpeed: +15%
+      Armor: +20
+      Health: +20
+KingSlayer:
+  Id: DIAMOND_SWORD
+  Display: '&5&lKing Slayer'
+  Lore:
+  - '&5&oYour throne is now mine.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:45
+  - DAMAGE_UNDEAD:20
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +55
+      AttackSpeed: -25%
+      MovementSpeed: +10%
+      Health: +10
+CherubimsSong:
+  Id: glistering_melon_slice
+  Display: '&5&lCherubim<&sq>s Song'
+  Lore:
+  - '&5&oIt is too beautiful to understand...'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, ALL]'
+  - '&9[Offhand, ALL]'
+  Enchantments:
+  - DAMAGE_UNDEAD:35
+  - FIRE_ASPECT:30
+  Attributes:
+    MainHand:
+      Health: +30
+      Armor: +30
+      ArmorToughness: +30
+      AttackSpeed: +15%
+      MovementSpeed: +15%
+WrathoftheThrone:
+  Id: IRON_SWORD
+  Display: '&5&lWrath of the Throne'
+  Lore:
+  - '&5&oYou<&sq>ll never see me again...'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:60
+  - DAMAGE_UNDEAD:15
+  - SWEEPING_EDGE:30
+  - FIRE_ASPECT:10
+  Attributes:
+    MainHand:
+      Damage: +60
+      AttackSpeed: -35%
+      MovementSpeed: +10%
+KingsAdornment:
+  Id: Diamond_Helmet
+  Display: '&5&lKing<&sq>s Adornment'
+  Lore:
+  - '&5&oYour grace.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:30
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FIRE:10
+  - THORNS:10
+  Attributes:
+    Head:
+      Armor: +30
+      ArmorToughness: +30
+      Health: +15
+ExtraCrunchySpiderEye:
+  Id: Fermented_Spider_Eye
+  Display: '&5&lExtra Crunchy Spider Eye'
+  Lore:
+  - '&5&oIt tastes funny...'
+  - ''
+  - '&9Poisons enemies you hit'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      AttackSpeed: +20%
+    OffHand:
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      Damage: +20
+      Health: -10
+      ArmorToughness: +20
+TideofWinter:
+  Id: SHIELD
+  BannerLayers:
+  - WHITE BASE
+  - LIGHT_BLUE GRADIENT
+  - BLUE GRADIENT_UP
+  - WHITE STRAIGHT_CROSS
+  - WHITE CURLY_BORDER
+  - WHITE CROSS
+  - WHITE CIRCLE_MIDDLE
+  Display: '&5&lTide of Winter'
+  Lore:
+  - '&5&oIt<&sq>s easy to get lost in the snow.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:25
+  Attributes:
+    OffHand:
+      MovementSpeed: -25%
+      Armor: +30
+      ArmorToughness: +30
+      Damage: +15
+      KnockbackResistance: +50%
+LostPaw:
+  Id: Rabbit_Foot
+  Display: '&5&lLost Paw'
+  Lore:
+  - ''
+  - '&9Grants jump boost'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +40
+      MovementSpeed: +20%
+DepthofDarkness:
+  Id: SHIELD
+  BannerLayers:
+  - PURPLE BASE
+  - BLACK GRADIENT
+  - BLACK GRADIENT_UP
+  - PINK CIRCLE_MIDDLE
+  - MAGENTA FLOWER
+  - BLACK BRICKS
+  - BLACK BORDER
+  Display: '&5&lThe Depth of Darkness'
+  Lore:
+  - '&5&oStare into the abyss, and'
+  - '&5&othe abyss will stare back.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:25
+  Attributes:
+    OffHand:
+      Armor: +18
+      ArmorToughness: +18
+      Damage: +15
+      Health: -5
+SignetoftheAngels:
+  Id: gold_nugget
+  Display: '&5&lSignet of the Angels'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +33%
+      Health: +33
+      Armor: +33
+      ArmorToughness: +33
+GoldenRod:
+  Id: Blaze_rod
+  Display: '&5&lThe Golden Rod'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +25%
+      Health: +25
+      AttackSpeed: +25%
+HoneycombBlue:
+  Id: Honeycomb
+  Display: '&1&lThe Queen<&sq>s Wax'
+  Lore:
+  - '&1&oThe bees of Aisha are hard workers.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      Damage: +10
+      Health: +10
+      AttackSpeed: +10%
+Honeycomb:
+  Id: Honeycomb
+  Display: '&5&lThe Queen<&sq>s Wax'
+  Lore:
+  - '&5&oThe bees of Aisha are hard workers.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +20%
+      Damage: +10
+      Health: +20
+      AttackSpeed: +15%
+RottenTreadsBlue:
+  Id: DIAMOND_BOOTS
+  Display: '&1&lRotten Treads'
+  Lore:
+  - '&1&oThere are still bits of flesh on the soles.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:16
+  - PROTECTION_ENVIRONMENTAL:18
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +20
+      MovementSpeed: +20%
+      AttackSpeed: -10%
+RottenTreads:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lLuscious Boots'
+  Lore:
+  - '&5&oSlippery and shiny'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:18
+  - PROTECTION_ENVIRONMENTAL:20
+  - PROTECTION_FALL:10
+  Attributes:
+    Feet:
+      Armor: +23
+      ArmorToughness: +23
+      MovementSpeed: +20%
+      AttackSpeed: -10%
+TheHarvester:
+  Id: DIAMOND_HOE
+  Display: '&5&lThe Harvester'
+  Lore:
+  - '&5&oDie. Die. Die.'
+  - ''
+  - '&9Applies wither to enemies'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - DURABILITY:22
+  - DAMAGE_ALL:66
+  - DAMAGE_UNDEAD:22
+  Attributes:
+    MainHand:
+      Armor: -4
+      ArmorToughness: -4
+      MovementSpeed: +15%
+      AttackSpeed: +25%
+      Damage: +66
+    OffHand:
+      Health: +24
+      Damage: +24
+Totem:
+  Id: TOTEM_OF_UNDYING
+  Display: '&5&lAngel Statue'
+  Lore:
+  - '&5&oWe stand resolute in his stead.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +36
+      ArmorToughness: +36
+      Health: +24
+      MovementSpeed: +20%
+      AttackSpeed: +20%
+      Damage: +6
+HelmoftheFurnace:
+  Id: NETHERITE_HELMET
+  Display: '&5&lHelm of the Great Furnace'
+  Lore:
+  - '&5&o"Get back in your cell, E102."'
+  - '&5&o-The Warden'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:20
+  - PROTECTION_FIRE:20
+  - DURABILITY:20
+  Attributes:
+    Head:
+      Armor: +15
+      ArmorToughness: +15
+      Health: -5
+      KnockbackResistance: +25%
+      Damage: +10
+      AttackSpeed: +10%
+PrisonerHelm:
+  Id: IRON_HELMET
+  Display: '&5&lPrisoner<&sq>s Hat'
+  Lore:
+  - '&5&o"This cell is just a room.'
+  - '&5&oThis block is just a hallway.'
+  - '&5&oThis citadel is just a castle.'
+  - '&5&oMy world is their prison."'
+  - '&5&o-E102'
+  - ''
+  - '&9Unbreakable cannot be transferred.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  Attributes:
+    Head:
+      Armor: +5
+      ArmorToughness: +5
+      Health: +5
+      KnockbackResistance: +25%
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+SoulSnuffer:
+  Id: DIAMOND_AXE
+  Display: '&5&lSoul Snuffer'
+  Lore:
+  - '&5&oI will now turn this city household by'
+  - '&5&ohousehold, until the flame of life has'
+  - '&5&obeen snuffed out... forever.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:40
+  - DAMAGE_ARTHROPODS:20
+  - DAMAGE_UNDEAD:20
+  Attributes:
+    MainHand:
+      Damage: +40
+      AttackSpeed: -80%
+StrangeDust:
+  Id: GUNPOWDER
+  Display: '&5&lStrange Dust'
+  Lore:
+  - '&5&oHuh. What is it?'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: -10
+      ArmorToughness: -10
+      Health: -10
+      Damage: +30
+      KnockbackResistance: +25%
+      MovementSpeed: +15%
+      AttackSpeed: +15%
+BleedingEdge:
+  Id: DIAMOND_SWORD
+  Display: '&5&lBleeding Edge'
+  Lore:
+  - '&5&oCut until they stop moving.'
+  - ''
+  - '&9Enemies hit bleed and are slowed'
+  - '&9This item cannot be repaired'
+  - '&9This item cannot be enchanted'
+  - '&9This item cannot be upgraded to netherite'
+  - '&9This item cannot be scrapped, combined, or grinded'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  Attributes:
+    MainHand:
+      Health: -4
+      Armor: -4
+      ArmorToughness: -4
+      Damage: +25
+      MovementSpeed: +10%
+      KnockbackResistance: -25%
+Greenshell:
+  Id: SCUTE
+  Display: '&5&lGreenshell'
+  Lore:
+  - '&5&oThe turtles of Aisha swam through the'
+  - '&5&oStreams of Life and across the Terraces'
+  - '&5&oof Eternity until they were torn apart.'
+  - ''
+  - '&9Grants swim speed and water breathing'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +24
+      ArmorToughness: +24
+      Armor: +24
+      Damage: +8
+      MovementSpeed: +10%
+HellfireIngot:
+  Id: netherite_ingot
+  Display: '&5&lHellfire Ingot'
+  Lore:
+  - '&5&oUsed to make the guard<&sq>s weapons.'
+  - ''
+  - '&9Grants fire resistance'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      KnockbackResistance: +25%
+      ArmorToughness: +25
+      Armor: -10
+      Damage: +25
+LiquidFire:
+  Id: MAGMA_CREAM
+  Display: '&5&lLiquid Fire'
+  Lore:
+  - '&5&o"Who dare defy my fortress of pain?"'
+  - '&5&o-The Warden'
+  - ''
+  - '&9Grants fire resistance'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - FIRE_ASPECT:20
+  - KNOCKBACK:2
+  Attributes:
+    MainHand:
+      Damage: +20
+    OffHand:
+      Health: +16
+      ArmorToughness: +12
+      Armor: +12
+      Damage: +16
+CatherinesPearl:
+  Id: GHAST_TEAR
+  Display: '&5&lCatherine<&sq>s Pearl'
+  Lore:
+  - '&5&o"They are as beautiful as they are valuable.'
+  - '&5&oPerhaps my brother will pay someone to hunt'
+  - '&5&othem down too."'
+  - '&5&o-Catherine Campbell'
+  - ''
+  - '&9Grants resistance'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - LOOT_BONUS_MOBS:5
+  - DAMAGE_ALL:10
+  Attributes:
+    OffHand:
+      Health: +10
+      ArmorToughness: +20
+      Armor: +20
+      KnockbackResistance: +50%
+      MovementSpeed: +20%
+      AttackSpeed: +20%
+FireShield:
+  Id: SHIELD
+  BannerLayers:
+  - BLACK BASE
+  - YELLOW MOJANG
+  - YELLOW TRIANGLE_BOTTOM
+  - BLACK RHOMBUS_MIDDLE
+  - RED GRADIENT_UP
+  - RED TRIANGLES_BOTTOM
+  - YELLOW TRIANGLES_BOTTOM
+  Data: 0
+  Display: '&5&lFurnace Safeguard'
+  Lore: 
+  - '&5&oHide from the flames.'
+  - ''
+  - '&9Grants fire resistance'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:25
+  Attributes:
+    OffHand:
+      Armor: +20
+      ArmorToughness: +20
+      Damage: +10
+      Health: +10
+      MovementSpeed: -10%
+DelloransWail:
+  Id: TRIDENT
+  Display: '&5&lDelloran<&sq>s Wail'
+  Lore:
+  - '&5&oHear her cries and tears across the world.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee/Ranged, Trident]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:60
+  - IMPALING:60
+  - LOYALTY:5
+  Attributes:
+    MainHand:
+      AttackSpeed: +15%
+      Damage: +60
+      KnockbackResistance: +25%
+      MovementSpeed: +10%
+      Armor: +30
+      ArmorToughness: +30
+Sentinel:
+  Id: SHIELD
+  BannerLayers:
+  - PURPLE BASE
+  - BLUE GRADIENT_UP
+  - LIGHT_BLUE GRADIENT
+  - BLACK BRICKS
+  - BLACK STRIPE_SMALL
+  Data: 0
+  Display: '&1&lSentinel<&sq>s Shield'
+  Lore: 
+  - '&1&oI am the watcher. I am the eyes of the watchful.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:15
+  Attributes:
+    OffHand:
+      Armor: +10
+      ArmorToughness: +10
+      Health: +8
+      KnockbackResistance: +30%
+      MovementSpeed: +10%
+      Damage: +2
+      AttackSpeed: +10%
+#Greens
+GreenSword:
+  Id: IRON_SWORD
+  Display: '&2&lSharpened Sword'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:15
+  - DURABILITY:15
+  - SWEEPING_EDGE:7
+  Attributes:
+    MainHand:
+      Damage: +15
+      AttackSpeed: +10%
+      Health: -4
+GreenAxe:
+  Id: IRON_AXE
+  Display: '&2&lButcher<&sq>s Axe'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:18
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      Damage: +18
+      AttackSpeed: -60%
+GreenHelm:
+  Id: IRON_HELMET
+  Display: '&2&lHelmet of Resolve'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - DURABILITY:15
+  Attributes:
+    Head:
+      Armor: +10
+      ArmorToughness: +20
+      Health: +6
+      KnockbackResistance: +5%
+      Damage: -2
+GreenChest:
+  Id: IRON_CHESTPLATE
+  Display: '&2&lChestplate of Resolve'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - DURABILITY:15
+  - THORNS:5
+  Attributes:
+    Chest:
+      Armor: +12
+      ArmorToughness: +12
+      Health: +8
+      KnockbackResistance: +15%
+      MovementSpeed: -15%
+GreenLeggings:
+  Id: IRON_LEGGINGS
+  Display: '&2&lLeggings of Resolve'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - DURABILITY:15
+  Attributes:
+    Legs:
+      Armor: +16
+      ArmorToughness: +10
+      Health: +8
+      MovementSpeed: +10%
+      AttackSpeed: -10%
+GreenBoots:
+  Id: IRON_BOOTS
+  Display: '&2&lBoots of Resolve'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:12
+  - PROTECTION_FALL:5
+  - DURABILITY:15
+  Attributes:
+    Feet:
+      Armor: +12
+      ArmorToughness: +10
+      Health: +4
+      KnockbackResistance: -15%
+      MovementSpeed: +10%
+GreenBow:
+  Id: BOW
+  Display: '&2&lSetallia Longbow'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:20
+  - DURABILITY:10
+  Attributes:
+    MainHand:
+      MovementSpeed: +15%
+      Damage: +7
+      KnockbackResistance: -20%
+GreenShield:
+  Id: SHIELD
+  Display: '&2&lArtisan Shield'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - BLACK BASE
+  - WHITE STRAIGHT_CROSS
+  - BLACK BRICKS
+  - LIGHT_BLUE FLOWER
+  - WHITE FLOWER
+  - BLACK TRIANGLE_TOP
+  - WHITE GRADIENT_UP
+  Enchantments:
+  - DURABILITY:15
+  Attributes:
+    OffHand:
+      Armor: +8
+      ArmorToughness: +8
+      Health: +8
+      AttackSpeed: -5%
+      MovementSpeed: -5%
+GreenTrinket:
+  Id: IRON_INGOT
+  Display: '&2&lHardened Steel'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +10
+      Damage: +8
+      AttackSpeed: -10%
+      MovementSpeed: +5%
+#Blues
+BlueSword:
+  Id: DIAMOND_SWORD
+  Display: '&1&lExtra-Sharp Blade'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DURABILITY:20
+  - SWEEPING_EDGE:10
+  Attributes:
+    MainHand:
+      Damage: +15
+      AttackSpeed: +15%
+      Health: -8
+BlueAxe:
+  Id: DIAMOND_AXE
+  Display: '&1&lRavagers<&sq>s Axe'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:22
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      Damage: +22
+      AttackSpeed: -50%
+      MovementSpeed: +10%
+BlueHelm:
+  Id: DIAMOND_HELMET
+  Display: '&1&lDisciple<&sq>s Helm'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:13
+  - DURABILITY:13
+  Attributes:
+    Head:
+      Armor: +12
+      ArmorToughness: +24
+      Health: +10
+      KnockbackResistance: +10%
+      Damage: -4
+BlueChest:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&1&lDisciple<&sq>s Breastplate'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:17
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:12
+  Attributes:
+    Chest:
+      Armor: +14
+      ArmorToughness: +14
+      Health: +10
+      KnockbackResistance: +25%
+      MovementSpeed: -15%
+BlueLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&1&lDisciple<&sq>s Legplates'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:18
+  - DURABILITY:15
+  Attributes:
+    Legs:
+      Armor: +20
+      ArmorToughness: +10
+      Health: +8
+      MovementSpeed: +10%
+      AttackSpeed: -15%
+BlueBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&1&lDisciple<&sq>s Boots'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_FALL:8
+  - DURABILITY:15
+  Attributes:
+    Feet:
+      Armor: +14
+      ArmorToughness: +12
+      Health: +6
+      KnockbackResistance: -25%
+      MovementSpeed: +10%
+BlueBow:
+  Id: BOW
+  Display: '&1&lLauda Striker'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:25
+  - DURABILITY:5
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      Damage: +10
+      KnockbackResistance: -10%
+BlueShield:
+  Id: SHIELD
+  Display: '&1&lMaster<&sq>s Shield'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - BLACK BASE
+  - WHITE STRAIGHT_CROSS
+  - BLACK BRICKS
+  - LIGHT_BLUE FLOWER
+  - WHITE FLOWER
+  - BLACK TRIANGLE_TOP
+  - WHITE GRADIENT_UP
+  Enchantments:
+  - DURABILITY:20
+  Attributes:
+    OffHand:
+      Armor: +10
+      ArmorToughness: +10
+      Health: +10
+      AttackSpeed: -10%
+      MovementSpeed: -5%
+BlueTrinket:
+  Id: GOLD_INGOT
+  Display: '&1&lAuthentic Nether Gold'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: -5
+      Damage: +12
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      KnockbackResistance: +25%
+#Unbreakables
+UnbreakableShieldBase:
+  Id: SHIELD
+  Display: '&1&lUnbreakable Shield'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - BLACK BASE
+  Attributes:
+    OffHand:
+      Armor: +20
+      ArmorToughness: +20
+  Options:
+    Unbreakable: true
+UnbreakableShieldAishan:
+  Id: SHIELD
+  Display: '&5&lHorizon Shield'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - BLACK BASE
+  - WHITE MOJANG
+  - BLACK FLOWER
+  - BLUE GRADIENT_UP
+  - WHITE CIRCLE_MIDDLE
+  - BLACK SQUARE_BOTTOM_LEFT
+  - BLACK TRIANGLES_BOTTOM
+  Attributes:
+    OffHand:
+      Armor: +15
+      ArmorToughness: +15
+      Health: +7
+      AttackSpeed: +7%
+      Damage: +7
+      MovementSpeed: +7%
+      KnockbackResistance: +7%
+  Options:
+    Unbreakable: true
+UnbreakableShieldAngelic:
+  Id: SHIELD
+  Display: '&5&lRose Shield'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - WHITE BASE
+  - GREEN FLOWER
+  - LIME MOJANG
+  - WHITE DIAGONAL_LEFT_MIRROR
+  - RED SQUARE_TOP_LEFT
+  - WHITE CURLY_BORDER
+  - WHITE TRIANGLES_TOP
+  Attributes:
+    OffHand:
+      Armor: +25
+      ArmorToughness: +25
+      Health: +20
+      MovementSpeed: +10%
+      Damage: -5
+  Options:
+    Unbreakable: true
+UnbreakableShieldEnder:
+  Id: SHIELD
+  Display: '&5&lThreatening Shield'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - MAGENTA BASE
+  - BLACK STRIPE_SMALL
+  - BLACK CROSS
+  - PURPLE BORDER
+  - WHITE CIRCLE_MIDDLE
+  - BLACK CURLY_BORDER
+  - BLACK SKULL
+  Attributes:
+    OffHand:
+      Armor: +20
+      AttackSpeed: -5%
+      ArmorToughness: +20
+      Health: +10
+      Damage: +10
+      KnockbackResistance: +25%
+  Options:
+    Unbreakable: true
+UnbreakableShieldNether:
+  Id: SHIELD
+  Display: '&5&lPrison Shield'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - RED BASE
+  - BLACK STRIPE_SMALL
+  - BLACK CREEPER
+  - BLACK TRIANGLE_TOP
+  - WHITE SKULL
+  - BLACK SKULL
+  - BLACK TRIANGLES_BOTTOM
+  Attributes:
+    OffHand:
+      Armor: +10
+      ArmorToughness: +10
+      Health: -10
+      Damage: +30
+      AttackSpeed: +10%
+      MovementSpeed: +5%
+  Options:
+    Unbreakable: true
+UnbreakableShieldUndead:
+  Id: SHIELD
+  Display: '&5&lDungeon Shield'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - GRAY BASE
+  - GREEN CURLY_BORDER
+  - LIGHT_GRAY BRICKS
+  - BLACK RHOMBUS_MIDDLE
+  - BLACK FLOWER
+  - WHITE SKULL
+  Attributes:
+    OffHand:
+      Armor: +20
+      ArmorToughness: +25
+      Health: -5
+      Damage: +10
+      MovementSpeed: +5%
+      AttackSpeed: +5%
+      KnockbackResistance: +10%
+  Options:
+    Unbreakable: true
+UnbreakableHelmet:
+  Id: DIAMOND_HELMET
+  Display: '&1&lUnbreakable Helmet'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  Attributes:
+    Head:
+      Armor: +15
+      ArmorToughness: +15
+  Options:
+    Unbreakable: true
+UnbreakableHelmetAishan:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of the Streams'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - OXYGEN:5
+  - WATER_WORKER:1
+  Attributes:
+    Head:
+      Armor: +15
+      ArmorToughness: +15
+      Health: +7
+      AttackSpeed: +5%
+      MovementSpeed: +5%
+  Options:
+    Unbreakable: true
+UnbreakableHelmetAngelic:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of Royalty'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - THORNS:10
+  - PROTECTION_PROJECTILE:5
+  Attributes:
+    Head:
+      Armor: +15
+      ArmorToughness: +15
+      Health: +15
+      MovementSpeed: -5%
+      Damage: -5
+  Options:
+    Unbreakable: true
+UnbreakableHelmetEnder:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of Possibility'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Head:
+      Armor: +20
+      ArmorToughness: +20
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      Damage: -5
+      Health: -5
+  Options:
+    Unbreakable: true
+UnbreakableHelmetNether:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of the Firey Fall'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:15
+  Attributes:
+    Head:
+      Armor: +10
+      ArmorToughness: +20
+      Damage: +15
+      AttackSpeed: +15%
+      MovementSpeed: -10%
+      Health: -5
+  Options:
+    Unbreakable: true
+UnbreakableHelmetUndead:
+  Id: DIAMOND_HELMET
+  Display: '&5&lHelm of the Restless Dead'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Head:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +5
+      Damage: -5
+      MovementSpeed: -10%
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+UnbreakableChestplate:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&1&lUnbreakable Chestplate'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:12
+  Attributes:
+    Chest:
+      Armor: +17
+      ArmorToughness: +17
+  Options:
+    Unbreakable: true
+UnbreakableChestplateAishan:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lVibrant Chestplate'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:22
+  - PROTECTION_FIRE:10
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Chest:
+      Armor: +22
+      ArmorToughness: +22
+      Health: +10
+      Damage: +5
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+UnbreakableChestplateAngelic:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lBrilliant Chestplate'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:30
+  - THORNS:10
+  - PROTECTION_FIRE:10
+  Attributes:
+    Chest:
+      Armor: +30
+      ArmorToughness: +30
+      Health: +15
+      MovementSpeed: -5%
+      AttackSpeed: -5%
+      Damage: -10
+  Options:
+    Unbreakable: true
+UnbreakableChestplateEnder:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lShadow Chestplate'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:20
+  - PROTECTION_PROJECTILE:20
+  Attributes:
+    Chest:
+      Armor: +20
+      ArmorToughness: +20
+      MovementSpeed: -10%
+      Damage: +15
+      KnockbackResistance: +25%
+  Options:
+    Unbreakable: true
+UnbreakableChestplateNether:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lBurning Chestplate'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:20
+  - PROTECTION_FIRE:20
+  Attributes:
+    Chest:
+      Armor: +20
+      ArmorToughness: +20
+      Health: -10
+      Damage: +20
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+UnbreakableChestplateUndead:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lCreeping Chestplate'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:20
+  - PROTECTION_PROJECTILE:15
+  Attributes:
+    Chest:
+      Armor: +25
+      ArmorToughness: +20
+      Damage: +10
+      Health: +10
+      MovementSpeed: -10%
+      AttackSpeed: -10%
+  Options:
+    Unbreakable: true
+UnbreakableLeggings:
+  Id: DIAMOND_LEGGINGS
+  Display: '&1&lUnbreakable Leggings'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:12
+  Attributes:
+    Legs:
+      Armor: +17
+      ArmorToughness: +17
+  Options:
+    Unbreakable: true
+UnbreakableLeggingsAishan:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Twisting Vine'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:17
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Legs:
+      Armor: +20
+      ArmorToughness: +25
+      MovementSpeed: +10%
+      Health: +5
+      Damage: +5
+  Options:
+    Unbreakable: true
+UnbreakableLeggingsAngelic:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Radiant'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:22
+  - THORNS:10
+  Attributes:
+    Legs:
+      Armor: +25
+      ArmorToughness: +25
+      Health: +10
+      AttackSpeed: -10%
+      MovementSpeed: +10%
+      Damage: -5
+  Options:
+    Unbreakable: true
+UnbreakableLeggingsEnder:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Obsidian Ring'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:27
+  Attributes:
+    Legs:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +10
+      Damage: +10
+      AttackSpeed: -15%
+  Options:
+    Unbreakable: true
+UnbreakableLeggingsNether:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Burning Embers'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:17
+  - PROTECTION_FIRE:15
+  Attributes:
+    Legs:
+      Armor: +15
+      ArmorToughness: +15
+      Damage: +20
+      AttackSpeed: +10%
+      Health: -10
+  Options:
+    Unbreakable: true
+UnbreakableLeggingsUndead:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lLeggings of the Endless Horde'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:17
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Legs:
+      Armor: +25
+      ArmorToughness: +25
+      MovementSpeed: -10%
+      Damage: +15
+  Options:
+    Unbreakable: true
+UnbreakableBoots:
+  Id: DIAMOND_BOOTS
+  Display: '&1&lUnbreakable Boots'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  Attributes:
+    Feet:
+      Armor: +15
+      ArmorToughness: +15
+  Options:
+    Unbreakable: true
+UnbreakableBootsAishan:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of Blossoming Life'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:5
+  - PROTECTION_PROJECTILE:5
+  - PROTECTION_FALL:5
+  Attributes:
+    Feet:
+      Armor: +12
+      ArmorToughness: +12
+      Health: +7
+      Damage: +7
+      MovementSpeed: +10%
+  Options:
+    Unbreakable: true
+UnbreakableBootsAngelic:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of the Luminous'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_PROJECTILE:5
+  - THORNS:10
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +10
+      Damage: -10
+  Options:
+    Unbreakable: true
+UnbreakableBootsEnder:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of the Void'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_FALL:10
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +5
+      Damage: +5
+      MovementSpeed: -5%
+      AttackSpeed: -5%
+  Options:
+    Unbreakable: true
+UnbreakableBootsNether:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of Searing Fire'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +15
+      Damage: +20
+      Health: -15
+      MovementSpeed: +10%
+  Options:
+    Unbreakable: true
+UnbreakableBootsUndead:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lTreads of Decayed Flesh'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_FALL:5
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +20
+      Damage: +15
+      AttackSpeed: +10%
+      MovementSpeed: -10%
+  Options:
+    Unbreakable: true
+#WorldSecrets
+MayorSword:
+  Id: IRON_SWORD
+  Data: 0
+  Display: '&2&lMayors Rapier'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:3
+  - DAMAGE_ALL:3
+  Attributes:
+    MainHand:
+      Damage: +7
+      AttackSpeed: 0.35
+GuidingCompass:
+  Id: COMPASS
+  Data: 0
+  Display: '&1&lThe Guiding Compass'
+  Lore:
+  - '&1&oWhere it goes, only you know.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - KNOCKBACK:2
+  Attributes:
+    OffHand:
+      Health: 8
+      MovementSpeed: 0.15
+      Armor: 8
+      AttackSpeed: 0.3
+      ArmorToughness: 8
+PureNail:
+  Id: IRON_SWORD
+  Data: 0
+  Display: '&1&lPure Nail'
+  Lore:
+  - '&1&oAvenge Hallownest.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - SWEEPING_EDGE:5
+  - DURABILITY:5
+  - DAMAGE_ALL:5
+  - DAMAGE_ARTHROPODS:5
+  Attributes:
+    MainHand:
+      Damage: +10
+      MovementSpeed: 0.2
+StrangeChunk:
+  Id: PURPLE_DYE
+  Display: '&1&lStrange Chunk'
+  Lore:
+  - '&1&oYou aren<&sq>t sure what it<&sq>s made of...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +15%
+      AttackSpeed: +15%
+      Damage: +5
+      Armor: -5
+      KnockbackResistance: -15%
+StrangeChunk2:
+  Id: PURPLE_DYE
+  Display: '&1&lExtra Strange Chunk'
+  Lore:
+  - '&1&oYou aren<&sq>t sure what it<&sq>s made of...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Damage: +15
+      Armor: -5
+      KnockbackResistance: -15%
+StrangeChunk2Purple:
+  Id: PURPLE_DYE
+  Display: '&5&lExtra Strange Chunk'
+  Lore:
+  - '&5&oYou aren<&sq>t sure what it<&sq>s made of...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Damage: +20
+#Currencies
+Dollar:
+  Id: PAPER
+  Data: 0
+  Display: '&d&l&nDollar'
+  Lore:
+  - '&d&oCurrency for vanilla items and games.'
+Band:
+  Id: BOOK
+  Data: 0
+  Display: '&d&l&nBand'
+  Lore:
+  - '&d&oCurrency for vanilla items and games.'
+CrystalBud:
+  Id: small_amethyst_bud
+  Data: 0
+  Display: '&d&l&nCrystal Bud'
+  Lore:
+  - '&d&oCurrency for custom items and upgrades.'
+CrystalChunk:
+  Id: medium_amethyst_bud
+  Data: 0
+  Display: '&d&l&nCrystal Chunk'
+  Lore:
+  - '&d&oCurrency for custom items and upgrades.'
+CrystalBunch:
+  Id: large_amethyst_bud
+  Data: 0
+  Display: '&d&l&nCrystal Bunch'
+  Lore:
+  - '&d&oCurrency for custom items and upgrades.'
+CrystalCluster:
+  Id: amethyst_cluster
+  Data: 0
+  Display: '&d&l&nCrystal Cluster'
+  Lore:
+  - '&d&oCurrency for custom items and upgrades.'
+ResonatingCrystal:
+  Id: amethyst_shard
+  Data: 0
+  Display: '&d&l&nResonating Crystal'
+  Lore:
+  - '&d&oCurrency for custom items and upgrades.'
+CurioGold:
+  Id: MUSIC_DISC_13
+  Display: '&d&l&nCurio of Gold'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioLife:
+  Id: MUSIC_DISC_CAT
+  Display: '&d&l&nCurio of Blooming Life'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioFire:
+  Id: MUSIC_DISC_BLOCKS
+  Display: '&d&l&nCurio of Ceaseless Fire'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioHatred:
+  Id: MUSIC_DISC_CHIRP
+  Display: '&d&l&nCurio of Hatred'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioResilience:
+  Id: MUSIC_DISC_FAR
+  Display: '&d&l&nCurio of Resilience'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioEnder:
+  Id: MUSIC_DISC_MALL
+  Display: '&d&l&nCurio of Ender'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioWorlds:
+  Id: MUSIC_DISC_MELLOHI
+  Display: '&d&l&nCurio of Other Worlds'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioDarkness:
+  Id: MUSIC_DISC_STAL
+  Display: '&d&l&nCurio of Rising Darkness'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioInfinity:
+  Id: MUSIC_DISC_STRAD
+  Display: '&d&l&nCurio of Infinity'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioDuality:
+  Id: MUSIC_DISC_WARD
+  Display: '&d&l&nCurio of Duality'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioEndTimes:
+  Id: MUSIC_DISC_11
+  Display: '&d&l&nCurio of the End Times'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioSkies:
+  Id: MUSIC_DISC_WAIT
+  Display: '&d&l&nCurio of Endless Skies'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioLostKingdom:
+  Id: MUSIC_DISC_OTHERSIDE
+  Display: '&d&l&nCurio of the Lost Kingdom'
+  Lore:
+  - '&d&oSpecial secret currency.'
+CurioGreatFurnace:
+  Id: MUSIC_DISC_PIGSTEP
+  Display: '&d&l&nCurio of the Great Furnace'
+  Lore:
+  - '&d&oSpecial secret currency.'
+#StarterItems
+Guardian:
+  Id: SHIELD
+  BannerLayers:
+  - RED BASE
+  - WHITE CROSS
+  - RED STRAIGHT_CROSS
+  - WHITE BORDER
+  Data: 0
+  Display: '&2&lGuardian<&sq>s Shield'
+  Lore: 
+  - '&2&oAn elegant shield for an uncivilized age.'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  Attributes:
+    OffHand:
+      Armor: +3
+      ArmorToughness: +3
+      Health: +2
+      KnockbackResistance: +10%
+      Damage: -0.5
+  Options:
+    Unbreakable: true
+Scout:
+  Id: LEATHER_BOOTS
+  Data: 0
+  Display: '&2&lScouting Shoes'
+  Lore: 
+  - '&2&oTake me somewhere unknown.'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Attributes:
+    Feet:
+      Armor: -2
+      Health: -2
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      Damage: +1
+  Enchantments:
+  - PROTECTION_FALL:4
+  Options:
+    Unbreakable: true
+Warrior:
+  Id: STONE_AXE
+  Data: 0
+  Display: '&2&lWarrior<&sq>s Axe'
+  Lore: 
+  - '&2&oWhy run when you could kill?'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Attributes: 
+    MainHand:
+      Damage: +9
+      Armor: +2
+      AttackSpeed: -80%
+  Enchantments:
+  - DAMAGE_ALL:3
+  Options:
+    Unbreakable: true
+Guardian2:
+  Id: SHIELD
+  BannerLayers:
+  - ORANGE BASE
+  - YELLOW GRADIENT_UP
+  - RED GRADIENT
+  - BLACK BRICKS
+  - BLACK STRIPE_SMALL
+  Data: 0
+  Display: '&2&lProtector<&sq>s Shield'
+  Lore: 
+  - '&2&oAn elegant shield for an uncivilized age.'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  Attributes:
+    OffHand:
+      Armor: +9
+      ArmorToughness: +9
+      Health: +6
+      KnockbackResistance: +30%
+      MovementSpeed: +10%
+      Damage: -1
+  Options:
+    Unbreakable: true
+Scout2:
+  Id: IRON_BOOTS
+  Data: 0
+  Display: '&2&lExplorer Shoes'
+  Lore: 
+  - '&2&oTake me somewhere unknown.'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Attributes:
+    Feet:
+      Armor: -4
+      Health: -4
+      MovementSpeed: +15%
+      AttackSpeed: +15%
+      Damage: +5
+  Enchantments:
+  - PROTECTION_FALL:6
+  Options:
+    Unbreakable: true
+Warrior2:
+  Id: IRON_AXE
+  Data: 0
+  Display: '&2&lHero<&sq>s Axe'
+  Lore: 
+  - '&2&oWhy run when you could kill?'
+  - ''
+  - '&9This item cannot be upgraded,'
+  - '&9combined, grinded, or recycled'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Attributes: 
+    MainHand:
+      Damage: +18
+      Armor: +8
+      AttackSpeed: -80%
+      MovementSpeed: -10%
+  Enchantments:
+  - DAMAGE_ALL:8
+  Options:
+    Unbreakable: true
+#Siege of Setallia
+BanditCrossbow:
+  Id: CROSSBOW
+  Data: 0
+  Display: '&2&lOutlaw<&sq>s Crossbow'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Crossbow]'
+  Enchantments:
+  - DURABILITY:5
+  - QUICK_CHARGE:3
+  - PIERCING:10
+BanditTag:
+  Id: IRON_NUGGET
+  Data: 0
+  Display: '&c&l&nBandit Tag'
+  Lore:
+  - '&c&oCurrency used for Siege of Setallia dungeon items.'
+BanditCaptainAxe:
+  Id: IRON_AXE
+  Data: 0
+  Display: '&2&lBandit Captain<&sq>s Axe'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - KNOCKBACK:1
+  - DURABILITY:5
+  - DAMAGE_ALL:7
+  Attributes:
+    MainHand:
+      Damage: 15
+      KnockbackResistance: 15%
+BanditShield:
+  Id: SHIELD
+  Data: 0
+  Display: '&2&lMarauder<&sq>s Shield'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - RED BASE
+  - WHITE CURLY_BORDER
+  - WHITE STRIPE_CENTER
+  - BLACK STRIPE_BOTTOM
+  - WHITE CREEPER
+  - WHITE STRIPE_TOP
+  - BLACK TRIANGLES_TOP
+  Enchantments:
+  - DURABILITY:7
+  Attributes:
+    OffHand:
+      Armor: +5
+      ArmorToughness: +5
+      Health: +6
+WarlordSword:
+  Id: IRON_SWORD
+  Data: 0
+  Display: '&2&lWarlord<&sq>s Sword'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - SWEEPING_EDGE:7
+  - DURABILITY:5
+  - DAMAGE_UNDEAD:7
+  Attributes:
+    MainHand:
+      AttackSpeed: 15%
+      Damage: +12
+BerserkerFury:
+  Id: POTION
+  Data: 8201
+  Display: '&2&lBerserker<&sq>s Fury'
+  Options:
+    Color: 250,50,150
+  PotionEffects:
+  - SPEED 600 2
+  - INCREASE_DAMAGE 600 2
+  Lore:
+  - '&2&oThe bandit go-to drink.'
+Mountainbrew:
+  Id: POTION
+  Data: 8201
+  Display: '&2&lMountain Brew'
+  Options:
+    Color: 10,100,150
+  PotionEffects:
+  - SLOW 1800 2
+  - DAMAGE_RESISTANCE 1800 4
+  - ABSORPTION 1800 5
+#Dushore
+LevelFourBow:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:10
+LevelFiveBow:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:19
+  - ARROW_KNOCKBACK:1
+LevelSixBow:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:26
+  - ARROW_KNOCKBACK:2
+DushoreAppreciation:
+  Id: EMERALD
+  Data: 0
+  Display: '&e&l&nToken of Appreciation'
+  Lore:
+  - '&e&oCurrency used for Defense of Dushore items.'
+DushoreToken:
+  Id: GOLD_NUGGET
+  Data: 0
+  Display: '&e&l&nKill Token'
+  Lore:
+  - '&e&oCurrency used to buy supplies.'
+ReapandSow:
+  Id: IRON_SWORD
+  Data: 0 
+  Display: '&1&lReap and Sow'
+  Lore:
+  - ''
+  - '&9Heals you over time.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:12
+  - DAMAGE_ALL:10
+  - DAMAGE_UNDEAD:10
+  - SWEEPING_EDGE:7
+  Attributes:
+    MainHand:
+      AttackSpeed: -50%
+      Health: +10
+      MovementSpeed: +10%
+      Armor: +6
+      ArmorToughness: +6
+      Damage: +10
+TrinityGhoul:
+  Id: BOW
+  Data: 0
+  Display: '&1&lTrinity Ghoul'
+  Lore: 
+  - '&1&oI cant afford to miss.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:12
+  - DURABILITY:5
+  Attributes:
+    MainHand:
+      MovementSpeed: -15%
+HuntingVest:
+  Id: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Display: '&1&lBear Hunting Vest'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - DURABILITY:12
+  - THORNS:3
+  - PROTECTION_ENVIRONMENTAL:6
+  - PROTECTION_PROJECTILE:10
+  - PROTECTION_FALL:3
+  Attributes:
+    Chest:
+      Armor: +8
+      ArmorToughness: +8
+      MovementSpeed: -5%
+      KnockbackResistance: -10%
+FarmingShoes:
+  Id: CHAINMAIL_BOOTS
+  Display: '&1&lFarming Shoes'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:12
+  - PROTECTION_ENVIRONMENTAL:7
+  Attributes:
+    Feet:
+      Armor: +10
+      ArmorToughness: +10
+      MovementSpeed: +10%
+      Health: -4
+      AttackSpeed: -10%
+Honey:
+  Id: POTION
+  Data: 8201
+  Display: '&5&lSweet Honey'
+  Options:
+    Color: 250,200,100
+  PotionEffects:
+  - SPEED 6000 3
+  - INCREASE_DAMAGE 6000 3
+  - DAMAGE_RESISTANCE 6000 3
+  - ABSORPTION 6000 3
+  Lore:
+  - '&5&oCasper<&sq>s favorite drink.'
+GoldMelon:
+  Id: GLISTERING_MELON_SLICE
+  Display: '&5&lSolid Gold Melon'
+  Lore:
+  - '&5&oCasper uses it to show off.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +16
+      MovementSpeed: +15%
+      KnockbackResistance: -20%
+      Damage: +10
+CuteSlippers:
+  Id: DIAMOND_BOOTS
+  Data: 0
+  Display: '&5&lCute Slippers'
+  Lore:
+  - '&5&oSo comfortable.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_FALL:10
+  Attributes:
+    Feet:
+      Armor: +12
+      Health: +12
+      ArmorToughness: +12
+      AttackSpeed: +25%
+CaspersPrize:
+  Id: GOLDEN_AXE
+  Display: '&5&lCasper<&sq>s Prize'
+  Lore:
+  - '&5&oSlay them all.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:15
+  - DAMAGE_ALL:20
+  - FIRE_ASPECT:10
+  Attributes:
+    MainHand:
+      AttackSpeed: +25%
+      Damage: +18
+      MovementSpeed: +15%
+Phantom:
+  Id: IRON_SWORD
+  Display: '&5&lPhantom'
+  Lore:
+  - '&5&oFrom the shadows, I come.'
+  - ''
+  - '&9Blinds enemies you hit'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:15
+  - DAMAGE_ALL:12
+  - SWEEPING_EDGE:12
+  Attributes:
+    MainHand:
+      AttackSpeed: +15%
+      Damage: +15
+      MovementSpeed: +20%
+#HauntedMines
+HMToken:
+  Id: Iron_Ingot
+  Data: 0
+  Display: '&4&l&nHaunted Mines Iron'
+  Lore:
+  - '&4&oCurrency used for Haunted Mines raid items.'
+MinersShovel:
+  Id: DIAMOND_SHOVEL
+  Data: 0
+  Display: '&5&lMiner<&sq>s Shovel'
+  Lore:
+  - '&5&oIt<&sq>s for digging.'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Shovel]'
+  Enchantments:
+  - DAMAGE_ALL:20
+  - DIG_SPEED:10
+  - DURABILITY:15
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      Damage: +15
+      Armor: +6
+      ArmorToughness: +6
+WeirdLumpofCoal:
+  Id: CHARCOAL
+  Data: 0
+  Display: '&5&lWeird Lump of Coal'
+  Lore:
+  - '&5&oSomeone found it at the back of the mines.'
+  - ''
+  - '&9Grants fire resistance.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - FIRE_ASPECT:5
+  - DAMAGE_ALL:10
+  Attributes:
+    OffHand:
+      AttackSpeed: -15%
+      Damage: +5
+      Armor: +10
+      ArmorToughness: +10
+      Health: +6
+    MainHand:
+      AttackSpeed: +50%
+WornTrousers:
+  Id: IRON_LEGGINGS
+  Data: 0
+  Display: '&5&lWorn Trousers'
+  Lore:
+  - '&5&oMaybe you should have left them at home.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:15
+  Attributes:
+    Legs:
+      Armor: +6
+      ArmorToughness: +30
+      KnockbackResistance: +20%
+UselessPickaxe:
+  Id: DIAMOND_PICKAXE
+  Data: 0
+  Display: '&5&lUseless Pickaxe'
+  Lore:
+  - '&5&oIt<&sq>s a bit shit.'
+  - ''
+  - '&9Cannot mine blocks.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Pickaxe]'
+  Enchantments:
+  - DAMAGE_ALL:15
+  - DAMAGE_UNDEAD:15
+  - DAMAGE_ARTHROPODS:15
+  - DURABILITY:10
+  Attributes:
+    MainHand:
+      Damage: +20
+      MovementSpeed: +15%
+      Armor: -6
+      ArmorToughness: -6
+      Health: -6
+ChunkofPolishedIron:
+  Id: RAW_IRON
+  Data: 0
+  Display: '&5&lChunk of Polished Iron'
+  Lore:
+  - '&5&oSetallia<&sq>s finest.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +10
+      MovementSpeed: -10%
+      AttackSpeed: +25%
+      Health: +16
+      KnockbackResistance: +30%
+      ArmorToughness: +10
+CavingHelmet:
+  Id: IRON_HELMET
+  Data: 0
+  Display: '&5&lCaving Helmet'
+  Lore:
+  - '&5&oUsed to light the way'
+  - ''
+  - '&9Grants night vision'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:20
+  - PROTECTION_ENVIRONMENTAL:15
+  Attributes:
+    Head:
+      Armor: +14
+      ArmorToughness: +14
+      Health: +8
+      KnockbackResistance: +30%
+StoneofJordan:
+  Id: DIAMOND
+  Display: '&5&lStone of Jordan'
+  Lore:
+  - '&5&oNot pretty enough to be a ring.'
+  - ''
+  - '&9Grants regeneration'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +5
+      ArmorToughness: +5
+      Health: +12
+      Damage: +5
+      KnockbackResistance: +10%
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+FireLighter:
+  Id: BOW
+  Display: '&5&lFire Lighter'
+  Lore:
+  - '&5&oHow else would you light the way?'
+  - ''
+  - '&9[Nether]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:20
+  - DURABILITY:10
+  - ARROW_FIRE:10
+  - ARROW_KNOCKBACK:2
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      Armor: +4
+      ArmorToughness: +4
+      Health: +4
+#Drownyard
+DrownyardChest:
+  Id: LEATHER_CHESTPLATE
+  Display: '&fdrownyard'
+  Options:
+    Unbreakable: true
+    Color: 50,200,200
+DrownyardLegs:
+  Id: LEATHER_LEGGINGS
+  Display: '&fdrownyard'
+  Options:
+    Unbreakable: true
+    Color: 50,200,200
+DrownyardFeet:
+  Id: LEATHER_BOOTS
+  Display: '&fdrownyard'
+  Enchantments:
+  - DEPTH_STRIDER:3
+  Options:
+    Unbreakable: true
+    Color: 50,200,200
+DrownyardToken:
+  Id: PRISMARINE_CRYSTALS
+  Data: 0
+  Display: '&c&l&nDrownyard Bubbles'
+  Lore:
+  - '&c&oCurrency used for Delloran Drownyard dungeon items.'
+GlassShard:
+  Id: PRISMARINE_SHARD
+  Data: 0
+  Display: '&2&lShaped Glass Shard'
+  Lore:
+  - '&2&oTake your chances.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +15
+      Health: -15
+WateryBrew:
+  Id: POTION
+  Data: 8201
+  Display: '&2&lWatery Brew'
+  Options:
+    Color: 100,200,250
+  PotionEffects:
+  - SPEED 1800 2
+  - DOLPHINS_GRACE 1800 1
+  - WATER_BREATHING 1800 1
+WaterShielding:
+  Id: POTION
+  Data: 8201
+  Display: '&2&lWater Shielding'
+  Options:
+    Color: 50,50,250
+  PotionEffects:
+  - DAMAGE_RESISTANCE 3600 2
+  - ABSORPTION 3600 10
+  - WEAKNESS 3600 1
+Bulwark:
+  Id: SHIELD
+  Display: '&2&lBulwark'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:15
+  Attributes:
+    OffHand:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +20
+      MovementSpeed: -10%
+      AttackSpeed: -10%
+  BannerLayers:
+  - CYAN BASE
+  - BLUE STRIPE_BOTTOM
+  - BLUE CURLY_BORDER
+  - LIME RHOMBUS_MIDDLE
+  - WHITE CIRCLE_MIDDLE
+  - BLUE TRIANGLE_TOP
+  - BLUE STRIPE_TOP
+MarinersTrident:
+  Id: TRIDENT
+  Data: 0
+  Display: '&2&lMariner<&sq>s Trident'
+  Lore:
+  - ''
+  - '&9Grants swim speed'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee/Ranged, Trident]'
+  Enchantments:
+  - DURABILITY:10
+  - DAMAGE_ALL:25
+  - LOYALTY:3
+  - IMPALING:20
+  Attributes:
+    MainHand:
+      Damage: +25
+      ArmorToughness: +20
+LostShoes:
+  Id: DIAMOND_BOOTS
+  Data: 0
+  Display: '&2&lLost Shoes'
+  Lore:
+  - '&2&oThey are covered in kelp and seagrass.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - DURABILITY:15
+  - DEPTH_STRIDER:5
+  - PROTECTION_ENVIRONMENTAL:18
+  - PROTECTION_PROJECTILE:18
+  Attributes:
+    Feet:
+      Armor: +20
+      ArmorToughness: +20
+      KnockbackResistance: +50%
+      AttackSpeed: -10%
+      MovementSpeed: -10%
+PrismarineBreastplate:
+  Id: DIAMOND_CHESTPLATE
+  Data: 0
+  Display: '&2&lPrismarine Breastplate'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_FIRE:18
+  - DURABILITY:10
+  - PROTECTION_ENVIRONMENTAL:18
+  Attributes:
+    Chest:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +10
+#ReturntoLauda
+LaudaMemento1:
+  Id: IRON_AXE
+  Display: '&e&lButcher<&sq>s Favorite Cleaver'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento2:
+  Id: COOKED_SALMON
+  Display: '&e&lChef<&sq>s Smoked Salmon'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento3:
+  Id: PUMPKIN_PIE
+  Display: '&e&lMayor<&sq>s Family Pie'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento4:
+  Id: LEATHER_LEGGINGS
+  Display: '&e&lMr. Lewis<&sq>s Lucky Pants'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento5:
+  Id: TRIPWIRE_HOOK
+  Display: '&e&lSecret Storage Key'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento6:
+  Id: LIGHTNING_ROD
+  Display: '&e&lMrs. Taylor<&sq>s Walking Stick'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento7:
+  Id: IRON_PICKAXE
+  Display: '&e&lBlacksmith<&sq>s Good Hammer'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento8:
+  Id: CROSSBOW
+  Display: '&e&lLongest Range Crossbow'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento9:
+  Id: RABBIT_FOOT
+  Display: '&e&lThe Secret Ingredient'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento10:
+  Id: BOOK
+  Display: '&e&lLibrarian<&sq>s Favorite Book'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento11:
+  Id: WHEAT_SEEDS
+  Display: '&e&lNext Year<&sq>s Seeds'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaMemento12:
+  Id: Potion
+  Data: 8204
+  Display: '&e&lMr. Robinson<&sq>s Bottle of Rum'
+  Lore:
+  - ''
+  - '&eMemento'
+LaudaToken:
+  Id: ROTTEN_FLESH
+  Display: '&e&l&nUndead Flesh'
+  Lore:
+  - '&e&oCurrency used to buy supplies.'
+LaudaBow1:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:54
+  - ARROW_KNOCKBACK:1
+LaudaBow2:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:64
+  - ARROW_KNOCKBACK:2
+LaudaShield:
+  Id: SHIELD
+  Display: '&bShield'
+  Enchantments:
+  - DURABILITY:10
+  Attributes:
+    OffHand:
+      Armor: +5
+      ArmorToughness: +5
+      Health: +5
+MidnightElixir:
+  Id: POTION
+  Data: 8201
+  Display: '&1&lElixir of Midnight'
+  Options:
+    Color: 100,50,250
+  PotionEffects:
+  - NIGHT_VISION 2400 1
+  - DAMAGE_RESISTANCE 2400 1
+  - INCREASE_DAMAGE 2400 5
+Exterminator:
+  Id: DIAMOND_SWORD
+  Display: '&1&lExterminator'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ARTHROPODS:28
+  - SWEEPING_EDGE:18
+  - DURABILITY:18
+  Attributes:
+    MainHand:
+      Damage: +20
+      AttackSpeed: +10%
+    OffHand:
+      Damage: +20
+      AttackSpeed: +10%
+LawBreaker:
+  Id: DIAMOND_AXE
+  Display: '&1&lLaw Breaker'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:32
+  - DURABILITY:16
+  Attributes:
+    MainHand:
+      Damage: +25
+      AttackSpeed: -50%
+      Armor: -7
+      ArmorToughness: -7
+      Health: -7
+SettlersHelm:
+  Id: DIAMOND_HELMET
+  Display: '&1&lSettler<&sq>s Helm'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:23
+  - PROTECTION_PROJECTILE:17
+  - DURABILITY:15
+  Attributes:
+    Head:
+      Armor: +23
+      ArmorToughness: +23
+      MovementSpeed: +10%
+      KnockbackResistance: -50%
+BoneMarrow:
+  Id: Bone_Meal
+  Display: '&1&lBone Marrow'
+  Lore:
+  - '&1&oIt<&sq>s good for you!'
+  - ''
+  - '&9Grants slow fall and night vision'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +20
+      MovementSpeed: +20%
+      AttackSpeed: +20%
+CorpseChaser:
+  Id: SHIELD
+  Display: '&1&lCorpse Chaser'
+  Lore:
+  - '&1&oGive them hell.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:25
+  Attributes:
+    OffHand:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +10
+      MovementSpeed: -10%
+      AttackSpeed: +10%
+      Damage: +10
+  BannerLayers:
+  - BLACK BASE
+  - GRAY CROSS
+  - GRAY FLOWER
+  - LIGHT_GRAY SKULL
+Chopper:
+  Id: BOW
+  Data: 0
+  Display: '&5&lChopper'
+  Lore:
+  - '&5&oGet to it.'
+  - ''
+  - '&9DO NOT SWAP TO OTHER ITEMS'
+  - '&9WHILE FIRING! THEY WILL DELETE!'
+  - ''
+  - '&9[Ender]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:42
+  - DURABILITY:30
+  - ARROW_INFINITE:1
+  Attributes:
+    MainHand:
+      Armor: +5
+      ArmorToughness: +5
+      MovementSpeed: +25%
+      KnockbackResistance: +25%
+    OffHand:
+      AttackSpeed: +25%
+      Damage: +15
+PrincesInvitation:
+  Id: DIAMOND_HOE
+  Display: '&5&lPrince<&sq>s Invitation'
+  Lore:
+  - '&5&oHe invited himself to Lauda.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - DAMAGE_ALL:30
+  - DAMAGE_UNDEAD:20
+  - DURABILITY:15
+  - FIRE_ASPECT:10
+  Attributes:
+    MainHand:
+      Damage: +30
+      Armor: +10
+      ArmorToughness: +10
+    OffHand:
+      Damage: +30
+MayorsLegs:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&5&lMayor<&sq>s Pants'
+  Lore:
+  - '&5&oYou have the power to save them.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - DURABILITY:20
+  - PROTECTION_ENVIRONMENTAL:25
+  Attributes:
+    Legs:
+      Armor: +20
+      ArmorToughness: +20
+      Health: +16
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+    OffHand:
+      MovementSpeed: +30%
+      AttackSpeed: +20%
+RottenHeart:
+  Id: FERMENTED_SPIDER_EYE
+  Display: '&5&lRotten Heart'
+  Lore:
+  - '&5&oIt stopped beating long ago...'
+  - ''
+  - '&9Heals you over time'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: -10
+      Armor: +5
+      ArmorToughness: +5
+      Damage: +20
+Phantom2:
+  Id: DIAMOND_SWORD
+  Display: '&5&lShining Phantom'
+  Lore:
+  - '&5&oHere, light only exists to cast shadow.'
+  - ''
+  - '&9Blinds enemies you hit'
+  - '&9Makes you invisible'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:20
+  - DAMAGE_ALL:18
+  - DAMAGE_UNDEAD:15
+  - DAMAGE_ARTHROPODS:15
+  - SWEEPING_EDGE:18
+  Attributes:
+    MainHand:
+      AttackSpeed: +25%
+      Damage: +25
+      MovementSpeed: +25%
+      Health: +12
+#LotheraCursedEstates
+WolfFlesh:
+  Id: MUTTON
+  Display: '&4&lWolf Flesh'
+  Lore:
+  - '&4&oNeeded to open the Lower Tavern and Inn'
+CottageKey:
+  Id: STICK
+  Display: '&4&lCottage Key'
+  Lore:
+  - '&4&oTwo are needed to open Cottages 1 & 2'
+BearFur:
+  Id: FEATHER
+  Display: '&4&lBear Fur'
+  Lore:
+  - '&4&oNeeded to open the Upper Tavern and Inn'
+  - '&4&oand Cottages 3 & 4'
+EstatesKey:
+  Id: Gold_Ingot
+  Display: '&4&lEstates Key'
+  Lore:
+  - '&4&oNeeded to open the Lothera Estate'
+Estate1:
+  Id: Dried_Kelp
+  Display: '&4&lThing Under the Stairs'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate2:
+  Id: Cookie
+  Display: '&4&lDelicious Cookie'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate3:
+  Id: Flower_Pot
+  Display: '&4&lBalcony Flower Pot'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate4:
+  Id: Red_Wool
+  Display: '&4&lComfy Pillow'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate5:
+  Id: Creeper_Head
+  Display: '&4&lCreeper Head'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate6:
+  Id: Book
+  Display: '&4&lPrince<&sq>s Favorite Book'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate7:
+  Id: Ender_Eye
+  Display: '&4&lBall of Whispers'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate8:
+  Id: Glass_Bottle
+  Display: '&4&lEmpty Bottle of Vodka'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+Estate9:
+  Id: Cooked_Chicken
+  Display: '&4&lLate Night Snack'
+  Lore:
+  - '&4&oNeeded to escape the Lothera Estate'
+StraightJacket:
+  Id: DIAMOND_CHESTPLATE
+  Display: '&5&lStraight Jacket'
+  Lore:
+  - '&5&oInsanity is today<&sq>s specialty.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:30
+  - THORNS:5
+  - DURABILITY:25
+  Attributes:
+    Legs:
+      Armor: +30
+      ArmorToughness: +30
+      Damage: +10
+      MovementSpeed: -25%
+      KnockbackResistance: -25%
+PeasantsShoes:
+  Id: DIAMOND_BOOTS
+  Display: '&5&lPeasant<&sq>s Shoes'
+  Lore:
+  - '&5&oThey never had a chance.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:27
+  - DURABILITY:20
+  Attributes:
+    Legs:
+      Armor: +15
+      ArmorToughness: +50
+      Health: +20
+GraveDigger:
+  Id: NETHERITE_SHOVEL
+  Data: 0
+  Display: '&5&lGrave Digger'
+  Lore:
+  - '&5&oThere are 13 tally marks on the side.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Shovel]'
+  Enchantments:
+  - DAMAGE_ALL:40
+  - DAMAGE_ARTHROPODS:25
+  - DURABILITY:25
+  Attributes:
+    MainHand:
+      AttackSpeed: +10%
+      Damage: +45
+      Armor: +12
+      ArmorToughness: +12
+ThePoacher:
+  Id: BOW
+  Data: 0
+  Display: '&5&lThe Poacher'
+  Lore:
+  - '&5&oThose peasants aren<&sq>t going to'
+  - '&5&oshoot themselves.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:50
+  - DURABILITY:35
+  - ARROW_INFINITE:1
+  Attributes:
+    MainHand:
+      Armor: +15
+      ArmorToughness: +15
+      MovementSpeed: +10%
+      KnockbackResistance: +50%
+SanguineHunger:
+  Id: SHIELD
+  BannerLayers:
+  - BLACK BASE
+  - RED STRIPE_SMALL
+  - RED FLOWER
+  - BLACK CURLY_BORDER
+  - BLACK TRIANGLE_TOP
+  - BLACK CIRCLE_MIDDLE
+  - BLACK GRADIENT
+  Display: '&5&lSanguine Hunger'
+  Lore:
+  - '&5&oDrink up...'
+  - ''
+  - '&9Grants regeneration'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Shield]'
+  Enchantments:
+  - DURABILITY:30
+  Attributes:
+    OffHand:
+      Armor: +25
+      ArmorToughness: +35
+      Health: +20
+      KnockbackResistance: +50%
+RoyalDress:
+  Id: DIAMOND_LEGGINGS
+  Display: '&5&lRoyal Dress'
+  Lore:
+  - '&5&o"It wasn<&sq>t my fault. I simply did'
+  - '&5&oas I was told."'
+  - '&5&o-Prince of Estelle'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:35
+  - PROTECTION_FALL:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:30
+  Attributes:
+    Legs:
+      Armor: +15
+      ArmorToughness: +15
+      Damage: +15
+TheGuillotine:
+  Id: DIAMOND_AXE
+  Data: 0
+  Display: '&5&lThe Guillotine'
+  Lore:
+  - '&5&oHeads will roll.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:60
+  - DURABILITY:20
+  Attributes:
+    MainHand:
+      AttackSpeed: -15%
+      Damage: +60
+      Armor: +18
+      MovementSpeed: +15%
+      ArmorToughness: +18
+      Health: -10
+Ripclaw:
+  Id: NETHERITE_HOE
+  Data: 0
+  Display: '&5&lRipclaw'
+  Lore:
+  - '&5&oSuffering is the sweatest sound.'
+  - ''
+  - '&9Enemies hit bleed and are slowed'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - DAMAGE_ALL:50
+  - DURABILITY:20
+  Attributes:
+    MainHand:
+      AttackSpeed: +15%
+      Damage: +50
+      Armor: +12
+      KnockbackResistance: +25%
+      ArmorToughness: +12
+      Health: +12
+    OffHand:
+      Health: +24
+      Damage: +50
+StringsofFrailty:
+  Id: STRING
+  Display: '&5&lStrings of Frailty'
+  Lore:
+  - '&5&oGrapple with your existence.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: -20
+      Armor: +30
+      ArmorToughness: +30
+      Damage: +30
+      KnockbackResistance: +30%
+      MovementSpeed: -20%
+      AttackSpeed: +30%
+#SunkenPyramid
+PyramidToken:
+  Id: GLOWSTONE_DUST
+  Display: '&c&l&nPyramid Dust'
+  Lore:
+  - '&c&oCurrency used for Sunken Pyramid dungeon items.'
+PyramidChest:
+  Id: LEATHER_CHESTPLATE
+  Display: '&fdrownyard'
+  Options:
+    Unbreakable: true
+    Color: 250,220,150
+PyramidLegs:
+  Id: LEATHER_LEGGINGS
+  Display: '&fdrownyard'
+  Options:
+    Unbreakable: true
+    Color: 250,220,150
+PyramidBoots:
+  Id: LEATHER_BOOTS
+  Display: '&fdrownyard'
+  Options:
+    Unbreakable: true
+    Color: 250,220,150
+ExuberantHealingPotion:
+  Id: SPLASH_POTION
+  Data: 16389
+  Display: '&2&lExuberant Healing Potion'
+  Options:
+    Color: 250,50,50
+  PotionEffects:
+  - HEAL 0 5
+VialofSand:
+  Id: POTION
+  Data: 8201
+  Display: '&2&lVial of Sand'
+  Options:
+    Color: 200,200,100
+  PotionEffects:
+  - SPEED 1800 3
+  - REGENERATION 1800 2
+  - INCREASE_DAMAGE 1800 3
+PharaohCrown:
+  Id: NETHERITE_HELMET
+  Display: '&2&lPharaoh<&sq>s Crown'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:40
+  - PROTECTION_PROJECTILE:30
+  - DURABILITY:40
+  Attributes:
+    Head:
+      MovementSpeed: -15%
+      Armor: +45
+      ArmorToughness: +45
+      AttackSpeed: +25%
+CampbellsPrize:
+  Id: GOLDEN_SWORD
+  Display: '&2&lCampbell<&sq>s Prize'
+  Lore:
+  - '&2&o"Slay with firey vengeance."'
+  - '&2&o-Catherine Campbell'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:50
+  - DAMAGE_ALL:70
+  - FIRE_ASPECT:30
+  - SWEEPING_EDGE:30
+  Attributes:
+    MainHand:
+      AttackSpeed: +25%
+      Damage: +70
+      Armor: -7
+      ArmorToughness: -7
+RustedAxe:
+  Id: IRON_AXE
+  Display: '&2&lRusted Axe'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:35
+  - DAMAGE_ALL:65
+  - DAMAGE_UNDEAD:35
+  Attributes:
+    MainHand:
+      Damage: +60
+      AttackSpeed: -20%
+      Armor: +30
+      ArmorToughness: +30
+      Health: -10
+GuardianLeggings:
+  Id: NETHERITE_LEGGINGS
+  Display: '&2&lGuardian Leggings'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:40
+  - PROTECTION_FIRE:25
+  - PROTECTION_PROJECTILE:25
+  - DURABILITY:30
+  Attributes:
+    Legs:
+      Armor: +45
+      ArmorToughness: +45
+      Health: +15
+      MovementSpeed: +10%
+#Invasion
+InvasionBow1:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:100
+InvasionBow2:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:120
+  - ARROW_KNOCKBACK:1
+InvasionToken:
+  Id: GOLD_INGOT
+  Data: 0
+  Display: '&e&l&nKill Token'
+  Lore:
+  - '&e&oCurrency used to buy supplies.'
+MedalofValor:
+  Id: bell
+  Display: '&e&l&nMedal of Valor'
+  Lore:
+  - '&e&oCurrency used for the Invasion of Haven-Meadow' 
+  - '&e&oValley event items.'
+AthrynnsHand:
+  Id: BOW
+  Data: 0
+  Display: '&1&lAthrynn<&sq>s Hand'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:80
+  - ARROW_KNOCKBACK:1
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+StrengthoftheStalwart:
+  Id: POTION
+  Data: 8201
+  Display: '&1&lStrength of the Stalwart'
+  Options:
+    Color: 50,150,150
+  PotionEffects:
+  - INCREASE_DAMAGE 1200 4
+  - DAMAGE_RESISTANCE 1200 4
+CrusadersSafeguard:
+  Id: SHIELD
+  Display: '&1&lCrusader<&sq>s Safeguard'
+  Lore:
+  - '&1&oMay she bless you in battle.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - WHITE BASE
+  - RED STRAIGHT_CROSS
+  - RED BORDER
+  - WHITE CURLY_BORDER
+  Attributes:
+    OffHand:
+      Armor: +55
+      ArmorToughness: +55
+      Health: +40
+      AttackSpeed: -15%
+      MovementSpeed: +15%
+  Options:
+    Unbreakable: true
+GlisteningAxe:
+  Id: DIAMOND_AXE
+  Display: '&1&lGlistening Axe'
+  Lore:
+  - ''
+  - '&9[Ender]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:90
+  - DAMAGE_UNDEAD:50
+  Attributes:
+    MainHand:
+      Damage: +90
+      AttackSpeed: -15%
+      Armor: -30
+      Health: +15
+BattlewornHelm:
+  Id: DIAMOND_HELMET
+  Display: '&1&lBattle-Worn Helm'
+  Lore:
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:60
+  - PROTECTION_PROJECTILE:25
+  Attributes:
+    Head:
+      Armor: +55
+      ArmorToughness: +55
+      Damage: -20
+      Health: +20
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+ScrapsofWar:
+  Id: Netherite_Scrap
+  Display: '&1&lScraps of War'
+  Lore:
+  - '&1&oWar is not as glorious as they believe.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +25
+      Damage: +65
+      Armor: -15
+      ArmorToughness: -15
+      AttackSpeed: +15%
+      MovementSpeed: -15%
+Phantom3:
+  Id: NETHERITE_SWORD
+  Display: '&5&lRoaring Phantom'
+  Lore:
+  - '&5&oFollow me into the abyss.'
+  - ''
+  - '&9Blinds enemies you hit'
+  - '&9Makes you invisible and grants jump boost'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:75
+  - DAMAGE_UNDEAD:20
+  - DAMAGE_ARTHROPODS:20
+  - SWEEPING_EDGE:25
+  Attributes:
+    MainHand:
+      AttackSpeed: +25%
+      Damage: +75
+      MovementSpeed: +25%
+      Health: +20
+      ArmorToughness: +20
+KnightTreads:
+  Id: IRON_BOOTS
+  Display: '&5&lKnight Treads'
+  Lore:
+  - '&5&oWorn by the valiant.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:60
+  - PROTECTION_FALL:10
+  - THORNS:25
+  Attributes:
+    Feet:
+      Armor: +60
+      ArmorToughness: +60
+      MovementSpeed: +10%
+  Options:
+    Unbreakable: true
+CannonSoot:
+  Id: Charcoal
+  Display: '&5&lCannon Soot'
+  Lore:
+  - '&5&oBy fire be purged.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +25
+      Damage: +25
+      AttackSpeed: -25%
+      Armor: +35
+      ArmorToughness: +35
+#Tainted Fields
+TaintedFieldsToken:
+  Id: Wheat
+  Display: '&c&l&nPlagued Grain'
+  Lore:
+  - '&c&oCurrency used for Tainted Fields dungeon items.'
+TaintedFieldsStack:
+  Id: Hay_Block
+  Display: '&c&l&nDiseased Hay'
+  Lore:
+  - '&c&oCurrency used for Tainted Fields dungeon items.'
+LegShredder:
+  Id: Shears
+  Display: '&2&lLeg Shredder'
+  Lore:
+  - ''
+  - '&9Enemies hit are slowed and bleed.'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Shears]'
+  Enchantments:
+  - DAMAGE_ALL:100
+  Attributes:
+    MainHand:
+      Damage: +100
+      Health: +20
+      MovementSpeed: +10%
+      Armor: -20
+  Options:
+    Unbreakable: true
+PestController:
+  Id: BOW
+  Data: 0
+  Display: '&2&lPest Controller'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:120
+  - ARROW_KNOCKBACK:2
+  - DURABILITY:20
+  - ARROW_INFINITE:1
+  Attributes:
+    MainHand:
+      ArmorToughness: +50
+      MovementSpeed: +10%
+      Health: +10
+ScarecrowVest:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&lScarecrow Vest'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:70
+  Attributes:
+    Chest:
+      MovementSpeed: -10%
+      Armor: +70
+      ArmorToughness: +70
+      KnockbackResistance: +25%
+      Health: +15
+  Options:
+    Unbreakable: true
+OldHoe:
+  Id: IRON_HOE
+  Display: '&2&lOld Hoe'
+  Lore:
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - DAMAGE_ALL:100
+  - DAMAGE_UNDEAD:25
+  - DAMAGE_ARTHROPODS:25
+  - DURABILITY:30
+  Attributes:
+    MainHand:
+      Damage: +100
+      MovementSpeed: +15%
+      AttackSpeed: +15%
+      Health: +15
+      Armor: -15
+      ArmorToughness: -15
+#CaspersGauntlet
+CasperBow:
+  Id: BOW
+  Data: 0
+  Display: '&fBow'
+  Enchantments:
+  - ARROW_DAMAGE:200
+  - ARROW_KNOCKBACK:1
+CaspersGenerosity:
+  Id: gold_nugget
+  Display: '&e&l&nCasper<&sq>s Generosity'
+  Lore:
+  - '&e&oCurrency for the pre-gauntlet shop.'
+GauntletTrophy:
+  Id: gold_block
+  Display: '&e&l&nGauntlet Trophy'
+  Lore:
+  - '&e&oCurrency used for Casper<&sq>s Gauntlet event items.'
+CaspersCocktail:
+  Id: POTION
+  Data: 8201
+  Display: '&1&lCasper<&sq>s Cocktail'
+  Options:
+    Color: 250,150,150
+  PotionEffects:
+  - INCREASE_DAMAGE 1200 5
+  - SPEED 1200 3
+  - REGENERATION 1200 3
+  - DAMAGE_RESISTANCE 1200 4
+WinnersSignet:
+  Id: Emerald
+  Display: '&1&lWinner<&sq>s Signet'
+  Lore:
+  - '&1&oDon<&sq>t come back if you aren<&sq>t holding'
+  - '&1&oone of these.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +40
+      Health: +20
+      Damage: +20
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      KnockbackResistance: +25%
+MillionDollarShoes:
+  Id: GOLDEN_BOOTS
+  Display: '&1&lMillion Dollar Shoes'
+  Lore:
+  - '&1&oNow with extra shine.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:75
+  - PROTECTION_FALL:10
+  Attributes:
+    Feet:
+      Armor: +80
+      ArmorToughness: +70
+      Damage: +25
+      Health: -25
+      KnockbackResistance: -25%
+      MovementSpeed: +10%
+  Options:
+    Unbreakable: true
+ProofofVictory:
+  Id: SHIELD
+  Display: '&1&lProof of Victory'
+  Lore:
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - WHITE BASE
+  - LIME GRADIENT
+  - LIME GRADIENT_UP
+  - BLACK FLOWER
+  - BLACK CURLY_BORDER
+  - LIME FLOWER
+  - LIME CURLY_BORDER
+  - BLACK BORDER
+  - LIME BORDER
+  - WHITE CIRCLE_MIDDLE
+  - LIME CIRCLE_MIDDLE
+  Attributes:
+    OffHand:
+      Armor: +75
+      ArmorToughness: +75
+      Damage: +30
+      AttackSpeed: +15%
+      MovementSpeed: +15%
+      KnockbackResistance: +25%
+  Options:
+    Unbreakable: true
+VIPsVest:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&1&lVIP<&sq>s Vest'
+  Lore:
+  - '&1&oEngraved with diamonds and coated'
+  - '&1&oin the Nether<&sq>s finest netherite.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:85
+  - PROTECTION_PROJECTILE:50
+  Attributes:
+    Chest:
+      Armor: +75
+      ArmorToughness: +85
+      Damage: +20
+      AttackSpeed: -15%
+  Options:
+    Unbreakable: true
+EsteemedBlade:
+  Id: DIAMOND_SWORD
+  Display: '&1&lEsteemed Blade'
+  Lore:
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:120
+  - DAMAGE_ARTHROPODS:30
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      Damage: +115
+      AttackSpeed: +10%
+      Armor: +30
+      ArmorToughness: +30
+      Health: +10
+CaspersHeirloom:
+  Id: GOLDEN_SWORD
+  Display: '&1&lCasper<&sq>s Heirloom'
+  Lore:
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  - '&9[Melee, Axe]'
+  - '&9[Melee, Sickle]'
+  - '&9[Melee, Pickaxe]'
+  - '&9[Melee, Shovel]'
+  - '&9[Melee, Shears]'
+  - '&9[Offhand, Trinket]'
+  - '&9[Offhand, Shield]'
+  Attributes:
+    OffHand:
+      Damage: +15
+    MainHand:
+      Damage: +15
+#PalatialCathedral
+HeavensGift:
+  Id: white_candle
+  Display: '&4&l&nHeaven<&sq>s Gift'
+  Lore:
+  - '&4&oCurrency used for Palatial Cathedral raid items.'
+PrayerBook:
+  Id: book
+  Display: '&5&lPrayer Book'
+  Lore:
+  - '&5&oSins don<&sq>t last forever.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +60
+      Health: +60
+      Damage: -20
+WingedCrown:
+  Id: golden_helmet
+  Display: '&5&lWinged Crown'
+  Lore:
+  - '&5&oWhere death fears to tread.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:85
+  - PROTECTION_PROJECTILE:50
+  - THORNS:30
+  Attributes:
+    Head:
+      Armor: +75
+      ArmorToughness: +75
+      Health: +40
+      MovementSpeed: +20%
+      Damage: -10
+      AttackSpeed: -10%
+  Options:
+    Unbreakable: true
+Resolution:
+  Id: iron_chestplate
+  Display: '&5&lResolution'
+  Lore:
+  - '&5&oCome back when you are worthy...'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:95
+  - PROTECTION_FIRE:10
+  Attributes:
+    Head:
+      Armor: +95
+      ArmorToughness: +50
+      MovementSpeed: -10%
+      AttackSpeed: -10%
+  Options:
+    Unbreakable: true
+SickleoftheDeadRealm:
+  Id: golden_hoe
+  Display: '&5&lSickle of the Dead Realm'
+  Lore:
+  - '&5&oCome back when you are rotten and ready.'
+  - ''
+  - '&9Slows enemies you hit.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - KNOCKBACK:2
+  - DAMAGE_ALL:135
+  - DAMAGE_ARTHROPODS:25
+  - DAMAGE_UNDEAD:25
+  Attributes:
+    MainHand:
+      Damage: +135
+      MovementSpeed: -15%
+      Armor: +25
+      ArmorToughness: +25
+  Options:
+    Unbreakable: true
+SealedTome:
+  Id: enchanted_book
+  Display: '&5&lSealed Tome'
+  Lore:
+  - '&5&oIt<&sq>s knowledge is forbidden.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +60
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      Armor: -20
+LunalaisGown:
+  Id: diamond_leggings
+  Display: '&5&lLunalai<&sq>s Gown'
+  Lore:
+  - '&5&oHer gift was much better than Karellia<&sq>s.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:100
+  - PROTECTION_FIRE:10
+  - THORNS:10
+  - PROTECTION_PROJECTILE:10
+  Attributes:
+    Head:
+      Armor: +90
+      ArmorToughness: +90
+      MovementSpeed: +5%
+      AttackSpeed: +5%
+      Health: +10
+  Options:
+    Unbreakable: true
+Fleetfeatherboots:
+  Id: netherite_boots
+  Display: '&5&lFleetfeather Boots'
+  Lore:
+  - '&5&oIt takes tremendous power and great speed'
+  - '&5&oto cross dimensions.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:100
+  Attributes:
+    Head:
+      Armor: +100
+      ArmorToughness: +80
+      MovementSpeed: +15%
+      Damage: +20
+      Health: -20
+  Options:
+    Unbreakable: true
+KingdomCome:
+  Id: NETHERITE_SWORD
+  Display: '&5&lKingdom Come'
+  Lore:
+  - '&5&oEmpires rise and empires fall, but'
+  - '&5&onothing lasts forever.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:135
+  - FIRE_ASPECT:30
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      Damage: +135
+      MovementSpeed: +15%
+      Armor: -25
+      ArmorToughness: -25
+      Health: -25
+KarelliasBlessing:
+  Id: nether_star
+  Display: '&5&lKarellia<&sq>s Blessing'
+  Lore:
+  - '&5&oLong ago, Karellia built the Palatial Cathedral'
+  - '&5&oin honor of her fallen mentor. It stood as a'
+  - '&5&oshining beacon of faith and loyalty among the'
+  - '&5&oAngels. Now, it stands as the gateway to a fallen,'
+  - '&5&oburning world.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +50
+      Health: +50
+      Damage: +50
+      Armor: +50
+      MovementSpeed: +10%
+      AttackSpeed: -30%      
+#PrisonYards
+PrisonYardsToken:
+  Id: Flint
+  Display: '&c&l&nSharp Pebble'
+  Lore:
+  - '&c&oCurrency used for Prison Yards dungeon items.'
+PrisonYardsBlock:
+  Id: Netherite_ingot
+  Display: '&c&l&nHeavy Brick'
+  Lore:
+  - '&c&oCurrency used for Prison Yards dungeon items.'
+ContrabandShiv:
+  Id: wooden_sword
+  Display: '&2&lContraband Shiv'
+  Lore:
+  - ''
+  - '&9Makes enemies bleed'
+  - '&9This effect does not transfer in combines'
+  - ''
+  - '&9[NONE]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:145
+  Attributes:
+    MainHand:
+      Damage: +145
+      MovementSpeed: -15%
+      AttackSpeed: +5%
+      Armor: -20
+      ArmorToughness: -20
+  Options:
+    Unbreakable: true
+BarofSoap:
+  Id: white_dye
+  Display: '&2&lBar of Soap'
+  Lore:
+  - '&2&oDon<&sq>t drop it.'
+  - ''
+  - '&9[NONE]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +40
+      Health: +20
+      Damage: -10
+      Armor: +40
+      MovementSpeed: +20%
+      AttackSpeed: +20%     
+#TheCitadel
+ChainsofDomination:
+  Id: Chain
+  Display: '&4&l&nChains of Domination'
+  Lore:
+  - '&4&oCurrency used for The Citadel raid items.'
+#SoullessGrove
+SoullessGroveToken:
+  Id: Purple_Dye
+  Display: '&c&l&nWiggling Blob'
+  Lore:
+  - '&c&oCurrency used for Soulless Grove dungeon items.'
+SoullessGroveBlock:
+  Id: Popped_chorus_fruit
+  Display: '&c&l&nPulsing Mass'
+  Lore:
+  - '&c&oCurrency used for Soulless Grove dungeon items.'
+#LegendariesandUniques
+SeasSilence:
+  Id: BOW
+  Data: 0
+  Display: '&b&lSea<&sq>s Silence'
+  Lore:
+  - '&b&oAre you sure what you<&sq>re doing is worth it?'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Ranged, Bow]'
+  Enchantments:
+  - ARROW_DAMAGE:30
+  - ARROW_INFINITE:1
+  - DURABILITY:10
+  Attributes:
+    MainHand:
+      Armor: -6
+      ArmorToughness: +16
+      KnockbackResistance: +25%
+EchoingMadness:
+  Id: DIAMOND_PICKAXE
+  Display: '&b&lEchoing Madness'
+  Lore:
+  - '&b&oDive into the mountains of madness.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - DURABILITY:10
+  - DIG_SPEED:7
+  - LOOT_BONUS_BLOCKS:5
+  - MENDING:1
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+SandsofTime:
+  Id: CLOCK
+  Display: '&b&lSands of Time'
+  Lore:
+  - '&b&oWhy waste time when you could control it?'
+  - ''
+  - '&9Keeps you fed and healthy'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Armor: +15
+      ArmorToughness: +15
+      KnockbackResistance: +100%
+PrincesCoronet:
+  Id: NETHERITE_HELMET
+  Display: '&b&lPrince<&sq>s Coronet'
+  Lore:
+  - '&b&oThe peasants of Lothera dined on the dead.'
+  - '&b&oThe royalty of Lothera dined on the peasants.'
+  - ''
+  - '&9Grants night vision'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:70
+  - PROTECTION_PROJECTILE:30
+  Attributes:
+    Head:
+      Armor: +70
+      ArmorToughness: +70
+      Health: +30
+      KnockbackResistance: +25%
+      MovementSpeed: -10%
+  Options:
+    Unbreakable: true
+IckyCookie:
+  Id: cookie
+  Display: '&b&lIcky Cookie'
+  Lore:
+  - '&b&oWhy is it sticky?'
+  - ''
+  - '&9Can be used in an item grind as a substitute'
+  - '&9for any item type.'
+  - ''
+  - '&9[Special]'
+BaneoftheDominions:
+  Id: IRON_AXE
+  Display: '&b&lBane of The Dominions'
+  Lore:
+  - '&b&oThe higher the pride, the harder the fall.'
+  - ''
+  - '&9Hits slow enemies and make them bleed'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DAMAGE_ALL:150
+  Attributes:
+    MainHand:
+      Damage: +150
+      ArmorToughness: -60
+      Health: +40
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+TheAvenger:
+  Id: DIAMOND_SWORD
+  Display: '&b&lThe Avenger'
+  Lore:
+  - '&b&o"You<&sq>ll pay for that Lunalai."'
+  - '&b&o-Archangel Karellia'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:45
+  - DAMAGE_UNDEAD:25
+  - DAMAGE_ARTHROPODS:25
+  - SWEEPING_EDGE:40
+  - MENDING:1
+  Attributes:
+    MainHand:
+      Damage: +55
+      Armor: +20
+      ArmorToughness: +20
+      KnockbackResistance: +50%
+      Health: +20
+      AttackSpeed: +10%
+AugustinesPrize:
+  Id: ELYTRA
+  Display: '&b&lAugustine<&sq>s Prize'
+  Lore:
+  - '&b&oIt doesn<&sq>t belong to you or to him.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - DURABILITY:15
+  - PROTECTION_ENVIRONMENTAL:15
+  - PROTECTION_FIRE:15
+  - PROTECTION_PROJECTILE:15
+  - PROTECTION_EXPLOSIONS:15
+  - MENDING:1
+  Attributes:
+    Chest:
+      MovementSpeed: +10%
+      Armor: +15
+      ArmorToughness: +15
+      Health: -10
+      KnockbackResistance: +25%
+ThePowerCore:
+  Id: heart_of_the_sea
+  Display: '&b&lThe Power Core'
+  Lore:
+  - '&b&oQueen Lunalai<&sq>s greatest discovery.'
+  - ''
+  - '&9Can be consumed to add 100% of its stats'
+  - '&9to an item of one of the associate types.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  - '&9[Offhand, Shield]'
+  - '&9[Melee, Sword]'
+  - '&9[Ranged, Bow]'
+  - '&9[Armor, Helmet]'
+  - '&9[Armor, Chestplate]'
+  Attributes:
+    OffHand:
+      Damage: +20
+    MainHand:
+      Damage: +20
+    Head:
+      Damage: +20
+    Chest:
+      Damage: +20
+CellBuster:
+  Id: Netherite_Axe
+  Display: '&b&lCell Buster'
+  Lore:
+  - '&b&o"Where is E102!?"'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:100
+  - FIRE_ASPECT:50
+  - DAMAGE_ARTHROPODS:65
+  Attributes:
+    MainHand:
+      Damage: +100
+      Health: -20
+      AttackSpeed: -50%
+      Armor: +40
+      ArmorToughness: +40
+      KnockbackResistance: +50%
+      MovementSpeed: +10%
+FleshGrinder:
+  Id: Netherite_Axe
+  Display: '&b&lFlesh Grinder'
+  Lore:
+  - '&b&oBring humanity to their knees.'
+  - ''
+  - '&9Grants resistance'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:40
+  - DAMAGE_ALL:90
+  - DAMAGE_ARTHROPODS:40
+  Attributes:
+    MainHand:
+      Damage: +90
+      Health: +20
+      Armor: -50
+      ArmorToughness: +40
+      MovementSpeed: +10%
+DefenderofFaith:
+  Id: DIAMOND_SWORD
+  Display: '&b&lDefender of Faith'
+  Lore:
+  - '&b&o"You<&sq>ll never break my city or my people."'
+  - '&b&o-Queen Lunalai'
+  - ''
+  - '&9Grants damage resistance'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:55
+  - SWEEPING_EDGE:30
+  - DURABILITY:30
+  - LOOT_BONUS_MOBS:5
+  Attributes:
+    MainHand:
+      Damage: +45
+      Armor: +25
+      ArmorToughness: +25
+      KnockbackResistance: +25%
+      Health: +25
+DianaBladeoftheMartyr:
+  Id: NETHERITE_SWORD
+  Display: '&b&lDiana, Blade of the Martyr'
+  Lore:
+  - '&b&oYou are their blade. You are their escape.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:95
+  - DAMAGE_UNDEAD:15
+  - DAMAGE_ARTHROPODS:15
+  - SWEEPING_EDGE:25
+  Attributes:
+    MainHand:
+      Damage: +95
+      MovementSpeed: +10%
+      Armor: +15
+      ArmorToughness: +15
+      Health: +15
+Lifeblood:
+  Id: DIAMOND_HOE
+  Display: '&b&lLifeblood'
+  Lore:
+  - '&b&oSow the seeds of life forever'
+  - ''
+  - '&9Grants regeneration'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sickle]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:85
+  - DAMAGE_UNDEAD:25
+  - DAMAGE_ARTHROPODS:25
+  Attributes:
+    MainHand:
+      Damage: +85
+      MovementSpeed: +10%
+      Armor: +20
+      ArmorToughness: +20
+BubblingMass:
+  Id: POPPED_CHORUS_FRUIT
+  Data: 0
+  Display: '&b&lStrange Bubbling Mass'
+  Lore:
+  - '&b&o&kaojdwunu                 ansfcklmonfduaw'
+  - '&b&o&kaojdwunfcklma          onfduawaa'
+  - '&b&o&kaojdwunuansfcklmao  nfdaw'
+  - '&b&o&kaojdwunuans3         cddgsdgcklmaonfduaw'
+  - '&b&o&kaojdwunua             nsfcklmduaw'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +43
+      KnockbackResistance: +50%
+      Damage: +44
+      MovementSpeed: +20%
+      Armor: +42
+      AttackSpeed: +20%
+      ArmorToughness: +45
+LostAngelFeather:
+  Id: Feather
+  Display: '&b&lLost Angel Feather'
+  Lore:
+  - '&b&oFrom the wings of fools.'
+  - ''
+  - '&9Grants slow falling and resistance'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Health: +60
+      ArmorToughness: +60
+      Armor: +60
+      MovementSpeed: +25%
+BonesoftheLiving:
+  Id: NETHERITE_LEGGINGS
+  Data: 0
+  Display: '&b&lBones of the Living'
+  Lore:
+  - '&b&oIt grows stronger for every fallen...'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_PROJECTILE:50
+  - DURABILITY:30
+  - PROTECTION_ENVIRONMENTAL:60
+  Attributes:
+    Legs:
+      Armor: +60
+      ArmorToughness: +70
+      MovementSpeed: +10%
+      AttackSpeed: +10%
+      Health: -20
+      Damage: +10
+KarelliasShiningPlate:
+  Id: GOLDEN_CHESTPLATE
+  Data: 0
+  Display: '&b&lKarellia<&sq>s Shining Plate'
+  Lore:
+  - '&b&oHer light is as forgiving as her mercy.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:60
+  - THORNS:75
+  Attributes:
+    Head:
+      Armor: +60
+      ArmorToughness: +60
+      Health: +30
+  Options:
+    Unbreakable: true
+SightoftheBeyond:
+  Id: DIAMOND_HELMET
+  Data: 0
+  Display: '&b&lSight of the Beyond'
+  Lore:
+  - '&b&oShow me what lies beyond the veil...'
+  - ''
+  - '&9[Ender]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:60
+  - OXYGEN:5
+  - WATER_WORKER:1
+  Attributes:
+    Head:
+      Armor: +60
+      ArmorToughness: +60
+      Damage: +30
+  Options:
+    Unbreakable: true
+FleshOftheLiving:
+  Id: phantom_membrane
+  Display: '&b&lFlesh of the Living'
+  Lore:
+  - '&b&oFresh off their corpse.'
+  - ''
+  - '&9Grants saturation'
+  - ''
+  - '&9[Undead]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +45
+      Damage: +45
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Health: -30
+HeavensHand:
+  Id: IRON_SWORD
+  Display: '&b&lHeaven<&sq>s Hand'
+  Lore:
+  - '&b&oTell me a quartz castle doesn<&sq>t'
+  - '&b&osound nice to you.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - DURABILITY:25
+  - DAMAGE_ALL:25
+  - DAMAGE_UNDEAD:20
+  - SWEEPING_EDGE:20
+  Attributes:
+    MainHand:
+      Damage: +35
+      AttackSpeed: -75%
+      Armor: +10
+      ArmorToughness: +10
+    Offhand:
+      Damage: +30
+SwordinStoneReborn:
+  Id: GOLDEN_SWORD
+  Display: '&b&lSword in the Stone Reborn'
+  Lore:
+  - '&b&oCoveted by many.'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:40
+  Attributes:
+    MainHand:
+      Damage: +45
+      MovementSpeed: +25%
+      AttackSpeed: -25%
+  Options:
+    Unbreakable: true
+TomeofEndlessKnowledge:
+  Id: Knowledge_Book
+  Display: '&b&lTome of Endless Knowledge'
+  Lore:
+  - '&b&oThe library in the Palace of Dreams was'
+  - '&b&olocked for many years until Queen Lunalai'
+  - '&b&obusted down its doors for good.'
+  - ''
+  - '&9Can be consumed to add 25% of its stats to any item'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +50
+      ArmorToughness: +50
+      Damage: +30
+      AttackSpeed: +25%
+ArrivalatDawn:
+  Id: SHIELD
+  Display: '&b&lArrival at Dawn'
+  Lore:
+  - '&b&oSend them to their destiny...'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Shield]'
+  BannerLayers:
+  - YELLOW BASE
+  - ORANGE GRADIENT
+  - ORANGE GRADIENT_UP
+  - ORANGE FLOWER
+  - YELLOW CIRCLE_MIDDLE
+  Attributes:
+    OffHand:
+      Armor: +60
+      ArmorToughness: +60
+      Health: +40
+      MovementSpeed: +15%
+  Options:
+    Unbreakable: true
+CrackedVoidStone:
+  Id: MAGENTA_DYE
+  Display: '&b&lCracked Void Stone'
+  Lore:
+  - '&b&o&k         owmeyourcock1'
+  - '&b&o&k       afaqdfwaf412'
+  - '&b&o&k      cklmfaokek'
+  - '&b&o&k   dt2as'  
+  - '&b&o&khyfghao1'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +50
+      ArmorToughness: +50
+      MovementSpeed: -10%
+BloomingSeeds:
+  Id: wheat_seeds
+  Display: '&b&lBlooming Seeds'
+  Lore:
+  - '&b&oThe blooming seeds are used to expand'
+  - '&b&othe boundaries of Aisha.'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +38
+      ArmorToughness: +38
+      Damage: +38
+      Health: +38
+      KnockbackResistance: +20%
+      AttackSpeed: +20%
+      MovementSpeed: +20%
+LivingHate:
+  Id: Netherite_Sword
+  Display: '&b&lLiving Hate'
+  Lore:
+  - '&b&oAll shall burn in the fires of'
+  - '&b&omy hatred.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:50
+  - DAMAGE_ALL:110
+  - FIRE_ASPECT:50
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      Damage: +110
+      KnockbackResistance: +30%
+      Armor: -30
+      ArmorToughness: -30
+    OffHand:
+      Damage: +125
+      Health: -40
+BreastPlateoftheWorld:
+  Id: DIAMOND_CHESTPLATE
+  Data: 0
+  Display: '&b&lBreastplate of the World'
+  Lore:
+  - '&b&o"Tell me my queen, where does it end?"'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_FIRE:27
+  - PROTECTION_PROJECTILE:27
+  - DURABILITY:27
+  - PROTECTION_ENVIRONMENTAL:27
+  Attributes:
+    Chest:
+      Armor: +27
+      ArmorToughness: +27
+      Health: +27
+      MovementSpeed: +27%
+      AttackSpeed: +27%
+GownofHeavensGrace:
+  Id: DIAMOND_LEGGINGS
+  Data: 0
+  Display: '&b&lGown of Heaven<&sq>s Grace'
+  Lore:
+  - '&b&oAwarded to the most loyal of all'
+  - '&b&oHeaven<&sq>s angels.'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - THORNS:20
+  - PROTECTION_PROJECTILE:20
+  - PROTECTION_ENVIRONMENTAL:40
+  Attributes:
+    Legs:
+      Armor: +50
+      ArmorToughness: +50
+      Health: +30
+      MovementSpeed: +20%
+  Options:
+    Unbreakable: true
+CivilizationsEnd:
+  Id: Netherite_Sword
+  Display: '&6&l&nCivilization<&sq>s End'
+  Lore:
+  - '&6&oOnce it sees your world, it<&sq>s too late.'
+  - ''
+  - '&9Grants resistance and jump boost'
+  - ''
+  - '&9[Ender]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:90
+  - DAMAGE_ARTHROPODS:20
+  - DAMAGE_UNDEAD:20
+  - SWEEPING_EDGE:40
+  - DURABILITY:30
+  Attributes:
+    MainHand:
+      Damage: +90
+      Armor: -20
+      ArmorToughness: -20
+      Health: -20
+      AttackSpeed: +15%
+      MovementSpeed: +15%
+Razor:
+  Id: Shears
+  Display: '&6&l&nRazor'
+  Lore:
+  - '&6&oRake, rend, rive.'
+  - ''
+  - '&9Enemies hit by &6Razor&9 are slowed,'
+  - '&9lit on fire, bleed, poisoned, and are'
+  - '&9blinded.'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Shears]'
+  Enchantments:
+  - FIRE_ASPECT:45
+  - DAMAGE_ALL:60
+  - DAMAGE_UNDEAD:60
+  - DAMAGE_ARTHROPODS:60
+  Attributes:
+    MainHand:
+      Damage: +100
+      AttackSpeed: +30%
+  Options:
+    Unbreakable: true
+BladeoftheBasin:
+  Id: Wooden_sword
+  Display: '&6&l&nBlade of the Basin'
+  Lore:
+  - '&6&oThe color of the world is undeniable.'
+  - ''
+  - '&9Show the world your colors'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:90
+  - DAMAGE_ARTHROPODS:10
+  - DAMAGE_UNDEAD:10
+  - SWEEPING_EDGE:40
+  Attributes:
+    MainHand:
+      Damage: +90
+      Armor: +10
+      ArmorToughness: +10
+      Health: +10
+      AttackSpeed: +15%
+      MovementSpeed: +15%
+  Options:
+    Unbreakable: true
+CrownofBurningRealm:
+  Id: Netherite_Helmet
+  Display: '&6&l&nCrown of the Burning Realm'
+  Lore:
+  - '&6&o"This used to be my home."'
+  - ''
+  - '&9Grants fire resistance'
+  - '&9Enemies that strike you are lit on fire'
+  - ''
+  - '&9[Nether]'
+  - '&9[Armor, Helmet]'
+  Enchantments:
+  - PROTECTION_FIRE:65
+  - PROTECTION_ENVIRONMENTAL:65
+  Attributes:
+    Head:
+      Armor: +65
+      ArmorToughness: +65
+      Damage: +65
+      Health: -20
+  Options:
+    Unbreakable: true
+BootsoftheDream:
+  Id: Diamond_Boots
+  Display: '&6&l&nBoots of the Dream'
+  Lore:
+  - '&6&oThe Kingdom<&sq>s reflection shows more'
+  - '&6&othan meets the eye.'
+  - ''
+  - '&9Grants absorbtion'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Boots]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:70
+  Attributes:
+    Head:
+      Armor: +70
+      ArmorToughness: +60
+      AttackSpeed: +10%
+      MovementSpeed: +10%
+      KnockbackResistance: +25%
+  Options:
+    Unbreakable: true
+HeartoftheArchangel:
+  Id: Red_Dye
+  Display: '&6&l&nHeart of the Archangel'
+  Lore:
+  - '&6&oFinally.'
+  - ''
+  - '&9Grants jump boost, regeneration, and'
+  - '&9damage resistance'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +100%
+      AttackSpeed: +50%
+      Armor: +30
+      ArmorToughness: +30
+      Health: +30
+      KnockbackResistance: +100%
+AshesofDefeat:
+  Id: gunpowder
+  Display: '&6&l&nAshes of Defeat'
+  Lore:
+  - '&6&o"They came through a giant glistening portal.'
+  - '&6&oTheir forces were vast and powerful. Since then,'
+  - '&6&oI have known nothing but the walls of this cell.'
+  - '&6&oBut, one day I will be free of the Great Furnace."'
+  - '&6&o-Prisoner E102'
+  - ''
+  - '&9Grants fire resistance'
+  - ''
+  - '&9[Nether]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - FIRE_ASPECT:100
+  - KNOCKBACK:2
+  Attributes:
+    OffHand:
+      AttackSpeed: +25%
+      Health: -35
+      MovementSpeed: +25%
+      Damage: +120
+      Armor: -35
+      KnockbackResistance: +50%
+TheThrone:
+  Id: DIAMOND_SWORD
+  Display: '&6&l&nThe Throne'
+  Lore:
+  - '&6&o"You will rule over your kingdom of ruin."'
+  - '&6&o-Archangel Karellia'
+  - ''
+  - '&9[Angelic]'
+  - '&9[Melee, Sword]'
+  - '&9[Offhand, Trinket]'
+  Enchantments:
+  - DURABILITY:25
+  - MENDING:1
+  - DAMAGE_ALL:90
+  - DAMAGE_UNDEAD:50
+  - DAMAGE_ARTHROPODS:50
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      MovementSpeed: +20%
+      AttackSpeed: -50%
+      Damage: +90
+      Armor: +45
+      ArmorToughness: +45
+    OffHand:
+      Health: +40
+WaveofDeath:
+  Id: IRON_SWORD
+  Display: '&6&l&nWave of Death'
+  Lore:
+  - '&6&oI will show you the true power of death.'
+  - ''
+  - '&9Causes enemies to bleed'
+  - ''
+  - '&9[Undead]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:50
+  - DAMAGE_ALL:100
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      MovementSpeed: -20%
+      Damage: +100
+      Armor: +40
+      ArmorToughness: +40
+Torture:
+  Id: NETHERITE_AXE
+  Display: '&6&l&nTorture, the Will Breaker'
+  Lore:
+  - '&6&oIf you will not obey, you will suffer.'
+  - ''
+  - '&9Enemies hit by &6Torture&9 are weakened'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Axe]'
+  Enchantments:
+  - DURABILITY:30
+  - KNOCKBACK:1
+  - DAMAGE_ALL:110
+  - FIRE_ASPECT:50
+  Attributes:
+    MainHand:
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Health: -30
+      Damage: +110
+AgonyUnrelentingAnguish:
+  Id: NETHERITE_SWORD
+  Display: '&6&l&nAgony, the Unrelenting Anguish'
+  Lore:
+  - '&6&oAll those who touch Agony perish soon after.'
+  - ''
+  - '&9Enemies hit by &6Agony&9 are slowed'
+  - '&9Provides regeneration'
+  - ''
+  - '&9[Nether]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DURABILITY:30
+  - DAMAGE_ALL:80
+  - SWEEPING_EDGE:50
+  - FIRE_ASPECT:30
+  Attributes:
+    MainHand:
+      MovementSpeed: +25%
+      AttackSpeed: +25%
+      Damage: +80
+EyeoftheAllSeeing:
+  Id: ender_eye
+  Display: '&6&l&nEye of the All-Seeing'
+  Lore:
+  - '&6&o&k        meyourco2'
+  - '&6&o&k     aowmeyourcock'
+  - '&6&o&k   afaqdf       waf412'
+  - '&6&o&k fkdmfa           2ddkef'
+  - '&6&o&k cflmda           2dodek'
+  - '&6&o&k ckdmfa           fddkek'
+  - '&6&o&k   dt2asa       adw1sf'
+  - '&6&o&k     ahyfghaod1231'
+  - '&6&o&k        meyourco3'
+  - ''
+  - '&9[Ender]'
+  - '&9[Offhand, Trinket]'
+  Attributes:
+    OffHand:
+      Armor: -30
+      ArmorToughness: -30
+      Damage: +100
+      AttackSpeed: +25%
+      MovementSpeed: +10%
+Damocles:
+  Id: NETHERITE_SWORD
+  Display: '&6&l&nDamocles'
+  Lore:
+  - '&6&oA king<&sq>s fortune... but at what cost?'
+  - ''
+  - '&9One day &6Damocles&9 will break and'
+  - '&9cause you misfortune...'
+  - '&6Damocles&9 cannot be combined.'
+  - ''
+  - '&9[Ender]'
+  - '&9[Melee, Sword]'
+  Enchantments:
+  - DAMAGE_ALL:120
+  - DAMAGE_UNDEAD:50
+  - DAMAGE_ARTHROPODS:50
+  - SWEEPING_EDGE:50
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      AttackSpeed: -25%
+      Damage: +120
+      Armor: +45
+      ArmorToughness: +45
+  Options:
+    Unbreakable: true
+CaspersTourmaline:
+  Id: Lapis_lazuli
+  Display: '&6&l&nCasper<&sq>s Tourmaline'
+  Lore:
+  - '&6&oAs you peer into the gemstone, your eyes'
+  - '&6&ocatch a glimpse of something brilliant'
+  - '&6&oshinning in the center.'
+  - ''
+  - '&9Can be consumed to make any transaction'
+  - '&9completely free. Ian must be present.'
+  - ''
+  - '&9[Special]'
+LunalaisVengeance:
+  Id: DIAMOND_LEGGINGS
+  Display: '&6&l&nLunalai<&sq>s Vengeance'
+  Lore:
+  - '&6&o"I<&sq>m taking you with me."'
+  - '&6&o-Queen Lunalai'
+  - ''
+  - '&9[Aishan]'
+  - '&9[Armor, Leggings]'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:65
+  - PROTECTION_PROJECTILE:65
+  - PROTECTION_FIRE:65
+  - THORNS:100
+  Attributes:
+    MainHand:
+      Armor: +60
+      ArmorToughness: +60
+      MovementSpeed: +20%
+      AttackSpeed: +20%
+  Options:
+    Unbreakable: true
+ChestplateofRibs:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&6&l&nChestplate of Ribs'
+  Lore:
+  - '&6&oIt is made out of the villagers'
+  - '&6&othat never made it out of Estelle.'
+  - ''
+  - '&9Keeps you fed'
+  - ''
+  - '&9[Undead]'
+  - '&9[Armor, Chestplate]'
+  Enchantments:
+  - PROTECTION_PROJECTILE:30
+  - PROTECTION_ENVIRONMENTAL:65
+  Attributes:
+    Chest:
+      Armor: +65
+      ArmorToughness: +65
+      Health: +30
+      MovementSpeed: -25%
+      Damage: +40
+      AttackSpeed: -25%
+  Options:
+    Unbreakable: true
+#Games
+Knockbackstick:
+  Id: WOODEN_SHOVEL
+  Data: 0
+  Display: '&d&l&nSlapper'
+  Enchantments:
+  - KNOCKBACK:5
+  Attributes:
+    MainHand:
+      AttackSpeed: 1
+  Options:
+    Unbreakable: true
+Knockbackred:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Red'
+  Options:
+    Unbreakable: true
+    Color: 250,10,10
+Knockbackblue:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Blue'
+  Options:
+    Unbreakable: true
+    Color: 10,10,250
+Knockbackyellow:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Yellow'
+  Options:
+    Unbreakable: true
+    Color: 250,250,10
+Knockbackgreen:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Green'
+  Options:
+    Unbreakable: true
+    Color: 10,250,10
+Knockbackorange:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Orange'
+  Options:
+    Unbreakable: true
+    Color: 255,110,10
+Knockbackpurple:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Purple'
+  Options:
+    Unbreakable: true
+    Color: 100,10,170
+Knockbackpink:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Pink'
+  Options:
+    Unbreakable: true
+    Color: 250,100,250
+Knockbackblack:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Black'
+  Options:
+    Unbreakable: true
+    Color: 10,10,10
+CalamityChest:
+  Id: LEATHER_CHESTPLATE
+  Display: '&d&l&nTeam Red'
+  Options:
+    Unbreakable: true
+    Color: 250,10,10
+CalamityLegs:
+  Id: LEATHER_Leggings
+  Display: '&d&l&nTeam Red'
+  Options:
+    Unbreakable: true
+    Color: 250,10,10
+CalamityBoots:
+  Id: LEATHER_Boots
+  Display: '&d&l&nTeam Red'
+  Options:
+    Unbreakable: true
+    Color: 250,10,10
