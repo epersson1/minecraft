@@ -1,5 +1,5 @@
-ItemName,Id,Data,Display,Lore,Enchantments,Rarity,Class,Supertype,Subtype,Modifiers,MainHand_Armor,MainHand_ArmorToughness,MainHand_KnockbackResistance,MainHand_Health,MainHand_AttackSpeed,MainHand_MovementSpeed,MainHand_Damage,MainHand_Luck,OffHand_Armor,OffHand_ArmorToughness,OffHand_KnockbackResistance,OffHand_Health,OffHand_AttackSpeed,OffHand_MovementSpeed,OffHand_Damage,OffHand_Luck,Head_Armor,Head_ArmorToughness,Head_KnockbackResistance,Head_Health,Head_AttackSpeed,Head_MovementSpeed,Head_Damage,Head_Luck,Chest_Armor,Chest_ArmorToughness,Chest_KnockbackResistance,Chest_Health,Chest_AttackSpeed,Chest_MovementSpeed,Chest_Damage,Chest_Luck,Legs_Armor,Legs_ArmorToughness,Legs_KnockbackResistance,Legs_Health,Legs_AttackSpeed,Legs_MovementSpeed,Legs_Damage,Legs_Luck,Feet_Armor,Feet_ArmorToughness,Feet_KnockbackResistance,Feet_Health,Feet_AttackSpeed,Feet_MovementSpeed,Feet_Damage,Feet_Luck,Option_Unbreakable,Option_Color
-AdamDefenderofFaith,NETHERITE_SWORD,,&b&lDefender of Faith,"&b&o""You<&sq>ll never break my city or my people.""
+ItemName,Id,Data,Display,Rarity,Class,Supertype,Subtype,Modifiers,Lore,Enchantments,MainHand_Armor,MainHand_ArmorToughness,MainHand_KnockbackResistance,MainHand_Health,MainHand_AttackSpeed,MainHand_MovementSpeed,MainHand_Damage,MainHand_Luck,OffHand_Armor,OffHand_ArmorToughness,OffHand_KnockbackResistance,OffHand_Health,OffHand_AttackSpeed,OffHand_MovementSpeed,OffHand_Damage,OffHand_Luck,Head_Armor,Head_ArmorToughness,Head_KnockbackResistance,Head_Health,Head_AttackSpeed,Head_MovementSpeed,Head_Damage,Head_Luck,Chest_Armor,Chest_ArmorToughness,Chest_KnockbackResistance,Chest_Health,Chest_AttackSpeed,Chest_MovementSpeed,Chest_Damage,Chest_Luck,Legs_Armor,Legs_ArmorToughness,Legs_KnockbackResistance,Legs_Health,Legs_AttackSpeed,Legs_MovementSpeed,Legs_Damage,Legs_Luck,Feet_Armor,Feet_ArmorToughness,Feet_KnockbackResistance,Feet_Health,Feet_AttackSpeed,Feet_MovementSpeed,Feet_Damage,Feet_Luck,Option_Unbreakable,Option_Color
+AdamDefenderofFaith,NETHERITE_SWORD,,&b&lDefender of Faith,Unique,Aishan,Melee,Sword,,"&b&o""You<&sq>ll never break my city or my people.""
 &b&o-Queen Lunalai
 
 &9Grants damage resistance
@@ -10,54 +10,54 @@ DAMAGE_ARTHROPODS:27
 DAMAGE_ALL:97
 SWEEPING_EDGE:64
 DURABILITY:73
-LOOT_BONUS_MOBS:10",Unique,Aishan,Melee,Sword,,23,33,+25%,32,+30%,+31%,98,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AdamSandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+LOOT_BONUS_MOBS:10",23,33,+25%,32,+30%,+31%,98,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AdamSandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,31,32,+108%,15,+33%,+32%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AdamBubblingMass,POPPED_CHORUS_FRUIT,0,&b&lStrange Bubbling Mass,"&b&o&kaojdwunu                 ansfcklmonfduaw
+&9[Offhand, Trinket]",,,,,,,,,,31,32,+108%,15,+33%,+32%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AdamBubblingMass,POPPED_CHORUS_FRUIT,0,&b&lStrange Bubbling Mass,Unique,Ender,Offhand,Trinket,,"&b&o&kaojdwunu                 ansfcklmonfduaw
 &b&o&kaojdwunfcklma          onfduawaa
 &b&o&kaojdwunuansfcklmao  nfdaw
 &b&o&kaojdwunuans3         cddgsdgcklmaonfduaw
 &b&o&kaojdwunua             nsfcklmduaw
 
 &9[Ender]
-&9[Offhand, Trinket]",,Unique,Ender,Offhand,Trinket,,,,,,,,,,30,28,+54%,23,+24%,+24%,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AdamHelmetNether,DIAMOND_HELMET,,&5&lHelm of the Firey Fall,"
+&9[Offhand, Trinket]",,,,,,,,,,30,28,+54%,23,+24%,+24%,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AdamHelmetNether,DIAMOND_HELMET,,&5&lHelm of the Firey Fall,Rare,Nether,Armor,Helmet,,"
 &9[Nether]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:62
 THORNS:1
 PROTECTION_FIRE:22
-PROTECTION_PROJECTILE:28",Rare,Nether,Armor,Helmet,,,,,,,,,,,,,,,,,,60,61,+9%,-5,+36%,-13%,19,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-AdamGownofHeavensGrace,DIAMOND_LEGGINGS,0,&b&lGown of Heaven<&sq>s Grace,"&b&oAwarded to the most loyal of all
+PROTECTION_PROJECTILE:28",,,,,,,,,,,,,,,,,60,61,+9%,-5,+36%,-13%,19,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+AdamGownofHeavensGrace,DIAMOND_LEGGINGS,0,&b&lGown of Heaven<&sq>s Grace,Unique,Angelic,Armor,Leggings,,"&b&oAwarded to the most loyal of all
 &b&oHeaven<&sq>s angels.
 
 &9[Angelic]
 &9[Armor, Leggings]","THORNS:21
 PROTECTION_PROJECTILE:28
 PROTECTION_ENVIRONMENTAL:58
-PROTECTION_FIRE:15",Unique,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68,73,+29%,40,+4%,+26%,1,,,,,,,,,,True,
-AdamChestplateNether,DIAMOND_CHESTPLATE,,&5&lBurning Chestplate,"
+PROTECTION_FIRE:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68,73,+29%,40,+4%,+26%,1,,,,,,,,,,True,
+AdamChestplateNether,DIAMOND_CHESTPLATE,,&5&lBurning Chestplate,Rare,Nether,Armor,Chestplate,,"
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:59
 PROTECTION_FIRE:32
 PROTECTION_PROJECTILE:11
-THORNS:3",Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,60,61,-11%,10,+21%,+4%,28,,,,,,,,,,,,,,,,,,True,
-AdamBootsNether,DIAMOND_BOOTS,,&5&lTreads of Searing Fire,"
+THORNS:3",,,,,,,,,,,,,,,,,,,,,,,,,60,61,-11%,10,+21%,+4%,28,,,,,,,,,,,,,,,,,,True,
+AdamBootsNether,DIAMOND_BOOTS,,&5&lTreads of Searing Fire,Rare,Nether,Armor,Boots,,"
 &9[Nether]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:51
 PROTECTION_FALL:9
 PROTECTION_PROJECTILE:1
-PROTECTION_FIRE:25",Rare,Nether,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52,50,,7,+5%,+27%,21,,True,
-AdamStoneofJordan,DIAMOND,,&5&lStone of Jordan,"&5&oNot pretty enough to be a ring.
+PROTECTION_FIRE:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52,50,,7,+5%,+27%,21,,True,
+AdamStoneofJordan,DIAMOND,,&5&lStone of Jordan,Rare,Angelic,Offhand,Trinket,,"&5&oNot pretty enough to be a ring.
 
 &9Grants regeneration
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,9,10,+16%,20,+18%,+11%,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJPrincesCoronet,NETHERITE_HELMET,,&b&lPrince<&sq>s Coronet,"&b&oThe peasants of Lothera dined on the dead.
+&9[Offhand, Trinket]",,,,,,,,,,9,10,+16%,20,+18%,+11%,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJPrincesCoronet,NETHERITE_HELMET,,&b&lPrince<&sq>s Coronet,Unique,Undead,Armor,Helmet,,"&b&oThe peasants of Lothera dined on the dead.
 &b&oThe royalty of Lothera dined on the peasants.
 
 &9Grants night vision
@@ -65,26 +65,26 @@ AJPrincesCoronet,NETHERITE_HELMET,,&b&lPrince<&sq>s Coronet,"&b&oThe peasants of
 &9[Undead]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:54
 PROTECTION_PROJECTILE:25
-OXYGEN:1",Unique,Undead,Armor,Helmet,,,,,,,,,,,,,,,,,,57,60,+25%,29,+1%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-AJChestplateUndead,DIAMOND_CHESTPLATE,,&5&lCreeping Chestplate,"
+OXYGEN:1",,,,,,,,,,,,,,,,,57,60,+25%,29,+1%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+AJChestplateUndead,DIAMOND_CHESTPLATE,,&5&lCreeping Chestplate,Rare,Undead,Armor,Chestplate,1 Removal,"
 &9[Undead]
 &9[Armor, Chestplate]
 &9[1 Removal]","PROTECTION_ENVIRONMENTAL:52
 PROTECTION_PROJECTILE:17
 PROTECTION_FIRE:8
-THORNS:6",Rare,Undead,Armor,Chestplate,1 Removal,,,,,,,,,,,,,,,,,,,,,,,,,56,58,-17%,18,-10%,,18,,,,,,,,,,,,,,,,,,True,
-AJBootsUndead,NETHERITE_BOOTS,,&5&lTreads of Decayed Flesh,"
+THORNS:6",,,,,,,,,,,,,,,,,,,,,,,,,56,58,-17%,18,-10%,,18,,,,,,,,,,,,,,,,,,True,
+AJBootsUndead,NETHERITE_BOOTS,,&5&lTreads of Decayed Flesh,Rare,Undead,Armor,Boots,,"
 &9[Undead]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:56
 PROTECTION_FALL:15
-DEPTH_STRIDER:1",Rare,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47,64,,31,+29%,-10%,15,,True,
-AJSandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+DEPTH_STRIDER:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47,64,,31,+29%,-10%,15,,True,
+AJSandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,39,41,+123%,11,+37%,+30%,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJSwordinStoneReborn,GOLDEN_SWORD,,&b&lSword in the Stone Reborn,"&b&oCoveted by many.
+&9[Offhand, Trinket]",,,,,,,,,,39,41,+123%,11,+37%,+30%,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJSwordinStoneReborn,GOLDEN_SWORD,,&b&lSword in the Stone Reborn,Unique,Undead,Melee,Sword,2 Removals,"&b&oCoveted by many.
 
 &9[Undead]
 &9[Melee, Sword]
@@ -94,8 +94,8 @@ FIRE_ASPECT:1
 LOOT_BONUS_MOBS:3
 DAMAGE_UNDEAD:20
 SWEEPING_EDGE:31
-DURABILITY:46",Unique,Undead,Melee,Sword,2 Removals,4,7,+14%,10,+18%,+41%,74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-AJBonesoftheLiving,NETHERITE_LEGGINGS,0,&b&lBones of the Living,"&b&oIt grows stronger for every fallen...
+DURABILITY:46",4,7,+14%,10,+18%,+41%,74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+AJBonesoftheLiving,NETHERITE_LEGGINGS,0,&b&lBones of the Living,Unique,Undead,Armor,Leggings,,"&b&oIt grows stronger for every fallen...
 
 &9[Undead]
 &9[Armor, Leggings]","PROTECTION_PROJECTILE:41
@@ -103,49 +103,49 @@ DURABILITY:64
 PROTECTION_ENVIRONMENTAL:48
 PROTECTION_FALL:4
 PROTECTION_FIRE:18
-MENDING:1",Unique,Undead,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62,66,+2%,10,+13%,+18%,18,,,,,,,,,,,
-AJFleshOftheLiving,phantom_membrane,,&b&lFlesh of the Living,"&b&oFresh off their corpse.
+MENDING:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62,66,+2%,10,+13%,+18%,18,,,,,,,,,,,
+AJFleshOftheLiving,phantom_membrane,,&b&lFlesh of the Living,Unique,Undead,Offhand,Trinket,1 Removal,"&b&oFresh off their corpse.
 
 &9Grants saturation
 
 &9[Undead]
 &9[Offhand, Trinket]
-&9[1 Removal]",,Unique,Undead,Offhand,Trinket,1 Removal,,,,,,,,,31,4,+6%,8,+41%,+32%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CamHelmetAngelic,DIAMOND_HELMET,,&5&lHelm of Royalty,"
+&9[1 Removal]",,,,,,,,,,31,4,+6%,8,+41%,+32%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CamHelmetAngelic,DIAMOND_HELMET,,&5&lHelm of Royalty,Rare,Angelic,Armor,Helmet,1 Removal,"
 &9[Angelic]
 &9[Armor, Helmet]
 &9[1 Removal]","PROTECTION_ENVIRONMENTAL:65
 THORNS:14
 PROTECTION_PROJECTILE:20
-PROTECTION_FIRE:4",Rare,Angelic,Armor,Helmet,1 Removal,,,,,,,,,,,,,,,,,64,67,+19%,35,+11%,-10%,6,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-CamChestplateAngelic,DIAMOND_CHESTPLATE,,&5&lBrilliant Chestplate,"
+PROTECTION_FIRE:4",,,,,,,,,,,,,,,,,64,67,+19%,35,+11%,-10%,6,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+CamChestplateAngelic,DIAMOND_CHESTPLATE,,&5&lBrilliant Chestplate,Rare,Angelic,Armor,Chestplate,1 Removal,"
 &9[Angelic]
 &9[Armor, Chestplate]
 &9[1 Removal]","PROTECTION_ENVIRONMENTAL:72
 THORNS:10
-PROTECTION_FIRE:50",Rare,Angelic,Armor,Chestplate,1 Removal,,,,,,,,,,,,,,,,,,,,,,,,,76,77,,47,-5%,,,,,,,,,,,,,,,,,,,,True,
-CamLeggingsAngelic,DIAMOND_LEGGINGS,,&5&lLeggings of the Radiant,"
+PROTECTION_FIRE:50",,,,,,,,,,,,,,,,,,,,,,,,,76,77,,47,-5%,,,,,,,,,,,,,,,,,,,,True,
+CamLeggingsAngelic,DIAMOND_LEGGINGS,,&5&lLeggings of the Radiant,Rare,Angelic,Armor,Leggings,,"
 &9[Angelic]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:70
 PROTECTION_FALL:7
 PROTECTION_FIRE:27
 PROTECTION_PROJECTILE:28
-THORNS:17",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,68,+15%,30,-9%,+19%,7,,,,,,,,,,True,
-CamBootsAngelic,DIAMOND_BOOTS,,&5&lTreads of the Luminous,"
+THORNS:17",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,68,+15%,30,-9%,+19%,7,,,,,,,,,,True,
+CamBootsAngelic,DIAMOND_BOOTS,,&5&lTreads of the Luminous,Rare,Angelic,Armor,Boots,1 Removal,"
 &9[Angelic]
 &9[Armor, Boots]
 &9[1 Removal]","PROTECTION_ENVIRONMENTAL:70
 PROTECTION_PROJECTILE:5
 PROTECTION_FALL:10
 PROTECTION_FIRE:11
-THORNS:14",Rare,Angelic,Armor,Boots,1 Removal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61,73,,50,+15%,+7%,,,True,
-CamSandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+THORNS:14",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61,73,,50,+15%,+7%,,,True,
+CamSandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,58,61,+100%,39,+44%,+36%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CamTheThrone,DIAMOND_SWORD,,&6&l&nThe Throne,"&6&o""You will rule over your kingdom of ruin.""
+&9[Offhand, Trinket]",,,,,,,,,,58,61,+100%,39,+44%,+36%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CamTheThrone,DIAMOND_SWORD,,&6&l&nThe Throne,Legendary,Angelic,Melee,Sword,"Offhand, Trinket|1 Removal","&6&o""You will rule over your kingdom of ruin.""
 &6&o-Archangel Karellia
 
 &9[Angelic]
@@ -156,8 +156,8 @@ MENDING:1
 DAMAGE_ALL:90
 DAMAGE_UNDEAD:50
 DAMAGE_ARTHROPODS:50
-SWEEPING_EDGE:50",Legendary,Angelic,Melee,Sword,"Offhand, Trinket|1 Removal",45,45,,,,+20%,90,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CamTheAvenger,NETHERITE_SWORD,,&b&lThe Avenger,"&b&o""You<&sq>ll pay for that Lunalai.""
+SWEEPING_EDGE:50",45,45,,,,+20%,90,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CamTheAvenger,NETHERITE_SWORD,,&b&lThe Avenger,Unique,Angelic,Melee,Sword,1 Removal,"&b&o""You<&sq>ll pay for that Lunalai.""
 &b&o-Archangel Karellia
 
 &9[Angelic]
@@ -168,41 +168,41 @@ DAMAGE_ARTHROPODS:34
 SWEEPING_EDGE:64
 DURABILITY:50
 FIRE_ASPECT:11
-MENDING:1",Unique,Angelic,Melee,Sword,1 Removal,8,21,+50%,19,+21%,+13%,91,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-IanHelmetAishan,NETHERITE_HELMET,,&5&lHelm of the Streams,"
+MENDING:1",8,21,+50%,19,+21%,+13%,91,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IanHelmetAishan,NETHERITE_HELMET,,&5&lHelm of the Streams,Rare,Aishan,Armor,Helmet,,"
 &9[Aishan]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:55
 PROTECTION_PROJECTILE:10
 OXYGEN:5
-WATER_WORKER:1",Rare,Aishan,Armor,Helmet,,,,,,,,,,,,,,,,,,55,59,,20,+10%,+11%,15,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-IanChestplateNether,NETHERITE_CHESTPLATE,,&5&lBurning Chestplate,"
+WATER_WORKER:1",,,,,,,,,,,,,,,,,55,59,,20,+10%,+11%,15,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+IanChestplateNether,NETHERITE_CHESTPLATE,,&5&lBurning Chestplate,Rare,Nether,Armor,Chestplate,,"
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:58
 THORNS:5
-PROTECTION_FIRE:22",Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,58,61,,,+12%,+12%,27,,,,,,,,,,,,,,,,,,True,
-IanLeggingsNether,NETHERITE_LEGGINGS,,&5&lLeggings of the Burning Embers,"
+PROTECTION_FIRE:22",,,,,,,,,,,,,,,,,,,,,,,,,58,61,,,+12%,+12%,27,,,,,,,,,,,,,,,,,,True,
+IanLeggingsNether,NETHERITE_LEGGINGS,,&5&lLeggings of the Burning Embers,Rare,Nether,Armor,Leggings,,"
 &9[Nether]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:56
-PROTECTION_FIRE:22",Rare,Nether,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53,54,,25,+15%,+12%,26,,,,,,,,,,True,
-IanBootsAishan,NETHERITE_BOOTS,,&5&lTreads of Blossoming Life,"
+PROTECTION_FIRE:22",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53,54,,25,+15%,+12%,26,,,,,,,,,,True,
+IanBootsAishan,NETHERITE_BOOTS,,&5&lTreads of Blossoming Life,Rare,Aishan,Armor,Boots,,"
 &9[Aishan]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:53
 PROTECTION_FIRE:14
 PROTECTION_PROJECTILE:12
-PROTECTION_FALL:10",Rare,Aishan,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57,67,,23,+10%,+10%,18,,True,
-IanSandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+PROTECTION_FALL:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57,67,,23,+10%,+10%,18,,True,
+IanSandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,30,35,+122%,12,+39%,+20%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JimStoneofJordan,DIAMOND,,&5&lStone of Jordan,"&5&oNot pretty enough to be a ring.
+&9[Offhand, Trinket]",,,,,,,,,,30,35,+122%,12,+39%,+20%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JimStoneofJordan,DIAMOND,,&5&lStone of Jordan,Rare,Angelic,Offhand,Trinket,,"&5&oNot pretty enough to be a ring.
 
 &9Grants regeneration and resistance
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,48,60,+27%,29,+42%,+40%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JimChopper,BOW,0,&5&lChopper,"&5&oGet to it.
+&9[Offhand, Trinket]",,,,,,,,,,48,60,+27%,29,+42%,+40%,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JimChopper,BOW,0,&5&lChopper,Rare,Ender,Ranged,Bow,,"&5&oGet to it.
 
 &9DO NOT SWAP TO OTHER ITEMS
 &9WHILE FIRING! THEY WILL DELETE!
@@ -211,110 +211,110 @@ JimChopper,BOW,0,&5&lChopper,"&5&oGet to it.
 &9[Ranged, Bow]","ARROW_DAMAGE:69
 DURABILITY:30
 ARROW_INFINITE:1
-ARROW_KNOCKBACK:2",Rare,Ender,Ranged,Bow,,5,5,+25%,,,+31%,,,,,,,+25%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JimSandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+ARROW_KNOCKBACK:2",5,5,+25%,,,+31%,,,,,,,+25%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JimSandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 &9Grants resistance.
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,32,39,+122%,29,+44%,+38%,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-JimChestplateNether,NETHERITE_CHESTPLATE,,&5&lBurning Chestplate,"
+&9[Offhand, Trinket]",,,,,,,,,,32,39,+122%,29,+44%,+38%,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+JimChestplateNether,NETHERITE_CHESTPLATE,,&5&lBurning Chestplate,Rare,Nether,Armor,Chestplate,,"
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:60
-PROTECTION_FIRE:51",Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,60,60,,9,+10%,,32,,,,,,,,,,,,,,,,,,True,
-JimLeggingsNether,NETHERITE_LEGGINGS,,&5&lLeggings of the Burning Embers,"
+PROTECTION_FIRE:51",,,,,,,,,,,,,,,,,,,,,,,,,60,60,,9,+10%,,32,,,,,,,,,,,,,,,,,,True,
+JimLeggingsNether,NETHERITE_LEGGINGS,,&5&lLeggings of the Burning Embers,Rare,Nether,Armor,Leggings,,"
 &9[Nether]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:57
 PROTECTION_FIRE:33
 PROTECTION_PROJECTILE:20
-THORNS:4",Rare,Nether,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56,58,-9%,16,+6%,+8%,22,,,,,,,,,,True,
-JimHelmetNether,NETHERITE_HELMET,,&5&lHelm of the Firey Fall,"
+THORNS:4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56,58,-9%,16,+6%,+8%,22,,,,,,,,,,True,
+JimHelmetNether,NETHERITE_HELMET,,&5&lHelm of the Firey Fall,Rare,Nether,Armor,Helmet,1 Removal,"
 &9[Nether]
 &9[Armor, Helmet]
 &9[1 Removal]","PROTECTION_ENVIRONMENTAL:62
 OXYGEN:2
 WATER_WORKER:1
 PROTECTION_PROJECTILE:22
-PROTECTION_FIRE:25",Rare,Nether,Armor,Helmet,1 Removal,,,,,,,,,,,,,,,,,62,65,,6,+33%,-19%,20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-JimBootsNether,NETHERITE_BOOTS,,&5&lTreads of Searing Fire,"
+PROTECTION_FIRE:25",,,,,,,,,,,,,,,,,62,65,,6,+33%,-19%,20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+JimBootsNether,NETHERITE_BOOTS,,&5&lTreads of Searing Fire,Rare,Nether,Armor,Boots,,"
 &9[Nether]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:61
 PROTECTION_FIRE:25
 PROTECTION_FALL:12
 PROTECTION_PROJECTILE:8
-THORNS:7",Rare,Nether,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,58,,7,+14%,+22%,13,,True,
-PrisonVest,LEATHER_CHESTPLATE,,&5&lPrison Vest,"&5&oYou are C31.
+THORNS:7",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67,58,,7,+14%,+22%,13,,True,
+PrisonVest,LEATHER_CHESTPLATE,,&5&lPrison Vest,Rare,Nether,Armor,Chestplate,,"&5&oYou are C31.
 
 &9[Nether]
-&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:40,Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,-20,,,30,,,,,,,,,,,,,,,,,,True,"150,10,10"
-EdgeofTomorrow,SHIELD,,&5&lEdge of Tomorrow,"
+&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:40,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,-20,,,30,,,,,,,,,,,,,,,,,,True,"150,10,10"
+EdgeofTomorrow,SHIELD,,&5&lEdge of Tomorrow,Rare,Aishan,Offhand,Shield,,"
 &9[Aishan]
-&9[Offhand, Shield]",,Rare,Aishan,Offhand,Shield,,,,,,,,,,55,55,+15%,15,+15%,+15%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-SinnersBane,IRON_SWORD,,&5&lSinner<&sq>s Bane,"&5&oYou will answer for your crimes.
+&9[Offhand, Shield]",,,,,,,,,,55,55,+15%,15,+15%,+15%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+SinnersBane,IRON_SWORD,,&5&lSinner<&sq>s Bane,Rare,Angelic,Melee,Sword,,"&5&oYou will answer for your crimes.
 
 &9[Angelic]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:55
 DAMAGE_UNDEAD:20
-SWEEPING_EDGE:20",Rare,Angelic,Melee,Sword,,20,20,,20,-25%,+20%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SculptingClay,Clay_ball,,&5&lSculpting Clay,"&5&oReady to become something incredible.
+SWEEPING_EDGE:20",20,20,,20,-25%,+20%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SculptingClay,Clay_ball,,&5&lSculpting Clay,Rare,Aishan,Offhand,Trinket,,"&5&oReady to become something incredible.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,25,25,+30%,15,+10%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenAxe2,IRON_AXE,,&2&lChopper<&sq>s Axe,"
+&9[Offhand, Trinket]",,,,,,,,,,25,25,+30%,15,+10%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenAxe2,IRON_AXE,,&2&lChopper<&sq>s Axe,Common,NONE,Melee,Axe,,"
 &9[NONE]
 &9[Melee, Axe]","DAMAGE_ALL:20
-DURABILITY:10",Common,NONE,Melee,Axe,,,,,5,-75%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenHelm2,IRON_HELMET,,&2&lHelm of Truth,"
+DURABILITY:10",,,,5,-75%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenHelm2,IRON_HELMET,,&2&lHelm of Truth,Common,NONE,Armor,Helmet,,"
 &9[NONE]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:12
-DURABILITY:15",Common,NONE,Armor,Helmet,,,,,,,,,,,,,,,,,,10,10,+5%,8,,,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenChest2,IRON_CHESTPLATE,,&2&lChestplate of Faith,"
+DURABILITY:15",,,,,,,,,,,,,,,,,10,10,+5%,8,,,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenChest2,IRON_CHESTPLATE,,&2&lChestplate of Faith,Common,NONE,Armor,Chestplate,,"
 &9[NONE]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:20
-DURABILITY:10",Common,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,14,14,+10%,6,,,,,,,,,,,,,,,,,,,,,,
-GreenLeggings2,IRON_LEGGINGS,,&2&lLeggings of Resilience,"
+DURABILITY:10",,,,,,,,,,,,,,,,,,,,,,,,,14,14,+10%,6,,,,,,,,,,,,,,,,,,,,,,
+GreenLeggings2,IRON_LEGGINGS,,&2&lLeggings of Resilience,Common,NONE,Armor,Leggings,,"
 &9[NONE]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:15
-DURABILITY:15",Common,NONE,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,12,,,,,,,,,,,,,,
-GreenBoots2,IRON_BOOTS,,&2&lBoots of the Mountain Climber,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,12,,,,,,,,,,,,,,
+GreenBoots2,IRON_BOOTS,,&2&lBoots of the Mountain Climber,Common,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:10
 PROTECTION_FALL:10
-DURABILITY:15",Common,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,-15%,,,+15%,,,,
-GreenSword2,IRON_SWORD,,&2&lHardened Blade,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,-15%,,,+15%,,,,
+GreenSword2,IRON_SWORD,,&2&lHardened Blade,Common,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","DAMAGE_ALL:20
-DURABILITY:15",Common,NONE,Melee,Sword,,-2,-2,,,+10%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ReapandSowPurple,IRON_SWORD,0,&5&lReap and Sow,"
+DURABILITY:15",-2,-2,,,+10%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ReapandSowPurple,IRON_SWORD,0,&5&lReap and Sow,Rare,Aishan,Melee,Sword,,"
 &9Heals you over time.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:15
 DAMAGE_ALL:15
 DAMAGE_UNDEAD:12
-SWEEPING_EDGE:10",Rare,Aishan,Melee,Sword,,10,10,,12,-25%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Gateway,SHIELD,,&5&lGateway,"&5&oThink before you enter.
+SWEEPING_EDGE:10",10,10,,12,-25%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gateway,SHIELD,,&5&lGateway,Rare,Nether,Offhand,Shield,,"&5&oThink before you enter.
 
 &9[Nether]
-&9[Offhand, Shield]",DURABILITY:30,Rare,Nether,Offhand,Shield,,,,,,,,,,-10,-10,,20,+25%,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueHelm2,DIAMOND_HELMET,,&1&lDisciple<&sq>s Hood,"
+&9[Offhand, Shield]",DURABILITY:30,,,,,,,,,-10,-10,,20,+25%,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueHelm2,DIAMOND_HELMET,,&1&lDisciple<&sq>s Hood,Uncommon,NONE,Armor,Helmet,,"
 &9[NONE]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:22
-DURABILITY:22",Uncommon,NONE,Armor,Helmet,,,,,,,,,,,,,,,,,,22,24,+10%,10,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrisonerBrand,BOW,0,&5&lPrisoner Brand,"&5&oThey are all marked forever.
+DURABILITY:22",,,,,,,,,,,,,,,,,22,24,+10%,10,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrisonerBrand,BOW,0,&5&lPrisoner Brand,Rare,Nether,Ranged,Bow,,"&5&oThey are all marked forever.
 
 &9[Nether]
 &9[Ranged, Bow]","ARROW_DAMAGE:60
 ARROW_FIRE:15
-DURABILITY:35",Rare,Nether,Ranged,Bow,,,30,+25%,-15,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DrapesoftheLight,DIAMOND_LEGGINGS,0,&5&lDrapes of the Light,"&5&oShow me your inner light.
+DURABILITY:35",,30,+25%,-15,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DrapesoftheLight,DIAMOND_LEGGINGS,0,&5&lDrapes of the Light,Rare,Angelic,Armor,Leggings,,"&5&oShow me your inner light.
 
 &9[Angelic]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:35
-MENDING:1",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,24,,15,-15%,+5%,5,,,,,,,,,,,
-Merinax,Netherite_Sword,,"&5&lMerinax, the Fire Stoker","&5&oStand close and get burned.
+MENDING:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,24,,15,-15%,+5%,5,,,,,,,,,,,
+Merinax,Netherite_Sword,,"&5&lMerinax, the Fire Stoker",Rare,Nether,Melee,Sword,,"&5&oStand close and get burned.
 
 &9Grants fire resistance
 
@@ -322,118 +322,118 @@ Merinax,Netherite_Sword,,"&5&lMerinax, the Fire Stoker","&5&oStand close and get
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:65
 SWEEPING_EDGE:20
-FIRE_ASPECT:20",Rare,Nether,Melee,Sword,,-10,-10,,-10,+10%,+15%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TwistedTorture,NETHERITE_SWORD,,&5&lTwisted Torture,"&5&oYour screams are beautiful.
+FIRE_ASPECT:20",-10,-10,,-10,+10%,+15%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TwistedTorture,NETHERITE_SWORD,,&5&lTwisted Torture,Rare,Nether,Melee,Sword,,"&5&oYour screams are beautiful.
 
 &9[Nether]
 &9[Melee, Sword]","DURABILITY:25
 DAMAGE_ALL:60
 SWEEPING_EDGE:20
-FIRE_ASPECT:10",Rare,Nether,Melee,Sword,,-10,10,,-10,,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PhadraBladeofReflection,NETHERITE_SWORD,,"&5&lPhadra, Blade of Reflection","&5&oSee what I see.
+FIRE_ASPECT:10",-10,10,,-10,,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PhadraBladeofReflection,NETHERITE_SWORD,,"&5&lPhadra, Blade of Reflection",Rare,Aishan,Melee,Sword,,"&5&oSee what I see.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:25
 DAMAGE_ALL:45
 DAMAGE_UNDEAD:10
 DAMAGE_ARTHROPODS:10
-SWEEPING_EDGE:20",Rare,Aishan,Melee,Sword,,-10,10,,-5,,+10%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DrapesoftheVeil,DIAMOND_LEGGINGS,0,&5&lDrapes of the Veil,"&5&oTheir silhouette is on all worlds.
+SWEEPING_EDGE:20",-10,10,,-5,,+10%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DrapesoftheVeil,DIAMOND_LEGGINGS,0,&5&lDrapes of the Veil,Rare,Ender,Armor,Leggings,,"&5&oTheir silhouette is on all worlds.
 
 &9[Ender]
 &9[Armor, Leggings]","DURABILITY:20
-PROTECTION_ENVIRONMENTAL:25",Rare,Ender,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,12,,10,-25%,+15%,10,,,
-BlackCrown,Leather_Helmet,0,&5&lBlack Crown,"&5&oIt is easy to see the darkness from here.
+PROTECTION_ENVIRONMENTAL:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,12,,10,-25%,+15%,10,,,
+BlackCrown,Leather_Helmet,0,&5&lBlack Crown,Rare,Ender,Armor,Helmet,,"&5&oIt is easy to see the darkness from here.
 
 &9Grants resistance
 
 &9[Ender]
-&9[Armor, Helmet]",PROTECTION_ENVIRONMENTAL:50,Rare,Ender,Armor,Helmet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,,,,,,True,"10,10,10"
-DarknessSteps,DIAMOND_BOOTS,0,&5&lDarkness Steps,"&5&oOnce in, never out.
+&9[Armor, Helmet]",PROTECTION_ENVIRONMENTAL:50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,,,,,,True,"10,10,10"
+DarknessSteps,DIAMOND_BOOTS,0,&5&lDarkness Steps,Rare,Ender,Armor,Boots,,"&5&oOnce in, never out.
 
 &9[Ender]
 &9[Armor, Boots]","DURABILITY:20
 PROTECTION_FALL:20
-PROTECTION_ENVIRONMENTAL:20",Rare,Ender,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,50,,,,+15%,10,,,
-TreadsoftheLight,DIAMOND_BOOTS,0,&5&lTreads of the Light,"&5&oShow me your faith.
+PROTECTION_ENVIRONMENTAL:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,50,,,,+15%,10,,,
+TreadsoftheLight,DIAMOND_BOOTS,0,&5&lTreads of the Light,Rare,Angelic,Armor,Boots,,"&5&oShow me your faith.
 
 &9[Angelic]
 &9[Armor, Boots]","DURABILITY:45
 PROTECTION_FALL:10
 PROTECTION_ENVIRONMENTAL:30
-PROTECTION_FIRE:30",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,35,,15,,+20%,,,,
-PrismarineBreastplateBlue,DIAMOND_CHESTPLATE,0,&1&lPrismarine Breastplate,"
+PROTECTION_FIRE:30",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,35,,15,,+20%,,,,
+PrismarineBreastplateBlue,DIAMOND_CHESTPLATE,0,&1&lPrismarine Breastplate,Uncommon,Aishan,Armor,Chestplate,,"
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_FIRE:20
 DURABILITY:10
-PROTECTION_ENVIRONMENTAL:20",Uncommon,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,22,22,,12,,,,,,,,,,,,,,,,,,,,,,
-BlueBoots2,DIAMOND_BOOTS,,&1&lDisciple<&sq>s Boots,"
+PROTECTION_ENVIRONMENTAL:20",,,,,,,,,,,,,,,,,,,,,,,,,22,22,,12,,,,,,,,,,,,,,,,,,,,,,
+BlueBoots2,DIAMOND_BOOTS,,&1&lDisciple<&sq>s Boots,Uncommon,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:25
 PROTECTION_FALL:8
-DURABILITY:25",Uncommon,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,22,-25%,12,,-10%,,,,
-OvergrownBreastplate,DIAMOND_CHESTPLATE,0,&5&lOvergrown Breastplate,"
+DURABILITY:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,22,-25%,12,,-10%,,,,
+OvergrownBreastplate,DIAMOND_CHESTPLATE,0,&5&lOvergrown Breastplate,Rare,Aishan,Armor,Chestplate,,"
 &9[Aishan]
-&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:30,Rare,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,30,30,,20,,+10%,,,,,,,,,,,,,,,,,,,True,
-PrismarineBreastplatePurple,DIAMOND_CHESTPLATE,0,&5&lPrismarine Breastplate,"
+&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:30,,,,,,,,,,,,,,,,,,,,,,,,,30,30,,20,,+10%,,,,,,,,,,,,,,,,,,,True,
+PrismarineBreastplatePurple,DIAMOND_CHESTPLATE,0,&5&lPrismarine Breastplate,Rare,Aishan,Armor,Chestplate,,"
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_FIRE:25
 DURABILITY:12
-PROTECTION_ENVIRONMENTAL:25",Rare,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,25,25,,15,,,5,,,,,,,,,,,,,,,,,,,
-BoneMarrowPurple,Bone_meal,,&5&lBone Marrow,"&5&oIt<&sq>s good for you!
+PROTECTION_ENVIRONMENTAL:25",,,,,,,,,,,,,,,,,,,,,,,,,25,25,,15,,,5,,,,,,,,,,,,,,,,,,,
+BoneMarrowPurple,Bone_meal,,&5&lBone Marrow,Rare,Angelic,Offhand,Trinket,,"&5&oIt<&sq>s good for you!
 
 &9Grants slow fall and night vision
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,,,,24,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BoilerRoomBritches,NETHERITE_LEGGINGS,0,&5&lBoiler Room Britches,"&5&oStay away from the heat.
+&9[Offhand, Trinket]",,,,,,,,,,,,,24,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BoilerRoomBritches,NETHERITE_LEGGINGS,0,&5&lBoiler Room Britches,Rare,Nether,Armor,Leggings,,"&5&oStay away from the heat.
 
 &9[Nether]
 &9[Armor, Leggings]","DURABILITY:25
 PROTECTION_ENVIRONMENTAL:25
-PROTECTION_FIRE:20",Rare,Nether,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,35,+25%,-10,,+15%,12,,,,,,,,,,,
-ExterminatorPurple,DIAMOND_SWORD,,&5&lExterminator,"&5&oBUGS!!!
+PROTECTION_FIRE:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,35,+25%,-10,,+15%,12,,,,,,,,,,,
+ExterminatorPurple,DIAMOND_SWORD,,&5&lExterminator,Rare,NONE,Melee,Sword,,"&5&oBUGS!!!
 
 &9[NONE]
 &9[Melee, Sword]","DAMAGE_ARTHROPODS:30
 SWEEPING_EDGE:20
-DURABILITY:20",Rare,NONE,Melee,Sword,,,,,,+12%,,22,,,,,,+12%,,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Pallion,BOW,,&5&lPallion,"
+DURABILITY:20",,,,,+12%,,22,,,,,,+12%,,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pallion,BOW,,&5&lPallion,Rare,Ender,Ranged,Bow,,"
 &9[Ender]
 &9[Ranged, Bow]","ARROW_DAMAGE:33
-DURABILITY:15",Rare,Ender,Ranged,Bow,,-5,-5,,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HeavensWail,BOW,0,&5&lHeaven<&sq>s Wail,"&5&oSend them to Hell.
+DURABILITY:15",-5,-5,,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HeavensWail,BOW,0,&5&lHeaven<&sq>s Wail,Rare,Angelic,Ranged,Bow,,"&5&oSend them to Hell.
 
 &9[Angelic]
 &9[Ranged, Bow]","ARROW_DAMAGE:70
 DURABILITY:40
 ARROW_FIRE:10
-ARROW_KNOCKBACK:2",Rare,Angelic,Ranged,Bow,,20,20,,20,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Quantum,BOW,0,&5&lQuantum,"&5&oEverywhere at once.
+ARROW_KNOCKBACK:2",20,20,,20,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quantum,BOW,0,&5&lQuantum,Rare,Ender,Ranged,Bow,,"&5&oEverywhere at once.
 
 &9[Ender]
 &9[Ranged, Bow]","ARROW_DAMAGE:65
 DURABILITY:40
-ARROW_INFINITE:1",Rare,Ender,Ranged,Bow,,,,+50%,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-VanguardBow,BOW,,&5&lVanguard Bow,"
+ARROW_INFINITE:1",,,+50%,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VanguardBow,BOW,,&5&lVanguard Bow,Rare,Undead,Ranged,Bow,,"
 &9[Undead]
 &9[Ranged, Bow]","ARROW_DAMAGE:80
-DURABILITY:15",Rare,Undead,Ranged,Bow,,,,,15,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TheRecurve,BOW,,&1&lThe Recurve,"
+DURABILITY:15",,,,15,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheRecurve,BOW,,&1&lThe Recurve,Uncommon,Ender,Ranged,Bow,,"
 &9[Ender]
 &9[Ranged, Bow]","ARROW_DAMAGE:25
-DURABILITY:15",Uncommon,Ender,Ranged,Bow,,8,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SapphireHelm,DIAMOND_HELMET,,&5&lSapphire Helm,"&5&oShe<&sq>s beautiful...
+DURABILITY:15",8,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SapphireHelm,DIAMOND_HELMET,,&5&lSapphire Helm,Rare,Ender,Armor,Helmet,,"&5&oShe<&sq>s beautiful...
 
 &9[Ender]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:30
-DURABILITY:25",Rare,Ender,Armor,Helmet,,,,,,,,,,,,,,,,,,20,20,-25%,-10,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FurnaceCore,NETHER_STAR,,&5&lFurnace Core,"&5&oIt pulsates quietly in the burning
+DURABILITY:25",,,,,,,,,,,,,,,,,20,20,-25%,-10,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FurnaceCore,NETHER_STAR,,&5&lFurnace Core,Rare,Nether,Offhand,Trinket,,"&5&oIt pulsates quietly in the burning
 &5&oheart of the Citadel.
 
 &9[Nether]
-&9[Offhand, Trinket]",,Rare,Nether,Offhand,Trinket,,,,,,,,,,10,10,-10%,-10,+25%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CelliaGardenGuardian,DIAMOND_SWORD,,"&5&lCellia, Garden Guardian","&5&oShe protected it with her life.
+&9[Offhand, Trinket]",,,,,,,,,,10,10,-10%,-10,+25%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CelliaGardenGuardian,DIAMOND_SWORD,,"&5&lCellia, Garden Guardian",Rare,Aishan,Melee,Sword,,"&5&oShe protected it with her life.
 
 &9Grants regeneration
 
@@ -441,313 +441,313 @@ CelliaGardenGuardian,DIAMOND_SWORD,,"&5&lCellia, Garden Guardian","&5&oShe prote
 &9[Melee, Sword]","DAMAGE_ALL:60
 DAMAGE_ARTHROPODS:20
 SWEEPING_EDGE:15
-DURABILITY:20",Rare,Aishan,Melee,Sword,,,,,10,+15%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ToriLostLove,DIAMOND_SWORD,,"&5&lTori, the Lost Love","&5&oShe was mine. Now she is yours.
+DURABILITY:20",,,,10,+15%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ToriLostLove,DIAMOND_SWORD,,"&5&lTori, the Lost Love",Rare,Nether,Melee,Axe,,"&5&oShe was mine. Now she is yours.
 
 &9[Nether]
 &9[Melee, Axe]","DAMAGE_ALL:50
 DAMAGE_UNDEAD:15
 DAMAGE_ARTHROPODS:15
-DURABILITY:18",Rare,Nether,Melee,Axe,,,,,-10,+5%,+5%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Torvalon,Diamond_Pickaxe,,&5&lTorvalon,"&5&oShe is the hammer of the people.
+DURABILITY:18",,,,-10,+5%,+5%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Torvalon,Diamond_Pickaxe,,&5&lTorvalon,Rare,Aishan,Melee,Pickaxe,,"&5&oShe is the hammer of the people.
 
 &9[Aishan]
 &9[Melee, Pickaxe]","DURABILITY:30
-DAMAGE_ALL:45",Rare,Aishan,Melee,Pickaxe,,-10,-10,,30,,,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-NethersCaretaker,NETHERITE_SWORD,,&5&lNether<&sq>s Caretaker,"&5&oYou can<&sq>t rule over the Nether without
+DAMAGE_ALL:45",-10,-10,,30,,,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NethersCaretaker,NETHERITE_SWORD,,&5&lNether<&sq>s Caretaker,Rare,Nether,Melee,Sword,,"&5&oYou can<&sq>t rule over the Nether without
 &5&oa little tyranny.
 
 &9[Nether]
 &9[Melee, Sword]","DAMAGE_ALL:60
 DURABILITY:30
 SWEEPING_EDGE:30
-FIRE_ASPECT:20",Rare,Nether,Melee,Sword,,10,-20,,,+5%,+10%,60,,,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SkyGrazer,DIAMOND_SWORD,,&5&lSky Grazer,"&5&oEndless skies and a thousand eyes.
+FIRE_ASPECT:20",10,-20,,,+5%,+10%,60,,,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SkyGrazer,DIAMOND_SWORD,,&5&lSky Grazer,Rare,Ender,Melee,Sword,,"&5&oEndless skies and a thousand eyes.
 
 &9[Ender]
 &9[Melee, Sword]","DAMAGE_ALL:55
 DURABILITY:22
-SWEEPING_EDGE:20",Rare,Ender,Melee,Sword,,20,-20,+10%,,-25%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TheTerrorizer,DIAMOND_AXE,,&5&lThe Terrorizer,"&5&oKneel in my shadow...
+SWEEPING_EDGE:20",20,-20,+10%,,-25%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheTerrorizer,DIAMOND_AXE,,&5&lThe Terrorizer,Rare,Nether,Melee,Axe,,"&5&oKneel in my shadow...
 
 &9[Nether]
 &9[Melee, Axe]","DAMAGE_ALL:60
 DURABILITY:15
-FIRE_ASPECT:15",Rare,Nether,Melee,Axe,,,,,,-25%,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RubyBoots,NETHERITE_BOOTS,,&5&lRuby Boots,"&5&oLined in blood.
+FIRE_ASPECT:15",,,,,-25%,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RubyBoots,NETHERITE_BOOTS,,&5&lRuby Boots,Rare,Angelic,Armor,Boots,,"&5&oLined in blood.
 
 &9[Angelic]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:40
-THORNS:20",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,25,-10%,,-20,,True,
-PeridotLeggings,DIAMOND_LEGGINGS,,&5&lPeridot Leggings,"
+THORNS:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,25,-10%,,-20,,True,
+PeridotLeggings,DIAMOND_LEGGINGS,,&5&lPeridot Leggings,Rare,Angelic,Armor,Leggings,,"
 &9[Angelic]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:45
-THORNS:25",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,48,,20,-10%,-10%,,,,,,,,,,,True,
-WaterwayBoots,DIAMOND_BOOTS,,&5&lBoots of the Waterways,"
+THORNS:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,48,,20,-10%,-10%,,,,,,,,,,,True,
+WaterwayBoots,DIAMOND_BOOTS,,&5&lBoots of the Waterways,Rare,Aishan,Armor,Boots,,"
 &9Grants dolphin<&sq>s grace and conduit power
 
 &9[Aishan]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:25
 DEPTH_STRIDER:10
-DURABILITY:16",Rare,Aishan,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,30,,10,,+10%,,,,
-Tellanon,Diamond_Sword,,&5&lTellanon,"&5&oShe is the sword of the people.
+DURABILITY:16",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,30,,10,,+10%,,,,
+Tellanon,Diamond_Sword,,&5&lTellanon,Rare,Aishan,Melee,Sword,,"&5&oShe is the sword of the people.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:25
 DAMAGE_ALL:65
 DAMAGE_UNDEAD:15
-DAMAGE_ARTHROPODS:15",Rare,Aishan,Melee,Sword,,,25,,15,,-10%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DarknessIncarnate,DIAMOND_SWORD,,&5&lDarkness Incarnate,"&5&oDisappear into its blade.
+DAMAGE_ARTHROPODS:15",,25,,15,,-10%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DarknessIncarnate,DIAMOND_SWORD,,&5&lDarkness Incarnate,Rare,Ender,Melee,Sword,,"&5&oDisappear into its blade.
 
 &9[Ender]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:30
-SWEEPING_EDGE:10",Rare,Ender,Melee,Sword,,,,,,,,,,10,10,,,,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TouchoftheVoid,BLACK_DYE,,&5&lTouch of the Void,"&5&oIt spreads beyond its world.
+SWEEPING_EDGE:10",,,,,,,,,10,10,,,,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TouchoftheVoid,BLACK_DYE,,&5&lTouch of the Void,Rare,Ender,Offhand,Trinket,,"&5&oIt spreads beyond its world.
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,30,30,+25%,-25,,-15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DirectiontoOtherWorlds,COMPASS,,&5&lDirection to Other Worlds,"&5&oIt points somewhere...
+&9[Offhand, Trinket]",,,,,,,,,,30,30,+25%,-25,,-15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DirectiontoOtherWorlds,COMPASS,,&5&lDirection to Other Worlds,Rare,Ender,Offhand,Trinket,,"&5&oIt points somewhere...
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,25,25,,,+15%,-15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FurnaceGuardBoots,NETHERITE_BOOTS,0,&5&lBoots of the Furnace Guards,"&5&oThe Great Furnace never smolders...
+&9[Offhand, Trinket]",,,,,,,,,,25,25,,,+15%,-15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FurnaceGuardBoots,NETHERITE_BOOTS,0,&5&lBoots of the Furnace Guards,Rare,Nether,Armor,Boots,,"&5&oThe Great Furnace never smolders...
 
 &9[Nether]
 &9[Armor, Boots]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:25
-PROTECTION_FIRE:20",Rare,Nether,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,28,,-15,,,20,,,
-CrownofElite,DIAMOND_HELMET,0,&5&lCrown of the Elite,"&5&oFits like a charm.
+PROTECTION_FIRE:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,28,,-15,,,20,,,
+CrownofElite,DIAMOND_HELMET,0,&5&lCrown of the Elite,Rare,Undead,Armor,Helmet,,"&5&oFits like a charm.
 
 &9[Undead]
 &9[Armor, Helmet]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:45
-PROTECTION_PROJECTILE:10",Rare,Undead,Armor,Helmet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,30,,,-20,,,
-LotheraMageDress,DIAMOND_LEGGINGS,0,&5&lLothera Mage Dress,"&5&oPOWER!
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,40,,30,,,-20,,,
+LotheraMageDress,DIAMOND_LEGGINGS,0,&5&lLothera Mage Dress,Rare,Undead,Armor,Leggings,,"&5&oPOWER!
 
 &9[Undead]
 &9[Armor, Leggings]","DURABILITY:15
-PROTECTION_ENVIRONMENTAL:45",Rare,Undead,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,40,,-20,,,30,,,
-LotheraGuardBoots,DIAMOND_BOOTS,0,&5&lLothera Guard Boots,"
+PROTECTION_ENVIRONMENTAL:45",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,40,,-20,,,30,,,
+LotheraGuardBoots,DIAMOND_BOOTS,0,&5&lLothera Guard Boots,Rare,Undead,Armor,Boots,,"
 &9[Undead]
 &9[Armor, Boots]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:45
-PROTECTION_PROJECTILE:20",Rare,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,,,-20,,,,,,
-WatchmanBow,BOW,0,&5&lWatchman<&sq>s Bow,"
+PROTECTION_PROJECTILE:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,,,-20,,,,,,
+WatchmanBow,BOW,0,&5&lWatchman<&sq>s Bow,Rare,NONE,Ranged,Bow,,"
 &9[NONE]
 &9[Ranged, Bow]","ARROW_DAMAGE:55
-DURABILITY:10",Rare,NONE,Ranged,Bow,,25,25,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CellBlockEKey,Stick,,&5&lCell Block E Key,"&5&oThe worst block in the whole world.
+DURABILITY:10",25,25,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CellBlockEKey,Stick,,&5&lCell Block E Key,Rare,Nether,Offhand,Trinket,,"&5&oThe worst block in the whole world.
 
 &9[Nether]
-&9[Offhand, Trinket]",,Rare,Nether,Offhand,Trinket,,,,,,,,,,16,16,+30%,-15,,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RoaringFire,Blaze_Powder,,&5&lRoaring Fire,"&5&o""Put him in the incinerator
+&9[Offhand, Trinket]",,,,,,,,,,16,16,+30%,-15,,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RoaringFire,Blaze_Powder,,&5&lRoaring Fire,Rare,Nether,Offhand,Trinket,,"&5&o""Put him in the incinerator
 &5&owith the rest of the trash.""
 &5&o-The Warden
 
 &9[Nether]
-&9[Offhand, Trinket]",FIRE_ASPECT:25,Rare,Nether,Offhand,Trinket,,7,,+10%,,+25%,+10%,12,,10,,+20%,,,+15%,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AngelDust,glowstone_dust,,&5&lAngel Dust,"&5&oWith the blessing from his grace...
+&9[Offhand, Trinket]",FIRE_ASPECT:25,7,,+10%,,+25%,+10%,12,,10,,+20%,,,+15%,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AngelDust,glowstone_dust,,&5&lAngel Dust,Rare,Angelic,Offhand,Trinket,,"&5&oWith the blessing from his grace...
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,27,27,+27%,27,,+27%,-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AngelDustBlue,glowstone_dust,,&1&lAngel Dust,"&1&oWith the blessing from his grace...
+&9[Offhand, Trinket]",,,,,,,,,,27,27,+27%,27,,+27%,-15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AngelDustBlue,glowstone_dust,,&1&lAngel Dust,Uncommon,Angelic,Offhand,Trinket,,"&1&oWith the blessing from his grace...
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Uncommon,Angelic,Offhand,Trinket,,,,,,,,,,24,24,+24%,24,,+24%,-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TheHammer,DIAMOND_AXE,0,&1&lThe Hammer,"&1&oTake me to pound town.
+&9[Offhand, Trinket]",,,,,,,,,,24,24,+24%,24,,+24%,-12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheHammer,DIAMOND_AXE,0,&1&lThe Hammer,Uncommon,NONE,Melee,Axe,,"&1&oTake me to pound town.
 
 &9[NONE]
 &9[Melee, Axe]","DURABILITY:15
 DAMAGE_ALL:25
-DAMAGE_ARTHROPODS:15",Uncommon,NONE,Melee,Axe,,,,,,-25%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Punishment,BOW,,&5&lPunishment,"&5&oIf I told you to kill yourself, would you?
+DAMAGE_ARTHROPODS:15",,,,,-25%,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Punishment,BOW,,&5&lPunishment,Rare,Nether,Ranged,Bow,,"&5&oIf I told you to kill yourself, would you?
 
 &9[Nether]
-&9[Ranged, Bow]",ARROW_DAMAGE:55,Rare,Nether,Ranged,Bow,,15,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RagingStorm,Diamond_Sword,,&5&lThe Raging Storm,"&5&oI am a force of nature.
+&9[Ranged, Bow]",ARROW_DAMAGE:55,15,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RagingStorm,Diamond_Sword,,&5&lThe Raging Storm,Rare,Aishan,Melee,Sword,,"&5&oI am a force of nature.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:40
-SWEEPING_EDGE:20",Rare,Aishan,Melee,Sword,,,,,,+25%,+25%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ColorstormPurple,light_blue_dye,,&5&lColorstorm,"&5&oWeeeeeeeee
+SWEEPING_EDGE:20",,,,,+25%,+25%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ColorstormPurple,light_blue_dye,,&5&lColorstorm,Rare,Aishan,Offhand,Trinket,,"&5&oWeeeeeeeee
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,5,,,15,+30%,+30%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SeedsofLife,beetroot_seeds,,&5&lSeeds of Life,"&5&oThey are the start of something beautiful.
+&9[Offhand, Trinket]",,,,,,,,,,5,,,15,+30%,+30%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SeedsofLife,beetroot_seeds,,&5&lSeeds of Life,Rare,Aishan,Offhand,Trinket,,"&5&oThey are the start of something beautiful.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,10,,,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ToughHide,leather,,&5&lTough Hide,"&5&oAs rough as it is tough.
+&9[Offhand, Trinket]",,,,,,,,,,10,,,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ToughHide,leather,,&5&lTough Hide,Rare,Aishan,Offhand,Trinket,,"&5&oAs rough as it is tough.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,40,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Colorstorm,Yellow_dye,,&1&lColorstorm,"&1&oWeeeeeeeee
+&9[Offhand, Trinket]",,,,,,,,,,40,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Colorstorm,Yellow_dye,,&1&lColorstorm,Uncommon,Aishan,Offhand,Trinket,,"&1&oWeeeeeeeee
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Uncommon,Aishan,Offhand,Trinket,,,,,,,,,,,,,8,+30%,+30%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Winterchill,Diamond_Sword,,&5&lWinterchill,"&5&oWinter has come...
+&9[Offhand, Trinket]",,,,,,,,,,,,,8,+30%,+30%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Winterchill,Diamond_Sword,,&5&lWinterchill,Rare,Undead,Melee,Sword,,"&5&oWinter has come...
 
 &9[Undead]
 &9[Melee, Sword]","DURABILITY:25
 DAMAGE_ALL:55
-SWEEPING_EDGE:25",Rare,Undead,Melee,Sword,,-20,,,,+10%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Frostbite,Diamond_Sword,,&5&lFrostbite,"&5&oDon<&sq>t come near me
+SWEEPING_EDGE:25",-20,,,,+10%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Frostbite,Diamond_Sword,,&5&lFrostbite,Rare,Aishan,Melee,Sword,,"&5&oDon<&sq>t come near me
 
 &9Enemies are slowed when hit
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:50
-SWEEPING_EDGE:15",Rare,Aishan,Melee,Sword,,-6,-6,,-6,+10%,+10%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WardensBanner,SHIELD,,&5&lWarden<&sq>s Banner,"&5&oDon<&sq>t get caught.
+SWEEPING_EDGE:15",-6,-6,,-6,+10%,+10%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WardensBanner,SHIELD,,&5&lWarden<&sq>s Banner,Rare,Nether,Offhand,Shield,,"&5&oDon<&sq>t get caught.
 
 &9[Nether]
-&9[Offhand, Shield]",DURABILITY:50,Rare,Nether,Offhand,Shield,,,,,,,,,,50,50,,,-15%,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-TheMonarch,SHIELD,,&5&lThe Monarch,"&5&oHer beauty is unbound.
+&9[Offhand, Shield]",DURABILITY:50,,,,,,,,,50,50,,,-15%,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+TheMonarch,SHIELD,,&5&lThe Monarch,Rare,Angelic,Offhand,Shield,,"&5&oHer beauty is unbound.
 
 &9[Angelic]
-&9[Offhand, Shield]",,Rare,Angelic,Offhand,Shield,,,,,,,,,,40,40,,30,,+10%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-LinkedBoots,Chainmail_Boots,,&1&lLinked Boots,"
+&9[Offhand, Shield]",,,,,,,,,,40,40,,30,,+10%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+LinkedBoots,Chainmail_Boots,,&1&lLinked Boots,Uncommon,Undead,Armor,Boots,,"
 &9[Undead]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:15
-DURABILITY:25",Uncommon,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,,-10,,+15%,15,,,
-ForgedLeggings,Chainmail_Leggings,,&1&lForged Leggings,"
+DURABILITY:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,,-10,,+15%,15,,,
+ForgedLeggings,Chainmail_Leggings,,&1&lForged Leggings,Uncommon,NONE,Armor,Leggings,,"
 &9[NONE]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:11
 DURABILITY:19
-PROTECTION_PROJECTILE:11",Uncommon,NONE,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,+25%,,,+10%,8,,,,,,,,,,,
-GuardPlate,CHAINMAIL_CHESTPLATE,0,&1&lGuard<&sq>s Platemail,"
+PROTECTION_PROJECTILE:11",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,+25%,,,+10%,8,,,,,,,,,,,
+GuardPlate,CHAINMAIL_CHESTPLATE,0,&1&lGuard<&sq>s Platemail,Uncommon,NONE,Armor,Chestplate,,"
 &9[NONE]
 &9[Armor, Chestplate]","DURABILITY:25
 PROTECTION_ENVIRONMENTAL:15
 THORNS:5
-PROTECTION_PROJECTILE:10",Uncommon,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,20,15,,5,,,,,,,,,,,,,,,,,,,,,,
-GuardHelm,CHAINMAIL_HELMET,0,&1&lGuard<&sq>s Platemail,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,,,,,,,,,20,15,,5,,,,,,,,,,,,,,,,,,,,,,
+GuardHelm,CHAINMAIL_HELMET,0,&1&lGuard<&sq>s Platemail,Uncommon,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","DURABILITY:25
 PROTECTION_ENVIRONMENTAL:15
-THORNS:5",Uncommon,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,15,15,,,,+5%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DressPious,DIAMOND_LEGGINGS,,&5&lDress of the Pious,"&5&oThe clean and holy are rewarded.
+THORNS:5",,,,,,,,,,,,,,,,,15,15,,,,+5%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DressPious,DIAMOND_LEGGINGS,,&5&lDress of the Pious,Rare,Angelic,Armor,Leggings,,"&5&oThe clean and holy are rewarded.
 
 &9[Angelic]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:25
 THORNS:20
-DURABILITY:20",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,+50%,20,,,-5,,,,,,,,,,,
-SharpeningStone,Flint,,&5&lSharpening Stone,"&5&oHow much is too much?
+DURABILITY:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,+50%,20,,,-5,,,,,,,,,,,
+SharpeningStone,Flint,,&5&lSharpening Stone,Rare,Nether,Offhand,Trinket,,"&5&oHow much is too much?
 
 &9[Nether]
-&9[Offhand, Trinket]",,Rare,Nether,Offhand,Trinket,,,,,,,,,,-10,-10,,-10,,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TheCopperConundrum,Copper_Ingot,,&5&lThe Copper Conundrum,"&5&oIt has an ideal thermal equilibrium!
+&9[Offhand, Trinket]",,,,,,,,,,-10,-10,,-10,,+10%,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheCopperConundrum,Copper_Ingot,,&5&lThe Copper Conundrum,Rare,Aishan,Offhand,Trinket,,"&5&oIt has an ideal thermal equilibrium!
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,10,10,+10%,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DivineCrown,Raw_Gold,,&5&lThe Divine Crown,"&5&oWith all my heart, you will be
+&9[Offhand, Trinket]",,,,,,,,,,10,10,+10%,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DivineCrown,Raw_Gold,,&5&lThe Divine Crown,Rare,Angelic,Offhand,Trinket,,"&5&oWith all my heart, you will be
 &5&omy chosen of destiny and holy light.
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,30,36,-20%,16,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KillerInstinct,NETHERITE_SWORD,,&5&lKiller Instinct,"&5&oDown with the dead.
+&9[Offhand, Trinket]",,,,,,,,,,30,36,-20%,16,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KillerInstinct,NETHERITE_SWORD,,&5&lKiller Instinct,Rare,Angelic,Melee,Sword,,"&5&oDown with the dead.
 
 &9[Angelic]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:50
-SWEEPING_EDGE:20",Rare,Angelic,Melee,Sword,,20,,,20,,+15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KingSlayer,DIAMOND_SWORD,,&5&lKing Slayer,"&5&oYour throne is now mine.
+SWEEPING_EDGE:20",20,,,20,,+15%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KingSlayer,DIAMOND_SWORD,,&5&lKing Slayer,Rare,Undead,Melee,Sword,,"&5&oYour throne is now mine.
 
 &9[Undead]
 &9[Melee, Sword]","DURABILITY:20
 DAMAGE_ALL:45
 DAMAGE_UNDEAD:20
-SWEEPING_EDGE:20",Rare,Undead,Melee,Sword,,,,,10,-25%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CherubimsSong,glistering_melon_slice,,&5&lCherubim<&sq>s Song,"&5&oIt is too beautiful to understand...
+SWEEPING_EDGE:20",,,,10,-25%,+10%,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CherubimsSong,glistering_melon_slice,,&5&lCherubim<&sq>s Song,Rare,Angelic,Melee,ALL,"Offhand, ALL","&5&oIt is too beautiful to understand...
 
 &9[Angelic]
 &9[Melee, ALL]
 &9[Offhand, ALL]","DAMAGE_UNDEAD:35
-FIRE_ASPECT:30",Rare,Angelic,Melee,ALL,"Offhand, ALL",30,30,,30,+15%,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WrathoftheThrone,IRON_SWORD,,&5&lWrath of the Throne,"&5&oYou<&sq>ll never see me again...
+FIRE_ASPECT:30",30,30,,30,+15%,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WrathoftheThrone,IRON_SWORD,,&5&lWrath of the Throne,Rare,Angelic,Melee,Sword,,"&5&oYou<&sq>ll never see me again...
 
 &9[Angelic]
 &9[Melee, Sword]","DURABILITY:30
 DAMAGE_ALL:60
 DAMAGE_UNDEAD:15
 SWEEPING_EDGE:30
-FIRE_ASPECT:10",Rare,Angelic,Melee,Sword,,,,,,-35%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KingsAdornment,Diamond_Helmet,,&5&lKing<&sq>s Adornment,"&5&oYour grace.
+FIRE_ASPECT:10",,,,,-35%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KingsAdornment,Diamond_Helmet,,&5&lKing<&sq>s Adornment,Rare,Angelic,Armor,Helmet,,"&5&oYour grace.
 
 &9[Angelic]
 &9[Armor, Helmet]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:30
 PROTECTION_PROJECTILE:10
 PROTECTION_FIRE:10
-THORNS:10",Rare,Angelic,Armor,Helmet,,,,,,,,,,,,,,,,,,30,30,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ExtraCrunchySpiderEye,Fermented_Spider_Eye,,&5&lExtra Crunchy Spider Eye,"&5&oIt tastes funny...
+THORNS:10",,,,,,,,,,,,,,,,,30,30,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ExtraCrunchySpiderEye,Fermented_Spider_Eye,,&5&lExtra Crunchy Spider Eye,Rare,Undead,Offhand,Trinket,,"&5&oIt tastes funny...
 
 &9Poisons enemies you hit
 
 &9[Undead]
-&9[Offhand, Trinket]",,Rare,Undead,Offhand,Trinket,,,,,,+20%,+20%,,,,20,,-10,+10%,+10%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TideofWinter,SHIELD,,&5&lTide of Winter,"&5&oIt<&sq>s easy to get lost in the snow.
+&9[Offhand, Trinket]",,,,,,+20%,+20%,,,,20,,-10,+10%,+10%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TideofWinter,SHIELD,,&5&lTide of Winter,Rare,Undead,Offhand,Shield,,"&5&oIt<&sq>s easy to get lost in the snow.
 
 &9[Undead]
-&9[Offhand, Shield]",DURABILITY:25,Rare,Undead,Offhand,Shield,,,,,,,,,,30,30,+50%,,,-25%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LostPaw,Rabbit_Foot,,&5&lLost Paw,"
+&9[Offhand, Shield]",DURABILITY:25,,,,,,,,,30,30,+50%,,,-25%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LostPaw,Rabbit_Foot,,&5&lLost Paw,Rare,Undead,Offhand,Trinket,,"
 &9Grants jump boost
 
 &9[Undead]
-&9[Offhand, Trinket]",,Rare,Undead,Offhand,Trinket,,,,,,,,,,,,,,,+20%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DepthofDarkness,SHIELD,,&5&lThe Depth of Darkness,"&5&oStare into the abyss, and
+&9[Offhand, Trinket]",,,,,,,,,,,,,,,+20%,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DepthofDarkness,SHIELD,,&5&lThe Depth of Darkness,Rare,Ender,Offhand,Shield,,"&5&oStare into the abyss, and
 &5&othe abyss will stare back.
 
 &9[Ender]
-&9[Offhand, Shield]",DURABILITY:25,Rare,Ender,Offhand,Shield,,,,,,,,,,18,18,,-5,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SignetoftheAngels,gold_nugget,,&5&lSignet of the Angels,"
+&9[Offhand, Shield]",DURABILITY:25,,,,,,,,,18,18,,-5,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SignetoftheAngels,gold_nugget,,&5&lSignet of the Angels,Rare,Angelic,Offhand,Trinket,,"
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,33,33,,33,,+33%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GoldenRod,Blaze_rod,,&5&lThe Golden Rod,"
+&9[Offhand, Trinket]",,,,,,,,,,33,33,,33,,+33%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GoldenRod,Blaze_rod,,&5&lThe Golden Rod,Rare,Angelic,Offhand,Trinket,,"
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,,,,25,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HoneycombBlue,Honeycomb,,&1&lThe Queen<&sq>s Wax,"&1&oThe bees of Aisha are hard workers.
+&9[Offhand, Trinket]",,,,,,,,,,,,,25,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HoneycombBlue,Honeycomb,,&1&lThe Queen<&sq>s Wax,Uncommon,Aishan,Offhand,Trinket,,"&1&oThe bees of Aisha are hard workers.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Uncommon,Aishan,Offhand,Trinket,,,,,,,,,,,,,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Honeycomb,Honeycomb,,&5&lThe Queen<&sq>s Wax,"&5&oThe bees of Aisha are hard workers.
+&9[Offhand, Trinket]",,,,,,,,,,,,,10,+10%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Honeycomb,Honeycomb,,&5&lThe Queen<&sq>s Wax,Rare,Aishan,Offhand,Trinket,,"&5&oThe bees of Aisha are hard workers.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,,,,20,+15%,+20%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RottenTreadsBlue,DIAMOND_BOOTS,,&1&lRotten Treads,"&1&oThere are still bits of flesh on the soles.
+&9[Offhand, Trinket]",,,,,,,,,,,,,20,+15%,+20%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RottenTreadsBlue,DIAMOND_BOOTS,,&1&lRotten Treads,Uncommon,Undead,Armor,Boots,,"&1&oThere are still bits of flesh on the soles.
 
 &9[Undead]
 &9[Armor, Boots]","DURABILITY:16
-PROTECTION_ENVIRONMENTAL:18",Uncommon,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,,-10%,+20%,,,,
-RottenTreads,DIAMOND_BOOTS,,&5&lLuscious Boots,"&5&oSlippery and shiny
+PROTECTION_ENVIRONMENTAL:18",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,,-10%,+20%,,,,
+RottenTreads,DIAMOND_BOOTS,,&5&lLuscious Boots,Rare,Undead,Armor,Boots,,"&5&oSlippery and shiny
 
 &9[Undead]
 &9[Armor, Boots]","DURABILITY:18
 PROTECTION_ENVIRONMENTAL:20
-PROTECTION_FALL:10",Rare,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,23,,,-10%,+20%,,,,
-TheHarvester,DIAMOND_HOE,,&5&lThe Harvester,"&5&oDie. Die. Die.
+PROTECTION_FALL:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,23,,,-10%,+20%,,,,
+TheHarvester,DIAMOND_HOE,,&5&lThe Harvester,Rare,Undead,Melee,Sickle,,"&5&oDie. Die. Die.
 
 &9Applies wither to enemies
 
 &9[Undead]
 &9[Melee, Sickle]","DURABILITY:22
 DAMAGE_ALL:66
-DAMAGE_UNDEAD:22",Rare,Undead,Melee,Sickle,,-4,-4,,,+25%,+15%,66,,,,,24,,,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Totem,TOTEM_OF_UNDYING,,&5&lAngel Statue,"&5&oWe stand resolute in his stead.
+DAMAGE_UNDEAD:22",-4,-4,,,+25%,+15%,66,,,,,24,,,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Totem,TOTEM_OF_UNDYING,,&5&lAngel Statue,Rare,Angelic,Offhand,Trinket,,"&5&oWe stand resolute in his stead.
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,36,36,,24,+20%,+20%,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HelmoftheFurnace,NETHERITE_HELMET,,&5&lHelm of the Great Furnace,"&5&o""Get back in your cell, E102.""
+&9[Offhand, Trinket]",,,,,,,,,,36,36,,24,+20%,+20%,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HelmoftheFurnace,NETHERITE_HELMET,,&5&lHelm of the Great Furnace,Rare,Nether,Armor,Helmet,,"&5&o""Get back in your cell, E102.""
 &5&o-The Warden
 
 &9[Nether]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:20
 PROTECTION_FIRE:20
-DURABILITY:20",Rare,Nether,Armor,Helmet,,,,,,,,,,,,,,,,,,15,15,+25%,-5,+10%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrisonerHelm,IRON_HELMET,,&5&lPrisoner<&sq>s Hat,"&5&o""This cell is just a room.
+DURABILITY:20",,,,,,,,,,,,,,,,,15,15,+25%,-5,+10%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrisonerHelm,IRON_HELMET,,&5&lPrisoner<&sq>s Hat,Rare,Nether,Armor,Helmet,,"&5&o""This cell is just a room.
 &5&oThis block is just a hallway.
 &5&oThis citadel is just a castle.
 &5&oMy world is their prison.""
@@ -756,20 +756,20 @@ PrisonerHelm,IRON_HELMET,,&5&lPrisoner<&sq>s Hat,"&5&o""This cell is just a room
 &9Unbreakable cannot be transferred.
 
 &9[Nether]
-&9[Armor, Helmet]",,Rare,Nether,Armor,Helmet,,,,,,,,,,,,,,,,,,5,5,+25%,5,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-SoulSnuffer,DIAMOND_AXE,,&5&lSoul Snuffer,"&5&oI will now turn this city household by
+&9[Armor, Helmet]",,,,,,,,,,,,,,,,,,5,5,+25%,5,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+SoulSnuffer,DIAMOND_AXE,,&5&lSoul Snuffer,Rare,Nether,Melee,Axe,,"&5&oI will now turn this city household by
 &5&ohousehold, until the flame of life has
 &5&obeen snuffed out... forever.
 
 &9[Nether]
 &9[Melee, Axe]","DAMAGE_ALL:40
 DAMAGE_ARTHROPODS:20
-DAMAGE_UNDEAD:20",Rare,Nether,Melee,Axe,,,,,,-80%,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StrangeDust,GUNPOWDER,,&5&lStrange Dust,"&5&oHuh. What is it?
+DAMAGE_UNDEAD:20",,,,,-80%,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StrangeDust,GUNPOWDER,,&5&lStrange Dust,Rare,Ender,Offhand,Trinket,,"&5&oHuh. What is it?
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,-10,-10,+25%,-10,+15%,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BleedingEdge,DIAMOND_SWORD,,&5&lBleeding Edge,"&5&oCut until they stop moving.
+&9[Offhand, Trinket]",,,,,,,,,,-10,-10,+25%,-10,+15%,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BleedingEdge,DIAMOND_SWORD,,&5&lBleeding Edge,Rare,Nether,Melee,Sword,,"&5&oCut until they stop moving.
 
 &9Enemies hit bleed and are slowed
 &9This item cannot be repaired
@@ -778,30 +778,30 @@ BleedingEdge,DIAMOND_SWORD,,&5&lBleeding Edge,"&5&oCut until they stop moving.
 &9This item cannot be scrapped, combined, or grinded
 
 &9[Nether]
-&9[Melee, Sword]",DURABILITY:20,Rare,Nether,Melee,Sword,,-4,-4,-25%,-4,,+10%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Greenshell,SCUTE,,&5&lGreenshell,"&5&oThe turtles of Aisha swam through the
+&9[Melee, Sword]",DURABILITY:20,-4,-4,-25%,-4,,+10%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Greenshell,SCUTE,,&5&lGreenshell,Rare,Aishan,Offhand,Trinket,,"&5&oThe turtles of Aisha swam through the
 &5&oStreams of Life and across the Terraces
 &5&oof Eternity until they were torn apart.
 
 &9Grants swim speed and water breathing
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Rare,Aishan,Offhand,Trinket,,,,,,,,,,24,24,,24,,+10%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HellfireIngot,netherite_ingot,,&5&lHellfire Ingot,"&5&oUsed to make the guard<&sq>s weapons.
+&9[Offhand, Trinket]",,,,,,,,,,24,24,,24,,+10%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HellfireIngot,netherite_ingot,,&5&lHellfire Ingot,Rare,Nether,Offhand,Trinket,,"&5&oUsed to make the guard<&sq>s weapons.
 
 &9Grants fire resistance
 
 &9[Nether]
-&9[Offhand, Trinket]",,Rare,Nether,Offhand,Trinket,,,,,,,,,,-10,25,+25%,,,+10%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LiquidFire,MAGMA_CREAM,,&5&lLiquid Fire,"&5&o""Who dare defy my fortress of pain?""
+&9[Offhand, Trinket]",,,,,,,,,,-10,25,+25%,,,+10%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LiquidFire,MAGMA_CREAM,,&5&lLiquid Fire,Rare,Nether,Offhand,Trinket,,"&5&o""Who dare defy my fortress of pain?""
 &5&o-The Warden
 
 &9Grants fire resistance
 
 &9[Nether]
 &9[Offhand, Trinket]","FIRE_ASPECT:20
-KNOCKBACK:2",Rare,Nether,Offhand,Trinket,,,,,,,,20,,12,12,,16,,,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CatherinesPearl,GHAST_TEAR,,&5&lCatherine<&sq>s Pearl,"&5&o""They are as beautiful as they are valuable.
+KNOCKBACK:2",,,,,,,20,,12,12,,16,,,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CatherinesPearl,GHAST_TEAR,,&5&lCatherine<&sq>s Pearl,Rare,Ender,Offhand,Trinket,,"&5&o""They are as beautiful as they are valuable.
 &5&oPerhaps my brother will pay someone to hunt
 &5&othem down too.""
 &5&o-Catherine Campbell
@@ -810,402 +810,402 @@ CatherinesPearl,GHAST_TEAR,,&5&lCatherine<&sq>s Pearl,"&5&o""They are as beautif
 
 &9[Ender]
 &9[Offhand, Trinket]","LOOT_BONUS_MOBS:5
-DAMAGE_ALL:10",Rare,Ender,Offhand,Trinket,,,,,,,,,,20,20,+50%,10,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FireShield,SHIELD,0,&5&lFurnace Safeguard,"&5&oHide from the flames.
+DAMAGE_ALL:10",,,,,,,,,20,20,+50%,10,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FireShield,SHIELD,0,&5&lFurnace Safeguard,Rare,Nether,Offhand,Shield,,"&5&oHide from the flames.
 
 &9Grants fire resistance
 
 &9[Nether]
-&9[Offhand, Shield]",DURABILITY:25,Rare,Nether,Offhand,Shield,,,,,,,,,,20,20,,10,,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DelloransWail,TRIDENT,,&5&lDelloran<&sq>s Wail,"&5&oHear her cries and tears across the world.
+&9[Offhand, Shield]",DURABILITY:25,,,,,,,,,20,20,,10,,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DelloransWail,TRIDENT,,&5&lDelloran<&sq>s Wail,Rare,Aishan,Melee/Ranged,Trident,,"&5&oHear her cries and tears across the world.
 
 &9[Aishan]
 &9[Melee/Ranged, Trident]","DURABILITY:20
 DAMAGE_ALL:60
 IMPALING:60
-LOYALTY:5",Rare,Aishan,Melee/Ranged,Trident,,30,30,+25%,,+15%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sentinel,SHIELD,0,&1&lSentinel<&sq>s Shield,"&1&oI am the watcher. I am the eyes of the watchful.
+LOYALTY:5",30,30,+25%,,+15%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sentinel,SHIELD,0,&1&lSentinel<&sq>s Shield,Uncommon,Aishan,Offhand,Shield,,"&1&oI am the watcher. I am the eyes of the watchful.
 
 &9[Aishan]
-&9[Offhand, Shield]",DURABILITY:15,Uncommon,Aishan,Offhand,Shield,,,,,,,,,,10,10,+30%,8,+10%,+10%,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenSword,IRON_SWORD,,&2&lSharpened Sword,"
+&9[Offhand, Shield]",DURABILITY:15,,,,,,,,,10,10,+30%,8,+10%,+10%,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenSword,IRON_SWORD,,&2&lSharpened Sword,Common,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","DAMAGE_ALL:15
 DURABILITY:15
-SWEEPING_EDGE:7",Common,NONE,Melee,Sword,,,,,-4,+10%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenAxe,IRON_AXE,,&2&lButcher<&sq>s Axe,"
+SWEEPING_EDGE:7",,,,-4,+10%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenAxe,IRON_AXE,,&2&lButcher<&sq>s Axe,Common,NONE,Melee,Axe,,"
 &9[NONE]
 &9[Melee, Axe]","DAMAGE_ALL:18
-DURABILITY:15",Common,NONE,Melee,Axe,,,,,,-60%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenHelm,IRON_HELMET,,&2&lHelmet of Resolve,"
+DURABILITY:15",,,,,-60%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenHelm,IRON_HELMET,,&2&lHelmet of Resolve,Common,NONE,Armor,Helmet,,"
 &9[NONE]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:10
-DURABILITY:15",Common,NONE,Armor,Helmet,,,,,,,,,,,,,,,,,,10,20,+5%,6,,,-2,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenChest,IRON_CHESTPLATE,,&2&lChestplate of Resolve,"
+DURABILITY:15",,,,,,,,,,,,,,,,,10,20,+5%,6,,,-2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenChest,IRON_CHESTPLATE,,&2&lChestplate of Resolve,Common,NONE,Armor,Chestplate,,"
 &9[NONE]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:15
 DURABILITY:15
-THORNS:5",Common,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,+15%,8,,-15%,,,,,,,,,,,,,,,,,,,,
-GreenLeggings,IRON_LEGGINGS,,&2&lLeggings of Resolve,"
+THORNS:5",,,,,,,,,,,,,,,,,,,,,,,,,12,12,+15%,8,,-15%,,,,,,,,,,,,,,,,,,,,
+GreenLeggings,IRON_LEGGINGS,,&2&lLeggings of Resolve,Common,NONE,Armor,Leggings,,"
 &9[NONE]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:15
-DURABILITY:15",Common,NONE,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,10,,8,-10%,+10%,,,,,,,,,,,,
-GreenBoots,IRON_BOOTS,,&2&lBoots of Resolve,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,10,,8,-10%,+10%,,,,,,,,,,,,
+GreenBoots,IRON_BOOTS,,&2&lBoots of Resolve,Common,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:12
 PROTECTION_FALL:5
-DURABILITY:15",Common,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,10,-15%,4,,+10%,,,,
-GreenBow,BOW,,&2&lSetallia Longbow,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,10,-15%,4,,+10%,,,,
+GreenBow,BOW,,&2&lSetallia Longbow,Common,NONE,Ranged,Bow,,"
 &9[NONE]
 &9[Ranged, Bow]","ARROW_DAMAGE:20
-DURABILITY:10",Common,NONE,Ranged,Bow,,,,-20%,,,+15%,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenShield,SHIELD,,&2&lArtisan Shield,"
+DURABILITY:10",,,-20%,,,+15%,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenShield,SHIELD,,&2&lArtisan Shield,Common,NONE,Offhand,Shield,,"
 &9[NONE]
-&9[Offhand, Shield]",DURABILITY:15,Common,NONE,Offhand,Shield,,,,,,,,,,8,8,,8,-5%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GreenTrinket,IRON_INGOT,,&2&lHardened Steel,"
+&9[Offhand, Shield]",DURABILITY:15,,,,,,,,,8,8,,8,-5%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GreenTrinket,IRON_INGOT,,&2&lHardened Steel,Common,NONE,Offhand,Trinket,,"
 &9[NONE]
-&9[Offhand, Trinket]",,Common,NONE,Offhand,Trinket,,,,,,,,,,,10,,,-10%,+5%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueSword,DIAMOND_SWORD,,&1&lExtra-Sharp Blade,"
+&9[Offhand, Trinket]",,,,,,,,,,,10,,,-10%,+5%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueSword,DIAMOND_SWORD,,&1&lExtra-Sharp Blade,Uncommon,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","DAMAGE_ALL:20
 DURABILITY:20
-SWEEPING_EDGE:10",Uncommon,NONE,Melee,Sword,,,,,-8,+15%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueAxe,DIAMOND_AXE,,&1&lRavagers<&sq>s Axe,"
+SWEEPING_EDGE:10",,,,-8,+15%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueAxe,DIAMOND_AXE,,&1&lRavagers<&sq>s Axe,Uncommon,NONE,Melee,Axe,,"
 &9[NONE]
 &9[Melee, Axe]","DAMAGE_ALL:22
-DURABILITY:15",Uncommon,NONE,Melee,Axe,,,,,,-50%,+10%,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueHelm,DIAMOND_HELMET,,&1&lDisciple<&sq>s Helm,"
+DURABILITY:15",,,,,-50%,+10%,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueHelm,DIAMOND_HELMET,,&1&lDisciple<&sq>s Helm,Uncommon,NONE,Armor,Helmet,,"
 &9[NONE]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:13
-DURABILITY:13",Uncommon,NONE,Armor,Helmet,,,,,,,,,,,,,,,,,,12,24,+10%,10,,,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueChest,DIAMOND_CHESTPLATE,,&1&lDisciple<&sq>s Breastplate,"
+DURABILITY:13",,,,,,,,,,,,,,,,,12,24,+10%,10,,,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueChest,DIAMOND_CHESTPLATE,,&1&lDisciple<&sq>s Breastplate,Uncommon,NONE,Armor,Chestplate,,"
 &9[NONE]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:17
 PROTECTION_PROJECTILE:10
-DURABILITY:12",Uncommon,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,14,14,+25%,10,,-15%,,,,,,,,,,,,,,,,,,,,
-BlueLeggings,DIAMOND_LEGGINGS,,&1&lDisciple<&sq>s Legplates,"
+DURABILITY:12",,,,,,,,,,,,,,,,,,,,,,,,,14,14,+25%,10,,-15%,,,,,,,,,,,,,,,,,,,,
+BlueLeggings,DIAMOND_LEGGINGS,,&1&lDisciple<&sq>s Legplates,Uncommon,NONE,Armor,Leggings,,"
 &9[NONE]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:18
-DURABILITY:15",Uncommon,NONE,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,10,,8,-15%,+10%,,,,,,,,,,,,
-BlueBoots,DIAMOND_BOOTS,,&1&lDisciple<&sq>s Boots,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,10,,8,-15%,+10%,,,,,,,,,,,,
+BlueBoots,DIAMOND_BOOTS,,&1&lDisciple<&sq>s Boots,Uncommon,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:15
 PROTECTION_FALL:8
-DURABILITY:15",Uncommon,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,12,-25%,6,,+10%,,,,
-BlueBow,BOW,,&1&lLauda Striker,"
+DURABILITY:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,12,-25%,6,,+10%,,,,
+BlueBow,BOW,,&1&lLauda Striker,Uncommon,NONE,Ranged,Bow,,"
 &9[NONE]
 &9[Ranged, Bow]","ARROW_DAMAGE:25
-DURABILITY:5",Uncommon,NONE,Ranged,Bow,,,,-10%,,,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueShield,SHIELD,,&1&lMaster<&sq>s Shield,"
+DURABILITY:5",,,-10%,,,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueShield,SHIELD,,&1&lMaster<&sq>s Shield,Uncommon,NONE,Offhand,Shield,,"
 &9[NONE]
-&9[Offhand, Shield]",DURABILITY:20,Uncommon,NONE,Offhand,Shield,,,,,,,,,,10,10,,10,-10%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BlueTrinket,GOLD_INGOT,,&1&lAuthentic Nether Gold,"
+&9[Offhand, Shield]",DURABILITY:20,,,,,,,,,10,10,,10,-10%,-5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BlueTrinket,GOLD_INGOT,,&1&lAuthentic Nether Gold,Uncommon,NONE,Offhand,Trinket,,"
 &9[NONE]
-&9[Offhand, Trinket]",,Uncommon,NONE,Offhand,Trinket,,,,,,,,,,,-5,+25%,,+10%,+10%,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-UnbreakableShieldBase,SHIELD,,&1&lUnbreakable Shield,"
+&9[Offhand, Trinket]",,,,,,,,,,,-5,+25%,,+10%,+10%,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UnbreakableShieldBase,SHIELD,,&1&lUnbreakable Shield,Uncommon,NONE,Offhand,Shield,,"
 &9[NONE]
-&9[Offhand, Shield]",,Uncommon,NONE,Offhand,Shield,,,,,,,,,,20,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableShieldAishan,SHIELD,,&5&lHorizon Shield,"
+&9[Offhand, Shield]",,,,,,,,,,20,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableShieldAishan,SHIELD,,&5&lHorizon Shield,Rare,Aishan,Offhand,Shield,,"
 &9[Aishan]
-&9[Offhand, Shield]",,Rare,Aishan,Offhand,Shield,,,,,,,,,,15,15,+7%,7,+7%,+7%,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableShieldAngelic,SHIELD,,&5&lRose Shield,"
+&9[Offhand, Shield]",,,,,,,,,,15,15,+7%,7,+7%,+7%,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableShieldAngelic,SHIELD,,&5&lRose Shield,Rare,Angelic,Offhand,Shield,,"
 &9[Angelic]
-&9[Offhand, Shield]",,Rare,Angelic,Offhand,Shield,,,,,,,,,,25,25,,20,,+10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableShieldEnder,SHIELD,,&5&lThreatening Shield,"
+&9[Offhand, Shield]",,,,,,,,,,25,25,,20,,+10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableShieldEnder,SHIELD,,&5&lThreatening Shield,Rare,Ender,Offhand,Shield,,"
 &9[Ender]
-&9[Offhand, Shield]",,Rare,Ender,Offhand,Shield,,,,,,,,,,20,20,+25%,10,-5%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableShieldNether,SHIELD,,&5&lPrison Shield,"
+&9[Offhand, Shield]",,,,,,,,,,20,20,+25%,10,-5%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableShieldNether,SHIELD,,&5&lPrison Shield,Rare,Nether,Offhand,Shield,,"
 &9[Nether]
-&9[Offhand, Shield]",,Rare,Nether,Offhand,Shield,,,,,,,,,,10,10,,-10,+10%,+5%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableShieldUndead,SHIELD,,&5&lDungeon Shield,"
+&9[Offhand, Shield]",,,,,,,,,,10,10,,-10,+10%,+5%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableShieldUndead,SHIELD,,&5&lDungeon Shield,Rare,Undead,Offhand,Shield,,"
 &9[Undead]
-&9[Offhand, Shield]",,Rare,Undead,Offhand,Shield,,,,,,,,,,20,25,+10%,-5,+5%,+5%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmet,DIAMOND_HELMET,,&1&lUnbreakable Helmet,"
+&9[Offhand, Shield]",,,,,,,,,,20,25,+10%,-5,+5%,+5%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmet,DIAMOND_HELMET,,&1&lUnbreakable Helmet,Uncommon,NONE,Armor,Helmet,,"
 &9[NONE]
-&9[Armor, Helmet]",PROTECTION_ENVIRONMENTAL:10,Uncommon,NONE,Armor,Helmet,,,,,,,,,,,,,,,,,,15,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmetAishan,DIAMOND_HELMET,,&5&lHelm of the Streams,"
+&9[Armor, Helmet]",PROTECTION_ENVIRONMENTAL:10,,,,,,,,,,,,,,,,,15,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmetAishan,DIAMOND_HELMET,,&5&lHelm of the Streams,Rare,Aishan,Armor,Helmet,,"
 &9[Aishan]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:15
 OXYGEN:5
-WATER_WORKER:1",Rare,Aishan,Armor,Helmet,,,,,,,,,,,,,,,,,,15,15,,7,+5%,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmetAngelic,DIAMOND_HELMET,,&5&lHelm of Royalty,"
+WATER_WORKER:1",,,,,,,,,,,,,,,,,15,15,,7,+5%,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmetAngelic,DIAMOND_HELMET,,&5&lHelm of Royalty,Rare,Angelic,Armor,Helmet,,"
 &9[Angelic]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:15
 THORNS:10
-PROTECTION_PROJECTILE:5",Rare,Angelic,Armor,Helmet,,,,,,,,,,,,,,,,,,15,15,,15,,-5%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmetEnder,DIAMOND_HELMET,,&5&lHelm of Possibility,"
+PROTECTION_PROJECTILE:5",,,,,,,,,,,,,,,,,15,15,,15,,-5%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmetEnder,DIAMOND_HELMET,,&5&lHelm of Possibility,Rare,Ender,Armor,Helmet,,"
 &9[Ender]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:15
-PROTECTION_PROJECTILE:10",Rare,Ender,Armor,Helmet,,,,,,,,,,,,,,,,,,20,20,,-5,+10%,+10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmetNether,DIAMOND_HELMET,,&5&lHelm of the Firey Fall,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,20,20,,-5,+10%,+10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmetNether,DIAMOND_HELMET,,&5&lHelm of the Firey Fall,Rare,Nether,Armor,Helmet,,"
 &9[Nether]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:10
-PROTECTION_FIRE:15",Rare,Nether,Armor,Helmet,,,,,,,,,,,,,,,,,,10,20,,-5,+15%,-10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableHelmetUndead,DIAMOND_HELMET,,&5&lHelm of the Restless Dead,"
+PROTECTION_FIRE:15",,,,,,,,,,,,,,,,,10,20,,-5,+15%,-10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableHelmetUndead,DIAMOND_HELMET,,&5&lHelm of the Restless Dead,Rare,Undead,Armor,Helmet,,"
 &9[Undead]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:15
-PROTECTION_PROJECTILE:10",Rare,Undead,Armor,Helmet,,,,,,,,,,,,,,,,,,20,20,,5,+10%,-10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplate,DIAMOND_CHESTPLATE,,&1&lUnbreakable Chestplate,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,20,20,,5,+10%,-10%,-5,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplate,DIAMOND_CHESTPLATE,,&1&lUnbreakable Chestplate,Uncommon,NONE,Armor,Chestplate,,"
 &9[NONE]
-&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:12,Uncommon,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,17,17,,,,,,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplateAishan,DIAMOND_CHESTPLATE,,&5&lVibrant Chestplate,"
+&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:12,,,,,,,,,,,,,,,,,,,,,,,,,17,17,,,,,,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplateAishan,DIAMOND_CHESTPLATE,,&5&lVibrant Chestplate,Rare,Aishan,Armor,Chestplate,,"
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:22
 PROTECTION_FIRE:10
-PROTECTION_PROJECTILE:10",Rare,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,22,22,,10,+10%,,5,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplateAngelic,DIAMOND_CHESTPLATE,,&5&lBrilliant Chestplate,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,,,,,,,,,22,22,,10,+10%,,5,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplateAngelic,DIAMOND_CHESTPLATE,,&5&lBrilliant Chestplate,Rare,Angelic,Armor,Chestplate,,"
 &9[Angelic]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:30
 THORNS:10
-PROTECTION_FIRE:10",Rare,Angelic,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,30,30,,15,-5%,-5%,-10,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplateEnder,DIAMOND_CHESTPLATE,,&5&lShadow Chestplate,"
+PROTECTION_FIRE:10",,,,,,,,,,,,,,,,,,,,,,,,,30,30,,15,-5%,-5%,-10,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplateEnder,DIAMOND_CHESTPLATE,,&5&lShadow Chestplate,Rare,Ender,Armor,Chestplate,,"
 &9[Ender]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:20
-PROTECTION_PROJECTILE:20",Rare,Ender,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,+25%,,,-10%,15,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplateNether,DIAMOND_CHESTPLATE,,&5&lBurning Chestplate,"
+PROTECTION_PROJECTILE:20",,,,,,,,,,,,,,,,,,,,,,,,,20,20,+25%,,,-10%,15,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplateNether,DIAMOND_CHESTPLATE,,&5&lBurning Chestplate,Rare,Nether,Armor,Chestplate,,"
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:20
-PROTECTION_FIRE:20",Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,-10,+10%,,20,,,,,,,,,,,,,,,,,,True,
-UnbreakableChestplateUndead,DIAMOND_CHESTPLATE,,&5&lCreeping Chestplate,"
+PROTECTION_FIRE:20",,,,,,,,,,,,,,,,,,,,,,,,,20,20,,-10,+10%,,20,,,,,,,,,,,,,,,,,,True,
+UnbreakableChestplateUndead,DIAMOND_CHESTPLATE,,&5&lCreeping Chestplate,Rare,Undead,Armor,Chestplate,,"
 &9[Undead]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:20
-PROTECTION_PROJECTILE:15",Rare,Undead,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,25,20,,10,-10%,-10%,10,,,,,,,,,,,,,,,,,,True,
-UnbreakableLeggings,DIAMOND_LEGGINGS,,&1&lUnbreakable Leggings,"
+PROTECTION_PROJECTILE:15",,,,,,,,,,,,,,,,,,,,,,,,,25,20,,10,-10%,-10%,10,,,,,,,,,,,,,,,,,,True,
+UnbreakableLeggings,DIAMOND_LEGGINGS,,&1&lUnbreakable Leggings,Uncommon,NONE,Armor,Leggings,,"
 &9[NONE]
-&9[Armor, Leggings]",PROTECTION_ENVIRONMENTAL:12,Uncommon,NONE,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,17,,,,,,,,,,,,,,,True,
-UnbreakableLeggingsAishan,DIAMOND_LEGGINGS,,&5&lLeggings of the Twisting Vine,"
+&9[Armor, Leggings]",PROTECTION_ENVIRONMENTAL:12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,17,,,,,,,,,,,,,,,True,
+UnbreakableLeggingsAishan,DIAMOND_LEGGINGS,,&5&lLeggings of the Twisting Vine,Rare,Aishan,Armor,Leggings,,"
 &9[Aishan]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:17
-PROTECTION_PROJECTILE:10",Rare,Aishan,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,25,,5,,+10%,5,,,,,,,,,,True,
-UnbreakableLeggingsAngelic,DIAMOND_LEGGINGS,,&5&lLeggings of the Radiant,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,25,,5,,+10%,5,,,,,,,,,,True,
+UnbreakableLeggingsAngelic,DIAMOND_LEGGINGS,,&5&lLeggings of the Radiant,Rare,Angelic,Armor,Leggings,,"
 &9[Angelic]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:22
-THORNS:10",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,25,,10,-10%,+10%,-5,,,,,,,,,,True,
-UnbreakableLeggingsEnder,DIAMOND_LEGGINGS,,&5&lLeggings of the Obsidian Ring,"
+THORNS:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,25,,10,-10%,+10%,-5,,,,,,,,,,True,
+UnbreakableLeggingsEnder,DIAMOND_LEGGINGS,,&5&lLeggings of the Obsidian Ring,Rare,Ender,Armor,Leggings,,"
 &9[Ender]
-&9[Armor, Leggings]",PROTECTION_ENVIRONMENTAL:27,Rare,Ender,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,-15%,,10,,,,,,,,,,True,
-UnbreakableLeggingsNether,DIAMOND_LEGGINGS,,&5&lLeggings of the Burning Embers,"
+&9[Armor, Leggings]",PROTECTION_ENVIRONMENTAL:27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,-15%,,10,,,,,,,,,,True,
+UnbreakableLeggingsNether,DIAMOND_LEGGINGS,,&5&lLeggings of the Burning Embers,Rare,Nether,Armor,Leggings,,"
 &9[Nether]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:17
-PROTECTION_FIRE:15",Rare,Nether,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,-10,+10%,,20,,,,,,,,,,True,
-UnbreakableLeggingsUndead,DIAMOND_LEGGINGS,,&5&lLeggings of the Endless Horde,"
+PROTECTION_FIRE:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,-10,+10%,,20,,,,,,,,,,True,
+UnbreakableLeggingsUndead,DIAMOND_LEGGINGS,,&5&lLeggings of the Endless Horde,Rare,Undead,Armor,Leggings,,"
 &9[Undead]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:17
-PROTECTION_PROJECTILE:10",Rare,Undead,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,25,,,,-10%,15,,,,,,,,,,True,
-UnbreakableBoots,DIAMOND_BOOTS,,&1&lUnbreakable Boots,"
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,25,,,,-10%,15,,,,,,,,,,True,
+UnbreakableBoots,DIAMOND_BOOTS,,&1&lUnbreakable Boots,Uncommon,NONE,Armor,Boots,,"
 &9[NONE]
-&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:10,Uncommon,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,,,,,,True,
-UnbreakableBootsAishan,DIAMOND_BOOTS,,&5&lTreads of Blossoming Life,"
+&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,,,,,,True,
+UnbreakableBootsAishan,DIAMOND_BOOTS,,&5&lTreads of Blossoming Life,Rare,Aishan,Armor,Boots,,"
 &9[Aishan]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:10
 PROTECTION_FIRE:5
 PROTECTION_PROJECTILE:5
-PROTECTION_FALL:5",Rare,Aishan,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,7,,+10%,7,,True,
-UnbreakableBootsAngelic,DIAMOND_BOOTS,,&5&lTreads of the Luminous,"
+PROTECTION_FALL:5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,7,,+10%,7,,True,
+UnbreakableBootsAngelic,DIAMOND_BOOTS,,&5&lTreads of the Luminous,Rare,Angelic,Armor,Boots,,"
 &9[Angelic]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:15
 PROTECTION_PROJECTILE:5
-THORNS:10",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,,,-10,,True,
-UnbreakableBootsEnder,DIAMOND_BOOTS,,&5&lTreads of the Void,"
+THORNS:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,,,-10,,True,
+UnbreakableBootsEnder,DIAMOND_BOOTS,,&5&lTreads of the Void,Rare,Ender,Armor,Boots,,"
 &9[Ender]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:15
-PROTECTION_FALL:10",Rare,Ender,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,5,-5%,-5%,5,,True,
-UnbreakableBootsNether,DIAMOND_BOOTS,,&5&lTreads of Searing Fire,"
+PROTECTION_FALL:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,5,-5%,-5%,5,,True,
+UnbreakableBootsNether,DIAMOND_BOOTS,,&5&lTreads of Searing Fire,Rare,Nether,Armor,Boots,,"
 &9[Nether]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:10
-PROTECTION_FIRE:10",Rare,Nether,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,15,,-15,,+10%,20,,True,
-UnbreakableBootsUndead,DIAMOND_BOOTS,,&5&lTreads of Decayed Flesh,"
+PROTECTION_FIRE:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,15,,-15,,+10%,20,,True,
+UnbreakableBootsUndead,DIAMOND_BOOTS,,&5&lTreads of Decayed Flesh,Rare,Undead,Armor,Boots,,"
 &9[Undead]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:15
-PROTECTION_FALL:5",Rare,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,,+10%,-10%,15,,True,
-MayorSword,IRON_SWORD,0,&2&lMayors Rapier,"
+PROTECTION_FALL:5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,,+10%,-10%,15,,True,
+MayorSword,IRON_SWORD,0,&2&lMayors Rapier,Common,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","DURABILITY:3
-DAMAGE_ALL:3",Common,NONE,Melee,Sword,,,,,,0.35,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GuidingCompass,COMPASS,0,&1&lThe Guiding Compass,"&1&oWhere it goes, only you know.
+DAMAGE_ALL:3",,,,,0.35,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GuidingCompass,COMPASS,0,&1&lThe Guiding Compass,Uncommon,Aishan,Offhand,Trinket,,"&1&oWhere it goes, only you know.
 
 &9[Aishan]
-&9[Offhand, Trinket]",KNOCKBACK:2,Uncommon,Aishan,Offhand,Trinket,,,,,,,,,,8,8,,8,0.3,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PureNail,IRON_SWORD,0,&1&lPure Nail,"&1&oAvenge Hallownest.
+&9[Offhand, Trinket]",KNOCKBACK:2,,,,,,,,,8,8,,8,0.3,0.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PureNail,IRON_SWORD,0,&1&lPure Nail,Uncommon,Aishan,Melee,Sword,,"&1&oAvenge Hallownest.
 
 &9[Aishan]
 &9[Melee, Sword]","SWEEPING_EDGE:5
 DURABILITY:5
 DAMAGE_ALL:5
-DAMAGE_ARTHROPODS:5",Uncommon,Aishan,Melee,Sword,,,,,,,0.2,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StrangeChunk,PURPLE_DYE,,&1&lStrange Chunk,"&1&oYou aren<&sq>t sure what it<&sq>s made of...
+DAMAGE_ARTHROPODS:5",,,,,,0.2,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StrangeChunk,PURPLE_DYE,,&1&lStrange Chunk,Uncommon,Ender,Offhand,Trinket,,"&1&oYou aren<&sq>t sure what it<&sq>s made of...
 
 &9[Ender]
-&9[Offhand, Trinket]",,Uncommon,Ender,Offhand,Trinket,,,,,,,,,,-5,,-15%,,+15%,+15%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StrangeChunk2,PURPLE_DYE,,&1&lExtra Strange Chunk,"&1&oYou aren<&sq>t sure what it<&sq>s made of...
+&9[Offhand, Trinket]",,,,,,,,,,-5,,-15%,,+15%,+15%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StrangeChunk2,PURPLE_DYE,,&1&lExtra Strange Chunk,Uncommon,Ender,Offhand,Trinket,,"&1&oYou aren<&sq>t sure what it<&sq>s made of...
 
 &9[Ender]
-&9[Offhand, Trinket]",,Uncommon,Ender,Offhand,Trinket,,,,,,,,,,-5,,-15%,,+25%,+25%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StrangeChunk2Purple,PURPLE_DYE,,&5&lExtra Strange Chunk,"&5&oYou aren<&sq>t sure what it<&sq>s made of...
+&9[Offhand, Trinket]",,,,,,,,,,-5,,-15%,,+25%,+25%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StrangeChunk2Purple,PURPLE_DYE,,&5&lExtra Strange Chunk,Rare,Ender,Offhand,Trinket,,"&5&oYou aren<&sq>t sure what it<&sq>s made of...
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,,,,,+25%,+25%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Dollar,PAPER,0,&d&l&nDollar,&d&oCurrency for vanilla items and games.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Band,BOOK,0,&d&l&nBand,&d&oCurrency for vanilla items and games.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CrystalBud,small_amethyst_bud,0,&d&l&nCrystal Bud,&d&oCurrency for custom items and upgrades.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CrystalChunk,medium_amethyst_bud,0,&d&l&nCrystal Chunk,&d&oCurrency for custom items and upgrades.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CrystalBunch,large_amethyst_bud,0,&d&l&nCrystal Bunch,&d&oCurrency for custom items and upgrades.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CrystalCluster,amethyst_cluster,0,&d&l&nCrystal Cluster,&d&oCurrency for custom items and upgrades.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ResonatingCrystal,amethyst_shard,0,&d&l&nResonating Crystal,&d&oCurrency for custom items and upgrades.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioGold,MUSIC_DISC_13,,&d&l&nCurio of Gold,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioLife,MUSIC_DISC_CAT,,&d&l&nCurio of Blooming Life,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioFire,MUSIC_DISC_BLOCKS,,&d&l&nCurio of Ceaseless Fire,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioHatred,MUSIC_DISC_CHIRP,,&d&l&nCurio of Hatred,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioResilience,MUSIC_DISC_FAR,,&d&l&nCurio of Resilience,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioEnder,MUSIC_DISC_MALL,,&d&l&nCurio of Ender,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioWorlds,MUSIC_DISC_MELLOHI,,&d&l&nCurio of Other Worlds,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioDarkness,MUSIC_DISC_STAL,,&d&l&nCurio of Rising Darkness,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioInfinity,MUSIC_DISC_STRAD,,&d&l&nCurio of Infinity,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioDuality,MUSIC_DISC_WARD,,&d&l&nCurio of Duality,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioEndTimes,MUSIC_DISC_11,,&d&l&nCurio of the End Times,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioSkies,MUSIC_DISC_WAIT,,&d&l&nCurio of Endless Skies,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioLostKingdom,MUSIC_DISC_OTHERSIDE,,&d&l&nCurio of the Lost Kingdom,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CurioGreatFurnace,MUSIC_DISC_PIGSTEP,,&d&l&nCurio of the Great Furnace,&d&oSpecial secret currency.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Guardian,SHIELD,0,&2&lGuardian<&sq>s Shield,"&2&oAn elegant shield for an uncivilized age.
+&9[Offhand, Trinket]",,,,,,,,,,,,,,+25%,+25%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dollar,PAPER,0,&d&l&nDollar,Unknown,,,,,&d&oCurrency for vanilla items and games.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Band,BOOK,0,&d&l&nBand,Unknown,,,,,&d&oCurrency for vanilla items and games.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CrystalBud,small_amethyst_bud,0,&d&l&nCrystal Bud,Unknown,,,,,&d&oCurrency for custom items and upgrades.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CrystalChunk,medium_amethyst_bud,0,&d&l&nCrystal Chunk,Unknown,,,,,&d&oCurrency for custom items and upgrades.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CrystalBunch,large_amethyst_bud,0,&d&l&nCrystal Bunch,Unknown,,,,,&d&oCurrency for custom items and upgrades.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CrystalCluster,amethyst_cluster,0,&d&l&nCrystal Cluster,Unknown,,,,,&d&oCurrency for custom items and upgrades.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ResonatingCrystal,amethyst_shard,0,&d&l&nResonating Crystal,Unknown,,,,,&d&oCurrency for custom items and upgrades.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioGold,MUSIC_DISC_13,,&d&l&nCurio of Gold,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioLife,MUSIC_DISC_CAT,,&d&l&nCurio of Blooming Life,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioFire,MUSIC_DISC_BLOCKS,,&d&l&nCurio of Ceaseless Fire,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioHatred,MUSIC_DISC_CHIRP,,&d&l&nCurio of Hatred,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioResilience,MUSIC_DISC_FAR,,&d&l&nCurio of Resilience,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioEnder,MUSIC_DISC_MALL,,&d&l&nCurio of Ender,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioWorlds,MUSIC_DISC_MELLOHI,,&d&l&nCurio of Other Worlds,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioDarkness,MUSIC_DISC_STAL,,&d&l&nCurio of Rising Darkness,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioInfinity,MUSIC_DISC_STRAD,,&d&l&nCurio of Infinity,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioDuality,MUSIC_DISC_WARD,,&d&l&nCurio of Duality,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioEndTimes,MUSIC_DISC_11,,&d&l&nCurio of the End Times,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioSkies,MUSIC_DISC_WAIT,,&d&l&nCurio of Endless Skies,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioLostKingdom,MUSIC_DISC_OTHERSIDE,,&d&l&nCurio of the Lost Kingdom,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CurioGreatFurnace,MUSIC_DISC_PIGSTEP,,&d&l&nCurio of the Great Furnace,Unknown,,,,,&d&oSpecial secret currency.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guardian,SHIELD,0,&2&lGuardian<&sq>s Shield,Common,NONE,Offhand,Shield,,"&2&oAn elegant shield for an uncivilized age.
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Offhand, Shield]",,Common,NONE,Offhand,Shield,,,,,,,,,,3,3,+10%,2,,,-0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Scout,LEATHER_BOOTS,0,&2&lScouting Shoes,"&2&oTake me somewhere unknown.
+&9[Offhand, Shield]",,,,,,,,,,3,3,+10%,2,,,-0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Scout,LEATHER_BOOTS,0,&2&lScouting Shoes,Common,NONE,Armor,Boots,,"&2&oTake me somewhere unknown.
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Armor, Boots]",PROTECTION_FALL:4,Common,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-2,,,-2,+10%,+10%,1,,True,
-Warrior,STONE_AXE,0,&2&lWarrior<&sq>s Axe,"&2&oWhy run when you could kill?
+&9[Armor, Boots]",PROTECTION_FALL:4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-2,,,-2,+10%,+10%,1,,True,
+Warrior,STONE_AXE,0,&2&lWarrior<&sq>s Axe,Common,NONE,Melee,Axe,,"&2&oWhy run when you could kill?
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Melee, Axe]",DAMAGE_ALL:3,Common,NONE,Melee,Axe,,2,,,,-80%,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Guardian2,SHIELD,0,&2&lProtector<&sq>s Shield,"&2&oAn elegant shield for an uncivilized age.
+&9[Melee, Axe]",DAMAGE_ALL:3,2,,,,-80%,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Guardian2,SHIELD,0,&2&lProtector<&sq>s Shield,Common,NONE,Offhand,Shield,,"&2&oAn elegant shield for an uncivilized age.
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Offhand, Shield]",,Common,NONE,Offhand,Shield,,,,,,,,,,9,9,+30%,6,,+10%,-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Scout2,IRON_BOOTS,0,&2&lExplorer Shoes,"&2&oTake me somewhere unknown.
+&9[Offhand, Shield]",,,,,,,,,,9,9,+30%,6,,+10%,-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Scout2,IRON_BOOTS,0,&2&lExplorer Shoes,Common,NONE,Armor,Boots,,"&2&oTake me somewhere unknown.
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Armor, Boots]",PROTECTION_FALL:6,Common,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-4,,,-4,+15%,+15%,5,,True,
-Warrior2,IRON_AXE,0,&2&lHero<&sq>s Axe,"&2&oWhy run when you could kill?
+&9[Armor, Boots]",PROTECTION_FALL:6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-4,,,-4,+15%,+15%,5,,True,
+Warrior2,IRON_AXE,0,&2&lHero<&sq>s Axe,Common,NONE,Melee,Axe,,"&2&oWhy run when you could kill?
 
 &9This item cannot be upgraded,
 &9combined, grinded, or recycled
 
 &9[NONE]
-&9[Melee, Axe]",DAMAGE_ALL:8,Common,NONE,Melee,Axe,,8,,,,-80%,-10%,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-BanditCrossbow,CROSSBOW,0,&2&lOutlaw<&sq>s Crossbow,"
+&9[Melee, Axe]",DAMAGE_ALL:8,8,,,,-80%,-10%,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+BanditCrossbow,CROSSBOW,0,&2&lOutlaw<&sq>s Crossbow,Common,NONE,Ranged,Crossbow,,"
 &9[NONE]
 &9[Ranged, Crossbow]","DURABILITY:5
 QUICK_CHARGE:3
-PIERCING:10",Common,NONE,Ranged,Crossbow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BanditTag,IRON_NUGGET,0,&c&l&nBandit Tag,&c&oCurrency used for Siege of Setallia dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BanditCaptainAxe,IRON_AXE,0,&2&lBandit Captain<&sq>s Axe,"
+PIERCING:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BanditTag,IRON_NUGGET,0,&c&l&nBandit Tag,Unknown,,,,,&c&oCurrency used for Siege of Setallia dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BanditCaptainAxe,IRON_AXE,0,&2&lBandit Captain<&sq>s Axe,Common,NONE,Melee,Axe,,"
 &9[NONE]
 &9[Melee, Axe]","KNOCKBACK:1
 DURABILITY:5
-DAMAGE_ALL:7",Common,NONE,Melee,Axe,,,,15%,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BanditShield,SHIELD,0,&2&lMarauder<&sq>s Shield,"
+DAMAGE_ALL:7",,,15%,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BanditShield,SHIELD,0,&2&lMarauder<&sq>s Shield,Common,NONE,Offhand,Shield,,"
 &9[NONE]
-&9[Offhand, Shield]",DURABILITY:7,Common,NONE,Offhand,Shield,,,,,,,,,,5,5,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WarlordSword,IRON_SWORD,0,&2&lWarlord<&sq>s Sword,"
+&9[Offhand, Shield]",DURABILITY:7,,,,,,,,,5,5,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WarlordSword,IRON_SWORD,0,&2&lWarlord<&sq>s Sword,Common,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","SWEEPING_EDGE:7
 DURABILITY:5
-DAMAGE_UNDEAD:7",Common,NONE,Melee,Sword,,,,,,15%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BerserkerFury,POTION,8201,&2&lBerserker<&sq>s Fury,&2&oThe bandit go-to drink.,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,50,150"
-Mountainbrew,POTION,8201,&2&lMountain Brew,,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"10,100,150"
-LevelFourBow,BOW,0,&fBow,,ARROW_DAMAGE:10,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LevelFiveBow,BOW,0,&fBow,,"ARROW_DAMAGE:19
-ARROW_KNOCKBACK:1",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LevelSixBow,BOW,0,&fBow,,"ARROW_DAMAGE:26
-ARROW_KNOCKBACK:2",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DushoreAppreciation,EMERALD,0,&e&l&nToken of Appreciation,&e&oCurrency used for Defense of Dushore items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DushoreToken,GOLD_NUGGET,0,&e&l&nKill Token,&e&oCurrency used to buy supplies.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ReapandSow,IRON_SWORD,0,&1&lReap and Sow,"
+DAMAGE_UNDEAD:7",,,,,15%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BerserkerFury,POTION,8201,&2&lBerserker<&sq>s Fury,Common,,,,,&2&oThe bandit go-to drink.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,50,150"
+Mountainbrew,POTION,8201,&2&lMountain Brew,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"10,100,150"
+LevelFourBow,BOW,0,&fBow,Unknown,,,,,,ARROW_DAMAGE:10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LevelFiveBow,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:19
+ARROW_KNOCKBACK:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LevelSixBow,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:26
+ARROW_KNOCKBACK:2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DushoreAppreciation,EMERALD,0,&e&l&nToken of Appreciation,Unknown,,,,,&e&oCurrency used for Defense of Dushore items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DushoreToken,GOLD_NUGGET,0,&e&l&nKill Token,Unknown,,,,,&e&oCurrency used to buy supplies.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ReapandSow,IRON_SWORD,0,&1&lReap and Sow,Uncommon,Aishan,Melee,Sword,,"
 &9Heals you over time.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:12
 DAMAGE_ALL:10
 DAMAGE_UNDEAD:10
-SWEEPING_EDGE:7",Uncommon,Aishan,Melee,Sword,,6,6,,10,-50%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TrinityGhoul,BOW,0,&1&lTrinity Ghoul,"&1&oI cant afford to miss.
+SWEEPING_EDGE:7",6,6,,10,-50%,+10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TrinityGhoul,BOW,0,&1&lTrinity Ghoul,Uncommon,Undead,Ranged,Bow,,"&1&oI cant afford to miss.
 
 &9[Undead]
 &9[Ranged, Bow]","ARROW_DAMAGE:12
-DURABILITY:5",Uncommon,Undead,Ranged,Bow,,,,,,,-15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HuntingVest,CHAINMAIL_CHESTPLATE,0,&1&lBear Hunting Vest,"
+DURABILITY:5",,,,,,-15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HuntingVest,CHAINMAIL_CHESTPLATE,0,&1&lBear Hunting Vest,Uncommon,NONE,Armor,Chestplate,,"
 &9[NONE]
 &9[Armor, Chestplate]","DURABILITY:12
 THORNS:3
 PROTECTION_ENVIRONMENTAL:6
 PROTECTION_PROJECTILE:10
-PROTECTION_FALL:3",Uncommon,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,-10%,,,-5%,,,,,,,,,,,,,,,,,,,,
-FarmingShoes,CHAINMAIL_BOOTS,,&1&lFarming Shoes,"
+PROTECTION_FALL:3",,,,,,,,,,,,,,,,,,,,,,,,,8,8,-10%,,,-5%,,,,,,,,,,,,,,,,,,,,
+FarmingShoes,CHAINMAIL_BOOTS,,&1&lFarming Shoes,Uncommon,NONE,Armor,Boots,,"
 &9[NONE]
 &9[Armor, Boots]","DURABILITY:12
-PROTECTION_ENVIRONMENTAL:7",Uncommon,NONE,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,,-4,-10%,+10%,,,,
-Honey,POTION,8201,&5&lSweet Honey,&5&oCasper<&sq>s favorite drink.,,Rare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,200,100"
-GoldMelon,GLISTERING_MELON_SLICE,,&5&lSolid Gold Melon,"&5&oCasper uses it to show off.
+PROTECTION_ENVIRONMENTAL:7",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,,-4,-10%,+10%,,,,
+Honey,POTION,8201,&5&lSweet Honey,Rare,,,,,&5&oCasper<&sq>s favorite drink.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,200,100"
+GoldMelon,GLISTERING_MELON_SLICE,,&5&lSolid Gold Melon,Rare,Nether,Offhand,Trinket,,"&5&oCasper uses it to show off.
 
 &9[Nether]
-&9[Offhand, Trinket]",,Rare,Nether,Offhand,Trinket,,,,,,,,,,,,-20%,16,,+15%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CuteSlippers,DIAMOND_BOOTS,0,&5&lCute Slippers,"&5&oSo comfortable.
+&9[Offhand, Trinket]",,,,,,,,,,,,-20%,16,,+15%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CuteSlippers,DIAMOND_BOOTS,0,&5&lCute Slippers,Rare,Angelic,Armor,Boots,,"&5&oSo comfortable.
 
 &9[Angelic]
 &9[Armor, Boots]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:15
-PROTECTION_FALL:10",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,12,+25%,,,,,
-CaspersPrize,GOLDEN_AXE,,&5&lCasper<&sq>s Prize,"&5&oSlay them all.
+PROTECTION_FALL:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,12,+25%,,,,,
+CaspersPrize,GOLDEN_AXE,,&5&lCasper<&sq>s Prize,Rare,Nether,Melee,Axe,,"&5&oSlay them all.
 
 &9[Nether]
 &9[Melee, Axe]","DURABILITY:15
 DAMAGE_ALL:20
-FIRE_ASPECT:10",Rare,Nether,Melee,Axe,,,,,,+25%,+15%,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phantom,IRON_SWORD,,&5&lPhantom,"&5&oFrom the shadows, I come.
+FIRE_ASPECT:10",,,,,+25%,+15%,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phantom,IRON_SWORD,,&5&lPhantom,Rare,Undead,Melee,Sword,,"&5&oFrom the shadows, I come.
 
 &9Blinds enemies you hit
 
 &9[Undead]
 &9[Melee, Sword]","DURABILITY:15
 DAMAGE_ALL:12
-SWEEPING_EDGE:12",Rare,Undead,Melee,Sword,,,,,,+15%,+20%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HMToken,Iron_Ingot,0,&4&l&nHaunted Mines Iron,&4&oCurrency used for Haunted Mines raid items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MinersShovel,DIAMOND_SHOVEL,0,&5&lMiner<&sq>s Shovel,"&5&oIt<&sq>s for digging.
+SWEEPING_EDGE:12",,,,,+15%,+20%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HMToken,Iron_Ingot,0,&4&l&nHaunted Mines Iron,Unknown,,,,,&4&oCurrency used for Haunted Mines raid items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MinersShovel,DIAMOND_SHOVEL,0,&5&lMiner<&sq>s Shovel,Rare,NONE,Melee,Shovel,,"&5&oIt<&sq>s for digging.
 
 &9[NONE]
 &9[Melee, Shovel]","DAMAGE_ALL:20
 DIG_SPEED:10
-DURABILITY:15",Rare,NONE,Melee,Shovel,,6,6,,,,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WeirdLumpofCoal,CHARCOAL,0,&5&lWeird Lump of Coal,"&5&oSomeone found it at the back of the mines.
+DURABILITY:15",6,6,,,,+10%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WeirdLumpofCoal,CHARCOAL,0,&5&lWeird Lump of Coal,Rare,Nether,Offhand,Trinket,,"&5&oSomeone found it at the back of the mines.
 
 &9Grants fire resistance.
 
 &9[Nether]
 &9[Offhand, Trinket]","FIRE_ASPECT:5
-DAMAGE_ALL:10",Rare,Nether,Offhand,Trinket,,,,,,+50%,,,,10,10,,6,-15%,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WornTrousers,IRON_LEGGINGS,0,&5&lWorn Trousers,"&5&oMaybe you should have left them at home.
+DAMAGE_ALL:10",,,,,+50%,,,,10,10,,6,-15%,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WornTrousers,IRON_LEGGINGS,0,&5&lWorn Trousers,Rare,Nether,Armor,Leggings,,"&5&oMaybe you should have left them at home.
 
 &9[Nether]
 &9[Armor, Leggings]","DURABILITY:15
 PROTECTION_ENVIRONMENTAL:10
-PROTECTION_FIRE:15",Rare,Nether,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,+20%,,,,,,,,,,,,,,,
-UselessPickaxe,DIAMOND_PICKAXE,0,&5&lUseless Pickaxe,"&5&oIt<&sq>s a bit shit.
+PROTECTION_FIRE:15",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,+20%,,,,,,,,,,,,,,,
+UselessPickaxe,DIAMOND_PICKAXE,0,&5&lUseless Pickaxe,Rare,Undead,Melee,Pickaxe,,"&5&oIt<&sq>s a bit shit.
 
 &9Cannot mine blocks.
 
@@ -1213,120 +1213,120 @@ UselessPickaxe,DIAMOND_PICKAXE,0,&5&lUseless Pickaxe,"&5&oIt<&sq>s a bit shit.
 &9[Melee, Pickaxe]","DAMAGE_ALL:15
 DAMAGE_UNDEAD:15
 DAMAGE_ARTHROPODS:15
-DURABILITY:10",Rare,Undead,Melee,Pickaxe,,-6,-6,,-6,,+15%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ChunkofPolishedIron,RAW_IRON,0,&5&lChunk of Polished Iron,"&5&oSetallia<&sq>s finest.
+DURABILITY:10",-6,-6,,-6,,+15%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ChunkofPolishedIron,RAW_IRON,0,&5&lChunk of Polished Iron,Rare,Undead,Offhand,Trinket,,"&5&oSetallia<&sq>s finest.
 
 &9[Undead]
-&9[Offhand, Trinket]",,Rare,Undead,Offhand,Trinket,,,,,,,,,,,10,+30%,16,+25%,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CavingHelmet,IRON_HELMET,0,&5&lCaving Helmet,"&5&oUsed to light the way
+&9[Offhand, Trinket]",,,,,,,,,,,10,+30%,16,+25%,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CavingHelmet,IRON_HELMET,0,&5&lCaving Helmet,Rare,Aishan,Armor,Leggings,,"&5&oUsed to light the way
 
 &9Grants night vision
 
 &9[Aishan]
 &9[Armor, Leggings]","DURABILITY:20
-PROTECTION_ENVIRONMENTAL:15",Rare,Aishan,Armor,Leggings,,,,,,,,,,,,,,,,,,14,14,+30%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StoneofJordan,DIAMOND,,&5&lStone of Jordan,"&5&oNot pretty enough to be a ring.
+PROTECTION_ENVIRONMENTAL:15",,,,,,,,,,,,,,,,,14,14,+30%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StoneofJordan,DIAMOND,,&5&lStone of Jordan,Rare,Angelic,Offhand,Trinket,,"&5&oNot pretty enough to be a ring.
 
 &9Grants regeneration
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,5,5,+10%,12,+10%,+10%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FireLighter,BOW,,&5&lFire Lighter,"&5&oHow else would you light the way?
+&9[Offhand, Trinket]",,,,,,,,,,5,5,+10%,12,+10%,+10%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FireLighter,BOW,,&5&lFire Lighter,Rare,Nether,Ranged,Bow,,"&5&oHow else would you light the way?
 
 &9[Nether]
 &9[Ranged, Bow]","ARROW_DAMAGE:20
 DURABILITY:10
 ARROW_FIRE:10
-ARROW_KNOCKBACK:2",Rare,Nether,Ranged,Bow,,4,4,,4,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DrownyardChest,LEATHER_CHESTPLATE,,&fdrownyard,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
-DrownyardLegs,LEATHER_LEGGINGS,,&fdrownyard,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
-DrownyardFeet,LEATHER_BOOTS,,&fdrownyard,,DEPTH_STRIDER:3,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
-DrownyardToken,PRISMARINE_CRYSTALS,0,&c&l&nDrownyard Bubbles,&c&oCurrency used for Delloran Drownyard dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GlassShard,PRISMARINE_SHARD,0,&2&lShaped Glass Shard,"&2&oTake your chances.
+ARROW_KNOCKBACK:2",4,4,,4,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DrownyardChest,LEATHER_CHESTPLATE,,&fdrownyard,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
+DrownyardLegs,LEATHER_LEGGINGS,,&fdrownyard,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
+DrownyardFeet,LEATHER_BOOTS,,&fdrownyard,Unknown,,,,,,DEPTH_STRIDER:3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"50,200,200"
+DrownyardToken,PRISMARINE_CRYSTALS,0,&c&l&nDrownyard Bubbles,Unknown,,,,,&c&oCurrency used for Delloran Drownyard dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GlassShard,PRISMARINE_SHARD,0,&2&lShaped Glass Shard,Common,Undead,Offhand,Trinket,,"&2&oTake your chances.
 
 &9[Undead]
-&9[Offhand, Trinket]",,Common,Undead,Offhand,Trinket,,,,,,,,,,,,,-15,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WateryBrew,POTION,8201,&2&lWatery Brew,,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"100,200,250"
-WaterShielding,POTION,8201,&2&lWater Shielding,,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50,50,250"
-Bulwark,SHIELD,,&2&lBulwark,"
+&9[Offhand, Trinket]",,,,,,,,,,,,,-15,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WateryBrew,POTION,8201,&2&lWatery Brew,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"100,200,250"
+WaterShielding,POTION,8201,&2&lWater Shielding,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50,50,250"
+Bulwark,SHIELD,,&2&lBulwark,Common,Angelic,Offhand,Shield,,"
 &9[Angelic]
-&9[Offhand, Shield]",DURABILITY:15,Common,Angelic,Offhand,Shield,,,,,,,,,,20,20,,20,-10%,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MarinersTrident,TRIDENT,0,&2&lMariner<&sq>s Trident,"
+&9[Offhand, Shield]",DURABILITY:15,,,,,,,,,20,20,,20,-10%,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MarinersTrident,TRIDENT,0,&2&lMariner<&sq>s Trident,Common,Aishan,Melee/Ranged,Trident,,"
 &9Grants swim speed
 
 &9[Aishan]
 &9[Melee/Ranged, Trident]","DURABILITY:10
 DAMAGE_ALL:25
 LOYALTY:3
-IMPALING:20",Common,Aishan,Melee/Ranged,Trident,,,20,,,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LostShoes,DIAMOND_BOOTS,0,&2&lLost Shoes,"&2&oThey are covered in kelp and seagrass.
+IMPALING:20",,20,,,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LostShoes,DIAMOND_BOOTS,0,&2&lLost Shoes,Common,Undead,Armor,Boots,,"&2&oThey are covered in kelp and seagrass.
 
 &9[Undead]
 &9[Armor, Boots]","DURABILITY:15
 DEPTH_STRIDER:5
 PROTECTION_ENVIRONMENTAL:18
-PROTECTION_PROJECTILE:18",Common,Undead,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,+50%,,-10%,-10%,,,,
-PrismarineBreastplate,DIAMOND_CHESTPLATE,0,&2&lPrismarine Breastplate,"
+PROTECTION_PROJECTILE:18",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,+50%,,-10%,-10%,,,,
+PrismarineBreastplate,DIAMOND_CHESTPLATE,0,&2&lPrismarine Breastplate,Common,Aishan,Armor,Chestplate,,"
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_FIRE:18
 DURABILITY:10
-PROTECTION_ENVIRONMENTAL:18",Common,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento1,IRON_AXE,,&e&lButcher<&sq>s Favorite Cleaver,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento2,COOKED_SALMON,,&e&lChef<&sq>s Smoked Salmon,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento3,PUMPKIN_PIE,,&e&lMayor<&sq>s Family Pie,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento4,LEATHER_LEGGINGS,,&e&lMr. Lewis<&sq>s Lucky Pants,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento5,TRIPWIRE_HOOK,,&e&lSecret Storage Key,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento6,LIGHTNING_ROD,,&e&lMrs. Taylor<&sq>s Walking Stick,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento7,IRON_PICKAXE,,&e&lBlacksmith<&sq>s Good Hammer,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento8,CROSSBOW,,&e&lLongest Range Crossbow,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento9,RABBIT_FOOT,,&e&lThe Secret Ingredient,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento10,BOOK,,&e&lLibrarian<&sq>s Favorite Book,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento11,WHEAT_SEEDS,,&e&lNext Year<&sq>s Seeds,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaMemento12,Potion,8204,&e&lMr. Robinson<&sq>s Bottle of Rum,"
-&eMemento",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaToken,ROTTEN_FLESH,,&e&l&nUndead Flesh,&e&oCurrency used to buy supplies.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaBow1,BOW,0,&fBow,,"ARROW_DAMAGE:54
-ARROW_KNOCKBACK:1",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaBow2,BOW,0,&fBow,,"ARROW_DAMAGE:64
-ARROW_KNOCKBACK:2",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LaudaShield,SHIELD,,&bShield,,DURABILITY:10,Unique,,,,,,,,,,,,,5,5,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MidnightElixir,POTION,8201,&1&lElixir of Midnight,,,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"100,50,250"
-Exterminator,DIAMOND_SWORD,,&1&lExterminator,"
+PROTECTION_ENVIRONMENTAL:18",,,,,,,,,,,,,,,,,,,,,,,,,20,20,,10,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento1,IRON_AXE,,&e&lButcher<&sq>s Favorite Cleaver,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento2,COOKED_SALMON,,&e&lChef<&sq>s Smoked Salmon,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento3,PUMPKIN_PIE,,&e&lMayor<&sq>s Family Pie,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento4,LEATHER_LEGGINGS,,&e&lMr. Lewis<&sq>s Lucky Pants,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento5,TRIPWIRE_HOOK,,&e&lSecret Storage Key,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento6,LIGHTNING_ROD,,&e&lMrs. Taylor<&sq>s Walking Stick,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento7,IRON_PICKAXE,,&e&lBlacksmith<&sq>s Good Hammer,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento8,CROSSBOW,,&e&lLongest Range Crossbow,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento9,RABBIT_FOOT,,&e&lThe Secret Ingredient,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento10,BOOK,,&e&lLibrarian<&sq>s Favorite Book,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento11,WHEAT_SEEDS,,&e&lNext Year<&sq>s Seeds,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaMemento12,Potion,8204,&e&lMr. Robinson<&sq>s Bottle of Rum,Unknown,,,,,"
+&eMemento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaToken,ROTTEN_FLESH,,&e&l&nUndead Flesh,Unknown,,,,,&e&oCurrency used to buy supplies.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaBow1,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:54
+ARROW_KNOCKBACK:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaBow2,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:64
+ARROW_KNOCKBACK:2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LaudaShield,SHIELD,,&bShield,Unique,,,,,,DURABILITY:10,,,,,,,,,5,5,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MidnightElixir,POTION,8201,&1&lElixir of Midnight,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"100,50,250"
+Exterminator,DIAMOND_SWORD,,&1&lExterminator,Uncommon,NONE,Melee,Sword,,"
 &9[NONE]
 &9[Melee, Sword]","DAMAGE_ARTHROPODS:28
 SWEEPING_EDGE:18
-DURABILITY:18",Uncommon,NONE,Melee,Sword,,,,,,+10%,,20,,,,,,+10%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LawBreaker,DIAMOND_AXE,,&1&lLaw Breaker,"
+DURABILITY:18",,,,,+10%,,20,,,,,,+10%,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LawBreaker,DIAMOND_AXE,,&1&lLaw Breaker,Uncommon,Undead,Melee,Axe,,"
 &9[Undead]
 &9[Melee, Axe]","DAMAGE_ALL:32
-DURABILITY:16",Uncommon,Undead,Melee,Axe,,-7,-7,,-7,-50%,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SettlersHelm,DIAMOND_HELMET,,&1&lSettler<&sq>s Helm,"
+DURABILITY:16",-7,-7,,-7,-50%,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SettlersHelm,DIAMOND_HELMET,,&1&lSettler<&sq>s Helm,Uncommon,Angelic,Armor,Helmet,,"
 &9[Angelic]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:23
 PROTECTION_PROJECTILE:17
-DURABILITY:15",Uncommon,Angelic,Armor,Helmet,,,,,,,,,,,,,,,,,,23,23,-50%,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BoneMarrow,Bone_Meal,,&1&lBone Marrow,"&1&oIt<&sq>s good for you!
+DURABILITY:15",,,,,,,,,,,,,,,,,23,23,-50%,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BoneMarrow,Bone_Meal,,&1&lBone Marrow,Uncommon,Angelic,Offhand,Trinket,,"&1&oIt<&sq>s good for you!
 
 &9Grants slow fall and night vision
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Uncommon,Angelic,Offhand,Trinket,,,,,,,,,,,,,20,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CorpseChaser,SHIELD,,&1&lCorpse Chaser,"&1&oGive them hell.
+&9[Offhand, Trinket]",,,,,,,,,,,,,20,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CorpseChaser,SHIELD,,&1&lCorpse Chaser,Uncommon,Undead,Offhand,Shield,,"&1&oGive them hell.
 
 &9[Undead]
-&9[Offhand, Shield]",DURABILITY:25,Uncommon,Undead,Offhand,Shield,,,,,,,,,,20,20,,10,+10%,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Chopper,BOW,0,&5&lChopper,"&5&oGet to it.
+&9[Offhand, Shield]",DURABILITY:25,,,,,,,,,20,20,,10,+10%,-10%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chopper,BOW,0,&5&lChopper,Rare,Ender,Ranged,Bow,,"&5&oGet to it.
 
 &9DO NOT SWAP TO OTHER ITEMS
 &9WHILE FIRING! THEY WILL DELETE!
@@ -1334,26 +1334,26 @@ Chopper,BOW,0,&5&lChopper,"&5&oGet to it.
 &9[Ender]
 &9[Ranged, Bow]","ARROW_DAMAGE:42
 DURABILITY:30
-ARROW_INFINITE:1",Rare,Ender,Ranged,Bow,,5,5,+25%,,,+25%,,,,,,,+25%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrincesInvitation,DIAMOND_HOE,,&5&lPrince<&sq>s Invitation,"&5&oHe invited himself to Lauda.
+ARROW_INFINITE:1",5,5,+25%,,,+25%,,,,,,,+25%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrincesInvitation,DIAMOND_HOE,,&5&lPrince<&sq>s Invitation,Rare,Angelic,Melee,Sickle,,"&5&oHe invited himself to Lauda.
 
 &9[Angelic]
 &9[Melee, Sickle]","DAMAGE_ALL:30
 DAMAGE_UNDEAD:20
 DURABILITY:15
-FIRE_ASPECT:10",Rare,Angelic,Melee,Sickle,,10,10,,,,,30,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MayorsLegs,DIAMOND_LEGGINGS,0,&5&lMayor<&sq>s Pants,"&5&oYou have the power to save them.
+FIRE_ASPECT:10",10,10,,,,,30,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MayorsLegs,DIAMOND_LEGGINGS,0,&5&lMayor<&sq>s Pants,Rare,Angelic,Armor,Leggings,,"&5&oYou have the power to save them.
 
 &9[Angelic]
 &9[Armor, Leggings]","DURABILITY:20
-PROTECTION_ENVIRONMENTAL:25",Rare,Angelic,Armor,Leggings,,,,,,,,,,,,,,+20%,+30%,,,,,,,,,,,,,,,,,,,20,20,,16,+10%,+10%,,,,,,,,,,,,
-RottenHeart,FERMENTED_SPIDER_EYE,,&5&lRotten Heart,"&5&oIt stopped beating long ago...
+PROTECTION_ENVIRONMENTAL:25",,,,,,,,,,,,,+20%,+30%,,,,,,,,,,,,,,,,,,,20,20,,16,+10%,+10%,,,,,,,,,,,,
+RottenHeart,FERMENTED_SPIDER_EYE,,&5&lRotten Heart,Rare,Undead,Offhand,Trinket,,"&5&oIt stopped beating long ago...
 
 &9Heals you over time
 
 &9[Undead]
-&9[Offhand, Trinket]",,Rare,Undead,Offhand,Trinket,,,,,,,,,,5,5,,-10,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phantom2,DIAMOND_SWORD,,&5&lShining Phantom,"&5&oHere, light only exists to cast shadow.
+&9[Offhand, Trinket]",,,,,,,,,,5,5,,-10,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phantom2,DIAMOND_SWORD,,&5&lShining Phantom,Rare,Undead,Melee,Sword,,"&5&oHere, light only exists to cast shadow.
 
 &9Blinds enemies you hit
 &9Makes you invisible
@@ -1363,52 +1363,52 @@ Phantom2,DIAMOND_SWORD,,&5&lShining Phantom,"&5&oHere, light only exists to cast
 DAMAGE_ALL:18
 DAMAGE_UNDEAD:15
 DAMAGE_ARTHROPODS:15
-SWEEPING_EDGE:18",Rare,Undead,Melee,Sword,,,,,12,+25%,+25%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WolfFlesh,MUTTON,,&4&lWolf Flesh,&4&oNeeded to open the Lower Tavern and Inn,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CottageKey,STICK,,&4&lCottage Key,&4&oTwo are needed to open Cottages 1 & 2,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BearFur,FEATHER,,&4&lBear Fur,"&4&oNeeded to open the Upper Tavern and Inn
-&4&oand Cottages 3 & 4",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EstatesKey,Gold_Ingot,,&4&lEstates Key,&4&oNeeded to open the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate1,Dried_Kelp,,&4&lThing Under the Stairs,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate2,Cookie,,&4&lDelicious Cookie,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate3,Flower_Pot,,&4&lBalcony Flower Pot,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate4,Red_Wool,,&4&lComfy Pillow,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate5,Creeper_Head,,&4&lCreeper Head,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate6,Book,,&4&lPrince<&sq>s Favorite Book,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate7,Ender_Eye,,&4&lBall of Whispers,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate8,Glass_Bottle,,&4&lEmpty Bottle of Vodka,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Estate9,Cooked_Chicken,,&4&lLate Night Snack,&4&oNeeded to escape the Lothera Estate,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StraightJacket,DIAMOND_CHESTPLATE,,&5&lStraight Jacket,"&5&oInsanity is today<&sq>s specialty.
+SWEEPING_EDGE:18",,,,12,+25%,+25%,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WolfFlesh,MUTTON,,&4&lWolf Flesh,Unknown,,,,,&4&oNeeded to open the Lower Tavern and Inn,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CottageKey,STICK,,&4&lCottage Key,Unknown,,,,,&4&oTwo are needed to open Cottages 1 & 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BearFur,FEATHER,,&4&lBear Fur,Unknown,,,,,"&4&oNeeded to open the Upper Tavern and Inn
+&4&oand Cottages 3 & 4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EstatesKey,Gold_Ingot,,&4&lEstates Key,Unknown,,,,,&4&oNeeded to open the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate1,Dried_Kelp,,&4&lThing Under the Stairs,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate2,Cookie,,&4&lDelicious Cookie,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate3,Flower_Pot,,&4&lBalcony Flower Pot,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate4,Red_Wool,,&4&lComfy Pillow,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate5,Creeper_Head,,&4&lCreeper Head,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate6,Book,,&4&lPrince<&sq>s Favorite Book,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate7,Ender_Eye,,&4&lBall of Whispers,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate8,Glass_Bottle,,&4&lEmpty Bottle of Vodka,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Estate9,Cooked_Chicken,,&4&lLate Night Snack,Unknown,,,,,&4&oNeeded to escape the Lothera Estate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StraightJacket,DIAMOND_CHESTPLATE,,&5&lStraight Jacket,Rare,Nether,Armor,Chestplate,,"&5&oInsanity is today<&sq>s specialty.
 
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:30
 THORNS:5
-DURABILITY:25",Rare,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,30,-25%,,,-25%,10,,,,,,,,,,,
-PeasantsShoes,DIAMOND_BOOTS,,&5&lPeasant<&sq>s Shoes,"&5&oThey never had a chance.
+DURABILITY:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,30,-25%,,,-25%,10,,,,,,,,,,,
+PeasantsShoes,DIAMOND_BOOTS,,&5&lPeasant<&sq>s Shoes,Rare,Angelic,Armor,Boots,,"&5&oThey never had a chance.
 
 &9[Angelic]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:27
-DURABILITY:20",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,50,,20,,,,,,,,,,,,,,
-GraveDigger,NETHERITE_SHOVEL,0,&5&lGrave Digger,"&5&oThere are 13 tally marks on the side.
+DURABILITY:20",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,50,,20,,,,,,,,,,,,,,
+GraveDigger,NETHERITE_SHOVEL,0,&5&lGrave Digger,Rare,Undead,Melee,Shovel,,"&5&oThere are 13 tally marks on the side.
 
 &9[Undead]
 &9[Melee, Shovel]","DAMAGE_ALL:40
 DAMAGE_ARTHROPODS:25
-DURABILITY:25",Rare,Undead,Melee,Shovel,,12,12,,,+10%,,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ThePoacher,BOW,0,&5&lThe Poacher,"&5&oThose peasants aren<&sq>t going to
+DURABILITY:25",12,12,,,+10%,,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ThePoacher,BOW,0,&5&lThe Poacher,Rare,Undead,Ranged,Bow,,"&5&oThose peasants aren<&sq>t going to
 &5&oshoot themselves.
 
 &9[Undead]
 &9[Ranged, Bow]","ARROW_DAMAGE:50
 DURABILITY:35
-ARROW_INFINITE:1",Rare,Undead,Ranged,Bow,,15,15,+50%,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SanguineHunger,SHIELD,,&5&lSanguine Hunger,"&5&oDrink up...
+ARROW_INFINITE:1",15,15,+50%,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SanguineHunger,SHIELD,,&5&lSanguine Hunger,Rare,Ender,Offhand,Shield,,"&5&oDrink up...
 
 &9Grants regeneration
 
 &9[Ender]
-&9[Offhand, Shield]",DURABILITY:30,Rare,Ender,Offhand,Shield,,,,,,,,,,25,35,+50%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RoyalDress,DIAMOND_LEGGINGS,,&5&lRoyal Dress,"&5&o""It wasn<&sq>t my fault. I simply did
+&9[Offhand, Shield]",DURABILITY:30,,,,,,,,,25,35,+50%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RoyalDress,DIAMOND_LEGGINGS,,&5&lRoyal Dress,Rare,Ender,Armor,Leggings,,"&5&o""It wasn<&sq>t my fault. I simply did
 &5&oas I was told.""
 &5&o-Prince of Estelle
 
@@ -1417,82 +1417,82 @@ RoyalDress,DIAMOND_LEGGINGS,,&5&lRoyal Dress,"&5&o""It wasn<&sq>t my fault. I si
 PROTECTION_FALL:10
 PROTECTION_FIRE:10
 PROTECTION_PROJECTILE:10
-DURABILITY:30",Rare,Ender,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,,,,15,,,,,,,,,,,
-TheGuillotine,DIAMOND_AXE,0,&5&lThe Guillotine,"&5&oHeads will roll.
+DURABILITY:30",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,,,,,15,,,,,,,,,,,
+TheGuillotine,DIAMOND_AXE,0,&5&lThe Guillotine,Rare,Nether,Melee,Axe,,"&5&oHeads will roll.
 
 &9[Nether]
 &9[Melee, Axe]","DAMAGE_ALL:60
-DURABILITY:20",Rare,Nether,Melee,Axe,,18,18,,-10,-15%,+15%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ripclaw,NETHERITE_HOE,0,&5&lRipclaw,"&5&oSuffering is the sweatest sound.
+DURABILITY:20",18,18,,-10,-15%,+15%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ripclaw,NETHERITE_HOE,0,&5&lRipclaw,Rare,Undead,Melee,Sickle,,"&5&oSuffering is the sweatest sound.
 
 &9Enemies hit bleed and are slowed
 
 &9[Undead]
 &9[Melee, Sickle]","DAMAGE_ALL:50
-DURABILITY:20",Rare,Undead,Melee,Sickle,,12,12,+25%,12,+15%,,50,,,,,24,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StringsofFrailty,STRING,,&5&lStrings of Frailty,"&5&oGrapple with your existence.
+DURABILITY:20",12,12,+25%,12,+15%,,50,,,,,24,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StringsofFrailty,STRING,,&5&lStrings of Frailty,Rare,Ender,Offhand,Trinket,,"&5&oGrapple with your existence.
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,30,30,+30%,-20,+30%,-20%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PyramidToken,GLOWSTONE_DUST,,&c&l&nPyramid Dust,&c&oCurrency used for Sunken Pyramid dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PyramidChest,LEATHER_CHESTPLATE,,&fdrownyard,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
-PyramidLegs,LEATHER_LEGGINGS,,&fdrownyard,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
-PyramidBoots,LEATHER_BOOTS,,&fdrownyard,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
-ExuberantHealingPotion,SPLASH_POTION,16389,&2&lExuberant Healing Potion,,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,50,50"
-VialofSand,POTION,8201,&2&lVial of Sand,,,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"200,200,100"
-PharaohCrown,NETHERITE_HELMET,,&2&lPharaoh<&sq>s Crown,"
+&9[Offhand, Trinket]",,,,,,,,,,30,30,+30%,-20,+30%,-20%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PyramidToken,GLOWSTONE_DUST,,&c&l&nPyramid Dust,Unknown,,,,,&c&oCurrency used for Sunken Pyramid dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PyramidChest,LEATHER_CHESTPLATE,,&fdrownyard,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
+PyramidLegs,LEATHER_LEGGINGS,,&fdrownyard,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
+PyramidBoots,LEATHER_BOOTS,,&fdrownyard,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,220,150"
+ExuberantHealingPotion,SPLASH_POTION,16389,&2&lExuberant Healing Potion,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,50,50"
+VialofSand,POTION,8201,&2&lVial of Sand,Common,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"200,200,100"
+PharaohCrown,NETHERITE_HELMET,,&2&lPharaoh<&sq>s Crown,Common,Angelic,Armor,Helmet,,"
 &9[Angelic]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:40
 PROTECTION_PROJECTILE:30
-DURABILITY:40",Common,Angelic,Armor,Helmet,,,,,,,,,,,,,,,,,,45,45,,,+25%,-15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CampbellsPrize,GOLDEN_SWORD,,&2&lCampbell<&sq>s Prize,"&2&o""Slay with firey vengeance.""
+DURABILITY:40",,,,,,,,,,,,,,,,,45,45,,,+25%,-15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CampbellsPrize,GOLDEN_SWORD,,&2&lCampbell<&sq>s Prize,Common,Nether,Melee,Sword,,"&2&o""Slay with firey vengeance.""
 &2&o-Catherine Campbell
 
 &9[Nether]
 &9[Melee, Sword]","DURABILITY:50
 DAMAGE_ALL:70
 FIRE_ASPECT:30
-SWEEPING_EDGE:30",Common,Nether,Melee,Sword,,-7,-7,,,+25%,,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RustedAxe,IRON_AXE,,&2&lRusted Axe,"
+SWEEPING_EDGE:30",-7,-7,,,+25%,,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RustedAxe,IRON_AXE,,&2&lRusted Axe,Common,Undead,Melee,Axe,,"
 &9[Undead]
 &9[Melee, Axe]","DURABILITY:35
 DAMAGE_ALL:65
-DAMAGE_UNDEAD:35",Common,Undead,Melee,Axe,,30,30,,-10,-20%,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GuardianLeggings,NETHERITE_LEGGINGS,,&2&lGuardian Leggings,"
+DAMAGE_UNDEAD:35",30,30,,-10,-20%,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GuardianLeggings,NETHERITE_LEGGINGS,,&2&lGuardian Leggings,Common,Aishan,Armor,Leggings,,"
 &9[Aishan]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:40
 PROTECTION_FIRE:25
 PROTECTION_PROJECTILE:25
-DURABILITY:30",Common,Aishan,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,45,,15,,+10%,,,,,,,,,,,,
-InvasionBow1,BOW,0,&fBow,,ARROW_DAMAGE:100,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-InvasionBow2,BOW,0,&fBow,,"ARROW_DAMAGE:120
-ARROW_KNOCKBACK:1",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-InvasionToken,GOLD_INGOT,0,&e&l&nKill Token,&e&oCurrency used to buy supplies.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MedalofValor,bell,,&e&l&nMedal of Valor,"&e&oCurrency used for the Invasion of Haven-Meadow
-&e&oValley event items.",,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AthrynnsHand,BOW,0,&1&lAthrynn<&sq>s Hand,"
+DURABILITY:30",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,45,,15,,+10%,,,,,,,,,,,,
+InvasionBow1,BOW,0,&fBow,Unknown,,,,,,ARROW_DAMAGE:100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+InvasionBow2,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:120
+ARROW_KNOCKBACK:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+InvasionToken,GOLD_INGOT,0,&e&l&nKill Token,Unknown,,,,,&e&oCurrency used to buy supplies.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MedalofValor,bell,,&e&l&nMedal of Valor,Unknown,,,,,"&e&oCurrency used for the Invasion of Haven-Meadow
+&e&oValley event items.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AthrynnsHand,BOW,0,&1&lAthrynn<&sq>s Hand,Uncommon,NONE,Ranged,Bow,,"
 &9[NONE]
 &9[Ranged, Bow]","ARROW_DAMAGE:80
-ARROW_KNOCKBACK:1",Uncommon,NONE,Ranged,Bow,,,,,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-StrengthoftheStalwart,POTION,8201,&1&lStrength of the Stalwart,,,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50,150,150"
-CrusadersSafeguard,SHIELD,,&1&lCrusader<&sq>s Safeguard,"&1&oMay she bless you in battle.
+ARROW_KNOCKBACK:1",,,,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StrengthoftheStalwart,POTION,8201,&1&lStrength of the Stalwart,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"50,150,150"
+CrusadersSafeguard,SHIELD,,&1&lCrusader<&sq>s Safeguard,Uncommon,Angelic,Offhand,Shield,,"&1&oMay she bless you in battle.
 
 &9[Angelic]
-&9[Offhand, Shield]",,Uncommon,Angelic,Offhand,Shield,,,,,,,,,,55,55,,40,-15%,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-GlisteningAxe,DIAMOND_AXE,,&1&lGlistening Axe,"
+&9[Offhand, Shield]",,,,,,,,,,55,55,,40,-15%,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+GlisteningAxe,DIAMOND_AXE,,&1&lGlistening Axe,Uncommon,Ender,Melee,Axe,,"
 &9[Ender]
 &9[Melee, Axe]","DURABILITY:25
 DAMAGE_ALL:90
-DAMAGE_UNDEAD:50",Uncommon,Ender,Melee,Axe,,-30,,,15,-15%,,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BattlewornHelm,DIAMOND_HELMET,,&1&lBattle-Worn Helm,"
+DAMAGE_UNDEAD:50",-30,,,15,-15%,,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BattlewornHelm,DIAMOND_HELMET,,&1&lBattle-Worn Helm,Uncommon,Undead,Armor,Helmet,,"
 &9[Undead]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:60
-PROTECTION_PROJECTILE:25",Uncommon,Undead,Armor,Helmet,,,,,,,,,,,,,,,,,,55,55,,20,+10%,,-20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-ScrapsofWar,Netherite_Scrap,,&1&lScraps of War,"&1&oWar is not as glorious as they believe.
+PROTECTION_PROJECTILE:25",,,,,,,,,,,,,,,,,55,55,,20,+10%,,-20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+ScrapsofWar,Netherite_Scrap,,&1&lScraps of War,Uncommon,Nether,Offhand,Trinket,,"&1&oWar is not as glorious as they believe.
 
 &9[Nether]
-&9[Offhand, Trinket]",,Uncommon,Nether,Offhand,Trinket,,,,,,,,,,-15,-15,,25,+15%,-15%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phantom3,NETHERITE_SWORD,,&5&lRoaring Phantom,"&5&oFollow me into the abyss.
+&9[Offhand, Trinket]",,,,,,,,,,-15,-15,,25,+15%,-15%,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phantom3,NETHERITE_SWORD,,&5&lRoaring Phantom,Rare,Undead,Melee,Sword,,"&5&oFollow me into the abyss.
 
 &9Blinds enemies you hit
 &9Makes you invisible and grants jump boost
@@ -1502,70 +1502,70 @@ Phantom3,NETHERITE_SWORD,,&5&lRoaring Phantom,"&5&oFollow me into the abyss.
 DAMAGE_ALL:75
 DAMAGE_UNDEAD:20
 DAMAGE_ARTHROPODS:20
-SWEEPING_EDGE:25",Rare,Undead,Melee,Sword,,,20,,20,+25%,+25%,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KnightTreads,IRON_BOOTS,,&5&lKnight Treads,"&5&oWorn by the valiant.
+SWEEPING_EDGE:25",,20,,20,+25%,+25%,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KnightTreads,IRON_BOOTS,,&5&lKnight Treads,Rare,Angelic,Armor,Boots,,"&5&oWorn by the valiant.
 
 &9[Angelic]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:60
 PROTECTION_FALL:10
-THORNS:25",Rare,Angelic,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60,60,,,,+10%,,,True,
-CannonSoot,Charcoal,,&5&lCannon Soot,"&5&oBy fire be purged.
+THORNS:25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60,60,,,,+10%,,,True,
+CannonSoot,Charcoal,,&5&lCannon Soot,Rare,Undead,Offhand,Trinket,,"&5&oBy fire be purged.
 
 &9[Undead]
-&9[Offhand, Trinket]",,Rare,Undead,Offhand,Trinket,,,,,,,,,,35,35,,25,-25%,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TaintedFieldsToken,Wheat,,&c&l&nPlagued Grain,&c&oCurrency used for Tainted Fields dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TaintedFieldsStack,Hay_Block,,&c&l&nDiseased Hay,&c&oCurrency used for Tainted Fields dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LegShredder,Shears,,&2&lLeg Shredder,"
+&9[Offhand, Trinket]",,,,,,,,,,35,35,,25,-25%,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TaintedFieldsToken,Wheat,,&c&l&nPlagued Grain,Unknown,,,,,&c&oCurrency used for Tainted Fields dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TaintedFieldsStack,Hay_Block,,&c&l&nDiseased Hay,Unknown,,,,,&c&oCurrency used for Tainted Fields dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LegShredder,Shears,,&2&lLeg Shredder,Common,NONE,Melee,Shears,,"
 &9Enemies hit are slowed and bleed.
 
 &9[NONE]
-&9[Melee, Shears]",DAMAGE_ALL:100,Common,NONE,Melee,Shears,,-20,,,20,,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-PestController,BOW,0,&2&lPest Controller,"
+&9[Melee, Shears]",DAMAGE_ALL:100,-20,,,20,,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+PestController,BOW,0,&2&lPest Controller,Common,NONE,Ranged,Bow,,"
 &9[NONE]
 &9[Ranged, Bow]","ARROW_DAMAGE:120
 ARROW_KNOCKBACK:2
 DURABILITY:20
-ARROW_INFINITE:1",Common,NONE,Ranged,Bow,,,50,,10,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ScarecrowVest,LEATHER_CHESTPLATE,,&2&lScarecrow Vest,"
+ARROW_INFINITE:1",,50,,10,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ScarecrowVest,LEATHER_CHESTPLATE,,&2&lScarecrow Vest,Common,NONE,Armor,Chestplate,,"
 &9[NONE]
-&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:70,Common,NONE,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,70,70,+25%,15,,-10%,,,,,,,,,,,,,,,,,,,True,
-OldHoe,IRON_HOE,,&2&lOld Hoe,"
+&9[Armor, Chestplate]",PROTECTION_ENVIRONMENTAL:70,,,,,,,,,,,,,,,,,,,,,,,,,70,70,+25%,15,,-10%,,,,,,,,,,,,,,,,,,,True,
+OldHoe,IRON_HOE,,&2&lOld Hoe,Common,NONE,Melee,Sickle,,"
 &9[NONE]
 &9[Melee, Sickle]","DAMAGE_ALL:100
 DAMAGE_UNDEAD:25
 DAMAGE_ARTHROPODS:25
-DURABILITY:30",Common,NONE,Melee,Sickle,,-15,-15,,15,+15%,+15%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CasperBow,BOW,0,&fBow,,"ARROW_DAMAGE:200
-ARROW_KNOCKBACK:1",Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CaspersGenerosity,gold_nugget,,&e&l&nCasper<&sq>s Generosity,&e&oCurrency for the pre-gauntlet shop.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GauntletTrophy,gold_block,,&e&l&nGauntlet Trophy,&e&oCurrency used for Casper<&sq>s Gauntlet event items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CaspersCocktail,POTION,8201,&1&lCasper<&sq>s Cocktail,,,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,150,150"
-WinnersSignet,Emerald,,&1&lWinner<&sq>s Signet,"&1&oDon<&sq>t come back if you aren<&sq>t holding
+DURABILITY:30",-15,-15,,15,+15%,+15%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CasperBow,BOW,0,&fBow,Unknown,,,,,,"ARROW_DAMAGE:200
+ARROW_KNOCKBACK:1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CaspersGenerosity,gold_nugget,,&e&l&nCasper<&sq>s Generosity,Unknown,,,,,&e&oCurrency for the pre-gauntlet shop.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GauntletTrophy,gold_block,,&e&l&nGauntlet Trophy,Unknown,,,,,&e&oCurrency used for Casper<&sq>s Gauntlet event items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CaspersCocktail,POTION,8201,&1&lCasper<&sq>s Cocktail,Uncommon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"250,150,150"
+WinnersSignet,Emerald,,&1&lWinner<&sq>s Signet,Uncommon,Aishan,Offhand,Trinket,,"&1&oDon<&sq>t come back if you aren<&sq>t holding
 &1&oone of these.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Uncommon,Aishan,Offhand,Trinket,,,,,,,,,,,40,+25%,20,+10%,+10%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MillionDollarShoes,GOLDEN_BOOTS,,&1&lMillion Dollar Shoes,"&1&oNow with extra shine.
+&9[Offhand, Trinket]",,,,,,,,,,,40,+25%,20,+10%,+10%,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MillionDollarShoes,GOLDEN_BOOTS,,&1&lMillion Dollar Shoes,Uncommon,Nether,Armor,Boots,,"&1&oNow with extra shine.
 
 &9[Nether]
 &9[Armor, Boots]","PROTECTION_ENVIRONMENTAL:75
-PROTECTION_FALL:10",Uncommon,Nether,Armor,Boots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80,70,-25%,-25,,+10%,25,,True,
-ProofofVictory,SHIELD,,&1&lProof of Victory,"
+PROTECTION_FALL:10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80,70,-25%,-25,,+10%,25,,True,
+ProofofVictory,SHIELD,,&1&lProof of Victory,Uncommon,Aishan,Offhand,Shield,,"
 &9[Aishan]
-&9[Offhand, Shield]",,Uncommon,Aishan,Offhand,Shield,,,,,,,,,,75,75,+25%,,+15%,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-VIPsVest,NETHERITE_CHESTPLATE,,&1&lVIP<&sq>s Vest,"&1&oEngraved with diamonds and coated
+&9[Offhand, Shield]",,,,,,,,,,75,75,+25%,,+15%,+15%,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+VIPsVest,NETHERITE_CHESTPLATE,,&1&lVIP<&sq>s Vest,Uncommon,Nether,Armor,Chestplate,,"&1&oEngraved with diamonds and coated
 &1&oin the Nether<&sq>s finest netherite.
 
 &9[Nether]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:85
-PROTECTION_PROJECTILE:50",Uncommon,Nether,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,75,85,,,-15%,,20,,,,,,,,,,,,,,,,,,True,
-EsteemedBlade,DIAMOND_SWORD,,&1&lEsteemed Blade,"
+PROTECTION_PROJECTILE:50",,,,,,,,,,,,,,,,,,,,,,,,,75,85,,,-15%,,20,,,,,,,,,,,,,,,,,,True,
+EsteemedBlade,DIAMOND_SWORD,,&1&lEsteemed Blade,Uncommon,Angelic,Melee,Sword,,"
 &9[Angelic]
 &9[Melee, Sword]","DURABILITY:30
 DAMAGE_ALL:120
 DAMAGE_ARTHROPODS:30
-SWEEPING_EDGE:50",Uncommon,Angelic,Melee,Sword,,30,30,,10,+10%,,115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CaspersHeirloom,GOLDEN_SWORD,,&1&lCasper<&sq>s Heirloom,"
+SWEEPING_EDGE:50",30,30,,10,+10%,,115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CaspersHeirloom,GOLDEN_SWORD,,&1&lCasper<&sq>s Heirloom,Uncommon,Nether,Melee,Sword,"Melee, Axe|Melee, Sickle|Melee, Pickaxe|Melee, Shovel|Melee, Shears|Offhand, Trinket|Offhand, Shield","
 &9[Nether]
 &9[Melee, Sword]
 &9[Melee, Axe]
@@ -1574,24 +1574,24 @@ CaspersHeirloom,GOLDEN_SWORD,,&1&lCasper<&sq>s Heirloom,"
 &9[Melee, Shovel]
 &9[Melee, Shears]
 &9[Offhand, Trinket]
-&9[Offhand, Shield]",,Uncommon,Nether,Melee,Sword,"Melee, Axe|Melee, Sickle|Melee, Pickaxe|Melee, Shovel|Melee, Shears|Offhand, Trinket|Offhand, Shield",,,,,,,15,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HeavensGift,white_candle,,&4&l&nHeaven<&sq>s Gift,&4&oCurrency used for Palatial Cathedral raid items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrayerBook,book,,&5&lPrayer Book,"&5&oSins don<&sq>t last forever.
+&9[Offhand, Shield]",,,,,,,,15,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HeavensGift,white_candle,,&4&l&nHeaven<&sq>s Gift,Unknown,,,,,&4&oCurrency used for Palatial Cathedral raid items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrayerBook,book,,&5&lPrayer Book,Rare,Angelic,Offhand,Trinket,,"&5&oSins don<&sq>t last forever.
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,,60,,60,,,-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WingedCrown,golden_helmet,,&5&lWinged Crown,"&5&oWhere death fears to tread.
+&9[Offhand, Trinket]",,,,,,,,,,,60,,60,,,-20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WingedCrown,golden_helmet,,&5&lWinged Crown,Rare,Angelic,Armor,Helmet,,"&5&oWhere death fears to tread.
 
 &9[Angelic]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:85
 PROTECTION_PROJECTILE:50
-THORNS:30",Rare,Angelic,Armor,Helmet,,,,,,,,,,,,,,,,,,75,75,,40,-10%,+20%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Resolution,iron_chestplate,,&5&lResolution,"&5&oCome back when you are worthy...
+THORNS:30",,,,,,,,,,,,,,,,,75,75,,40,-10%,+20%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Resolution,iron_chestplate,,&5&lResolution,Rare,Aishan,Armor,Chestplate,,"&5&oCome back when you are worthy...
 
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:95
-PROTECTION_FIRE:10",Rare,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,95,50,,,-10%,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-SickleoftheDeadRealm,golden_hoe,,&5&lSickle of the Dead Realm,"&5&oCome back when you are rotten and ready.
+PROTECTION_FIRE:10",,,,,,,,,,,,,,,,,95,50,,,-10%,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+SickleoftheDeadRealm,golden_hoe,,&5&lSickle of the Dead Realm,Rare,Undead,Melee,Sickle,,"&5&oCome back when you are rotten and ready.
 
 &9Slows enemies you hit.
 
@@ -1599,94 +1599,94 @@ SickleoftheDeadRealm,golden_hoe,,&5&lSickle of the Dead Realm,"&5&oCome back whe
 &9[Melee, Sickle]","KNOCKBACK:2
 DAMAGE_ALL:135
 DAMAGE_ARTHROPODS:25
-DAMAGE_UNDEAD:25",Rare,Undead,Melee,Sickle,,25,25,,,,-15%,135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-SealedTome,enchanted_book,,&5&lSealed Tome,"&5&oIt<&sq>s knowledge is forbidden.
+DAMAGE_UNDEAD:25",25,25,,,,-15%,135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+SealedTome,enchanted_book,,&5&lSealed Tome,Rare,Ender,Offhand,Trinket,,"&5&oIt<&sq>s knowledge is forbidden.
 
 &9[Ender]
-&9[Offhand, Trinket]",,Rare,Ender,Offhand,Trinket,,,,,,,,,,-20,,,,+10%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LunalaisGown,diamond_leggings,,&5&lLunalai<&sq>s Gown,"&5&oHer gift was much better than Karellia<&sq>s.
+&9[Offhand, Trinket]",,,,,,,,,,-20,,,,+10%,+10%,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LunalaisGown,diamond_leggings,,&5&lLunalai<&sq>s Gown,Rare,Aishan,Armor,Leggings,,"&5&oHer gift was much better than Karellia<&sq>s.
 
 &9[Aishan]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:100
 PROTECTION_FIRE:10
 THORNS:10
-PROTECTION_PROJECTILE:10",Rare,Aishan,Armor,Leggings,,,,,,,,,,,,,,,,,,90,90,,10,+5%,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Fleetfeatherboots,netherite_boots,,&5&lFleetfeather Boots,"&5&oIt takes tremendous power and great speed
+PROTECTION_PROJECTILE:10",,,,,,,,,,,,,,,,,90,90,,10,+5%,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Fleetfeatherboots,netherite_boots,,&5&lFleetfeather Boots,Rare,Ender,Armor,Boots,,"&5&oIt takes tremendous power and great speed
 &5&oto cross dimensions.
 
 &9[Ender]
-&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:100,Rare,Ender,Armor,Boots,,,,,,,,,,,,,,,,,,100,80,,-20,,+15%,20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-KingdomCome,NETHERITE_SWORD,,&5&lKingdom Come,"&5&oEmpires rise and empires fall, but
+&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:100,,,,,,,,,,,,,,,,,100,80,,-20,,+15%,20,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+KingdomCome,NETHERITE_SWORD,,&5&lKingdom Come,Rare,Nether,Melee,Sword,,"&5&oEmpires rise and empires fall, but
 &5&onothing lasts forever.
 
 &9[Nether]
 &9[Melee, Sword]","DURABILITY:30
 DAMAGE_ALL:135
 FIRE_ASPECT:30
-SWEEPING_EDGE:50",Rare,Nether,Melee,Sword,,-25,-25,,-25,,+15%,135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-KarelliasBlessing,nether_star,,&5&lKarellia<&sq>s Blessing,"&5&oLong ago, Karellia built the Palatial Cathedral
+SWEEPING_EDGE:50",-25,-25,,-25,,+15%,135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KarelliasBlessing,nether_star,,&5&lKarellia<&sq>s Blessing,Rare,Angelic,Offhand,Trinket,,"&5&oLong ago, Karellia built the Palatial Cathedral
 &5&oin honor of her fallen mentor. It stood as a
 &5&oshining beacon of faith and loyalty among the
 &5&oAngels. Now, it stands as the gateway to a fallen,
 &5&oburning world.
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Rare,Angelic,Offhand,Trinket,,,,,,,,,,50,50,,50,-30%,+10%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrisonYardsToken,Flint,,&c&l&nSharp Pebble,&c&oCurrency used for Prison Yards dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrisonYardsBlock,Netherite_ingot,,&c&l&nHeavy Brick,&c&oCurrency used for Prison Yards dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ContrabandShiv,wooden_sword,,&2&lContraband Shiv,"
+&9[Offhand, Trinket]",,,,,,,,,,50,50,,50,-30%,+10%,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrisonYardsToken,Flint,,&c&l&nSharp Pebble,Unknown,,,,,&c&oCurrency used for Prison Yards dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrisonYardsBlock,Netherite_ingot,,&c&l&nHeavy Brick,Unknown,,,,,&c&oCurrency used for Prison Yards dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ContrabandShiv,wooden_sword,,&2&lContraband Shiv,Common,NONE,Melee,Sword,,"
 &9Makes enemies bleed
 &9This effect does not transfer in combines
 
 &9[NONE]
-&9[Melee, Sword]",DAMAGE_ALL:145,Common,NONE,Melee,Sword,,-20,-20,,,+5%,-15%,145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-BarofSoap,white_dye,,&2&lBar of Soap,"&2&oDon<&sq>t drop it.
+&9[Melee, Sword]",DAMAGE_ALL:145,-20,-20,,,+5%,-15%,145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+BarofSoap,white_dye,,&2&lBar of Soap,Common,NONE,Offhand,Trinket,,"&2&oDon<&sq>t drop it.
 
 &9[NONE]
-&9[Offhand, Trinket]",,Common,NONE,Offhand,Trinket,,,,,,,,,,40,40,,20,+20%,+20%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ChainsofDomination,Chain,,&4&l&nChains of Domination,&4&oCurrency used for The Citadel raid items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SoullessGroveToken,Purple_Dye,,&c&l&nWiggling Blob,&c&oCurrency used for Soulless Grove dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SoullessGroveBlock,Popped_chorus_fruit,,&c&l&nPulsing Mass,&c&oCurrency used for Soulless Grove dungeon items.,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SeasSilence,BOW,0,&b&lSea<&sq>s Silence,"&b&oAre you sure what you<&sq>re doing is worth it?
+&9[Offhand, Trinket]",,,,,,,,,,40,40,,20,+20%,+20%,-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ChainsofDomination,Chain,,&4&l&nChains of Domination,Unknown,,,,,&4&oCurrency used for The Citadel raid items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SoullessGroveToken,Purple_Dye,,&c&l&nWiggling Blob,Unknown,,,,,&c&oCurrency used for Soulless Grove dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SoullessGroveBlock,Popped_chorus_fruit,,&c&l&nPulsing Mass,Unknown,,,,,&c&oCurrency used for Soulless Grove dungeon items.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SeasSilence,BOW,0,&b&lSea<&sq>s Silence,Unique,Aishan,Ranged,Bow,,"&b&oAre you sure what you<&sq>re doing is worth it?
 
 &9[Aishan]
 &9[Ranged, Bow]","ARROW_DAMAGE:30
 ARROW_INFINITE:1
-DURABILITY:10",Unique,Aishan,Ranged,Bow,,-6,16,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EchoingMadness,DIAMOND_PICKAXE,,&b&lEchoing Madness,"&b&oDive into the mountains of madness.
+DURABILITY:10",-6,16,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EchoingMadness,DIAMOND_PICKAXE,,&b&lEchoing Madness,Unique,Undead,Offhand,Trinket,,"&b&oDive into the mountains of madness.
 
 &9[Undead]
 &9[Offhand, Trinket]","DURABILITY:10
 DIG_SPEED:7
 LOOT_BONUS_BLOCKS:5
-MENDING:1",Unique,Undead,Offhand,Trinket,,,,,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SandsofTime,CLOCK,,&b&lSands of Time,"&b&oWhy waste time when you could control it?
+MENDING:1",,,,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SandsofTime,CLOCK,,&b&lSands of Time,Unique,Angelic,Offhand,Trinket,,"&b&oWhy waste time when you could control it?
 
 &9Keeps you fed and healthy
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,15,15,+100%,,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PrincesCoronet,NETHERITE_HELMET,,&b&lPrince<&sq>s Coronet,"&b&oThe peasants of Lothera dined on the dead.
+&9[Offhand, Trinket]",,,,,,,,,,15,15,+100%,,+25%,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PrincesCoronet,NETHERITE_HELMET,,&b&lPrince<&sq>s Coronet,Unique,Undead,Armor,Helmet,,"&b&oThe peasants of Lothera dined on the dead.
 &b&oThe royalty of Lothera dined on the peasants.
 
 &9Grants night vision
 
 &9[Undead]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:70
-PROTECTION_PROJECTILE:30",Unique,Undead,Armor,Helmet,,,,,,,,,,,,,,,,,,70,70,+25%,30,,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-IckyCookie,cookie,,&b&lIcky Cookie,"&b&oWhy is it sticky?
+PROTECTION_PROJECTILE:30",,,,,,,,,,,,,,,,,70,70,+25%,30,,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+IckyCookie,cookie,,&b&lIcky Cookie,Unique,Special,,,,"&b&oWhy is it sticky?
 
 &9Can be used in an item grind as a substitute
 &9for any item type.
 
-&9[Special]",,Unique,Special,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BaneoftheDominions,IRON_AXE,,&b&lBane of The Dominions,"&b&oThe higher the pride, the harder the fall.
+&9[Special]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BaneoftheDominions,IRON_AXE,,&b&lBane of The Dominions,Unique,Undead,Melee,Axe,,"&b&oThe higher the pride, the harder the fall.
 
 &9Hits slow enemies and make them bleed
 
 &9[Undead]
-&9[Melee, Axe]",DAMAGE_ALL:150,Unique,Undead,Melee,Axe,,,-60,,40,+10%,,150,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-TheAvenger,DIAMOND_SWORD,,&b&lThe Avenger,"&b&o""You<&sq>ll pay for that Lunalai.""
+&9[Melee, Axe]",DAMAGE_ALL:150,,-60,,40,+10%,,150,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+TheAvenger,DIAMOND_SWORD,,&b&lThe Avenger,Unique,Angelic,Melee,Sword,,"&b&o""You<&sq>ll pay for that Lunalai.""
 &b&o-Archangel Karellia
 
 &9[Angelic]
@@ -1694,8 +1694,8 @@ TheAvenger,DIAMOND_SWORD,,&b&lThe Avenger,"&b&o""You<&sq>ll pay for that Lunalai
 DAMAGE_UNDEAD:25
 DAMAGE_ARTHROPODS:25
 SWEEPING_EDGE:40
-MENDING:1",Unique,Angelic,Melee,Sword,,20,20,+50%,20,+10%,,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AugustinesPrize,ELYTRA,,&b&lAugustine<&sq>s Prize,"&b&oIt doesn<&sq>t belong to you or to him.
+MENDING:1",20,20,+50%,20,+10%,,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AugustinesPrize,ELYTRA,,&b&lAugustine<&sq>s Prize,Unique,Ender,Armor,Chestplate,,"&b&oIt doesn<&sq>t belong to you or to him.
 
 &9[Ender]
 &9[Armor, Chestplate]","DURABILITY:15
@@ -1703,8 +1703,8 @@ PROTECTION_ENVIRONMENTAL:15
 PROTECTION_FIRE:15
 PROTECTION_PROJECTILE:15
 PROTECTION_EXPLOSIONS:15
-MENDING:1",Unique,Ender,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,15,15,+25%,-10,,+10%,,,,,,,,,,,,,,,,,,,,
-ThePowerCore,heart_of_the_sea,,&b&lThe Power Core,"&b&oQueen Lunalai<&sq>s greatest discovery.
+MENDING:1",,,,,,,,,,,,,,,,,,,,,,,,,15,15,+25%,-10,,+10%,,,,,,,,,,,,,,,,,,,,
+ThePowerCore,heart_of_the_sea,,&b&lThe Power Core,Unique,Aishan,Offhand,Trinket,"Offhand, Shield|Melee, Sword|Ranged, Bow|Armor, Helmet|Armor, Chestplate","&b&oQueen Lunalai<&sq>s greatest discovery.
 
 &9Can be consumed to add 100% of its stats
 &9to an item of one of the associate types.
@@ -1715,23 +1715,23 @@ ThePowerCore,heart_of_the_sea,,&b&lThe Power Core,"&b&oQueen Lunalai<&sq>s great
 &9[Melee, Sword]
 &9[Ranged, Bow]
 &9[Armor, Helmet]
-&9[Armor, Chestplate]",,Unique,Aishan,Offhand,Trinket,"Offhand, Shield|Melee, Sword|Ranged, Bow|Armor, Helmet|Armor, Chestplate",,,,,,,20,,,,,,,,20,,,,,,,,20,,,,,,,,20,,,,,,,,,,,,,,,,,,,
-CellBuster,Netherite_Axe,,&b&lCell Buster,"&b&o""Where is E102!?""
+&9[Armor, Chestplate]",,,,,,,,20,,,,,,,,20,,,,,,,,20,,,,,,,,20,,,,,,,,,,,,,,,,,,,
+CellBuster,Netherite_Axe,,&b&lCell Buster,Unique,Nether,Melee,Axe,,"&b&o""Where is E102!?""
 
 &9[Nether]
 &9[Melee, Axe]","DURABILITY:30
 DAMAGE_ALL:100
 FIRE_ASPECT:50
-DAMAGE_ARTHROPODS:65",Unique,Nether,Melee,Axe,,40,40,+50%,-20,-50%,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-FleshGrinder,Netherite_Axe,,&b&lFlesh Grinder,"&b&oBring humanity to their knees.
+DAMAGE_ARTHROPODS:65",40,40,+50%,-20,-50%,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FleshGrinder,Netherite_Axe,,&b&lFlesh Grinder,Unique,Undead,Melee,Axe,,"&b&oBring humanity to their knees.
 
 &9Grants resistance
 
 &9[Undead]
 &9[Melee, Axe]","DURABILITY:40
 DAMAGE_ALL:90
-DAMAGE_ARTHROPODS:40",Unique,Undead,Melee,Axe,,-50,40,,20,,+10%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DefenderofFaith,DIAMOND_SWORD,,&b&lDefender of Faith,"&b&o""You<&sq>ll never break my city or my people.""
+DAMAGE_ARTHROPODS:40",-50,40,,20,,+10%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DefenderofFaith,DIAMOND_SWORD,,&b&lDefender of Faith,Unique,Aishan,Melee,Sword,,"&b&o""You<&sq>ll never break my city or my people.""
 &b&o-Queen Lunalai
 
 &9Grants damage resistance
@@ -1740,16 +1740,16 @@ DefenderofFaith,DIAMOND_SWORD,,&b&lDefender of Faith,"&b&o""You<&sq>ll never bre
 &9[Melee, Sword]","DAMAGE_ALL:55
 SWEEPING_EDGE:30
 DURABILITY:30
-LOOT_BONUS_MOBS:5",Unique,Aishan,Melee,Sword,,25,25,+25%,25,,,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-DianaBladeoftheMartyr,NETHERITE_SWORD,,"&b&lDiana, Blade of the Martyr","&b&oYou are their blade. You are their escape.
+LOOT_BONUS_MOBS:5",25,25,+25%,25,,,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DianaBladeoftheMartyr,NETHERITE_SWORD,,"&b&lDiana, Blade of the Martyr",Unique,Aishan,Melee,Sword,,"&b&oYou are their blade. You are their escape.
 
 &9[Aishan]
 &9[Melee, Sword]","DURABILITY:25
 DAMAGE_ALL:95
 DAMAGE_UNDEAD:15
 DAMAGE_ARTHROPODS:15
-SWEEPING_EDGE:25",Unique,Aishan,Melee,Sword,,15,15,,15,,+10%,95,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lifeblood,DIAMOND_HOE,,&b&lLifeblood,"&b&oSow the seeds of life forever
+SWEEPING_EDGE:25",15,15,,15,,+10%,95,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lifeblood,DIAMOND_HOE,,&b&lLifeblood,Unique,Aishan,Melee,Sickle,,"&b&oSow the seeds of life forever
 
 &9Grants regeneration
 
@@ -1757,45 +1757,45 @@ Lifeblood,DIAMOND_HOE,,&b&lLifeblood,"&b&oSow the seeds of life forever
 &9[Melee, Sickle]","DURABILITY:25
 DAMAGE_ALL:85
 DAMAGE_UNDEAD:25
-DAMAGE_ARTHROPODS:25",Unique,Aishan,Melee,Sickle,,20,20,,,,+10%,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BubblingMass,POPPED_CHORUS_FRUIT,0,&b&lStrange Bubbling Mass,"&b&o&kaojdwunu                 ansfcklmonfduaw
+DAMAGE_ARTHROPODS:25",20,20,,,,+10%,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BubblingMass,POPPED_CHORUS_FRUIT,0,&b&lStrange Bubbling Mass,Unique,Ender,Offhand,Trinket,,"&b&o&kaojdwunu                 ansfcklmonfduaw
 &b&o&kaojdwunfcklma          onfduawaa
 &b&o&kaojdwunuansfcklmao  nfdaw
 &b&o&kaojdwunuans3         cddgsdgcklmaonfduaw
 &b&o&kaojdwunua             nsfcklmduaw
 
 &9[Ender]
-&9[Offhand, Trinket]",,Unique,Ender,Offhand,Trinket,,,,,,,,,,42,45,+50%,43,+20%,+20%,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LostAngelFeather,Feather,,&b&lLost Angel Feather,"&b&oFrom the wings of fools.
+&9[Offhand, Trinket]",,,,,,,,,,42,45,+50%,43,+20%,+20%,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LostAngelFeather,Feather,,&b&lLost Angel Feather,Unique,Angelic,Offhand,Trinket,,"&b&oFrom the wings of fools.
 
 &9Grants slow falling and resistance
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Unique,Angelic,Offhand,Trinket,,,,,,,,,,60,60,,60,,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BonesoftheLiving,NETHERITE_LEGGINGS,0,&b&lBones of the Living,"&b&oIt grows stronger for every fallen...
+&9[Offhand, Trinket]",,,,,,,,,,60,60,,60,,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BonesoftheLiving,NETHERITE_LEGGINGS,0,&b&lBones of the Living,Unique,Undead,Armor,Leggings,,"&b&oIt grows stronger for every fallen...
 
 &9[Undead]
 &9[Armor, Leggings]","PROTECTION_PROJECTILE:50
 DURABILITY:30
-PROTECTION_ENVIRONMENTAL:60",Unique,Undead,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60,70,,-20,+10%,+10%,10,,,,,,,,,,,
-KarelliasShiningPlate,GOLDEN_CHESTPLATE,0,&b&lKarellia<&sq>s Shining Plate,"&b&oHer light is as forgiving as her mercy.
+PROTECTION_ENVIRONMENTAL:60",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60,70,,-20,+10%,+10%,10,,,,,,,,,,,
+KarelliasShiningPlate,GOLDEN_CHESTPLATE,0,&b&lKarellia<&sq>s Shining Plate,Unique,Angelic,Armor,Chestplate,,"&b&oHer light is as forgiving as her mercy.
 
 &9[Angelic]
 &9[Armor, Chestplate]","PROTECTION_ENVIRONMENTAL:60
-THORNS:75",Unique,Angelic,Armor,Chestplate,,,,,,,,,,,,,,,,,,60,60,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-SightoftheBeyond,DIAMOND_HELMET,0,&b&lSight of the Beyond,"&b&oShow me what lies beyond the veil...
+THORNS:75",,,,,,,,,,,,,,,,,60,60,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+SightoftheBeyond,DIAMOND_HELMET,0,&b&lSight of the Beyond,Unique,Ender,Armor,Helmet,,"&b&oShow me what lies beyond the veil...
 
 &9[Ender]
 &9[Armor, Helmet]","PROTECTION_ENVIRONMENTAL:60
 OXYGEN:5
-WATER_WORKER:1",Unique,Ender,Armor,Helmet,,,,,,,,,,,,,,,,,,60,60,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-FleshOftheLiving,phantom_membrane,,&b&lFlesh of the Living,"&b&oFresh off their corpse.
+WATER_WORKER:1",,,,,,,,,,,,,,,,,60,60,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+FleshOftheLiving,phantom_membrane,,&b&lFlesh of the Living,Unique,Undead,Offhand,Trinket,,"&b&oFresh off their corpse.
 
 &9Grants saturation
 
 &9[Undead]
-&9[Offhand, Trinket]",,Unique,Undead,Offhand,Trinket,,,,,,,,,,45,,,-30,+25%,+25%,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HeavensHand,IRON_SWORD,,&b&lHeaven<&sq>s Hand,"&b&oTell me a quartz castle doesn<&sq>t
+&9[Offhand, Trinket]",,,,,,,,,,45,,,-30,+25%,+25%,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HeavensHand,IRON_SWORD,,&b&lHeaven<&sq>s Hand,Unique,Angelic,Melee,Sword,"Offhand, Trinket","&b&oTell me a quartz castle doesn<&sq>t
 &b&osound nice to you.
 
 &9[Angelic]
@@ -1803,59 +1803,59 @@ HeavensHand,IRON_SWORD,,&b&lHeaven<&sq>s Hand,"&b&oTell me a quartz castle doesn
 &9[Offhand, Trinket]","DURABILITY:25
 DAMAGE_ALL:25
 DAMAGE_UNDEAD:20
-SWEEPING_EDGE:20",Unique,Angelic,Melee,Sword,"Offhand, Trinket",10,10,,,-75%,,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SwordinStoneReborn,GOLDEN_SWORD,,&b&lSword in the Stone Reborn,"&b&oCoveted by many.
+SWEEPING_EDGE:20",10,10,,,-75%,,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SwordinStoneReborn,GOLDEN_SWORD,,&b&lSword in the Stone Reborn,Unique,Undead,Melee,Sword,,"&b&oCoveted by many.
 
 &9[Undead]
-&9[Melee, Sword]",DAMAGE_ALL:40,Unique,Undead,Melee,Sword,,,,,,-25%,+25%,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-TomeofEndlessKnowledge,Knowledge_Book,,&b&lTome of Endless Knowledge,"&b&oThe library in the Palace of Dreams was
+&9[Melee, Sword]",DAMAGE_ALL:40,,,,,-25%,+25%,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+TomeofEndlessKnowledge,Knowledge_Book,,&b&lTome of Endless Knowledge,Unique,Aishan,Offhand,Trinket,,"&b&oThe library in the Palace of Dreams was
 &b&olocked for many years until Queen Lunalai
 &b&obusted down its doors for good.
 
 &9Can be consumed to add 25% of its stats to any item
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Unique,Aishan,Offhand,Trinket,,,,,,,,,,50,50,,,+25%,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ArrivalatDawn,SHIELD,,&b&lArrival at Dawn,"&b&oSend them to their destiny...
+&9[Offhand, Trinket]",,,,,,,,,,50,50,,,+25%,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ArrivalatDawn,SHIELD,,&b&lArrival at Dawn,Unique,Angelic,Offhand,Shield,,"&b&oSend them to their destiny...
 
 &9[Angelic]
-&9[Offhand, Shield]",,Unique,Angelic,Offhand,Shield,,,,,,,,,,60,60,,40,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-CrackedVoidStone,MAGENTA_DYE,,&b&lCracked Void Stone,"&b&o&k         owmeyourcock1
+&9[Offhand, Shield]",,,,,,,,,,60,60,,40,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+CrackedVoidStone,MAGENTA_DYE,,&b&lCracked Void Stone,Unique,Ender,Offhand,Trinket,,"&b&o&k         owmeyourcock1
 &b&o&k       afaqdfwaf412
 &b&o&k      cklmfaokek
 &b&o&k   dt2as
 &b&o&khyfghao1
 
 &9[Ender]
-&9[Offhand, Trinket]",,Unique,Ender,Offhand,Trinket,,,,,,,,,,50,50,,,,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BloomingSeeds,wheat_seeds,,&b&lBlooming Seeds,"&b&oThe blooming seeds are used to expand
+&9[Offhand, Trinket]",,,,,,,,,,50,50,,,,-10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BloomingSeeds,wheat_seeds,,&b&lBlooming Seeds,Unique,Aishan,Offhand,Trinket,,"&b&oThe blooming seeds are used to expand
 &b&othe boundaries of Aisha.
 
 &9[Aishan]
-&9[Offhand, Trinket]",,Unique,Aishan,Offhand,Trinket,,,,,,,,,,38,38,+20%,38,+20%,+20%,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LivingHate,Netherite_Sword,,&b&lLiving Hate,"&b&oAll shall burn in the fires of
+&9[Offhand, Trinket]",,,,,,,,,,38,38,+20%,38,+20%,+20%,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LivingHate,Netherite_Sword,,&b&lLiving Hate,Unique,Nether,Melee,Sword,,"&b&oAll shall burn in the fires of
 &b&omy hatred.
 
 &9[Nether]
 &9[Melee, Sword]","DURABILITY:50
 DAMAGE_ALL:110
 FIRE_ASPECT:50
-SWEEPING_EDGE:50",Unique,Nether,Melee,Sword,,-30,-30,+30%,,,,110,,,,,-40,,,125,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BreastPlateoftheWorld,DIAMOND_CHESTPLATE,0,&b&lBreastplate of the World,"&b&o""Tell me my queen, where does it end?""
+SWEEPING_EDGE:50",-30,-30,+30%,,,,110,,,,,-40,,,125,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BreastPlateoftheWorld,DIAMOND_CHESTPLATE,0,&b&lBreastplate of the World,Unique,Aishan,Armor,Chestplate,,"&b&o""Tell me my queen, where does it end?""
 
 &9[Aishan]
 &9[Armor, Chestplate]","PROTECTION_FIRE:27
 PROTECTION_PROJECTILE:27
 DURABILITY:27
-PROTECTION_ENVIRONMENTAL:27",Unique,Aishan,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,27,27,,27,+27%,+27%,,,,,,,,,,,,,,,,,,,,
-GownofHeavensGrace,DIAMOND_LEGGINGS,0,&b&lGown of Heaven<&sq>s Grace,"&b&oAwarded to the most loyal of all
+PROTECTION_ENVIRONMENTAL:27",,,,,,,,,,,,,,,,,,,,,,,,,27,27,,27,+27%,+27%,,,,,,,,,,,,,,,,,,,,
+GownofHeavensGrace,DIAMOND_LEGGINGS,0,&b&lGown of Heaven<&sq>s Grace,Unique,Angelic,Armor,Leggings,,"&b&oAwarded to the most loyal of all
 &b&oHeaven<&sq>s angels.
 
 &9[Angelic]
 &9[Armor, Leggings]","THORNS:20
 PROTECTION_PROJECTILE:20
-PROTECTION_ENVIRONMENTAL:40",Unique,Angelic,Armor,Leggings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,50,,30,,+20%,,,,,,,,,,,True,
-CivilizationsEnd,Netherite_Sword,,&6&l&nCivilization<&sq>s End,"&6&oOnce it sees your world, it<&sq>s too late.
+PROTECTION_ENVIRONMENTAL:40",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,50,,30,,+20%,,,,,,,,,,,True,
+CivilizationsEnd,Netherite_Sword,,&6&l&nCivilization<&sq>s End,Legendary,Ender,Melee,Sword,,"&6&oOnce it sees your world, it<&sq>s too late.
 
 &9Grants resistance and jump boost
 
@@ -1864,8 +1864,8 @@ CivilizationsEnd,Netherite_Sword,,&6&l&nCivilization<&sq>s End,"&6&oOnce it sees
 DAMAGE_ARTHROPODS:20
 DAMAGE_UNDEAD:20
 SWEEPING_EDGE:40
-DURABILITY:30",Legendary,Ender,Melee,Sword,,-20,-20,,-20,+15%,+15%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Razor,Shears,,&6&l&nRazor,"&6&oRake, rend, rive.
+DURABILITY:30",-20,-20,,-20,+15%,+15%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Razor,Shears,,&6&l&nRazor,Legendary,Nether,Melee,Shears,,"&6&oRake, rend, rive.
 
 &9Enemies hit by &6Razor&9 are slowed,
 &9lit on fire, bleed, poisoned, and are
@@ -1875,8 +1875,8 @@ Razor,Shears,,&6&l&nRazor,"&6&oRake, rend, rive.
 &9[Melee, Shears]","FIRE_ASPECT:45
 DAMAGE_ALL:60
 DAMAGE_UNDEAD:60
-DAMAGE_ARTHROPODS:60",Legendary,Nether,Melee,Shears,,,,,,+30%,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-BladeoftheBasin,Wooden_sword,,&6&l&nBlade of the Basin,"&6&oThe color of the world is undeniable.
+DAMAGE_ARTHROPODS:60",,,,,+30%,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+BladeoftheBasin,Wooden_sword,,&6&l&nBlade of the Basin,Legendary,Aishan,Melee,Sword,,"&6&oThe color of the world is undeniable.
 
 &9Show the world your colors
 
@@ -1884,30 +1884,30 @@ BladeoftheBasin,Wooden_sword,,&6&l&nBlade of the Basin,"&6&oThe color of the wor
 &9[Melee, Sword]","DAMAGE_ALL:90
 DAMAGE_ARTHROPODS:10
 DAMAGE_UNDEAD:10
-SWEEPING_EDGE:40",Legendary,Aishan,Melee,Sword,,10,10,,10,+15%,+15%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-CrownofBurningRealm,Netherite_Helmet,,&6&l&nCrown of the Burning Realm,"&6&o""This used to be my home.""
+SWEEPING_EDGE:40",10,10,,10,+15%,+15%,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+CrownofBurningRealm,Netherite_Helmet,,&6&l&nCrown of the Burning Realm,Legendary,Nether,Armor,Helmet,,"&6&o""This used to be my home.""
 
 &9Grants fire resistance
 &9Enemies that strike you are lit on fire
 
 &9[Nether]
 &9[Armor, Helmet]","PROTECTION_FIRE:65
-PROTECTION_ENVIRONMENTAL:65",Legendary,Nether,Armor,Helmet,,,,,,,,,,,,,,,,,,65,65,,-20,,,65,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-BootsoftheDream,Diamond_Boots,,&6&l&nBoots of the Dream,"&6&oThe Kingdom<&sq>s reflection shows more
+PROTECTION_ENVIRONMENTAL:65",,,,,,,,,,,,,,,,,65,65,,-20,,,65,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+BootsoftheDream,Diamond_Boots,,&6&l&nBoots of the Dream,Legendary,Aishan,Armor,Boots,,"&6&oThe Kingdom<&sq>s reflection shows more
 &6&othan meets the eye.
 
 &9Grants absorbtion
 
 &9[Aishan]
-&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:70,Legendary,Aishan,Armor,Boots,,,,,,,,,,,,,,,,,,70,60,+25%,,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-HeartoftheArchangel,Red_Dye,,&6&l&nHeart of the Archangel,"&6&oFinally.
+&9[Armor, Boots]",PROTECTION_ENVIRONMENTAL:70,,,,,,,,,,,,,,,,,70,60,+25%,,+10%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+HeartoftheArchangel,Red_Dye,,&6&l&nHeart of the Archangel,Legendary,Angelic,Offhand,Trinket,,"&6&oFinally.
 
 &9Grants jump boost, regeneration, and
 &9damage resistance
 
 &9[Angelic]
-&9[Offhand, Trinket]",,Legendary,Angelic,Offhand,Trinket,,,,,,,,,,30,30,+100%,30,+50%,+100%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AshesofDefeat,gunpowder,,&6&l&nAshes of Defeat,"&6&o""They came through a giant glistening portal.
+&9[Offhand, Trinket]",,,,,,,,,,30,30,+100%,30,+50%,+100%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AshesofDefeat,gunpowder,,&6&l&nAshes of Defeat,Legendary,Nether,Offhand,Trinket,,"&6&o""They came through a giant glistening portal.
 &6&oTheir forces were vast and powerful. Since then,
 &6&oI have known nothing but the walls of this cell.
 &6&oBut, one day I will be free of the Great Furnace.""
@@ -1917,8 +1917,8 @@ AshesofDefeat,gunpowder,,&6&l&nAshes of Defeat,"&6&o""They came through a giant 
 
 &9[Nether]
 &9[Offhand, Trinket]","FIRE_ASPECT:100
-KNOCKBACK:2",Legendary,Nether,Offhand,Trinket,,,,,,,,,,-35,,+50%,-35,+25%,+25%,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TheThrone,DIAMOND_SWORD,,&6&l&nThe Throne,"&6&o""You will rule over your kingdom of ruin.""
+KNOCKBACK:2",,,,,,,,,-35,,+50%,-35,+25%,+25%,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheThrone,DIAMOND_SWORD,,&6&l&nThe Throne,Legendary,Angelic,Melee,Sword,"Offhand, Trinket","&6&o""You will rule over your kingdom of ruin.""
 &6&o-Archangel Karellia
 
 &9[Angelic]
@@ -1928,16 +1928,16 @@ MENDING:1
 DAMAGE_ALL:90
 DAMAGE_UNDEAD:50
 DAMAGE_ARTHROPODS:50
-SWEEPING_EDGE:50",Legendary,Angelic,Melee,Sword,"Offhand, Trinket",45,45,,,-50%,+20%,90,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-WaveofDeath,IRON_SWORD,,&6&l&nWave of Death,"&6&oI will show you the true power of death.
+SWEEPING_EDGE:50",45,45,,,-50%,+20%,90,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WaveofDeath,IRON_SWORD,,&6&l&nWave of Death,Legendary,Undead,Melee,Sword,,"&6&oI will show you the true power of death.
 
 &9Causes enemies to bleed
 
 &9[Undead]
 &9[Melee, Sword]","DURABILITY:50
 DAMAGE_ALL:100
-SWEEPING_EDGE:50",Legendary,Undead,Melee,Sword,,40,40,,,,-20%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Torture,NETHERITE_AXE,,"&6&l&nTorture, the Will Breaker","&6&oIf you will not obey, you will suffer.
+SWEEPING_EDGE:50",40,40,,,,-20%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Torture,NETHERITE_AXE,,"&6&l&nTorture, the Will Breaker",Legendary,Nether,Melee,Axe,,"&6&oIf you will not obey, you will suffer.
 
 &9Enemies hit by &6Torture&9 are weakened
 
@@ -1945,8 +1945,8 @@ Torture,NETHERITE_AXE,,"&6&l&nTorture, the Will Breaker","&6&oIf you will not ob
 &9[Melee, Axe]","DURABILITY:30
 KNOCKBACK:1
 DAMAGE_ALL:110
-FIRE_ASPECT:50",Legendary,Nether,Melee,Axe,,,,,-30,+25%,+25%,110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AgonyUnrelentingAnguish,NETHERITE_SWORD,,"&6&l&nAgony, the Unrelenting Anguish","&6&oAll those who touch Agony perish soon after.
+FIRE_ASPECT:50",,,,-30,+25%,+25%,110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AgonyUnrelentingAnguish,NETHERITE_SWORD,,"&6&l&nAgony, the Unrelenting Anguish",Legendary,Nether,Melee,Sword,,"&6&oAll those who touch Agony perish soon after.
 
 &9Enemies hit by &6Agony&9 are slowed
 &9Provides regeneration
@@ -1955,8 +1955,8 @@ AgonyUnrelentingAnguish,NETHERITE_SWORD,,"&6&l&nAgony, the Unrelenting Anguish",
 &9[Melee, Sword]","DURABILITY:30
 DAMAGE_ALL:80
 SWEEPING_EDGE:50
-FIRE_ASPECT:30",Legendary,Nether,Melee,Sword,,,,,,+25%,+25%,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EyeoftheAllSeeing,ender_eye,,&6&l&nEye of the All-Seeing,"&6&o&k        meyourco2
+FIRE_ASPECT:30",,,,,+25%,+25%,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EyeoftheAllSeeing,ender_eye,,&6&l&nEye of the All-Seeing,Legendary,Ender,Offhand,Trinket,,"&6&o&k        meyourco2
 &6&o&k     aowmeyourcock
 &6&o&k   afaqdf       waf412
 &6&o&k fkdmfa           2ddkef
@@ -1967,8 +1967,8 @@ EyeoftheAllSeeing,ender_eye,,&6&l&nEye of the All-Seeing,"&6&o&k        meyourco
 &6&o&k        meyourco3
 
 &9[Ender]
-&9[Offhand, Trinket]",,Legendary,Ender,Offhand,Trinket,,,,,,,,,,-30,-30,,,+25%,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Damocles,NETHERITE_SWORD,,&6&l&nDamocles,"&6&oA king<&sq>s fortune... but at what cost?
+&9[Offhand, Trinket]",,,,,,,,,,-30,-30,,,+25%,+10%,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Damocles,NETHERITE_SWORD,,&6&l&nDamocles,Legendary,Ender,Melee,Sword,,"&6&oA king<&sq>s fortune... but at what cost?
 
 &9One day &6Damocles&9 will break and
 &9cause you misfortune...
@@ -1978,40 +1978,40 @@ Damocles,NETHERITE_SWORD,,&6&l&nDamocles,"&6&oA king<&sq>s fortune... but at wha
 &9[Melee, Sword]","DAMAGE_ALL:120
 DAMAGE_UNDEAD:50
 DAMAGE_ARTHROPODS:50
-SWEEPING_EDGE:50",Legendary,Ender,Melee,Sword,,45,45,,,-25%,+10%,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-CaspersTourmaline,Lapis_lazuli,,&6&l&nCasper<&sq>s Tourmaline,"&6&oAs you peer into the gemstone, your eyes
+SWEEPING_EDGE:50",45,45,,,-25%,+10%,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+CaspersTourmaline,Lapis_lazuli,,&6&l&nCasper<&sq>s Tourmaline,Legendary,Special,,,,"&6&oAs you peer into the gemstone, your eyes
 &6&ocatch a glimpse of something brilliant
 &6&oshinning in the center.
 
 &9Can be consumed to make any transaction
 &9completely free. Ian must be present.
 
-&9[Special]",,Legendary,Special,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-LunalaisVengeance,DIAMOND_LEGGINGS,,&6&l&nLunalai<&sq>s Vengeance,"&6&o""I<&sq>m taking you with me.""
+&9[Special]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LunalaisVengeance,DIAMOND_LEGGINGS,,&6&l&nLunalai<&sq>s Vengeance,Legendary,Aishan,Armor,Leggings,,"&6&o""I<&sq>m taking you with me.""
 &6&o-Queen Lunalai
 
 &9[Aishan]
 &9[Armor, Leggings]","PROTECTION_ENVIRONMENTAL:65
 PROTECTION_PROJECTILE:65
 PROTECTION_FIRE:65
-THORNS:100",Legendary,Aishan,Armor,Leggings,,60,60,,,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-ChestplateofRibs,NETHERITE_CHESTPLATE,,&6&l&nChestplate of Ribs,"&6&oIt is made out of the villagers
+THORNS:100",60,60,,,+20%,+20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+ChestplateofRibs,NETHERITE_CHESTPLATE,,&6&l&nChestplate of Ribs,Legendary,Undead,Armor,Chestplate,,"&6&oIt is made out of the villagers
 &6&othat never made it out of Estelle.
 
 &9Keeps you fed
 
 &9[Undead]
 &9[Armor, Chestplate]","PROTECTION_PROJECTILE:30
-PROTECTION_ENVIRONMENTAL:65",Legendary,Undead,Armor,Chestplate,,,,,,,,,,,,,,,,,,,,,,,,,,65,65,,30,-25%,-25%,40,,,,,,,,,,,,,,,,,,True,
-Knockbackstick,WOODEN_SHOVEL,0,&d&l&nSlapper,,KNOCKBACK:5,Unknown,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
-Knockbackred,LEATHER_CHESTPLATE,,&d&l&nTeam Red,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
-Knockbackblue,LEATHER_CHESTPLATE,,&d&l&nTeam Blue,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,10,250"
-Knockbackyellow,LEATHER_CHESTPLATE,,&d&l&nTeam Yellow,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,250,10"
-Knockbackgreen,LEATHER_CHESTPLATE,,&d&l&nTeam Green,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,250,10"
-Knockbackorange,LEATHER_CHESTPLATE,,&d&l&nTeam Orange,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"255,110,10"
-Knockbackpurple,LEATHER_CHESTPLATE,,&d&l&nTeam Purple,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"100,10,170"
-Knockbackpink,LEATHER_CHESTPLATE,,&d&l&nTeam Pink,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,100,250"
-Knockbackblack,LEATHER_CHESTPLATE,,&d&l&nTeam Black,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,10,10"
-CalamityChest,LEATHER_CHESTPLATE,,&d&l&nTeam Red,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
-CalamityLegs,LEATHER_Leggings,,&d&l&nTeam Red,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
-CalamityBoots,LEATHER_Boots,,&d&l&nTeam Red,,,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
+PROTECTION_ENVIRONMENTAL:65",,,,,,,,,,,,,,,,,,,,,,,,,65,65,,30,-25%,-25%,40,,,,,,,,,,,,,,,,,,True,
+Knockbackstick,WOODEN_SHOVEL,0,&d&l&nSlapper,Unknown,,,,,,KNOCKBACK:5,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,
+Knockbackred,LEATHER_CHESTPLATE,,&d&l&nTeam Red,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
+Knockbackblue,LEATHER_CHESTPLATE,,&d&l&nTeam Blue,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,10,250"
+Knockbackyellow,LEATHER_CHESTPLATE,,&d&l&nTeam Yellow,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,250,10"
+Knockbackgreen,LEATHER_CHESTPLATE,,&d&l&nTeam Green,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,250,10"
+Knockbackorange,LEATHER_CHESTPLATE,,&d&l&nTeam Orange,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"255,110,10"
+Knockbackpurple,LEATHER_CHESTPLATE,,&d&l&nTeam Purple,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"100,10,170"
+Knockbackpink,LEATHER_CHESTPLATE,,&d&l&nTeam Pink,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,100,250"
+Knockbackblack,LEATHER_CHESTPLATE,,&d&l&nTeam Black,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"10,10,10"
+CalamityChest,LEATHER_CHESTPLATE,,&d&l&nTeam Red,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
+CalamityLegs,LEATHER_Leggings,,&d&l&nTeam Red,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"
+CalamityBoots,LEATHER_Boots,,&d&l&nTeam Red,Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,"250,10,10"

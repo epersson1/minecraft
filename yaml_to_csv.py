@@ -138,10 +138,13 @@ def main():
         return
 
     # --- Define CSV Headers ---
-    base_headers = ['ItemName', 'Id', 'Data', 'Display', 'Lore', 'Enchantments']
+    base_headers = ['ItemName', 'Id', 'Data', 'Display']
     
-    # Our new parsed columns
+    # Parsed data columns
     parsed_headers = ['Rarity', 'Class', 'Supertype', 'Subtype', 'Modifiers']
+
+    # Other text fields
+    text_headers = ['Lore', 'Enchantments']
     
     # All stat headers
     stat_headers = [f"{slot}_{stat}" for slot in SLOTS for stat in STATS]
@@ -149,7 +152,7 @@ def main():
     # Option headers (from item_creator.js)
     option_headers = ['Option_Unbreakable', 'Option_Color']
     
-    all_headers = base_headers + parsed_headers + stat_headers + option_headers
+    all_headers = base_headers + parsed_headers + text_headers + stat_headers + option_headers
 
     # --- Process Data ---
     processed_data = []
