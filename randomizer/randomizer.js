@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const CSV_PATH = '../item-creator/items_parsed_v2.csv'; 
+    const CSV_PATH = '../items_parsed_v2.csv'; 
     
     let allItems = [];
     const raritySet = new Set();
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 1. Title (from Display field)
         previewPane.innerHTML += formatLine(item.Display);
         
-        // 2. Enchantments (scaled) - UPDATED
+        // 2. Enchantments (scaled)
         if (item.Enchantments) {
             const enchants = item.Enchantments.split('\n');
             enchants.forEach(ench => {
@@ -330,14 +330,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 const minecraftName = ENCHANTMENT_MAP[bukkitName] || bukkitName; 
-                // --- NEW LOGIC HERE ---
                 const levelDisplay = formatEnchantmentDisplay(minecraftName, level);
                     
                 previewPane.innerHTML += formatLine(`&5${levelDisplay}`);
             });
         }
 
-        // 3. Lore (from original Lore field) - UPDATED
+        // 3. Lore (from original Lore field)
         if (item.Lore) {
             item.Lore.split('\n').forEach(line => {
                 let modifiedLine = line;
@@ -350,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
         
-        // 4. Stats (scaled) - (Unchanged)
+        // 4. Stats (scaled)
         let hasStats = false;
         const statGroups = new Map(); 
 
