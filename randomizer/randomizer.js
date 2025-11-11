@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyBtn = document.getElementById('copyBtn');
 
     // --- 1. Data Loading and Filter Population ---
-
     fetch(CSV_PATH)
       .then(response => {
         if (!response.ok) throw new Error('Could not fetch CSV.' + response);
@@ -70,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * DYNAMICALLY updates the Subtype filter based on the selected Supertype
+     * Dynamically updates the Subtype filter based on the selected Supertype
      */
     function updateSubtypeFilter(selectedSupertype) {
         // Clear old options
