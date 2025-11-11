@@ -42,31 +42,55 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Parses Faction and Type from a Lore string.
-     * Example Lore: "&9[Angelic]\n&9[Melee, Sword]"
+     * Example Lore: "&9[Angelic]\n&9[Melee, Sword]\n&9[1 Removal]"
      */
     function parseLore(loreString) {
       let faction = null;
       let type = null;
-      
+
       if (typeof loreString !== 'string') return [null, null];
 
       const lines = loreString.split('\n');
+      const tags = [];
+      
+      // 1. Extract all tags in order
       for (const line of lines) {
         if (line.includes('[') && line.includes(']')) {
           const tag = line.substring(line.indexOf('[') + 1, line.indexOf(']'));
-          
-          // Check for a simple faction tag, e.g., [Angelic], [Nether]
-          if (!tag.includes(',')) {
-            faction = tag;
-          }
-          // Check for a type tag, e.g., [Melee, Sword], [Armor, Helmet]
-          else if (tag.includes(',')) {
-            type = tag.split(',')[0].trim(); // Just grab the main type (Melee, Armor, etc.)
-          }
+          tags.push(tag);
         }
       }
+
+      // 2. Process tags based on user's rules
+      const tag0 = tags[0];
+      const tag1 = tags[1];
+
+      // Check tag 0
+      if (tag0) {
+        // Test for Faction: simple tag (no comma) AND no numbers (to exclude '1 Removal')
+        if (!tag0.includes(',') && !/\d/.test(tag0)) {
+          faction = tag0;
+        } 
+        // Test for Type: complex tag (has comma)
+        else if (tag0.includes(',')) {
+          type = tag0.split(',')[0].trim();
+        }
+        // (If it's a simple tag *with* a number, it's a modification and ignored)
+      }
+
+      // Check tag 1
+      // This only runs if we found a faction in tag0
+      if (faction && tag1) {
+        // Test for Type: complex tag (has comma)
+        if (tag1.includes(',')) {
+          type = tag1.split(',')[0].trim();
+        }
+        // (If tag1 is simple, it's a modification and ignored)
+      }
+      
       return [faction, type];
     }
+
 
     /** Helper to fill a <select> element from a Set */
     function populateSelect(selectElement, itemSet) {
@@ -165,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
       output += `Internal Name: ${item.ItemName}\n`;
       output += `Minecraft ID: ${item.Id}\n\n`;
 
-      output += `## LORE ##\n${item.Lore}\n\n`;
+      output += `## BASE LORE ##\n${item.Lore}\n\n`;
       
       if (item.Enchantments) {
         output += `## SCALED ENCHANTMENTS ##\n${item.Enchantments}\n\n`;
@@ -176,9 +200,14 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const key in item) {
         if (key.includes('_') && !key.startsWith('Option_') && item[key]) {
           const value = item[key];
-          if (value && !isNaN(parseFloat(value))) {
-             output += `${key}: ${value}\n`;
-             hasStats = true;
+          // Check for a non-zero, parsable number, or a string that's a number (like "+30%")
+          if (value && (!isNaN(parseFloat(value)) || typeof value === 'string')) {
+             // Only print stats that have a value
+             const numValue = parseFloat(value);
+             if (numValue !== 0 || (typeof value === 'string' && value.length > 0 && numValue === 0)) {
+                output += `${key}: ${value}\n`;
+                hasStats = true;
+             }
           }
         }
       }
