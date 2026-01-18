@@ -1,0 +1,912 @@
+Helmet:
+  Id: netherite_helmet
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Divine I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  - BINDING_CURSE 1
+  - THORNS 1
+  Attributes:
+    Head:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: [MATERIAL]
+      Pattern: [PATTERN]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+PlayerHead:
+  Id: player_head
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Divine I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  - BINDING_CURSE 1
+  - THORNS 1
+  Attributes:
+    Head:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+Chestplate:
+  Id: netherite_chestplate
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Divine I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  - BINDING_CURSE 1
+  - THORNS 1
+  Attributes:
+    Chest:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: [MATERIAL]
+      Pattern: [PATTERN]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Leggings:
+  Id: netherite_leggings
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Divine I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Leggings]'
+  Enchantments:
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  - BINDING_CURSE 1
+  - THORNS 1
+  - SWIFT_SNEAK 1
+  Attributes:
+    Legs:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: [MATERIAL]
+      Pattern: [PATTERN]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Boots:
+  Id: netherite_boots
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Divine I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Boots]'
+  Enchantments:
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  - BINDING_CURSE 1
+  - THORNS 1
+  - SOUL_SPEED 1
+  - FROST_WALKER 1
+  - FEATHER_FALLING 1
+  - DEPTH_STRIDER 1
+  Attributes:
+    Feet:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: [MATERIAL]
+      Pattern: [PATTERN]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Light:
+  Id: netherite_sword
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Cleansing I'
+  - '&7Soul Rend I'
+  - '&7Swirling I'
+  - '&7Stunning I'
+  - '&7Vampiric I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&7Withering I'
+  - '&7Poisoning I'
+  - '&7Slowing I'
+  - '&7Weakening I'
+  - '&7Fatigue I'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 1
+  - SWEEPING_EDGE 1
+  - BANE_OF_ARTHROPODS 1
+  - BREACH 1
+  - FIRE_ASPECT 1
+  - LOOTING 1
+  - SMITE 1
+  - KNOCKBACK 1
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Medium:
+  Id: netherite_sword
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Cleansing I'
+  - '&7Soul Rend I'
+  - '&7Swirling I'
+  - '&7Stunning I'
+  - '&7Vampiric I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&7Withering I'
+  - '&7Poisoning I'
+  - '&7Slowing I'
+  - '&7Weakening I'
+  - '&7Fatigue I'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Medium]'
+  Enchantments:
+  - SHARPNESS 1
+  - SWEEPING_EDGE 1
+  - BANE_OF_ARTHROPODS 1
+  - BREACH 1
+  - FIRE_ASPECT 1
+  - LOOTING 1
+  - SMITE 1
+  - KNOCKBACK 1
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Heavy:
+  Id: netherite_sword
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Cleansing I'
+  - '&7Soul Rend I'
+  - '&7Swirling I'
+  - '&7Stunning I'
+  - '&7Vampiric I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&7Withering I'
+  - '&7Poisoning I'
+  - '&7Slowing I'
+  - '&7Weakening I'
+  - '&7Fatigue I'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 1
+  - SWEEPING_EDGE 1
+  - BANE_OF_ARTHROPODS 1
+  - BREACH 1
+  - FIRE_ASPECT 1
+  - LOOTING 1
+  - SMITE 1
+  - KNOCKBACK 1
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Staff:
+  Id: netherite_hoe
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Staff]'
+  Skills:
+  - skill{s=[NAME]} @[DIRECTION] ~on[ACTIVATION]
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: -99%
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Bow:
+  Id: bow
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7True Shot'
+  - '&7Burst I'
+  - '&7Pull I'
+  - '&7Puncture I'
+  - '&7Scattershot I'
+  - '&7Rapid Shot I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&7Withering I'
+  - '&7Poisoning I'
+  - '&7Slowing I'
+  - '&7Weakening I'
+  - '&7Fatigue I'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Bow]'
+  Enchantments:
+  - FLAME 1
+  - INFINITY 1
+  - POWER 1
+  - PUNCH 1
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Crossbow:
+  Id: crossbow
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Amplified Shot I'
+  - '&7Puncture I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&7Withering I'
+  - '&7Poisoning I'
+  - '&7Slowing I'
+  - '&7Weakening I'
+  - '&7Fatigue I'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Crossbow]'
+  Enchantments:
+  - FLAME 1
+  - INFINITY 1
+  - POWER 1
+  - PUNCH 1
+  - MULTISHOT 1
+  - PIERCING 1
+  - QUICK_CHARGE 1
+  Attributes:
+    MainHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+Trinket:
+  Id: ghast_tear
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  Options:
+    PreventStacking: true
+Shield:
+  Id: shield
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&7Undying'
+  - '&7Revenge I'
+  - '&7Exalted I'
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&7Metabolism I'
+  - '&7Potency I'
+  - '&7Shielding I'
+  - '&7Vitality I'
+  - '&7Bulwark I'
+  - '&cCurse of Rage I'
+  - '&cCurse of Hunger I'
+  - '&c[OTHER CURSES]'
+  - '&7Regeneration I'
+  - '&7Fire Resistance'
+  - '&7Invisibility'
+  - '&7Night Vision'
+  - '&7Slow Falling'
+  - '&7Conduit Power'
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Shield]'
+  Enchantments:
+  - THORNS 1
+  - PROTECTION 1
+  - FIRE_PROTECTION 1
+  - PROJECTILE_PROTECTION 1
+  Attributes:
+    OffHand:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 1
+  - CRITICAL_STRIKE_DAMAGE 1
+  - CRITICAL_STRIKE_RESILIENCE 1
+  - DODGE_CHANCE 1
+  - DODGE_NEGATION 1
+  - PARRY_CHANCE 1
+  - PARRY_COUNTERATTACK 1
+  - PARRY_POWER 1
+  - PARRY_NEGATION 1
+  BannerLayers:
+  - [COLOR] [BANNER_PATTERN]
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_ADDITIONAL_TOOLTIP
+    - HIDE_UNBREAKABLE
+Jewelry:
+  Id: ghast_tear
+  Display: '&[NUMBER]&l[NAME]'
+  Model: [NUMBER]
+  Lore:
+  - '&[NUMBER]&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level [NUMBER]]'
+  - '&9[[CLASS]]'
+  - '&9[Jewelry]'
+  Attributes:
+    All:
+      Armor: +1
+      ArmorToughness: +1
+      Damage: +1
+      Health: +1
+      Luck: +1
+      AttackSpeed: +1%
+      MovementSpeed: +1%
+      KnockbackResistance: +1
+      EntityInteractionRange: +1
+  Options:
+    PreventStacking: true
