@@ -1,6 +1,6 @@
 Helmet:
   Id: netherite_helmet
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&2&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Divine I'
@@ -64,7 +64,7 @@ Helmet:
     - HIDE_ARMOR_TRIM
 PlayerHead:
   Id: player_head
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&1&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Divine I'
@@ -123,7 +123,7 @@ PlayerHead:
     SkinTexture: [CODE]
 Chestplate:
   Id: netherite_chestplate
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&5&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Divine I'
@@ -187,7 +187,7 @@ Chestplate:
     - HIDE_ARMOR_TRIM
 Leggings:
   Id: netherite_leggings
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&b&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Divine I'
@@ -252,7 +252,7 @@ Leggings:
     - HIDE_ARMOR_TRIM
 Boots:
   Id: netherite_boots
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&d&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Divine I'
@@ -320,7 +320,7 @@ Boots:
     - HIDE_ARMOR_TRIM
 Light:
   Id: netherite_sword
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&6&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Cleansing I'
@@ -402,7 +402,7 @@ Light:
     - HIDE_UNBREAKABLE
 Medium:
   Id: netherite_sword
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&b&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Cleansing I'
@@ -484,7 +484,7 @@ Medium:
     - HIDE_UNBREAKABLE
 Heavy:
   Id: netherite_sword
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&b&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&7Cleansing I'
@@ -566,7 +566,7 @@ Heavy:
     - HIDE_UNBREAKABLE
 Staff:
   Id: netherite_hoe
-  Display: '&[NUMBER]&l[NAME]'
+  Display: '&b&l[NAME]'
   Model: [NUMBER]
   Lore:
   - '&[NUMBER]&o[LORE]'
