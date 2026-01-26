@@ -324,9 +324,32 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Generates the HTML for the preview pane
      */
+    /**
+     * Generates the HTML for the preview pane
+     */
     function generateItemPreview(item, level) {
         previewPane.innerHTML = ''; 
 
+        // --- Calculate Stats---
+        let hasStats = false;
+        const statGroups = new Map(); // Key: Slot, Value: Array of {stat, value}
+
+        SLOTS.forEach(slot => {
+            STATS.forEach(stat => {
+                const key = `${slot}_${stat}`;
+                const value = item[key];
+                
+                if (value && value !== 'NaN') {
+                    if (!statGroups.has(slot)) {
+                        statGroups.set(slot, []);
+                    }
+                    statGroups.get(slot).push({ stat, value });
+                    hasStats = true;
+                }
+            });
+        });
+
+        // --- Render Title & Lore ---
         // Title
         previewPane.innerHTML += formatLine(item.Display);
         
@@ -337,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
              });
         }
         
-        // Flavor Text
+        // Flavor Text 
         if (item.FlavorText) {
              item.FlavorText.split('\n').forEach(flav => {
                  previewPane.innerHTML += formatLine(`&b&o${flav}`);
@@ -358,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         previewPane.innerHTML += '<div class="mc-separator"></div>';
 
-        // Custom Stats
+        // --- Render Custom Stats ---
         for (const key in item) {
             if (key.startsWith('Stat_') && item[key] && item[key] !== 'NaN') {
                 const statName = key.replace('Stat_', '').replace(/_/g, ' '); // Clean up name
@@ -366,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Normal Stats 
+        // --- Render Normal Stats ---
         if (hasStats) {
             previewPane.innerHTML += '<div class="mc-separator"></div>';
             
