@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allItems = [];
     const raritySet = new Set();
     const classSet = new Set();
-    const supertypeSet = new Set();
-    const superToSubtypeMap = new Map();
+    const typeSet = new Set();
 
     const SLOTS = ["MainHand", "OffHand", "Head", "Chest", "Legs", "Feet"];
     const STATS = ["Armor", "ArmorToughness", "KnockbackResistance", "Health", "AttackSpeed", "MovementSpeed", "Damage", "Luck"];
@@ -43,8 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Filter Elements ---
     const rarityFilter = document.getElementById('rarityFilter');
     const classFilter = document.getElementById('classFilter');
-    const supertypeFilter = document.getElementById('supertypeFilter');
-    const subtypeFilter = document.getElementById('subtypeFilter');
+    const typeFilter = document.getElementById('typeFilter');
     const levelInput = document.getElementById('itemLevel');
     const generateBtn = document.getElementById('generateBtn');
 
@@ -54,12 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyBtn = document.getElementById('copyBtn');
     const previewPane = document.getElementById('previewPane');
 
-    // --- 1. Data Loading and Filter Population ---
+    // --- Load Data and Create Filters ---
     fetch(CSV_PATH)
-      .then(response => {
-        if (!response.ok) throw new Error('Could not fetch CSV. Make sure "items_parsed_v2.csv" is in the "item-creator" folder.');
-        return response.text();
-      })
+      .then(response => response.text())
       .then(csvText => {
         const results = Papa.parse(csvText, { header: true, skipEmptyLines: true });
         
@@ -68,20 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
         allItems.forEach(item => {
           if (item.Rarity) raritySet.add(item.Rarity);
           if (item.Class) classSet.add(item.Class);
-          if (item.Supertype) supertypeSet.add(item.Supertype);
-          
-          if (item.Supertype && item.Subtype) {
-            if (!superToSubtypeMap.has(item.Supertype)) {
-              superToSubtypeMap.set(item.Supertype, new Set());
-            }
-            superToSubtypeMap.get(item.Supertype).add(item.Subtype);
-          }
+          if (item.Type) typeSet.add(item.Type); // Collect Types
         });
         
         populateSelect(rarityFilter, raritySet);
         populateSelect(classFilter, classSet);
-        populateSelect(supertypeFilter, supertypeSet);
-        updateSubtypeFilter('Any');
+        populateSelect(typeFilter, typeSet);
       })
       .catch(err => alert('Error loading item templates: '.concat(err.message)));
 
@@ -96,41 +83,18 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    /** Dynamically updates the Subtype filter */
-    function updateSubtypeFilter(selectedSupertype) {
-        subtypeFilter.innerHTML = '';
-        const anyOpt = document.createElement('option');
-        anyOpt.value = "Any";
-        anyOpt.text = "Any Subtype";
-        subtypeFilter.add(anyOpt);
-
-        if (selectedSupertype !== 'Any' && superToSubtypeMap.has(selectedSupertype)) {
-            subtypeFilter.disabled = false;
-            const subtypes = superToSubtypeMap.get(selectedSupertype);
-            populateSelect(subtypeFilter, subtypes);
-        } else {
-            subtypeFilter.disabled = true;
-        }
-    }
-
-    // --- 2. Event Listeners ---
-    supertypeFilter.addEventListener('change', () => {
-        updateSubtypeFilter(supertypeFilter.value);
-    });
-
+    // Event Listeners (aka button pressing)
     generateBtn.addEventListener('click', () => {
       const level = parseInt(levelInput.value) || 1;
       const selectedRarity = rarityFilter.value;
       const selectedClass = classFilter.value;
-      const selectedSupertype = supertypeFilter.value;
-      const selectedSubtype = subtypeFilter.value;
+      const selectedType = typeFilter.value;
 
       const filteredItems = allItems.filter(item => {
         const rarityMatch = (selectedRarity === 'Any' || item.Rarity === selectedRarity);
         const classMatch = (selectedClass === 'Any' || item.Class === selectedClass);
-        const supertypeMatch = (selectedSupertype === 'Any' || item.Supertype === selectedSupertype);
-        const subtypeMatch = (selectedSubtype === 'Any' || item.Subtype === selectedSubtype);
-        return rarityMatch && classMatch && supertypeMatch && subtypeMatch;
+        const typeMatch = (selectedType === 'Any' || item.Type === selectedType);
+        return rarityMatch && classMatch && typeMatch;
       });
 
       if (filteredItems.length === 0) {
@@ -144,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const outputYaml = generateItemYaml(scaledItem, level);
       outputCommand.value = outputYaml;
       
-      generateItemPreview(scaledItem, level); // Generate preview
+      generateItemPreview(scaledItem, level);
       
       outputSection.style.display = 'flex';
     });
@@ -160,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
 
-    // --- 3. Item Scaling (TODO) ---
+    // Item Scaling (TODO)
     function scaleItem(baseItem, level) {
       if (level === 1) return baseItem;
       const scaledItem = { ...baseItem };
@@ -196,26 +160,63 @@ document.addEventListener('DOMContentLoaded', () => {
       return scaledItem;
     }
 
-    // --- 4. YAML Generation ---
-    function convertCsvRowToYamlObject(item) {
+    // Create YAML object
+    function convertCsvRowToYamlObject(item, level) {
         const nestedItem = {};
         if (item.Id) nestedItem.Id = item.Id;
-        if (item.Data) {
-            const dataNum = parseFloat(item.Data);
-            nestedItem.Data = isNaN(dataNum) ? item.Data : dataNum;
-        }
         if (item.Display) nestedItem.Display = item.Display;
+        if (item.Model) nestedItem.Model = parseInt(item.Model) || item.Model;
+
+        // --- Reconstruct Lore ---
+        const loreList = [];
         
-        if (item.Lore) nestedItem.Lore = item.Lore.split('\n'); 
+        // Potion Effects
+        if (item.PotionEffects) {
+            item.PotionEffects.split('\n').forEach(eff => loreList.push(`&7${eff}`));
+        }
+        
+        // Flavor Text
+        if (item.FlavorText) {
+            item.FlavorText.split('\n').forEach(flav => loreList.push(`&b&o${flav}`));
+        }        
+
+        loreList.push(''); // Empty Row
+        
+        // Ability
+        if (item.Ability) loreList.push(`&9[${item.Ability}]`);
+        
+        loreList.push(''); // Empty Row
+        
+        // Level, Class, Type
+        loreList.push(`&9[Level ${level}]`); // Use dynamic level
+        if (item.Class) loreList.push(`&9[${item.Class}]`);
+        if (item.Type) loreList.push(`&9[${item.Type}]`);
+
+        nestedItem.Lore = loreList;
+
+        // --- Enchantments ---
         if (item.Enchantments) nestedItem.Enchantments = item.Enchantments.split('\n').filter(Boolean);
 
+        // --- Options & Trims ---
         const options = {};
-        if (item.Option_Unbreakable === 'True' || item.Option_Unbreakable === true) {
-            options.Unbreakable = true;
+        if (item.Option_Unbreakable === 'True' || item.Option_Unbreakable === true) options.Unbreakable = true;
+        if (item.Option_SkinTexture) options.SkinTexture = item.Option_SkinTexture;
+        
+        // Trims
+        if (item.Trim_Material || item.Trim_Pattern) {
+            options.Trim = {
+                Material: item.Trim_Material,
+                Pattern: item.Trim_Pattern
+            };
         }
-        if (item.Option_Color) options.Color = item.Option_Color;
         if (Object.keys(options).length > 0) nestedItem.Options = options;
 
+        // --- Banner Layers ---
+        if (item.BannerLayers) {
+            nestedItem.BannerLayers = item.BannerLayers.split('\n').filter(Boolean);
+        }
+
+        // --- Attributes (Slots) ---
         const attributes = {};
         for (const slot of SLOTS) {
             const slotData = {};
@@ -223,24 +224,36 @@ document.addEventListener('DOMContentLoaded', () => {
             for (const stat of STATS) {
                 const key = `${slot}_${stat}`;
                 const value = item[key];
-                if (value) {
+                if (value && value !== 'NaN') {
                     const floatVal = parseFloat(value);
-                    if (!isNaN(floatVal) && String(floatVal) === String(value).trim()) {
-                        slotData[stat] = floatVal;
-                    } else {
-                        slotData[stat] = value;
-                    }
+                    slotData[stat] = (!isNaN(floatVal) && String(floatVal) === String(value).trim()) ? floatVal : value;
                     hasData = true;
                 }
             }
             if (hasData) attributes[slot] = slotData;
         }
         if (Object.keys(attributes).length > 0) nestedItem.Attributes = attributes;
+
+        // --- Custom Stats (Mythic Mobs) ---
+        const customStats = [];
+        for (const key in item) {
+            if (key.startsWith('Stat_') && item[key] && item[key] !== 'NaN') {
+                const statName = key.replace('Stat_', '');
+                customStats.push(`${statName} ${item[key]}`);
+            }
+        }
+        if (customStats.length > 0) nestedItem.Stats = customStats;
+        
+        // --- Hide Flags ---
+        if (item.Hide) {
+             nestedItem.Hide = item.Hide.split('|');
+        }
+
         return nestedItem;
     }
 
     function generateItemYaml(item, level) {
-      const nestedObject = convertCsvRowToYamlObject(item);
+      const nestedObject = convertCsvRowToYamlObject(item, level);
       const finalObject = { [item.ItemName]: nestedObject };
       const header = `# ${item.Display || item.ItemName} (Level ${level})\n# Generated by Item Randomizer\n\n`;
 
@@ -256,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // --- 5. Preview Generation  ---
+    // Preview Generation
 
     /**
      * Helper function to convert numbers to Roman Numerals
@@ -275,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * NEW: Helper to format enchantment levels based on the new rule
+     * Helper to format enchantment levels based on the new rule
      */
     function formatEnchantmentDisplay(name, level) {
         if (level >= 1 && level <= 10) {
@@ -312,60 +325,48 @@ document.addEventListener('DOMContentLoaded', () => {
      * Generates the HTML for the preview pane
      */
     function generateItemPreview(item, level) {
-        previewPane.innerHTML = ''; // Clear old preview
+        previewPane.innerHTML = ''; 
 
-        // 1. Title (from Display field)
+        // Title
         previewPane.innerHTML += formatLine(item.Display);
         
-        // 2. Enchantments (scaled)
-        if (item.Enchantments) {
-            const enchants = item.Enchantments.split('\n');
-            enchants.forEach(ench => {
-                const [bukkitName, levelStr] = ench.split(':');
-                const level = parseInt(levelStr);
-
-                if (!bukkitName || isNaN(level)) {
-                    previewPane.innerHTML += formatLine('&7' + ench); // Fallback
-                    return; 
-                }
-                
-                const minecraftName = ENCHANTMENT_MAP[bukkitName] || bukkitName; 
-                const levelDisplay = formatEnchantmentDisplay(minecraftName, level);
-                    
-                previewPane.innerHTML += formatLine(`&7${levelDisplay}`);
-            });
-        }
-
-        // 3. Lore (from original Lore field)
-        if (item.Lore) {
-            item.Lore.split('\n').forEach(line => {
-                let modifiedLine = line;
-                // Check for italic code (&o)
-                if (modifiedLine.includes('&o')) {
-                    // Replace the first *color* code (e.g., &b, &6) with &5 (purple)
-                    modifiedLine = modifiedLine.replace(/&[0-9a-f]/, '&5');
-                }
-                previewPane.innerHTML += formatLine(modifiedLine);
-            });
+        // Potion Effects
+        if (item.PotionEffects) {
+             item.PotionEffects.split('\n').forEach(eff => {
+                 previewPane.innerHTML += formatLine(`&7${eff}`);
+             });
         }
         
-        // 4. Stats (scaled)
-        let hasStats = false;
-        const statGroups = new Map(); 
+        // Flavor Text
+        if (item.FlavorText) {
+             item.FlavorText.split('\n').forEach(flav => {
+                 previewPane.innerHTML += formatLine(`&b&o${flav}`);
+             });
+        }
+        
+        previewPane.innerHTML += formatLine(''); // Spacer
 
+        // Ability
+        if (item.Ability) previewPane.innerHTML += formatLine(`&9[${item.Ability}]`);
+
+        previewPane.innerHTML += formatLine(''); // Spacer
+
+        // Tags
+        previewPane.innerHTML += formatLine(`&9[Level ${level}]`);
+        if (item.Class) previewPane.innerHTML += formatLine(`&9[${item.Class}]`);
+        if (item.Type) previewPane.innerHTML += formatLine(`&9[${item.Type}]`);
+
+        previewPane.innerHTML += '<div class="mc-separator"></div>';
+
+        // Custom Stats
         for (const key in item) {
-            if (key.includes('_') && !key.startsWith('Option_') && item[key]) {
-                const [slot, stat] = key.split('_');
-                const value = item[key];
-                
-                if (value && (parseFloat(value) !== 0 || String(value).includes('%'))) {
-                    if (!statGroups.has(slot)) statGroups.set(slot, []);
-                    statGroups.get(slot).push({ stat, value });
-                    hasStats = true;
-                }
+            if (key.startsWith('Stat_') && item[key] && item[key] !== 'NaN') {
+                const statName = key.replace('Stat_', '').replace(/_/g, ' '); // Clean up name
+                previewPane.innerHTML += formatLine(`&7${statName}: &f${item[key]}`);
             }
         }
 
+        // Normal Stats 
         if (hasStats) {
             previewPane.innerHTML += '<div class="mc-separator"></div>';
             

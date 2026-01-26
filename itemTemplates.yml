@@ -1,7 +1,7 @@
 Helmet:
   Id: netherite_helmet
-  Display: '&2&l[NAME]'
-  Model: [NUMBER]
+  Display: '&2&lA cool Helmet'
+  Model: 1
   Lore:
   - '&7Divine I'
   - '&7Sanctity I'
@@ -20,11 +20,11 @@ Helmet:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Helmet]'
   Enchantments:
@@ -64,8 +64,8 @@ Helmet:
     - HIDE_ARMOR_TRIM
 PlayerHead:
   Id: player_head
-  Display: '&1&l[NAME]'
-  Model: [NUMBER]
+  Display: '&1&lA Player Head'
+  Model: 1
   Lore:
   - '&7Divine I'
   - '&7Sanctity I'
@@ -84,11 +84,11 @@ PlayerHead:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Helmet]'
   Enchantments:
@@ -123,8 +123,8 @@ PlayerHead:
     SkinTexture: [CODE]
 Chestplate:
   Id: netherite_chestplate
-  Display: '&5&l[NAME]'
-  Model: [NUMBER]
+  Display: '&5&lBestest Chestplate'
+  Model: 1
   Lore:
   - '&7Divine I'
   - '&7Sanctity I'
@@ -143,11 +143,11 @@ Chestplate:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Chestplate]'
   Enchantments:
@@ -187,8 +187,8 @@ Chestplate:
     - HIDE_ARMOR_TRIM
 Leggings:
   Id: netherite_leggings
-  Display: '&b&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lFancy Pants'
+  Model: 1
   Lore:
   - '&7Divine I'
   - '&7Sanctity I'
@@ -207,11 +207,11 @@ Leggings:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Leggings]'
   Enchantments:
@@ -252,8 +252,8 @@ Leggings:
     - HIDE_ARMOR_TRIM
 Boots:
   Id: netherite_boots
-  Display: '&d&l[NAME]'
-  Model: [NUMBER]
+  Display: '&d&lBoots with the Fur'
+  Model: 1
   Lore:
   - '&7Divine I'
   - '&7Sanctity I'
@@ -272,11 +272,11 @@ Boots:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Boots]'
   Enchantments:
@@ -320,8 +320,8 @@ Boots:
     - HIDE_ARMOR_TRIM
 Light:
   Id: netherite_sword
-  Display: '&6&l[NAME]'
-  Model: [NUMBER]
+  Display: '&6&lA Sword for Ants'
+  Model: 1
   Lore:
   - '&7Cleansing I'
   - '&7Soul Rend I'
@@ -349,11 +349,11 @@ Light:
   - '&7Slowing I'
   - '&7Weakening I'
   - '&7Fatigue I'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Light]'
   Enchantments:
@@ -402,8 +402,8 @@ Light:
     - HIDE_UNBREAKABLE
 Medium:
   Id: netherite_sword
-  Display: '&b&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lGoldilocks Sword'
+  Model: 1
   Lore:
   - '&7Cleansing I'
   - '&7Soul Rend I'
@@ -431,11 +431,11 @@ Medium:
   - '&7Slowing I'
   - '&7Weakening I'
   - '&7Fatigue I'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Medium]'
   Enchantments:
@@ -484,8 +484,8 @@ Medium:
     - HIDE_UNBREAKABLE
 Heavy:
   Id: netherite_sword
-  Display: '&b&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lBig Sword'
+  Model: 1
   Lore:
   - '&7Cleansing I'
   - '&7Soul Rend I'
@@ -513,11 +513,11 @@ Heavy:
   - '&7Slowing I'
   - '&7Weakening I'
   - '&7Fatigue I'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Heavy]'
   Enchantments:
@@ -566,14 +566,14 @@ Heavy:
     - HIDE_UNBREAKABLE
 Staff:
   Id: netherite_hoe
-  Display: '&b&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lGandalf Mode'
+  Model: 1
   Lore:
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Staff]'
   Skills:
@@ -615,8 +615,8 @@ Staff:
     - HIDE_UNBREAKABLE
 Bow:
   Id: bow
-  Display: '&[NUMBER]&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lShooty McShootface'
+  Model: 1
   Lore:
   - '&7True Shot'
   - '&7Burst I'
@@ -645,11 +645,11 @@ Bow:
   - '&7Slowing I'
   - '&7Weakening I'
   - '&7Fatigue I'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Bow]'
   Enchantments:
@@ -694,8 +694,8 @@ Bow:
     - HIDE_UNBREAKABLE
 Crossbow:
   Id: crossbow
-  Display: '&[NUMBER]&l[NAME]'
-  Model: [NUMBER]
+  Display: '&b&lDeadeye my Love'
+  Model: 1
   Lore:
   - '&7Amplified Shot I'
   - '&7Puncture I'
@@ -720,11 +720,11 @@ Crossbow:
   - '&7Slowing I'
   - '&7Weakening I'
   - '&7Fatigue I'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Crossbow]'
   Enchantments:
@@ -772,8 +772,8 @@ Crossbow:
     - HIDE_UNBREAKABLE
 Trinket:
   Id: ghast_tear
-  Display: '&[NUMBER]&l[NAME]'
-  Model: [NUMBER]
+  Display: '&5&lShiny'
+  Model: 1
   Lore:
   - '&7Sanctity I'
   - '&7Aegis I'
@@ -791,11 +791,11 @@ Trinket:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Trinket]'
   Attributes:
@@ -823,8 +823,8 @@ Trinket:
     PreventStacking: true
 Shield:
   Id: shield
-  Display: '&[NUMBER]&l[NAME]'
-  Model: [NUMBER]
+  Display: '&5&lUno Reverse'
+  Model: 1
   Lore:
   - '&7Undying'
   - '&7Revenge I'
@@ -845,11 +845,11 @@ Shield:
   - '&7Night Vision'
   - '&7Slow Falling'
   - '&7Conduit Power'
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Shield]'
   Enchantments:
@@ -879,7 +879,8 @@ Shield:
   - PARRY_POWER 1
   - PARRY_NEGATION 1
   BannerLayers:
-  - [COLOR] [BANNER_PATTERN]
+  - COLOR1 BANNER_PATTERN1
+  - COLOR2 BANNER_PATTERN2
   Options:
     Unbreakable: true
   Hide:
@@ -887,14 +888,14 @@ Shield:
     - HIDE_UNBREAKABLE
 Jewelry:
   Id: ghast_tear
-  Display: '&[NUMBER]&l[NAME]'
-  Model: [NUMBER]
+  Display: '&5&lRingpop'
+  Model: 1
   Lore:
-  - '&[NUMBER]&o[LORE]'
+  - '&b&o[LORE]'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
-  - '&9[Level [NUMBER]]'
+  - '&9[Level 1]'
   - '&9[[CLASS]]'
   - '&9[Jewelry]'
   Attributes:
