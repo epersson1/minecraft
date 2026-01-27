@@ -1,0 +1,689 @@
+ItemName,Id,Display,Model,Rarity,Level,Class,Type,Ability,PotionEffects,FlavorText,Lore,Enchantments,Skills,Hide,MainHand_Armor,MainHand_ArmorToughness,MainHand_KnockbackResistance,MainHand_Health,MainHand_AttackSpeed,MainHand_MovementSpeed,MainHand_Damage,MainHand_Luck,MainHand_EntityInteractionRange,OffHand_Armor,OffHand_ArmorToughness,OffHand_KnockbackResistance,OffHand_Health,OffHand_AttackSpeed,OffHand_MovementSpeed,OffHand_Damage,OffHand_Luck,OffHand_EntityInteractionRange,Head_Armor,Head_ArmorToughness,Head_KnockbackResistance,Head_Health,Head_AttackSpeed,Head_MovementSpeed,Head_Damage,Head_Luck,Head_EntityInteractionRange,Chest_Armor,Chest_ArmorToughness,Chest_KnockbackResistance,Chest_Health,Chest_AttackSpeed,Chest_MovementSpeed,Chest_Damage,Chest_Luck,Chest_EntityInteractionRange,Legs_Armor,Legs_ArmorToughness,Legs_KnockbackResistance,Legs_Health,Legs_AttackSpeed,Legs_MovementSpeed,Legs_Damage,Legs_Luck,Legs_EntityInteractionRange,Feet_Armor,Feet_ArmorToughness,Feet_KnockbackResistance,Feet_Health,Feet_AttackSpeed,Feet_MovementSpeed,Feet_Damage,Feet_Luck,Feet_EntityInteractionRange,All_Armor,All_ArmorToughness,All_KnockbackResistance,All_Health,All_AttackSpeed,All_MovementSpeed,All_Damage,All_Luck,All_EntityInteractionRange,Stat_CRITICAL_STRIKE_CHANCE,Stat_CRITICAL_STRIKE_DAMAGE,Stat_CRITICAL_STRIKE_RESILIENCE,Stat_DODGE_CHANCE,Stat_DODGE_NEGATION,Stat_PARRY_CHANCE,Stat_PARRY_COUNTERATTACK,Stat_PARRY_POWER,Stat_PARRY_NEGATION,Option_Unbreakable,Option_SkinTexture,Trim_Material,Trim_Pattern,BannerLayers
+ShatteredFaith,netherite_sword,&1&lShattered Faith,1,Rare,1,Punchy,Heavy,ITEM ABILITY,"Aegis III
+Vitality II",Piece the shards back together...,"&7Aegis III
+&7Vitality II
+&b&oPiece the shards back together...
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 3
+KNOCKBACK 2
+SMITE 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,5,,+8%,,,,14,,,5,,+8%,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,2,3,,True,,,,
+BloodSoakedCrown,netherite_helmet,&5&lBlood-Soaked Crown,1,Epic,1,Punchy,Helmet,ITEM ABILITY,"Regeneration IV
+Potency II
+Shielding I",Who needs an heir?,"&7Regeneration IV
+&7Potency II
+&7Shielding I
+&b&oWho needs an heir?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]","PROTECTION 4
+THORNS 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,7,,12,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,4,,,,,,,True,,REDSTONE,SILENCE,
+ChaosIncarnate,ghast_tear,&6&lChaos Incarnate,1,Legendary,1,Punchy,Trinket,ITEM ABILITY,"Divine V
+Conduit Power II",HAHAHAHAHAHAHAHAAHAHAAHAHAAHA,"&7Divine V
+&7Conduit Power II
+&b&oHAHAHAHAHAHAHAHAAHAHAAHAHAAHA
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,+18%,,,10,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
+DyingStar,bow,&2&lDying Star,1,Uncommon,1,Sneaky,Bow,ITEM ABILITY,"Invisibility I
+Night Vision III
+Slow Falling II",Its whispers echo still,"&7Invisibility I
+&7Night Vision III
+&7Slow Falling II
+&b&oIts whispers echo still
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Bow]","POWER 5
+PUNCH 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+12%,+15%,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,,3,,,,,,True,,,,
+CorruptedVeil,netherite_leggings,&1&Corrupted Veil,1,Rare,1,Sneaky,Leggings,ITEM ABILITY,"Sanctity I
+Metabolism III","A union broken, a union rewritten.","&7Sanctity I
+&7Metabolism III
+&b&oA union broken, a union rewritten.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Leggings]","SWIFT_SNEAK 3
+PROTECTION 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,+19%,,+15%,,,,,,,,,,,,,,,,,,,,,,,4,2,,,,,True,,QUARTZ,VEX,
+SoullessGaze,player_head,&5&lSoulless Gaze,1,Epic,1,Sneaky,Helmet,ITEM ABILITY,Invisibility V,Their empty eyes haunt me,"&7Invisibility V
+&b&oTheir empty eyes haunt me
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,+8%,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,4,,,,,,,['CODE'],,,
+BranchingRadiance,netherite_hoe,&b&lBranching Radiance,1,Unique,1,Growy,Staff,ITEM ABILITY,"Bulwark II
+Regeneration III
+Sanctity IV",All those timelines to be cultivated!,"&7Bulwark II
+&7Regeneration III
+&7Sanctity IV
+&b&oAll those timelines to be cultivated!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,18,,,-99%,12,,,5,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,4,,True,,,,
+BastionOfIndependence,shield,&5&lBastion of Independence,1,Epic,1,Growy,Shield,ITEM ABILITY,"Shielding V
+Fire Resistance",[LORE],"&7Shielding V
+&7Fire Resistance
+&b&o[LORE]
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Shield]","PROTECTION 5
+UNBREAKING 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,10,,15,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,3,,,,True,,,,
+WeaversVestige,netherite_chestplate,&1&lWeaver's Vestige,1,Rare,1,Growy,Chestplate,ITEM ABILITY,"Divine II
+Slow Falling III",Her only inheritance.,"&7Divine II
+&7Slow Falling III
+&b&oHer only inheritance.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Chestplate]",PROTECTION 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,14,,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,,,,,,True,,AMETHYST,EYE,
+GoreStainedSmasher,netherite_sword,&2&lGore-Stained Smasher,1,Uncommon,1,Punchy,Heavy,ITEM ABILITY,"Vitality III
+Potency IV
+Bulwark II",Why bother cleaning it?,"&7Vitality III
+&7Potency IV
+&7Bulwark II
+&b&oWhy bother cleaning it?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 4
+KNOCKBACK 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,4,,12,,,,18,,,4,,12,,,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,3,,True,,,,
+Ribcage,netherite_chestplate,&2&lRibcage,1,Uncommon,1,Punchy,Chestplate,ITEM ABILITY,"Shielding V
+Aegis II",It doesn't matter whose it is...,"&7Shielding V
+&7Aegis II
+&b&oIt doesn't matter whose it is...
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]","PROTECTION 5
+THORNS 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,10,+5%,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,2,,,,True,,NETHERITE,VEX,
+MANtle,shield,&1&lMANtle,1,Rare,1,Punchy,Shield,ITEM ABILITY,"Bulwark IV
+Sanctity III
+Vitality I",Follow the tenents of MANhood.,"&7Bulwark IV
+&7Sanctity III
+&7Vitality I
+&b&oFollow the tenents of MANhood.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Shield]","PROTECTION 4
+UNBREAKING 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,12,,+18%,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,True,,,,
+StarfallLongbow,bow,&d&lStarfall Longbow,1,Exotic,1,Sneaky,Bow,ITEM ABILITY,"Night Vision V
+Invisibility II
+Slow Falling I",One by one they fall to earth.,"&7Night Vision V
+&7Invisibility II
+&7Slow Falling I
+&b&oOne by one they fall to earth.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Bow]","POWER 5
+INFINITY 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,+14%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,3,,,,,,True,,,,
+VoidWalkersTreads,netherite_boots,&1&lVoid-Walker's Treads,1,Rare,1,Sneaky,Boots,ITEM ABILITY,"Invisibility IV
+Night Vision II",Be careful where you step.,"&7Invisibility IV
+&7Night Vision II
+&b&oBe careful where you step.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Boots]","SOUL_SPEED 3
+DEPTH_STRIDER 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+19%,,12,4,,,,,,,,,,,,,4,2,,,,,True,,,,
+DistortedImage,player_head,&2&lDistorted Image,1,Uncommon,1,Sneaky,Helmet,ITEM ABILITY,"Invisibility III
+Night Vision IV
+Conduit Power I",That's...not where eyes go.,"&7Invisibility III
+&7Night Vision IV
+&7Conduit Power I
+&b&oThat's...not where eyes go.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,+5%,,15,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,,,,,,,['CODE'],,,
+BoughOfLight,netherite_hoe,&d&lBough of Light,1,Exotic,1,Growy,Staff,ITEM ABILITY,"Regeneration V
+Sanctity IV
+Aegis II",Wrought from the sun's own rays.,"&7Regeneration V
+&7Sanctity IV
+&7Aegis II
+&b&oWrought from the sun's own rays.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,6,,,19,,,-99%,,,,,,10,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,4,,,,True,,,,
+OvergrownMossGuard,netherite_leggings,&2&lOvergrown Moss Guard,1,Uncommon,1,Growy,Leggings,ITEM ABILITY,"Regeneration III
+Metabolism IV",Mossy wants pets.,"&7Regeneration III
+&7Metabolism IV
+&b&oMossy wants pets.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Leggings]",PROTECTION 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,+10%,12,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,,,True,,EMERALD,WILD,
+CorruptedBloom,ghast_tear,&1&lCorrupted Bloom,1,Rare,1,Growy,Trinket,ITEM ABILITY,"Divine III
+Regeneration II
+Invisibility I",Fertilizer wasn't enough?,"&7Divine III
+&7Regeneration II
+&7Invisibility I
+&b&oFertilizer wasn't enough?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,8,,15,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,3,,,,,,,,
+BustersGreatsword,netherite_sword,&6&Candace's Greatsword,1,Legendary,1,Punchy,Heavy,,"Potency V
+Aegis III
+Shielding II",For busting.,"&7Potency V
+&7Aegis III
+&7Shielding II
+&b&oFor busting.
+
+&9Sacrifice to reveal a player's wrongdoings publicly.
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+SMITE 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,5,,+15%,,,,19,,,5,,+15%,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,3,,True,,,,
+MorgulVisage,netherite_helmet,&5&lMorgul Visage,1,Epic,1,Punchy,Helmet,ITEM ABILITY,"Invisibility II
+Night Vision IV",From the tower of sorcery.,"&7Invisibility II
+&7Night Vision IV
+&b&oFrom the tower of sorcery.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]","PROTECTION 4
+THORNS 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,8,,12,,,,-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,2,,,,,True,,NETHERITE,VEX,
+HylianGuard,shield,&d&lHylian Guard,1,Exotic,1,Punchy,Shield,ITEM ABILITY,"Bulwark V
+Sanctity III",How long will our empire last?,"&7Bulwark V
+&7Sanctity III
+&b&oHow long will our empire last?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Shield]","PROTECTION 5
+UNBREAKING 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,10,,+20%,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,4,,True,,,,
+SandalsOfHermes,netherite_boots,&1&lSandals of Hermes,1,Rare,1,Sneaky,Boots,ITEM ABILITY,"Invisibility I
+Slow Falling V",Run like the wind!,"&7Invisibility I
+&7Slow Falling V
+&b&oRun like the wind!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Boots]","FEATHER_FALLING 4
+SOUL_SPEED 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,+18%,,10,,,,,,,,,,,,,,4,3,,,,,True,,,,
+HiddenBlade,crossbow,&2&lHidden Blade,1,Uncommon,1,Sneaky,Crossbow,ITEM ABILITY,Invisibility III,Works at long range and short!,"&7Invisibility III
+&b&oWorks at long range and short!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Crossbow]","QUICK_CHARGE 3
+PIERCING 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,+5%,20,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,2,,,,,,True,,,,
+StaffOfTheEverbloom,netherite_hoe,&d&lStaff of the Everbloom,1,Exotic,1,Growy,Staff,ITEM ABILITY,"Regeneration IV
+Vitality III
+Sanctity II",Peace for all,"&7Regeneration IV
+&7Vitality III
+&7Sanctity II
+&b&oPeace for all
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,15,,,-99%,12,,5,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,3,,,,True,,,,
+HeartOfTeFiti,ghast_tear,&b&lHeart of Te Fiti,1,Unique,1,Growy,Trinket,ITEM ABILITY,"Regeneration V
+Conduit Power III",I know who you are.,"&7Regeneration V
+&7Conduit Power III
+&b&oI know who you are.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,18,,+5%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,
+LeggingsOfBirmanWood,netherite_leggings,&5&lLeggings of Birman Wood,1,Epic,1,Growy,Leggings,ITEM ABILITY,"Bulwark III
+Vitality IV",The prophecy... fulfilled?,"&7Bulwark III
+&7Vitality IV
+&b&oThe prophecy... fulfilled?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Leggings]",PROTECTION 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,+12%,14,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,3,,True,,EMERALD,WILD,
+NineLivesExecutioner,netherite_sword,&6&lNine Lives Executioner,1,Legendary,1,Punchy,Heavy,ITEM ABILITY,"Potency IV
+Vitality II
+Regeneration III",Swing as many times as necessary.,"&7Potency IV
+&7Vitality II
+&7Regeneration III
+&b&oSwing as many times as necessary.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+FIRE_ASPECT 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+12%,,19,7,,4,,,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,3,,True,,,,
+Stalker,crossbow,&1&lStalker,1,Rare,1,Sneaky,Crossbow,ITEM ABILITY,"Invisibility III
+Night Vision II","""...""","&7Invisibility III
+&7Night Vision II
+&b&o""...""
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Crossbow]","QUICK_CHARGE 3
+PIERCING 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,+15%,,,5,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,4,,,,,,True,,,,
+LonePawprint,ghast_tear,&d&lLonePawprint,1,Exotic,1,Growy,Trinket,ITEM ABILITY,"Regeneration V
+Sanctity IV
+Metabolism III",Who left this here?,"&7Regeneration V
+&7Sanctity IV
+&7Metabolism III
+&b&oWho left this here?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,6,,18,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,2,,,,,,,,
+IroncladStompers,netherite_boots,&5&lIronclad Stompers,1,Epic,1,Punchy,Boots,ITEM ABILITY,"Bulwark IV
+Shielding III",CLINK CLANK,"&7Bulwark IV
+&7Shielding III
+&b&oCLINK CLANK
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Boots]","PROTECTION 4
+FEATHER_FALLING 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,+15%,6,,,,,,,,,,,,,,,,,4,,,,,2,,True,,IRON,WARD,
+ObsidianGoggles,player_head,&b&lObsidian Goggles,1,Unique,1,Sneaky,Helmet,ITEM ABILITY,"Night Vision V
+Conduit Power II",Made from frozen lava.,"&7Night Vision V
+&7Conduit Power II
+&b&oMade from frozen lava.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,+8%,,19,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,3,,,,,,,['CODE'],,,
+SunbeamedSprout,netherite_hoe,&2&lSunbeamed Sprout,1,Uncommon,1,Growy,Staff,ITEM ABILITY,"Divine II
+Fire Resistance",It can flourish with some help.,"&7Divine II
+&7Fire Resistance
+&b&oIt can flourish with some help.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,12,,,-99%,,,3,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,2,,,,True,,,,
+BlooddrinkerPlate,netherite_chestplate,&b&lBlooddrinker Plate,1,Unique,1,Punchy,Chestplate,ITEM ABILITY,"Potency V
+Aegis III",Protects everything except the neck.,"&7Potency V
+&7Aegis III
+&b&oProtects everything except the neck.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]","PROTECTION 5
+THORNS 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,18,12,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,4,,,True,,REDSTONE,SILENCE,
+NebulaStrider,netherite_leggings,&d&lNebula Strider,1,Exotic,1,Sneaky,Leggings,ITEM ABILITY,"Slow Falling IV
+Invisibility II
+Night Vision I",Walk amongst the stars.,"&7Slow Falling IV
+&7Invisibility II
+&7Night Vision I
+&b&oWalk amongst the stars.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Leggings]",SWIFT_SNEAK 3,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,,,,+18%,,+12%,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,,True,,AMETHYST,VEX,
+OaksOwnGift,shield,&1&lOak's Own Gift,1,Rare,1,Growy,Shield,ITEM ABILITY,"Regeneration IV
+Vitality III",The tree chooses its champion.,"&7Regeneration IV
+&7Vitality III
+&b&oThe tree chooses its champion.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Shield]",PROTECTION 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,10,,+12%,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,4,,,,True,,,,
+BloodyCarapace,netherite_chestplate,&5&lBloody Carapace,1,Epic,1,Punchy,Chestplate,ITEM ABILITY,"Vitality IV
+Aegis II",Ripped from its original owner.,"&7Vitality IV
+&7Aegis II
+&b&oRipped from its original owner.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]","PROTECTION 4
+THORNS 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,8,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,2,,,,True,,REDSTONE,SILENCE,
+OnyxHeartstone,ghast_tear,&1&lOnyx Heartstone,1,Rare,1,Sneaky,Trinket,ITEM ABILITY,"Invisibility II
+Night Vision III","A cold, pulsating stone of pure shadow.","&7Invisibility II
+&7Night Vision III
+&b&oA cold, pulsating stone of pure shadow.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,+12%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,,,,,,
+ClottingAgent,ghast_tear,&2&lClotting Agent,1,Uncommon,1,Punchy,Trinket,,"Regeneration III
+Vitality I","Thick, viscous, and metallic in taste.","&7Regeneration III
+&7Vitality I
+&b&oThick, viscous, and metallic in taste.
+
+&9Sacrifice to give +5HP to another item.
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,2,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+RepurposedCarcass,netherite_chestplate,&2&lRepurposed Carcass,1,Uncommon,1,Punchy,Chestplate,ITEM ABILITY,"Shielding II
+Metabolism IV","Reduce, Reuse, Recycle.","&7Shielding II
+&7Metabolism IV
+&b&oReduce, Reuse, Recycle.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]",PROTECTION 2,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,True,,BONE,WILD,
+EntrailWhip,netherite_sword,&5&lEntrail Whip,1,Epic,1,Punchy,Light,,"Potency V
+Slowing III","A wet, snapping length of sinew.","&7Potency V
+&7Slowing III
+&b&oA wet, snapping length of sinew.
+
+&9Bleeding DOT
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]","SHARPNESS 4
+SWEEPING_EDGE 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,12,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,,,,,True,,,,
+RiposteSabre,netherite_sword,&b&lRiposte Sabre,1,Unique,1,Sneaky,Light,ITEM ABILITY,"Aegis IV
+Invisibility I",En Garde!,"&7Aegis IV
+&7Invisibility I
+&b&oEn Garde!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]","BREACH 2
+LOOTING 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+15%,+10%,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,,,True,,,,
+StorytellersGrimoire,ghast_tear,&d&lStoryteller's Grimoire,1,Exotic,1,Sneaky,Trinket,ITEM ABILITY,"Night Vision V
+Divine III",Bluffs are meaningless when you hold the truth.,"&7Night Vision V
+&7Divine III
+&b&oBluffs are meaningless when you hold the truth.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,19,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
+LuxMortem,netherite_sword,&6&lLux Mortem,1,Legendary,1,Growy,Medium,,"Sanctity V
+Regeneration IV
+Withering III",The beauty of the end.,"&7Sanctity V
+&7Regeneration IV
+&7Withering III
+&b&oThe beauty of the end.
+
+&9Has +10 damage if generated at night.
+
+&9[Level 1]
+&9[Growy]
+&9[Medium]","SMITE 5
+FIRE_ASPECT 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,8,,,15,,,5,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,3,,True,,,,
+TheIconoclast,netherite_sword,&5&lThe Iconoclast,1,Epic,1,Punchy,Heavy,ITEM ABILITY,"Potency III
+Shielding IV",Faith is a crutch for those too weak to stand.,"&7Potency III
+&7Shielding IV
+&b&oFaith is a crutch for those too weak to stand.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+KNOCKBACK 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,15,,,,18,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,4,,True,,,,
+Heartseeker,netherite_sword,&1&lHeartseeker,1,Rare,1,Punchy,Heavy,ITEM ABILITY,"Potency III
+Vampiric II","With his love gone, he searched for another heart to take.","&7Potency III
+&7Vampiric II
+&b&oWith his love gone, he searched for another heart to take.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 4
+BINDING_CURSE 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+5%,,16,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,,,,,True,,,,
+AegisOfStars,ghast_tear,&b&lAegis of Stars,1,Unique,1,Sneaky,Trinket,ITEM ABILITY,"Shielding V
+Night Vision II",A constellation woven into a physical shield.,"&7Shielding V
+&7Night Vision II
+&b&oA constellation woven into a physical shield.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,8,,,,,+5%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,3,,,,,,,,
+MementoMori,player_head,&6&lMemento Mori,1,Legendary,1,Punchy,Helmet,ITEM ABILITY,"Regeneration IV
+Aegis III","or at least, someone does.","&7Regeneration IV
+&7Aegis III
+&b&oor at least, someone does.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,10,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,4,,,['CODE'],,,
+CoinForTheFerryman,ghast_tear,&d&lCoin for the Ferryman,1,Exotic,1,Growy,Trinket,ITEM ABILITY,"Divine V
+Sanctity IV","A heavy, ancient drachma.","&7Divine V
+&7Sanctity IV
+&b&oA heavy, ancient drachma.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,19,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,,,,,,,,,,
+LeylineQuill,netherite_sword,&b&lLeyline Quill,1,Unique,1,Growy,Light,ITEM ABILITY,"Potency IV
+Metabolism II",Write the magic into the very land.,"&7Potency IV
+&7Metabolism II
+&b&oWrite the magic into the very land.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Light]","LOOTING 3
+FIRE_ASPECT 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,10,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,2,,,,True,,,,
+UnansweredPrayer,netherite_helmet,&2&lUnanswered Prayer,1,Uncommon,1,Growy,Helmet,ITEM ABILITY,Slow Falling I,I needed help... I needed your protection.,"&7Slow Falling I
+&b&oI needed help... I needed your protection.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,5,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,True,,,,
+LorentzAttractor,netherite_hoe,&d&lLorentz Attractor,1,Exotic,1,Punchy,Staff,ITEM ABILITY,"Invisibility III
+Potency V",A chaotic spiral of infinite disorder.,"&7Invisibility III
+&7Potency V
+&b&oA chaotic spiral of infinite disorder.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,+18%,-99%,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,4,True,,,,
+BrokenManacles,ghast_tear,&1&lBroken Manacles,1,Rare,1,Sneaky,Trinket,ITEM ABILITY,"Invisibility II
+Metabolism III",A symbol of hard-won independence.,"&7Invisibility II
+&7Metabolism III
+&b&oA symbol of hard-won independence.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,+15%,,,+14%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,,,,,,
+ForkedRoad,netherite_sword,&5&lForked Road,1,Epic,1,Sneaky,Medium,ITEM ABILITY,"Night Vision III
+Slow Falling II",The road to hell is paved with selfish choices.,"&7Night Vision III
+&7Slow Falling II
+&b&oThe road to hell is paved with selfish choices.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Medium]","SWEEPING_EDGE 3
+LOOTING 4",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,14,12,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,3,,,,,,True,,,,
+GibberingHelm,netherite_helmet,&5&lGibbering Helm,1,Epic,1,Sneaky,Helmet,ITEM ABILITY,"Shielding II
+Potency III",It speaks truth.,"&7Shielding II
+&7Potency III
+&b&oIt speaks truth.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]","PROTECTION 2
+BINDING_CURSE 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,6,,,-4,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,True,,,,
+DelusionsManifest,netherite_leggings,&2&lDelusions Manifest,1,Uncommon,1,Sneaky,Leggings,ITEM ABILITY,"Invisibility II
+Slow Falling I",What do you mean I’m not wearing pants?,"&7Invisibility II
+&7Slow Falling I
+&b&oWhat do you mean I’m not wearing pants?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Leggings]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+12%,,18,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,True,,QUARTZ,VEX,
+StarbroughtGrowth,ghast_tear,&b&lStarbrought Growth,1,Unique,1,Growy,Trinket,ITEM ABILITY,"Night Vision V
+Regeneration I","stellar light, not solar, brings this plant to maturity.","&7Night Vision V
+&7Regeneration I
+&b&ostellar light, not solar, brings this plant to maturity.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,6,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,
+VeinWrappedRapier,netherite_sword,&1&lVein-Wrapped Rapier,1,Rare,1,Punchy,Light,ITEM ABILITY,"Potency IV
+Vampiric II",Works better than rope.,"&7Potency IV
+&7Vampiric II
+&b&oWorks better than rope.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]","SHARPNESS 3
+LOOTING 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,2,,,True,,,,
+ObscurialsBlessing,netherite_helmet,&d&lObscurial’s Blessing,1,Exotic,1,Sneaky,Helmet,ITEM ABILITY,"Invisibility V
+Slow Falling III",A lifetime of pain teaches you how to hide.,"&7Invisibility V
+&7Slow Falling III
+&b&oA lifetime of pain teaches you how to hide.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,4,,,,,+14%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,,,True,,,,
+FirstOath,netherite_sword,&2&lFirst Oath,1,Uncommon,1,Growy,Medium,ITEM ABILITY,"Sanctity I
+Aegis I",He had no idea what he was getting into.,"&7Sanctity I
+&7Aegis I
+&b&oHe had no idea what he was getting into.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,2,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,True,,,,
+EntropiedEdge,netherite_sword,&1&lEntropied Edge,1,Rare,1,Punchy,Heavy,ITEM ABILITY,"Potency III
+Conduit Power I",Warped beyond any semblance of order.,"&7Potency III
+&7Conduit Power I
+&b&oWarped beyond any semblance of order.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,19,-5,,,,,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,4,True,,,,
+BorrowedViscera,netherite_chestplate,&5&lBorrowed Viscera,1,Epic,1,Punchy,Chestplate,ITEM ABILITY,"Vitality IV
+Regeneration II",What? They weren’t using it… anymore.,"&7Vitality IV
+&7Regeneration II
+&b&oWhat? They weren’t using it… anymore.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]","PROTECTION 4
+THORNS 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,True,,REDSTONE,SILENCE,
+CaptivePixie,ghast_tear,&b&lCaptive Pixie,1,Unique,1,Sneaky,Trinket,,"Night Vision III
+Slow Falling V",Let me out! I’ll make it worth your while….,"&7Night Vision III
+&7Slow Falling V
+&b&oLet me out! I’ll make it worth your while….
+
+&9Freedom: Sacrifice this to receive a Pixie’s Blessing or Curse.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,+10%,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,
+Experience,netherite_sword,&6&lExperience,1,Legendary,1,Punchy,Heavy,ITEM ABILITY,"Potency V
+Shielding V
+Divine V",Nothing teaches quite as well.,"&7Potency V
+&7Shielding V
+&7Divine V
+&b&oNothing teaches quite as well.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+SMITE 5",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,19,,,5,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,4,,,4,,True,,,,

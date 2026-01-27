@@ -3,8 +3,8 @@ import csv
 import re
 
 # Input/Output files
-SOURCE_YAML = 'itemTemplates.yml'
-OUTPUT_CSV = 'items_parsed_v2.csv'
+SOURCE_YAML = 'ellenItems.yml'
+OUTPUT_CSV = 'ellen_items.csv'
 
 # Mapping of color codes to rarities
 RARITY_MAP = {

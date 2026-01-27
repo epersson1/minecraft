@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const CSV_PATH = '../items_parsed_v2.csv'; 
+    const CSV_PATH = '../ellen_items.csv'; 
     
     let allItems = [];
     const raritySet = new Set();

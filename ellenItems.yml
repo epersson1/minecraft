@@ -1,0 +1,1888 @@
+ShatteredFaith:
+  Id: netherite_sword
+  Display: '&1&lShattered Faith'
+  Model: 1
+  Lore:
+  - '&7Aegis III'
+  - '&7Vitality II'
+  - '&b&oPiece the shards back together...'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 3
+  - KNOCKBACK 2
+  - SMITE 4
+  Attributes:
+    MainHand:
+      Damage: +14
+      KnockbackResistance: +8%
+      Armor: +5
+    OffHand:
+      Damage: +14
+      KnockbackResistance: +8%
+      Armor: +5
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 3
+  - PARRY_COUNTERATTACK 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+BloodSoakedCrown:
+  Id: netherite_helmet
+  Display: '&5&lBlood-Soaked Crown'
+  Model: 1
+  Lore:
+  - '&7Regeneration IV'
+  - '&7Potency II'
+  - '&7Shielding I'
+  - '&b&oWho needs an heir?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 4
+  - THORNS 3
+  Attributes:
+    Head:
+      Health: +12
+      ArmorToughness: +7
+      Damage: +15%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: REDSTONE
+      Pattern: SILENCE
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+ChaosIncarnate:
+  Id: ghast_tear
+  Display: '&6&lChaos Incarnate'
+  Model: 1
+  Lore:
+  - '&7Divine V'
+  - '&7Conduit Power II'
+  - '&b&oHAHAHAHAHAHAHAHAAHAHAAHAHAAHA'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      AttackSpeed: +18%
+      Luck: +10
+      EntityInteractionRange: +2
+  Stats:
+  - DODGE_NEGATION 4
+  - PARRY_NEGATION 3
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+DyingStar:
+  Id: bow
+  Display: '&2&lDying Star'
+  Model: 1
+  Lore:
+  - '&7Invisibility I'
+  - '&7Night Vision III'
+  - '&7Slow Falling II'
+  - '&b&oIts whispers echo still'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Bow]'
+  Enchantments:
+  - POWER 5
+  - PUNCH 2
+  Attributes:
+    MainHand:
+      MovementSpeed: +15%
+      Luck: +9
+      AttackSpeed: +12%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - DODGE_CHANCE 3
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+CorruptedVeil:
+  Id: netherite_leggings
+  Display: '&1&Corrupted Veil'
+  Model: 1
+  Lore:
+  - '&7Sanctity I'
+  - '&7Metabolism III'
+  - '&b&oA union broken, a union rewritten.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Leggings]'
+  Enchantments:
+  - SWIFT_SNEAK 3
+  - PROTECTION 2
+  Attributes:
+    Legs:
+      MovementSpeed: +19%
+      Armor: +4
+      Luck: +15%
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 2
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: QUARTZ
+      Pattern: VEX
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SoullessGaze:
+  Id: player_head
+  Display: '&5&lSoulless Gaze'
+  Model: 1
+  Lore:
+  - '&7Invisibility V'
+  - '&b&oTheir empty eyes haunt me'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      EntityInteractionRange: +3
+      MovementSpeed: +8%
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 2
+  - DODGE_CHANCE 4
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BranchingRadiance:
+  Id: netherite_hoe
+  Display: '&b&lBranching Radiance'
+  Model: 1
+  Lore:
+  - '&7Bulwark II'
+  - '&7Regeneration III'
+  - '&7Sanctity IV'
+  - '&b&oAll those timelines to be cultivated!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Health: +18
+      Luck: +12
+    OffHand:
+      Health: +10
+      ArmorToughness: +5
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_POWER 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BastionOfIndependence:
+  Id: shield
+  Display: '&5&lBastion of Independence'
+  Model: 1
+  Lore:
+  - '&7Shielding V'
+  - '&7Fire Resistance'
+  - '&b&o[LORE]'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Shield]'
+  Enchantments:
+  - PROTECTION 5
+  - UNBREAKING 3
+  Attributes:
+    OffHand:
+      KnockbackResistance: +15
+      Armor: +10
+      Health: +6
+  Stats:
+  - PARRY_CHANCE 3
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+WeaversVestige:
+  Id: netherite_chestplate
+  Display: '&1&lWeaver''s Vestige'
+  Model: 1
+  Lore:
+  - '&7Divine II'
+  - '&7Slow Falling III'
+  - '&b&oHer only inheritance.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 4
+  Attributes:
+    Chest:
+      Health: +14
+      Armor: +8
+      MovementSpeed: +5%
+  Stats:
+  - DODGE_CHANCE 2
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: AMETHYST
+      Pattern: EYE
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+GoreStainedSmasher:
+  Id: netherite_sword
+  Display: '&2&lGore-Stained Smasher'
+  Model: 1
+  Lore:
+  - '&7Vitality III'
+  - '&7Potency IV'
+  - '&7Bulwark II'
+  - '&b&oWhy bother cleaning it?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 4
+  - KNOCKBACK 2
+  Attributes:
+    MainHand:
+      Damage: +18
+      KnockbackResistance: +12
+      Armor: +4
+    OffHand:
+      Damage: +18
+      KnockbackResistance: +12
+      Armor: +4
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Ribcage:
+  Id: netherite_chestplate
+  Display: '&2&lRibcage'
+  Model: 1
+  Lore:
+  - '&7Shielding V'
+  - '&7Aegis II'
+  - '&b&oIt doesn''t matter whose it is...'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 5
+  - THORNS 4
+  Attributes:
+    Chest:
+      Armor: +15
+      ArmorToughness: +10
+      Health: +8
+      KnockbackResistance: +5%
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: NETHERITE
+      Pattern: VEX
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+MANtle:
+  Id: shield
+  Display: '&1&lMANtle'
+  Model: 1
+  Lore:
+  - '&7Bulwark IV'
+  - '&7Sanctity III'
+  - '&7Vitality I'
+  - '&b&oFollow the tenents of MANhood.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Shield]'
+  Enchantments:
+  - PROTECTION 4
+  - UNBREAKING 3
+  Attributes:
+    OffHand:
+      Armor: +12
+      KnockbackResistance: +18%
+      Health: +5
+  Stats:
+  - PARRY_POWER 4
+  - PARRY_COUNTERATTACK 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+StarfallLongbow:
+  Id: bow
+  Display: '&d&lStarfall Longbow'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&7Invisibility II'
+  - '&7Slow Falling I'
+  - '&b&oOne by one they fall to earth.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Bow]'
+  Enchantments:
+  - POWER 5
+  - INFINITY 1
+  Attributes:
+    MainHand:
+      MovementSpeed: +14%
+      Luck: +18
+      AttackSpeed: +10%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - DODGE_CHANCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+VoidWalkersTreads:
+  Id: netherite_boots
+  Display: '&1&lVoid-Walker''s Treads'
+  Model: 1
+  Lore:
+  - '&7Invisibility IV'
+  - '&7Night Vision II'
+  - '&b&oBe careful where you step.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Boots]'
+  Enchantments:
+  - SOUL_SPEED 3
+  - DEPTH_STRIDER 3
+  Attributes:
+    Feet:
+      MovementSpeed: +19%
+      EntityInteractionRange: +4
+      Luck: +12
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+DistortedImage:
+  Id: player_head
+  Display: '&2&lDistorted Image'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&7Night Vision IV'
+  - '&7Conduit Power I'
+  - '&b&oThat''s...not where eyes go.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Luck: +15
+      MovementSpeed: +5%
+      EntityInteractionRange: +6
+  Stats:
+  - DODGE_CHANCE 3
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BoughOfLight:
+  Id: netherite_hoe
+  Display: '&d&lBough of Light'
+  Model: 1
+  Lore:
+  - '&7Regeneration V'
+  - '&7Sanctity IV'
+  - '&7Aegis II'
+  - '&b&oWrought from the sun''s own rays.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Health: +19
+      Armor: +6
+    OffHand:
+      Health: +10
+      Luck: +8
+  Stats:
+  - PARRY_CHANCE 4
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+OvergrownMossGuard:
+  Id: netherite_leggings
+  Display: '&2&lOvergrown Moss Guard'
+  Model: 1
+  Lore:
+  - '&7Regeneration III'
+  - '&7Metabolism IV'
+  - '&b&oMossy wants pets.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Leggings]'
+  Enchantments:
+  - PROTECTION 4
+  Attributes:
+    Legs:
+      Health: +12
+      Armor: +8
+      KnockbackResistance: +10%
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  - DODGE_CHANCE 1
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: EMERALD
+      Pattern: WILD
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+CorruptedBloom:
+  Id: ghast_tear
+  Display: '&1&lCorrupted Bloom'
+  Model: 1
+  Lore:
+  - '&7Divine III'
+  - '&7Regeneration II'
+  - '&7Invisibility I'
+  - '&b&oFertilizer wasn''t enough?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +15
+      ArmorToughness: +8
+      Luck: +10
+  Stats:
+  - PARRY_CHANCE 3
+  - DODGE_CHANCE 2
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BustersGreatsword:
+  Id: netherite_sword
+  Display: '&6&Candace''s Greatsword'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Aegis III'
+  - '&7Shielding II'
+  - '&b&oFor busting.'
+  - ''
+  - '&9Sacrifice to reveal a player''s wrongdoings publicly.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - SMITE 3
+  Attributes:
+    MainHand:
+      Damage: +19
+      KnockbackResistance: +15%
+      Armor: +5
+    OffHand:
+      Damage: +19
+      KnockbackResistance: +15%
+      Armor: +5
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+MorgulVisage:
+  Id: netherite_helmet
+  Display: '&5&lMorgul Visage'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&7Night Vision IV'
+  - '&b&oFrom the tower of sorcery.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 4
+  - THORNS 2
+  Attributes:
+    Head:
+      Health: +12
+      ArmorToughness: +8
+      Luck: -5
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  - DODGE_NEGATION 2
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: NETHERITE
+      Pattern: VEX
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+HylianGuard:
+  Id: shield
+  Display: '&d&lHylian Guard'
+  Model: 1
+  Lore:
+  - '&7Bulwark V'
+  - '&7Sanctity III'
+  - '&b&oHow long will our empire last?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Shield]'
+  Enchantments:
+  - PROTECTION 5
+  - UNBREAKING 3
+  Attributes:
+    OffHand:
+      Armor: +10
+      KnockbackResistance: +20%
+      Health: +4
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_POWER 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SandalsOfHermes:
+  Id: netherite_boots
+  Display: '&1&lSandals of Hermes'
+  Model: 1
+  Lore:
+  - '&7Invisibility I'
+  - '&7Slow Falling V'
+  - '&b&oRun like the wind!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Boots]'
+  Enchantments:
+  - FEATHER_FALLING 4
+  - SOUL_SPEED 2
+  Attributes:
+    Feet:
+      MovementSpeed: +18%
+      Luck: +10
+      AttackSpeed: +5%
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+HiddenBlade:
+  Id: crossbow
+  Display: '&2&lHidden Blade'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&b&oWorks at long range and short!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Crossbow]'
+  Enchantments:
+  - QUICK_CHARGE 3
+  - PIERCING 4
+  Attributes:
+    MainHand:
+      Damage: +20
+      MovementSpeed: +5%
+      EntityInteractionRange: +3
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - DODGE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+StaffOfTheEverbloom:
+  Id: netherite_hoe
+  Display: '&d&lStaff of the Everbloom'
+  Model: 1
+  Lore:
+  - '&7Regeneration IV'
+  - '&7Vitality III'
+  - '&7Sanctity II'
+  - '&b&oPeace for all'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Health: +15
+      Luck: +12
+    OffHand:
+      Health: +10
+      Armor: +5
+  Stats:
+  - PARRY_CHANCE 3
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+HeartOfTeFiti:
+  Id: ghast_tear
+  Display: '&b&lHeart of Te Fiti'
+  Model: 1
+  Lore:
+  - '&7Regeneration V'
+  - '&7Conduit Power III'
+  - '&b&oI know who you are.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +18
+      Luck: +15
+      MovementSpeed: +5%
+  Stats:
+  - DODGE_CHANCE 2
+  - CRITICAL_STRIKE_RESILIENCE 2
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+LeggingsOfBirmanWood:
+  Id: netherite_leggings
+  Display: '&5&lLeggings of Birman Wood'
+  Model: 1
+  Lore:
+  - '&7Bulwark III'
+  - '&7Vitality IV'
+  - '&b&oThe prophecy... fulfilled?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Leggings]'
+  Enchantments:
+  - PROTECTION 4
+  Attributes:
+    Legs:
+      Health: +14
+      KnockbackResistance: +12%
+      ArmorToughness: +6
+  Stats:
+  - PARRY_POWER 3
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+    Trim: 
+      Material: EMERALD
+      Pattern: WILD
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+NineLivesExecutioner:
+  Id: netherite_sword
+  Display: '&6&lNine Lives Executioner'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&7Vitality II'
+  - '&7Regeneration III'
+  - '&b&oSwing as many times as necessary.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - FIRE_ASPECT 2
+  Attributes:
+    MainHand:
+      Damage: +19
+      AttackSpeed: +12%
+      Luck: +7
+    OffHand:
+      Damage: +19
+      Armor: +4
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Stalker:
+  Id: crossbow
+  Display: '&1&lStalker'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&7Night Vision II'
+  - '&b&o"..."'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Crossbow]'
+  Enchantments:
+  - QUICK_CHARGE 3
+  - PIERCING 4
+  Attributes:
+    MainHand:
+      MovementSpeed: +15%
+      EntityInteractionRange: +5
+    OffHand:
+      Luck: +10
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - DODGE_CHANCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+LonePawprint:
+  Id: ghast_tear
+  Display: '&d&lLonePawprint'
+  Model: 1
+  Lore:
+  - '&7Regeneration V'
+  - '&7Sanctity IV'
+  - '&7Metabolism III'
+  - '&b&oWho left this here?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +18
+      Luck: +14
+      ArmorToughness: +6
+  Stats:
+  - PARRY_CHANCE 2
+  - DODGE_CHANCE 3
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+IroncladStompers:
+  Id: netherite_boots
+  Display: '&5&lIronclad Stompers'
+  Model: 1
+  Lore:
+  - '&7Bulwark IV'
+  - '&7Shielding III'
+  - '&b&oCLINK CLANK'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Boots]'
+  Enchantments:
+  - PROTECTION 4
+  - FEATHER_FALLING 4
+  Attributes:
+    Feet:
+      Armor: +10
+      KnockbackResistance: +15%
+      Health: +6
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  - PARRY_POWER 2
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: IRON
+      Pattern: WARD
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ObsidianGoggles:
+  Id: player_head
+  Display: '&b&lObsidian Goggles'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&7Conduit Power II'
+  - '&b&oMade from frozen lava.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Luck: +19
+      MovementSpeed: +8%
+      EntityInteractionRange: +4
+  Stats:
+  - DODGE_CHANCE 3
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SunbeamedSprout:
+  Id: netherite_hoe
+  Display: '&2&lSunbeamed Sprout'
+  Model: 1
+  Lore:
+  - '&7Divine II'
+  - '&7Fire Resistance'
+  - '&b&oIt can flourish with some help.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Health: +12
+    OffHand:
+      Luck: +5
+      Armor: +3
+  Stats: 
+  - PARRY_CHANCE 2
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BlooddrinkerPlate:
+  Id: netherite_chestplate
+  Display: '&b&lBlooddrinker Plate'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Aegis III'
+  - '&b&oProtects everything except the neck.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 5
+  - THORNS 3
+  Attributes:
+    Chest:
+      Armor: +18
+      ArmorToughness: +12
+      Health: +10
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 3
+  - PARRY_COUNTERATTACK 4
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: REDSTONE
+      Pattern: SILENCE
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+NebulaStrider:
+  Id: netherite_leggings
+  Display: '&d&lNebula Strider'
+  Model: 1
+  Lore:
+  - '&7Slow Falling IV'
+  - '&7Invisibility II'
+  - '&7Night Vision I'
+  - '&b&oWalk amongst the stars.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Leggings]'
+  Enchantments:
+  - SWIFT_SNEAK 3
+  Attributes:
+    Legs:
+      MovementSpeed: +18%
+      Armor: +6
+      Luck: +12%
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 3
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: AMETHYST
+      Pattern: VEX
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+OaksOwnGift:
+  Id: shield
+  Display: '&1&lOak''s Own Gift'
+  Model: 1
+  Lore:
+  - '&7Regeneration IV'
+  - '&7Vitality III'
+  - '&b&oThe tree chooses its champion.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Shield]'
+  Enchantments:
+  - PROTECTION 4
+  Attributes:
+    OffHand:
+      Armor: +10
+      Health: +15
+      KnockbackResistance: +12%
+  Stats:
+  - PARRY_CHANCE 4
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BloodyCarapace:
+  Id: netherite_chestplate
+  Display: '&5&lBloody Carapace'
+  Model: 1
+  Lore:
+  - '&7Vitality IV'
+  - '&7Aegis II'
+  - '&b&oRipped from its original owner.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 4
+  - THORNS 3
+  Attributes:
+    Chest:
+      Armor: +14
+      ArmorToughness: +8
+      Health: +10
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 3
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: REDSTONE
+      Pattern: SILENCE
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+OnyxHeartstone:
+  Id: ghast_tear
+  Display: '&1&lOnyx Heartstone'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&7Night Vision III'
+  - '&b&oA cold, pulsating stone of pure shadow.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +12%
+      Luck: +15
+  Stats:
+  - DODGE_CHANCE 4
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ClottingAgent:
+  Id: ghast_tear
+  Display: '&2&lClotting Agent'
+  Model: 1
+  Lore:
+  - '&7Regeneration III'
+  - '&7Vitality I'
+  - '&b&oThick, viscous, and metallic in taste.'
+  - ''
+  - '&9Sacrifice to give +5HP to another item.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +6
+      Armor: +2
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RepurposedCarcass:
+  Id: netherite_chestplate
+  Display: '&2&lRepurposed Carcass'
+  Model: 1
+  Lore:
+  - '&7Shielding II'
+  - '&7Metabolism IV'
+  - '&b&oReduce, Reuse, Recycle.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 2
+  Attributes:
+    Chest:
+      Armor: +8
+      Health: +12
+  Stats:
+  - PARRY_POWER 2
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: BONE
+      Pattern: WILD
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+EntrailWhip:
+  Id: netherite_sword
+  Display: '&5&lEntrail Whip'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Slowing III'
+  - '&b&oA wet, snapping length of sinew.'
+  - ''
+  - '&9Bleeding DOT'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 4
+  - SWEEPING_EDGE 3
+  Attributes:
+    MainHand:
+      Damage: +12
+      AttackSpeed: +18%
+      EntityInteractionRange: +4
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RiposteSabre:
+  Id: netherite_sword
+  Display: '&b&lRiposte Sabre'
+  Model: 1
+  Lore:
+  - '&7Aegis IV'
+  - '&7Invisibility I'
+  - '&b&oEn Garde!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Enchantments:
+  - BREACH 2
+  - LOOTING 3
+  Attributes:
+    MainHand:
+      AttackSpeed: +15%
+      MovementSpeed: +10%
+      Damage: +9
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_COUNTERATTACK 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+StorytellersGrimoire:
+  Id: ghast_tear
+  Display: '&d&lStoryteller''s Grimoire'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&7Divine III'
+  - '&b&oBluffs are meaningless when you hold the truth.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +19
+      EntityInteractionRange: +5
+  Stats:
+  - DODGE_NEGATION 4
+  - PARRY_NEGATION 3
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+LuxMortem:
+  Id: netherite_sword
+  Display: '&6&lLux Mortem'
+  Model: 1
+  Lore:
+  - '&7Sanctity V'
+  - '&7Regeneration IV'
+  - '&7Withering III'
+  - '&b&oThe beauty of the end.'
+  - ''
+  - '&9Has +10 damage if generated at night.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Medium]'
+  Enchantments:
+  - SMITE 5
+  - FIRE_ASPECT 2
+  Attributes:
+    MainHand:
+      Damage: +15
+      Health: +8
+    OffHand:
+      Armor: +5
+      Luck: +10
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+TheIconoclast:
+  Id: netherite_sword
+  Display: '&5&lThe Iconoclast'
+  Model: 1
+  Lore:
+  - '&7Potency III'
+  - '&7Shielding IV'
+  - '&b&oFaith is a crutch for those too weak to stand.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - KNOCKBACK 2
+  Attributes:
+    MainHand:
+      Damage: +18
+      KnockbackResistance: +15
+    OffHand:
+      ArmorToughness: +10
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Heartseeker:
+  Id: netherite_sword
+  Display: '&1&lHeartseeker'
+  Model: 1
+  Lore:
+  - '&7Potency III'
+  - '&7Vampiric II'
+  - '&b&oWith his love gone, he searched for another heart to take.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 4
+  - BINDING_CURSE 1
+  Attributes:
+    MainHand:
+      Damage: +16
+      AttackSpeed: +5%
+    OffHand:
+      Health: +4
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - CRITICAL_STRIKE_DAMAGE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+AegisOfStars:
+  Id: ghast_tear
+  Display: '&b&lAegis of Stars'
+  Model: 1
+  Lore:
+  - '&7Shielding V'
+  - '&7Night Vision II'
+  - '&b&oA constellation woven into a physical shield.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +8
+      Luck: +12
+      MovementSpeed: +5%
+  Stats:
+  - DODGE_CHANCE 4
+  - PARRY_CHANCE 3
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+MementoMori:
+  Id: player_head
+  Display: '&6&lMemento Mori'
+  Model: 1
+  Lore:
+  - '&7Regeneration IV'
+  - '&7Aegis III'
+  - '&b&oor at least, someone does.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Health: +15
+      ArmorToughness: +10
+  Stats:
+  - PARRY_POWER 4
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+CoinForTheFerryman:
+  Id: ghast_tear
+  Display: '&d&lCoin for the Ferryman'
+  Model: 1
+  Lore:
+  - '&7Divine V'
+  - '&7Sanctity IV'
+  - '&b&oA heavy, ancient drachma.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +19
+      Luck: +10
+  Stats:
+  - DODGE_CHANCE 2
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+LeylineQuill:
+  Id: netherite_sword
+  Display: '&b&lLeyline Quill'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&7Metabolism II'
+  - '&b&oWrite the magic into the very land.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Light]'
+  Enchantments:
+  - LOOTING 3
+  - FIRE_ASPECT 1
+  Attributes:
+    MainHand:
+      Damage: +10
+      AttackSpeed: +18%
+    OffHand:
+      Luck: +15
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+UnansweredPrayer:
+  Id: netherite_helmet
+  Display: '&2&lUnanswered Prayer'
+  Model: 1
+  Lore:
+  - '&7Slow Falling I'
+  - '&b&oI needed help... I needed your protection.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Armor: +5
+      Health: +4
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+LorentzAttractor:
+  Id: netherite_hoe
+  Display: '&d&lLorentz Attractor'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&7Potency V'
+  - '&b&oA chaotic spiral of infinite disorder.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      MovementSpeed: +18%
+    OffHand:
+      ArmorToughness: +9
+  Stats:
+  - DODGE_NEGATION 4
+  - PARRY_NEGATION 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BrokenManacles:
+  Id: ghast_tear
+  Display: '&1&lBroken Manacles'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&7Metabolism III'
+  - '&b&oA symbol of hard-won independence.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +14%
+      KnockbackResistance: +15%
+  Stats:
+  - DODGE_CHANCE 4
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ForkedRoad:
+  Id: netherite_sword
+  Display: '&5&lForked Road'
+  Model: 1
+  Lore:
+  - '&7Night Vision III'
+  - '&7Slow Falling II'
+  - '&b&oThe road to hell is paved with selfish choices.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Medium]'
+  Enchantments:
+  - SWEEPING_EDGE 3
+  - LOOTING 4
+  Attributes:
+    MainHand:
+      Damage: +14
+      Luck: +12
+    OffHand:
+      EntityInteractionRange: +3
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - DODGE_CHANCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+GibberingHelm:
+  Id: netherite_helmet
+  Display: '&5&lGibbering Helm'
+  Model: 1
+  Lore:
+  - '&7Shielding II'
+  - '&7Potency III'
+  - '&b&oIt speaks truth.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 2
+  - BINDING_CURSE 1
+  Attributes:
+    Head:
+      Armor: +6
+      EntityInteractionRange: +2
+      Health: -4
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+DelusionsManifest:
+  Id: netherite_leggings
+  Display: '&2&lDelusions Manifest'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&7Slow Falling I'
+  - '&b&oWhat do you mean I’m not wearing pants?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Leggings]'
+  Attributes:
+    Legs:
+      MovementSpeed: +12%
+      Luck: +18
+  Stats:
+  - DODGE_CHANCE 4
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: QUARTZ
+      Pattern: VEX
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+StarbroughtGrowth:
+  Id: ghast_tear
+  Display: '&b&lStarbrought Growth'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&7Regeneration I'
+  - '&b&ostellar light, not solar, brings this plant to maturity.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +6
+      Luck: +14
+  Stats:
+  - DODGE_CHANCE 2
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+VeinWrappedRapier:
+  Id: netherite_sword
+  Display: '&1&lVein-Wrapped Rapier'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&7Vampiric II'
+  - '&b&oWorks better than rope.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 3
+  - LOOTING 2
+  Attributes:
+    MainHand:
+      Damage: +11
+      AttackSpeed: +18%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - PARRY_COUNTERATTACK 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ObscurialsBlessing:
+  Id: netherite_helmet
+  Display: '&d&lObscurial’s Blessing'
+  Model: 1
+  Lore:
+  - '&7Invisibility V'
+  - '&7Slow Falling III'
+  - '&b&oA lifetime of pain teaches you how to hide.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      MovementSpeed: +14%
+      Armor: +4
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+FirstOath:
+  Id: netherite_sword
+  Display: '&2&lFirst Oath'
+  Model: 1
+  Lore:
+  - '&7Sanctity I'
+  - '&7Aegis I'
+  - '&b&oHe had no idea what he was getting into.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +7
+      Health: +2
+  Stats:
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+EntropiedEdge:
+  Id: netherite_sword
+  Display: '&1&lEntropied Edge'
+  Model: 1
+  Lore:
+  - '&7Potency III'
+  - '&7Conduit Power I'
+  - '&b&oWarped beyond any semblance of order.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Attributes:
+    MainHand:
+      Damage: +19
+      Luck: -5
+    OffHand:
+      Damage: +19
+  Stats:
+  - PARRY_NEGATION 4
+  - DODGE_NEGATION 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+BorrowedViscera:
+  Id: netherite_chestplate
+  Display: '&5&lBorrowed Viscera'
+  Model: 1
+  Lore:
+  - '&7Vitality IV'
+  - '&7Regeneration II'
+  - '&b&oWhat? They weren’t using it… anymore.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Enchantments:
+  - PROTECTION 4
+  - THORNS 3
+  Attributes:
+    Chest:
+      Armor: +15
+      Health: +12
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: REDSTONE
+      Pattern: SILENCE
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+CaptivePixie:
+  Id: ghast_tear
+  Display: '&b&lCaptive Pixie'
+  Model: 1
+  Lore:
+  - '&7Night Vision III'
+  - '&7Slow Falling V'
+  - '&b&oLet me out! I’ll make it worth your while….'
+  - ''
+  - '&9Freedom: Sacrifice this to receive a Pixie’s Blessing or Curse.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +19
+      MovementSpeed: +10%
+  Stats:
+  - DODGE_CHANCE 4
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+Experience:
+  Id: netherite_sword
+  Display: '&6&lExperience'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Shielding V'
+  - '&7Divine V'
+  - '&b&oNothing teaches quite as well.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - SMITE 5
+  Attributes:
+    MainHand:
+      Damage: +19
+      AttackSpeed: +10%
+    OffHand:
+      Armor: +5
+      Luck: +5
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_POWER 4
+  - DODGE_NEGATION 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
