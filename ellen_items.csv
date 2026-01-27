@@ -33,7 +33,7 @@ Conduit Power II",HAHAHAHAHAHAHAHAAHAHAAHAHAAHA,"&7Divine V
 
 &9[Level 1]
 &9[Punchy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,+18%,,,10,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,,+18%,,,10,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
 DyingStar,bow,&2&lDying Star,1,Uncommon,1,Sneaky,Bow,ITEM ABILITY,"Invisibility I
 Night Vision III
 Slow Falling II",Its whispers echo still,"&7Invisibility I
@@ -205,7 +205,7 @@ Invisibility I",Fertilizer wasn't enough?,"&7Divine III
 
 &9[Level 1]
 &9[Growy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,8,,15,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,3,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,8,,15,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,3,,,,,,,,
 BustersGreatsword,netherite_sword,&6&Candace's Greatsword,1,Legendary,1,Punchy,Heavy,,"Potency V
 Aegis III
 Shielding II",For busting.,"&7Potency V
@@ -282,7 +282,7 @@ Conduit Power III",I know who you are.,"&7Regeneration V
 
 &9[Level 1]
 &9[Growy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,18,,+5%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,18,,+5%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,
 LeggingsOfBirmanWood,netherite_leggings,&5&lLeggings of Birman Wood,1,Epic,1,Growy,Leggings,ITEM ABILITY,"Bulwark III
 Vitality IV",The prophecy... fulfilled?,"&7Bulwark III
 &7Vitality IV
@@ -328,7 +328,7 @@ Metabolism III",Who left this here?,"&7Regeneration V
 
 &9[Level 1]
 &9[Growy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,6,,18,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,2,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,6,,18,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,2,,,,,,,,
 IroncladStompers,netherite_boots,&5&lIronclad Stompers,1,Epic,1,Punchy,Boots,ITEM ABILITY,"Bulwark IV
 Shielding III",CLINK CLANK,"&7Bulwark IV
 &7Shielding III
@@ -413,7 +413,7 @@ Night Vision III","A cold, pulsating stone of pure shadow.","&7Invisibility II
 
 &9[Level 1]
 &9[Sneaky]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,+12%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,,,+12%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,,,,,,,
 ClottingAgent,ghast_tear,&2&lClotting Agent,1,Uncommon,1,Punchy,Trinket,,"Regeneration III
 Vitality I","Thick, viscous, and metallic in taste.","&7Regeneration III
 &7Vitality I
@@ -423,7 +423,7 @@ Vitality I","Thick, viscous, and metallic in taste.","&7Regeneration III
 
 &9[Level 1]
 &9[Punchy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,2,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,2,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
 RepurposedCarcass,netherite_chestplate,&2&lRepurposed Carcass,1,Uncommon,1,Punchy,Chestplate,ITEM ABILITY,"Shielding II
 Metabolism IV","Reduce, Reuse, Recycle.","&7Shielding II
 &7Metabolism IV
@@ -465,7 +465,7 @@ Divine III",Bluffs are meaningless when you hold the truth.,"&7Night Vision V
 
 &9[Level 1]
 &9[Sneaky]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,19,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,19,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,
 LuxMortem,netherite_sword,&6&lLux Mortem,1,Legendary,1,Growy,Medium,,"Sanctity V
 Regeneration IV
 Withering III",The beauty of the end.,"&7Sanctity V
@@ -510,7 +510,7 @@ Night Vision II",A constellation woven into a physical shield.,"&7Shielding V
 
 &9[Level 1]
 &9[Sneaky]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,8,,,,,+5%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,3,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,8,,,,,+5%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,3,,,,,,,,
 MementoMori,player_head,&6&lMemento Mori,1,Legendary,1,Punchy,Helmet,ITEM ABILITY,"Regeneration IV
 Aegis III","or at least, someone does.","&7Regeneration IV
 &7Aegis III
@@ -876,10 +876,10 @@ Invisibility II",I live here now.,"&7Slow Falling V
 &9[Level 1]
 &9[Growy]
 &9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,10,,,8,,,,-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,True,,NETHERITE,SILENCE,
-TiamEffort,netherite_sword,&6&lTiam Effort,1,Legendary,1,Growy,Medium,,"Divine IV
-Aegis III",There’s no I in team.,"&7Divine IV
+TeamEffect,netherite_sword,&6&lTeam Effort,1,Legendary,1,Growy,Medium,,"Divine IV
+Aegis III",There's no I in team.,"&7Divine IV
 &7Aegis III
-&b&oThere’s no I in team.
+&b&oThere's no I in team.
 
 &9Sacrifice to negate a teammate's death in a Deathless run.
 
@@ -893,7 +893,7 @@ SeveredTongue,ghast_tear,&5&lSevered Tongue,1,Epic,1,Punchy,Trinket,ITEM ABILITY
 
 &9[Level 1]
 &9[Punchy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,4,-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,,,,4,-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,
 AncientStarChart,ghast_tear,&b&lAncient Star Chart,1,Unique,1,Sneaky,Trinket,ITEM ABILITY,"Night Vision V
 Invisibility II",There's so many that we can't see anymore.,"&7Night Vision V
 &7Invisibility II
@@ -903,7 +903,7 @@ Invisibility II",There's so many that we can't see anymore.,"&7Night Vision V
 
 &9[Level 1]
 &9[Sneaky]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,+5%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,,,,,+5%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 BurningOut,netherite_sword,&1&lBurning Out,1,Rare,1,Punchy,Heavy,ITEM ABILITY,"Fire Resistance
 Potency IV",When entropy wins.,"&7Fire Resistance
 &7Potency IV
@@ -969,7 +969,7 @@ Regeneration IV",From lung to heart…,"&7Vitality V
 
 &9[Level 1]
 &9[Growy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,5,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,,5,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
 RightVentricle,ghast_tear,&d&lRight Ventricle,1,Exotic,1,Growy,Trinket,ITEM ABILITY,"Vitality V
 Metabolism IV",…and heart to lung.,"&7Vitality V
 &7Metabolism IV
@@ -979,4 +979,921 @@ Metabolism IV",…and heart to lung.,"&7Vitality V
 
 &9[Level 1]
 &9[Growy]
-&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,5,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+&9[Trinket]",,,,,,,,,,,,,5,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,
+FeverDream,bow,&d&lFever Dream,1,Exotic,1,Sneaky,Bow,ITEM ABILITY,"Invisibility II
+Night Vision I","In the quiet of the night, killing you slow.","&7Invisibility II
+&7Night Vision I
+&b&oIn the quiet of the night, killing you slow.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Bow]","POWER 4
+PUNCH 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,+12%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,True,,,,
+MorningLight,ghast_tear,&b&lMorning Light,1,Unique,1,Growy,Trinket,ITEM ABILITY,"Sanctity III
+Regeneration II",When all those shadows almost killed your light,"&7Sanctity III
+&7Regeneration II
+&b&oWhen all those shadows almost killed your light
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,5,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FingerBoneBrooch,ghast_tear,&2&lFinger Bone Brooch,1,Uncommon,1,Punchy,Trinket,ITEM ABILITY,Vitality I,How gauche.,"&7Vitality I
+&b&oHow gauche.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,
+BurialJewels,ghast_tear,&1&lBurial Jewels,1,Rare,1,Growy,Trinket,ITEM ABILITY,Divine II,Grandma's finest.,"&7Divine II
+&b&oGrandma's finest.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,4,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,
+StolenLullaby,netherite_sword,&5&lStolen Lullaby,1,Epic,1,Sneaky,Light,ITEM ABILITY,Slow Falling I,You still hear it when you can't sleep at night.,"&7Slow Falling I
+&b&oYou still hear it when you can't sleep at night.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]","SHARPNESS 3
+LOOTING 2",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,True,,,,
+BottledMemories,ghast_tear,&b&lBottled Memories,1,Unique,1,Growy,Trinket,ITEM ABILITY,Metabolism IV,Sipped away like a bottle of wine,"&7Metabolism IV
+&b&oSipped away like a bottle of wine
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,12,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MentalCage,netherite_helmet,&5&lMental Cage,1,Epic,1,Punchy,Helmet,ITEM ABILITY,"Potency III
+Shielding II",All my potential… wasted.,"&7Potency III
+&7Shielding II
+&b&oAll my potential… wasted.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]","PROTECTION 4
+BINDING_CURSE 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,8,,,,,+15%,-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,True,,,,
+SphericalCurve,bow,&d&lSpherical Curve,1,Exotic,1,Sneaky,Bow,ITEM ABILITY,"Night Vision III
+Slow Falling I",My words shoot to kill when I'm mad.,"&7Night Vision III
+&7Slow Falling I
+&b&oMy words shoot to kill when I'm mad.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Bow]","POWER 5
+INFINITY 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,3,,,,,True,,,,
+CrackedSign,netherite_sword,&1&lCracked Sign,1,Rare,1,Sneaky,Medium,ITEM ABILITY,Slow Falling I,Were there clues I didn't see?,"&7Slow Falling I
+&b&oWere there clues I didn't see?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+8%,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+BarbedWireBauble,ghast_tear,&2&lBarbed Wire Bauble,1,Uncommon,1,Punchy,Trinket,ITEM ABILITY,Potency II,An ornament of painful intent.,"&7Potency II
+&b&oAn ornament of painful intent.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,1,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,
+BearPoke,netherite_sword,&1&lBear Poke,1,Rare,1,Punchy,Heavy,ITEM ABILITY,Potency III,No one likes a mad woman.,"&7Potency III
+&b&oNo one likes a mad woman.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+8%,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,True,,,,
+FigmentOfIntention,netherite_sword,&5&lFigment of Intention,1,Epic,1,Sneaky,Light,ITEM ABILITY,Invisibility II,"whatever's left of it, I give to you.","&7Invisibility II
+&b&owhatever's left of it, I give to you.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",LOOTING 3,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+14%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Conviction,netherite_sword,&b&lConviction,1,Unique,1,Growy,Medium,ITEM ABILITY,"Aegis IV
+Sanctity II",Strong as long as danger is near.,"&7Aegis IV
+&7Sanctity II
+&b&oStrong as long as danger is near.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,6,,,12,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,4,,,,True,,,,
+Dreamscape,netherite_hoe,&d&lDreamscape,1,Exotic,1,Growy,Staff,ITEM ABILITY,"Night Vision V
+Slow Falling III",Make believe.,"&7Night Vision V
+&7Slow Falling III
+&b&oMake believe.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,-99%,15,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+VorticityCascade,ghast_tear,&2&lVorticity Cascade,1,Uncommon,1,Sneaky,Trinket,ITEM ABILITY,Potency II,Whorls and whorls from large to small,"&7Potency II
+&b&oWhorls and whorls from large to small
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,+10%,+8%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TwistedKnife,netherite_sword,&5&lTwisted Knife,1,Epic,1,Punchy,Light,ITEM ABILITY,,Make it hurt.,"&b&oMake it hurt.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",SHARPNESS 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,,,,,,,,True,,,,
+FaithlessLove,ghast_tear,&1&lFaithless Love,1,Rare,1,Growy,Trinket,ITEM ABILITY,Sanctity III,The only hoax I'll believe in.,"&7Sanctity III
+&b&oThe only hoax I'll believe in.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,8,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BaitAndSwitch,netherite_sword,&b&lBait-and-Switch,1,Unique,1,Sneaky,Light,ITEM ABILITY,Invisibility III,Gotcha!,"&7Invisibility III
+&b&oGotcha!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,True,,,,
+PatchedTapestry,ghast_tear,&2&lPatched Tapestry,1,Uncommon,1,Growy,Trinket,ITEM ABILITY,Regeneration II,You can barely see the claw marks.,"&7Regeneration II
+&b&oYou can barely see the claw marks.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,5,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DoubleVision,netherite_helmet,&5&lDouble Vision,1,Epic,1,Sneaky,Helmet,ITEM ABILITY,Night Vision IV,I think I am seeing two of you.,"&7Night Vision IV
+&b&oI think I am seeing two of you.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,+5%,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,,,,,True,,,,
+BrandNewBoots,netherite_boots,&2&lBrand New Boots,1,Uncommon,1,Punchy,Boots,ITEM ABILITY,Speed I,It's easy enough to get blood stains out.,"&7Speed I
+&b&oIt's easy enough to get blood stains out.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Boots]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,+5%,,,,,,,,,,,,,,,,1,,,,,,True,,,,
+Nightfall,netherite_sword,&5&lNightfall,1,Epic,1,Sneaky,Medium,ITEM ABILITY,,It's not the darkness you need to fear.,"&b&oIt's not the darkness you need to fear.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+8%,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,,,,,True,,,,
+GloriousSunrise,netherite_sword,&d&lGlorious Sunrise,1,Exotic,1,Growy,Light,ITEM ABILITY,"Sanctity IV
+Regeneration II",Dappled with flickers of light.,"&7Sanctity IV
+&7Regeneration II
+&b&oDappled with flickers of light.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,6,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Coercion,netherite_sword,&1&lCoercion,1,Rare,1,Punchy,Medium,ITEM ABILITY,,Coaxed into Paradise and left there.,"&b&oCoaxed into Paradise and left there.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+10%,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+RetCaan,ghast_tear,&d&lRet-caan,1,Exotic,1,Sneaky,Trinket,,,And it has been as it always has been.,"&b&oAnd it has been as it always has been.
+
+&9Sacrifice this trinket to change the name of an item permanently.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TiemEffort,netherite_sword,&b&lTiem Effort,1,Unique,1,Punchy,Heavy,,,There is an I in team,"&b&oThere is an I in team
+
+&9Sacrifice to give your death to someone else in a deathless run.
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,18,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,True,,,,
+QuestingBlade,netherite_sword,&b&lQuesting Blade,1,Unique,1,Growy,Medium,,,It chose you,"&b&oIt chose you
+
+&9Will occasionally give player a custom quest to do.
+
+&9[Level 1]
+&9[Growy]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,11,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,True,,,,
+RatKingsBlade,netherite_sword,&1&lRat King's Blade,1,Rare,1,Sneaky,Light,,,"You can keep the crown, I'll take the sword","&b&oYou can keep the crown, I'll take the sword
+
+&9Blades can be used to combine onto other Rat King's Blades for free.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+18%,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,True,,,,
+RelicOfTheGoldenMonkey,ghast_tear,&6&lRelic of the Golden Monkey,1,Legendary,1,Growy,Trinket,,Luck IV,I'm not sure we should have this,"&7Luck IV
+&b&oI'm not sure we should have this
+
+&9Doubles the rewards you receive from events with no consequence :)
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,10,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,
+FuckingFireball,flint_and_steel,&6&lFUCKING FIREBALL,1,Legendary,1,Punchy,Light,ITEM ABILITY,,FIREBALL!!!!!!!!!,"&b&oFIREBALL!!!!!!!!!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sundrop,ghast_tear,&d&lSundrop,1,Exotic,1,Growy,Trinket,ITEM ABILITY,"Regeneration V
+Sanctity III","Flower, gleam and glow, let your power shine.","&7Regeneration V
+&7Sanctity III
+&b&oFlower, gleam and glow, let your power shine.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,14,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MoonstoneOpulent,netherite_sword,&d&lMoonstone,1,Exotic,1,Sneaky,Light,ITEM ABILITY,"Night Vision IV
+Withering II",A jagged blade of obsidian and neon blue light.,"&7Night Vision IV
+&7Withering II
+&b&oA jagged blade of obsidian and neon blue light.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",SHARPNESS 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+15%,,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,True,,,,
+EssenceOfTurbulence,ghast_tear,&2&lEssence of Turbulence,1,Uncommon,1,Punchy,Trinket,ITEM ABILITY,,"A swirling, violent concoction.","&b&oA swirling, violent concoction.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,+15%,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antisymmetry,ghast_tear,&5&lAntisymmetry,1,Epic,1,Sneaky,Trinket,ITEM ABILITY,,No…. My model!,"&b&oNo…. My model!
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,12,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,4,,,,,
+TheSecondLaw,netherite_sword,&1&lThe Second Law,1,Rare,1,Punchy,Heavy,ITEM ABILITY,Potency V,All ends in chaos.,"&7Potency V
+&b&oAll ends in chaos.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",SHARPNESS 5,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+12%,,,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Cyclone,netherite_sword,&d&lCyclone,1,Exotic,1,Punchy,Heavy,ITEM ABILITY,Potency IV,The destructive force of a thousand storms.,"&7Potency IV
+&b&oThe destructive force of a thousand storms.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",KNOCKBACK 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,+10%,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,True,,,,
+Anticyclone,ghast_tear,&d&lAnticyclone,1,Exotic,1,Growy,Trinket,ITEM ABILITY,Sanctity IV,The warmth of a cloudless afternoon.,"&7Sanctity IV
+&b&oThe warmth of a cloudless afternoon.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,8,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheFirstHallow,netherite_sword,&6&lThe First Hallow,1,Legendary,1,Punchy,Light,ITEM ABILITY,"Potency V
+Divine III",Destined to win every duel.,"&7Potency V
+&7Divine III
+&b&oDestined to win every duel.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]","SHARPNESS 5
+BREACH 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+20%,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,,,True,,,,
+TheSecondHallow,ghast_tear,&6&lThe Second Hallow,1,Legendary,1,Growy,Trinket,,Divine V,Recall those who have long since passed.,"&7Divine V
+&b&oRecall those who have long since passed.
+
+&9Sacrifice to temporarily bring an NPC back to life.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,15,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheThirdHallow,ghast_tear,&6&lThe Third Hallow,1,Legendary,1,Sneaky,Trinket,ITEM ABILITY,Invisibility V,A cloak to hide from Death himself.,"&7Invisibility V
+&b&oA cloak to hide from Death himself.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,+10%,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,
+EssentialSingularity,ghast_tear,&d&lEssential Singularity,1,Exotic,1,Sneaky,Trinket,ITEM ABILITY,,Everywhere around me is distorted,"&b&oEverywhere around me is distorted
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,10,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,
+FinalEscort,netherite_sword,&5&lFinal Escort,1,Epic,1,Punchy,Heavy,ITEM ABILITY,"Potency IV
+Withering III",It walks you to your grave.,"&7Potency IV
+&7Withering III
+&b&oIt walks you to your grave.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",SHARPNESS 4,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,-5,,,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,True,,,,
+Reaper,netherite_sword,&6&lReaper,1,Legendary,1,Punchy,Heavy,ITEM ABILITY,"Vampiric V
+Potency V",stolen from death himself.,"&7Vampiric V
+&7Potency V
+&b&ostolen from death himself.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+SMITE 5",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,True,,,,
+Shiv,netherite_sword,&1&lShiv,1,Rare,1,Sneaky,Light,ITEM ABILITY,,A temporary solution for a permanent problem.,"&b&oA temporary solution for a permanent problem.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+20%,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,True,,,,
+InescapableDestruction,netherite_sword,&6&lInescapable Destruction,1,Legendary,1,Punchy,Heavy,ITEM ABILITY,"Potency V
+Withering IV",It comes for us all.,"&7Potency V
+&7Withering IV
+&b&oIt comes for us all.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 5
+KNOCKBACK 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+15%,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,3,True,,,,
+EyesOfTheGrave,player_head,&5&lEyes of the Grave,1,Epic,1,Punchy,Helmet,ITEM ABILITY,Night Vision V,"From bones to dust, they still watch.","&7Night Vision V
+&b&oFrom bones to dust, they still watch.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,8,,,10,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,['CODE'],,,
+SilverChain,ghast_tear,&d&lSilver Chain,1,Exotic,1,Growy,Trinket,ITEM ABILITY,Divine III,"Without our stories, we are incomplete.","&7Divine III
+&b&oWithout our stories, we are incomplete.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,12,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FreeFromPain,netherite_hoe,&b&lFree From Pain,1,Unique,1,Growy,Staff,ITEM ABILITY,"Regeneration IV
+Sanctity II",I can release you.,"&7Regeneration IV
+&7Sanctity II
+&b&oI can release you.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,18,,,-99%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HeartsDesire,ghast_tear,&d&lHeart's Desire,1,Exotic,1,Sneaky,Trinket,ITEM ABILITY,"Invisibility III
+Slow Falling IV",There once was a young man who wished upon a star.,"&7Invisibility III
+&7Slow Falling IV
+&b&oThere once was a young man who wished upon a star.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,+10%,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,
+TheFirstPage,ghast_tear,&2&lThe First Page,1,Uncommon,1,Growy,Trinket,,,"The King had three sons, each born under a different star.","&b&oThe King had three sons, each born under a different star.
+
+&9Page I.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheSecondPage,ghast_tear,&2&lTheSecondPage,1,Uncommon,1,Growy,Trinket,,,They fought day and night for the honor of being the heir.,"&b&oThey fought day and night for the honor of being the heir.
+
+&9Page II.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheThirdPage,ghast_tear,&2&TheThirdPage,1,Uncommon,1,Growy,Trinket,,,"When their father died, the eldest claimed the crown.","&b&oWhen their father died, the eldest claimed the crown.
+
+&9Page III.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheLostPage,ghast_tear,&2&TheLostPage,1,Uncommon,1,Sneaky,Trinket,,,The youngest took his oldest brother's place.,"&b&oThe youngest took his oldest brother's place.
+
+&9Lost Page.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheLostManuscript,ghast_tear,&1&The Lost Manuscript,1,Rare,1,Growy,Trinket,,,"The King had three sons, each born under a different star.
+They fought day and night for the honor of being the heir.
+The youngest took his oldest brother's place.
+When their father died, the eldest claimed the crown.","&b&oThe King had three sons, each born under a different star.
+&b&oThey fought day and night for the honor of being the heir.
+&b&oThe youngest took his oldest brother's place.
+&b&oWhen their father died, the eldest claimed the crown.
+
+&9The Full Story.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,3,,3,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ExplodedStar,netherite_sword,&d&lExploded Star,1,Exotic,1,Punchy,Medium,ITEM ABILITY,"Potency IV
+Night Vision III",You and I are made of stardust.,"&7Potency IV
+&7Night Vision III
+&b&oYou and I are made of stardust.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Medium]",FIRE_ASPECT 2,,,,,,,+5%,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,,,,,,,,True,,,,
+PrisonersDilemma,ghast_tear,&b&lPrisoner's Dilemma,1,Unique,1,Sneaky,Trinket,ITEM ABILITY,Invisibility II,The choice is never just yours.,"&7Invisibility II
+&b&oThe choice is never just yours.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,+8%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,
+KnittingNeedle,netherite_sword,&2&lKnitting Needle,1,Uncommon,1,Sneaky,Light,ITEM ABILITY,,Surprisingly sharp.,"&b&oSurprisingly sharp.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]","SHARPNESS 1
+LOOTING 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+25%,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,True,,,,
+SilverFork,netherite_sword,&1&lSilver Fork,1,Rare,1,Punchy,Light,ITEM ABILITY,Potency I,"A fine utensil, though slightly more pointed than necessary.","&7Potency I
+&b&oA fine utensil, though slightly more pointed than necessary.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+SharpenedSteakKnife,netherite_sword,&2&lSharpened Steak Knife,1,Uncommon,1,Sneaky,Light,ITEM ABILITY,Invisibility I,Cuts through more than just meat.,"&7Invisibility I
+&b&oCuts through more than just meat.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+15%,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,True,,,,
+WoodenSpoon,netherite_sword,&1&lWooden Spoon,1,Rare,1,Growy,Light,ITEM ABILITY,Regeneration I,Sometimes the most humble tool makes the best weapon.,"&7Regeneration I
+&b&oSometimes the most humble tool makes the best weapon.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,5,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+GamblersLedger,ghast_tear,&5&lGambler's Ledger,1,Epic,1,Sneaky,Trinket,,,"The odds are always in your favor, if you write them yourself.","&b&oThe odds are always in your favor, if you write them yourself.
+
+&9Sacrifice to give two options for your next random roll; you choose which to keep.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AncientDuelersBlade,netherite_sword,&6&lAncient Dueler's Blade,1,Legendary,1,Punchy,Medium,,"Potency V
+Sanctity III",An old tradition of blood and steel.,"&7Potency V
+&7Sanctity III
+&b&oAn old tradition of blood and steel.
+
+&9Once per week, challenge the Ancient Guard for currency.
+
+&9[Level 1]
+&9[Punchy]
+&9[Medium]",SHARPNESS 5,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,,,True,,,,
+StoneOfRefinement,ghast_tear,&b&lStone of Refinement,1,Unique,1,Sneaky,Trinket,,,Grind away the flaws to find the truth within.,"&b&oGrind away the flaws to find the truth within.
+
+&9If used to grind, can choose one stat to keep on the new item.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MerchantsVoucher,ghast_tear,&1&lMerchant's Voucher,1,Rare,1,Sneaky,Trinket,,,A favor for a friend of the guild.,"&b&oA favor for a friend of the guild.
+
+&9Sacrifice to discount one shop item by 50% until end of day.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CardboardWings,elytra,&b&lCardboard Wings,1,Unique,1,Growy,Chestplate,,Slow Falling III,"It's not flying, it's falling with style.","&7Slow Falling III
+&b&oIt's not flying, it's falling with style.
+
+&9Breaks after 5 uses
+
+&9[Level 1]
+&9[Growy]
+&9[Chestplate]",,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HarmonicPrism,ghast_tear,&d&lHarmonic Prism,1,Exotic,1,Growy,Trinket,,,Filling the gaps in your soul.,"&b&oFilling the gaps in your soul.
+
+&9Generates with a High value in your lowest stat.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LethesVial,ghast_tear,&b&lLethe's Vial,1,Unique,1,Sneaky,Trinket,,,To forget is sometimes the greatest mercy.,"&b&oTo forget is sometimes the greatest mercy.
+
+&9Sacrifice to erase a memory from an NPC.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WhisperStone,ghast_tear,&2&lWhisper Stone,1,Uncommon,1,Sneaky,Trinket,,,"Loose lips sink ships, but they fill pockets.","&b&oLoose lips sink ships, but they fill pockets.
+
+&9Sacrifice to learn a piece of gossip.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EchoingConch,ghast_tear,&5&lEchoing Conch,1,Epic,1,Sneaky,Trinket,,,"The walls have ears, and the sea remembers everything.","&b&oThe walls have ears, and the sea remembers everything.
+
+&9Sacrifice to hear something important spoken in this location.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+InterceptedLetter,ghast_tear,&2&lIntercepted Letter,1,Uncommon,1,Sneaky,Trinket,,,A letter that was never meant to reach its destination.,"&b&oA letter that was never meant to reach its destination.
+
+&9Sacrifice to cause Cameron's next piece of mail to be misdelivered.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AnonymousNote,ghast_tear,&1&lAnonymous Note,1,Rare,1,Sneaky,Trinket,,,"A scrap of paper with frantic, unfamiliar handwriting.","&b&oA scrap of paper with frantic, unfamiliar handwriting.
+
+&9Receive a piece of advice from an NPC.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BiomeCore,ghast_tear,&d&lBiome Core,1,Exotic,1,Growy,Trinket,,Conduit Power II,The earth inside this sphere hums with potential.,"&7Conduit Power II
+&b&oThe earth inside this sphere hums with potential.
+
+&9Sacrifice to change the biome of a small area around you.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CloudCharm,ghast_tear,&b&lCloud Charm,1,Unique,1,Growy,Trinket,,Slow Falling I,"A fluffy, condensing weight that smells like rain.","&7Slow Falling I
+&b&oA fluffy, condensing weight that smells like rain.
+
+&9Sacrifice to change the weather.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BuildersManifest,ghast_tear,&1&lBuilder's Manifest,1,Rare,1,Growy,Trinket,,,A thick ledger detailing every resource required for the foundation.,"&b&oA thick ledger detailing every resource required for the foundation.
+
+&9Sacrifice to receive 1 stack of any vanilla block.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ConsumingMadness,netherite_helmet,&6&lConsuming Madness,1,Legendary,1,Punchy,Helmet,,"Bulwark III
+Curse of Rage I","The madness took over, what was left was truly terrifying","&7Bulwark III
+&7Curse of Rage I
+&b&oThe madness took over, what was left was truly terrifying
+
+&9Gains a level of rage per level up with no cap.
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]",BINDING_CURSE 1,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,18,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+MaleficScythe,netherite_sword,&5&lMalefic Scythe,1,Epic,1,Punchy,Heavy,,,"Death, comes.","&b&oDeath, comes.
+
+&9When a curse is added to this item, add ANOTHER curse.
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",BINDING_CURSE 1,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,19,,,,,,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+ThirstingBlade,netherite_sword,&2&lThirsting Blade,1,Uncommon,1,Punchy,Light,ITEM ABILITY,Vampiric I,Want me to check if that blade is cursed?,"&7Vampiric I
+&b&oWant me to check if that blade is cursed?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,True,,,,
+TheMillenniumPuzzle,ghast_tear,&6&lThe Millennium Puzzle,1,Legendary,1,Sneaky,Trinket,,,Heart of the cards!,"&b&oHeart of the cards!
+
+&9Sacrifice this item to guarantee the outcome of your next grind.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TheCure,ghast_tear,&d&lThe Cure,1,Exotic,1,Growy,Trinket,,Regeneration V,Had to be me. Someone else may have gotten it wrong.,"&7Regeneration V
+&b&oHad to be me. Someone else may have gotten it wrong.
+
+&9Sacrifice this to cure any illness for any NPC.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OmniTool,ghast_tear,&b&lOmni Tool,1,Unique,1,Sneaky,Trinket,,,"Lemme scan this, lemme scan that.","&b&oLemme scan this, lemme scan that.
+
+&9This item copies the stats of another item you currently have.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HeartContainer,ghast_tear,&6&lHeart Container,1,Legendary,1,Growy,Trinket,,,Hiyeahhhh!,"&b&oHiyeahhhh!
+
+&9Sacrifice to give another item +15(+Player level) health.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FIIIISSSHHHH,ghast_tear,&2&lFIIIISSSHHHH,1,Uncommon,1,Growy,Trinket,,,Now we wait for turn 5 boys,"&b&oNow we wait for turn 5 boys
+
+&9When this item is acquired, it automatically levels up.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,
+Everbloom,ghast_tear,&d&lEverbloom,1,Exotic,1,Growy,Trinket,,,It blooms even in the harshest conditions.,"&b&oIt blooms even in the harshest conditions.
+
+&9Collect all flowers and sacrifice to this item to increase its stats.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PinkBanner,ghast_tear,&b&lPink Banner,1,Unique,1,Sneaky,Trinket,,,it's Pink!,"&b&oit's Pink!
+
+&9For every pink armor piece you are wearing, increase this item's stats.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SummoningSkull,ghast_tear,&5&lSummoning Skull,1,Epic,1,Punchy,Trinket,,,I thought it was obvious.,"&b&oI thought it was obvious.
+
+&9Sacrifice this to cause the next Black Market to spawn in your base.
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StoneBlade,netherite_sword,&1&lStone Blade,1,Rare,1,Punchy,Medium,,,"They knelt, waiting for their creator to return.","&b&oThey knelt, waiting for their creator to return.
+
+&9GAINS stats for every session you miss.
+
+&9[Level 1]
+&9[Punchy]
+&9[Medium]",SHARPNESS 3,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+InnkeepersHat,netherite_helmet,&2&lInnkeeper's Hat,1,Uncommon,1,Growy,Helmet,,,A gift from the many people she housed.,"&b&oA gift from the many people she housed.
+
+&9When you receive this item, an NPC moves into your base for a week.
+
+&9[Level 1]
+&9[Growy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,4,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,True,,,,
+AxolotlsLastGift,netherite_sword,&b&lAxolotl's Last Gift,1,Unique,1,Punchy,Heavy,ITEM ABILITY,,"Even after you betrayed him, he still left this.","&b&oEven after you betrayed him, he still left this.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]",KNOCKBACK 5,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+10%,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+PowerBottomPantaloons,netherite_leggings,&b&lPower bottom pantaloons,1,Unique,1,Sneaky,Leggings,,,Pulling yourself up by your own bootstraps.,"&b&oPulling yourself up by your own bootstraps.
+
+&9If this item is the lowest item level you have equipped, it increases by 2 levels.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Leggings]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,,,+5%,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,True,,GOLD,COAST,
+BarkStripper,netherite_axe,&1&lBark Stripper,1,Rare,1,Punchy,Light,ITEM ABILITY,Haste II,Only naked trees allowed here.,"&7Haste II
+&b&oOnly naked trees allowed here.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+12%,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,True,,,,
+TiltedCrown,netherite_helmet,&d&lTilted Crown,1,Exotic,1,Sneaky,Helmet,,Sanctity III,I used to own a castle.,"&7Sanctity III
+&b&oI used to own a castle.
+
+&9Sacrifice to gain favor with the ruling family.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,6,,,,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,True,,GOLD,WARD,
+Pestle,netherite_sword,&2&lPestle,1,Uncommon,1,Punchy,Light,ITEM ABILITY,,Crush the spices...,"&b&oCrush the spices...
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+5%,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,True,,,,
+Mortar,ghast_tear,&2&lMortar,1,Uncommon,1,Punchy,Trinket,ITEM ABILITY,,...in the bowl,"&b&o...in the bowl
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TrainingPack,netherite_chestplate,&b&lTraining Pack,1,Unique,1,Growy,Chestplate,,,My mentor says carrying this makes me stronger,"&b&oMy mentor says carrying this makes me stronger
+
+&9If worn for the entirety of a level up challenge, removes speed penalty and gains a buff.
+
+&9[Level 1]
+&9[Growy]
+&9[Chestplate]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,8,,-25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,True,,IRON,SHAPER,
+SparringStick,netherite_sword,&2&lSparring Stick,1,Uncommon,1,Punchy,Light,,,It's easier to run away but today we've got to.,"&b&oIt's easier to run away but today we've got to.
+
+&9Has multiple versions at each of the early levels.
+
+&9[Level 1]
+&9[Punchy]
+&9[Light]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+5%,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,True,,,,
+GreenHeadband,netherite_helmet,&b&lGreen Headband,1,Unique,1,Sneaky,Helmet,ITEM ABILITY,Speed II,"A final stand, a shouting cry","&7Speed II
+&b&oA final stand, a shouting cry
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,+12%,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,True,,,,
+DebtsUnpaid,netherite_sword,&5&lDebts Unpaid,1,Epic,1,Punchy,Heavy,ITEM ABILITY,Potency IV,Nothing to lose.,"&7Potency IV
+&b&oNothing to lose.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Punchy]
+&9[Heavy]","SHARPNESS 4
+BINDING_CURSE 1",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+10%,,,,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,True,,,,
+ChuruianScepter,netherite_hoe,&6&lChuruian Scepter,1,Legendary,1,Growy,Staff,,,May the softest paws guide your path.,"&b&oMay the softest paws guide your path.
+
+&9Befriend a Kitten. Do not let it die.
+
+&9[Level 1]
+&9[Growy]
+&9[Staff]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,-99%,15,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+HelpfulCompanion,ghast_tear,&d&lHelpful Companion,1,Exotic,1,Growy,Trinket,,,A gentle creature for a heavy price.,"&b&oA gentle creature for a heavy price.
+
+&9Sacrifice to receive a Lamb companion. If it survives the raid, gain 2x rewards.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,12,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GogglesOfHindsight,netherite_helmet,&b&lGoggles of Hindsight,1,Unique,1,Sneaky,Helmet,,Night Vision III,It was so obvious!,"&7Night Vision III
+&b&oIt was so obvious!
+
+&9Learn about a secret that is no longer attainable.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,4,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,True,,,,
+RiskMinimizer,bow,&5&lRisk Minimizer,1,Epic,1,Sneaky,Bow,ITEM ABILITY,,"In the presence of chaos, the best we can do is stay away.","&b&oIn the presence of chaos, the best we can do is stay away.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Sneaky]
+&9[Bow]","POWER 5
+PUNCH 3",,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,-6,,-15%,18,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+DualersBlade,netherite_sword,&d&lDualer's Blade,1,Exotic,1,Punchy,Medium,,,"Oh, you thought I meant a fight?","&b&oOh, you thought I meant a fight?
+
+&9Sacrifice to flip the sign of an attribute on another item.
+
+&9[Level 1]
+&9[Punchy]
+&9[Medium]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,+10%,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,,,True,,,,
+Emptiness,netherite_axe,&d&lEmptiness,1,Exotic,1,Growy,Heavy,ITEM ABILITY,Blindness I,My lady... where did you go?,"&7Blindness I
+&b&oMy lady... where did you go?
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Heavy]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,+12%,,,,16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Denial,netherite_helmet,&2&lDenial,1,Uncommon,1,Punchy,Helmet,,,I'm fine. Everything is fine.,"&b&oI'm fine. Everything is fine.
+
+&9[Level 1]
+&9[Punchy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,18,,,-4,,,,-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Anger,netherite_chestplate,&1&lAnger,1,Rare,1,Punchy,Chestplate,,,It's not fair!,"&b&oIt's not fair!
+
+&9[Level 1]
+&9[Punchy]
+&9[Chestplate]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-8,+15%,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Bargaining,netherite_leggings,&1&lBargaining,1,Rare,1,Punchy,Leggings,,,I'll do anything. Just bring them back.,"&b&oI'll do anything. Just bring them back.
+
+&9[Level 1]
+&9[Punchy]
+&9[Leggings]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-2,,-10%,,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Depression,netherite_boots,&2&lDepression,1,Uncommon,1,Punchy,Boots,,,What's the point?,"&b&oWhat's the point?
+
+&9[Level 1]
+&9[Punchy]
+&9[Boots]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,,,,,-20%,,,,,,,,,,,,,,,,,,,,,,True,,,,
+Acceptance,ghast_tear,&6&lAcceptance,1,Legendary,1,Growy,Trinket,,"Divine V
+Regeneration IV","It is what it is, and that is okay.","&7Divine V
+&7Regeneration IV
+&b&oIt is what it is, and that is okay.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,20,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MagicDetector,ghast_tear,&5&lMagic Detector,1,Epic,1,Sneaky,Trinket,,,Something wicked this way comes.,"&b&oSomething wicked this way comes.
+
+&9Antispy: Notifies you if attuned magic is used maliciously.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FeastOfTheGods,ghast_tear,&6&lFeast of the Gods,1,Legendary,1,Growy,Trinket,,Saturation V,Reclaim the ambrosia.,"&7Saturation V
+&b&oReclaim the ambrosia.
+
+&9Sacrifice before a raid to give all players permanent gapple effect
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CharonsToll,ghast_tear,&1&lCharon's Toll,1,Rare,1,Sneaky,Trinket,,,"It's CHARON, not CHIRON.","&b&oIt's CHARON, not CHIRON.
+
+&9Sacrifice this item to see what an NPC saw right before their death.
+
+&9[Level 1]
+&9[Sneaky]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BloodiedChalice,ghast_tear,&5&lBloodied Chalice,1,Epic,1,Punchy,Trinket,,,The finest of gold for the finest of drinks.,"&b&oThe finest of gold for the finest of drinks.
+
+&9Gains power for each life you take.
+
+&9[Level 1]
+&9[Punchy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,
+LumpOfCoal,ghast_tear,&2&lLump of Coal,1,Uncommon,1,Growy,Trinket,,,Under pressure is where we truly shine.,"&b&oUnder pressure is where we truly shine.
+
+&9Transforms into a Diamond if you are the last one standing in a raid
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+WingedBowOfVictory,bow,&6&lWinged Bow of Victory,1,Legendary,1,Growy,Bow,ITEM ABILITY,Regeneration III,One final push.,"&7Regeneration III
+&b&oOne final push.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Bow]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,-20%,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+FaithsGuidance,netherite_helmet,&b&lFaith's Guidance,1,Unique,1,Growy,Helmet,ITEM ABILITY,"Regeneration II
+Blindness I",I walk in the valley of darkness... literally.,"&7Regeneration II
+&7Blindness I
+&b&oI walk in the valley of darkness... literally.
+
+&9[ITEM ABILITY]
+
+&9[Level 1]
+&9[Growy]
+&9[Helmet]",,,HIDE_UNBREAKABLE|HIDE_ARMOR_TRIM,,,,,,,,,,,,,,,,,,,10,,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,
+BartsLute,ghast_tear,&2&lBart's Lute,1,Uncommon,1,Growy,Trinket,,,"Allow me to play you a song, m'lady.","&b&oAllow me to play you a song, m'lady.
+
+&Can play a song before a raid to provide a minor team-wide buff.
+
+&9[Level 1]
+&9[Growy]
+&9[Trinket]",,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

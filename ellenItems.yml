@@ -94,9 +94,6 @@ ChaosIncarnate:
   - PARRY_NEGATION 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 
 DyingStar:
   Id: bow
@@ -560,9 +557,6 @@ CorruptedBloom:
   - DODGE_CHANCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 BustersGreatsword:
   Id: netherite_sword
   Display: '&6&Candace''s Greatsword'
@@ -775,9 +769,6 @@ HeartOfTeFiti:
   - CRITICAL_STRIKE_RESILIENCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 LeggingsOfBirmanWood:
   Id: netherite_leggings
   Display: '&5&lLeggings of Birman Wood'
@@ -900,9 +891,6 @@ LonePawprint:
   - DODGE_CHANCE 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 IroncladStompers:
   Id: netherite_boots
   Display: '&5&lIronclad Stompers'
@@ -1144,9 +1132,6 @@ OnyxHeartstone:
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 ClottingAgent:
   Id: ghast_tear
   Display: '&2&lClotting Agent'
@@ -1169,9 +1154,6 @@ ClottingAgent:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 RepurposedCarcass:
   Id: netherite_chestplate
   Display: '&2&lRepurposed Carcass'
@@ -1285,9 +1267,6 @@ StorytellersGrimoire:
   - PARRY_NEGATION 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 LuxMortem:
   Id: netherite_sword
   Display: '&6&lLux Mortem'
@@ -1407,9 +1386,6 @@ AegisOfStars:
   - PARRY_CHANCE 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 MementoMori:
   Id: player_head
   Display: '&6&lMemento Mori'
@@ -2404,14 +2380,14 @@ DepressionHole:
   Hide:
     - HIDE_UNBREAKABLE
     - HIDE_ARMOR_TRIM
-TiamEffort:
+TeamEffect:
   Id: netherite_sword
-  Display: '&6&lTiam Effort'
+  Display: '&6&lTeam Effort'
   Model: 1
   Lore:
   - '&7Divine IV'
   - '&7Aegis III'
-  - '&b&oThere’s no I in team.'
+  - '&b&oThere''s no I in team.'
   - ''
   - '&9Sacrifice to negate a teammate''s death in a Deathless run.'
   - ''
@@ -2450,9 +2426,6 @@ SeveredTongue:
   - PARRY_NEGATION 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 AncientStarChart:
   Id: ghast_tear
   Display: '&b&lAncient Star Chart'
@@ -2471,9 +2444,6 @@ AncientStarChart:
     OffHand:
       Luck: +18
       MovementSpeed: +5%
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 BurningOut:
   Id: netherite_sword
   Display: '&1&lBurning Out'
@@ -2645,9 +2615,6 @@ LeftVentricle:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 RightVentricle:
   Id: ghast_tear
   Display: '&d&lRight Ventricle'
@@ -2670,6 +2637,2492 @@ RightVentricle:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
+FeverDream:
+  Id: bow
+  Display: '&d&lFever Dream'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&7Night Vision I'
+  - '&b&oIn the quiet of the night, killing you slow.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Bow]'
+  Enchantments:
+  - POWER 4
+  - PUNCH 2
+  Attributes:
+    MainHand:
+      MovementSpeed: +12%
+      Luck: +10
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  Options:
+    Unbreakable: true
   Hide:
     - HIDE_UNBREAKABLE
     - HIDE_ARMOR_TRIM
+MorningLight:
+  Id: ghast_tear
+  Display: '&b&lMorning Light'
+  Model: 1
+  Lore:
+  - '&7Sanctity III'
+  - '&7Regeneration II'
+  - '&b&oWhen all those shadows almost killed your light'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +14
+      ArmorToughness: +5
+  Options:
+    PreventStacking: true
+FingerBoneBrooch:
+  Id: ghast_tear
+  Display: '&2&lFinger Bone Brooch'
+  Model: 1
+  Lore:
+  - '&7Vitality I'
+  - '&b&oHow gauche.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +2
+  Stats:
+  - PARRY_POWER 1
+  Options:
+    PreventStacking: true
+BurialJewels:
+  Id: ghast_tear
+  Display: '&1&lBurial Jewels'
+  Model: 1
+  Lore:
+  - '&7Divine II'
+  - '&b&oGrandma''s finest.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +15
+      Health: +4
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 3
+  Options:
+    PreventStacking: true
+StolenLullaby:
+  Id: netherite_sword
+  Display: '&5&lStolen Lullaby'
+  Model: 1
+  Lore:
+  - '&7Slow Falling I'
+  - '&b&oYou still hear it when you can''t sleep at night.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 3
+  - LOOTING 2
+  Attributes:
+    MainHand:
+      AttackSpeed: +18%
+      Damage: +11
+  Stats:
+  - DODGE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BottledMemories:
+  Id: ghast_tear
+  Display: '&b&lBottled Memories'
+  Model: 1
+  Lore:
+  - '&7Metabolism IV'
+  - '&b&oSipped away like a bottle of wine'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +12
+      Luck: +10
+  Options:
+    PreventStacking: true
+MentalCage:
+  Id: netherite_helmet
+  Display: '&5&lMental Cage'
+  Model: 1
+  Lore:
+  - '&7Potency III'
+  - '&7Shielding II'
+  - '&b&oAll my potential… wasted.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Enchantments:
+  - PROTECTION 4
+  - BINDING_CURSE 1
+  Attributes:
+    Head:
+      ArmorToughness: +8
+      Luck: -4
+      Damage: +15%
+  Stats:
+  - PARRY_POWER 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SphericalCurve:
+  Id: bow
+  Display: '&d&lSpherical Curve'
+  Model: 1
+  Lore:
+  - '&7Night Vision III'
+  - '&7Slow Falling I'
+  - '&b&oMy words shoot to kill when I''m mad.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Bow]'
+  Enchantments:
+  - POWER 5
+  - INFINITY 1
+  Attributes:
+    MainHand:
+      Damage: +14
+      AttackSpeed: +10%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - DODGE_NEGATION 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+CrackedSign:
+  Id: netherite_sword
+  Display: '&1&lCracked Sign'
+  Model: 1
+  Lore:
+  - '&7Slow Falling I'
+  - '&b&oWere there clues I didn''t see?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +9
+      KnockbackResistance: +8%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BarbedWireBauble:
+  Id: ghast_tear
+  Display: '&2&lBarbed Wire Bauble'
+  Model: 1
+  Lore:
+  - '&7Potency II'
+  - '&b&oAn ornament of painful intent.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +2
+      Armor: +1
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 2
+  Options:
+    PreventStacking: true
+BearPoke:
+  Id: netherite_sword
+  Display: '&1&lBear Poke'
+  Model: 1
+  Lore:
+  - '&7Potency III'
+  - '&b&oNo one likes a mad woman.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Attributes:
+    MainHand:
+      Damage: +15
+      KnockbackResistance: +8%
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+FigmentOfIntention:
+  Id: netherite_sword
+  Display: '&5&lFigment of Intention'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&b&owhatever''s left of it, I give to you.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Enchantments:
+  - LOOTING 3
+  Attributes:
+    MainHand:
+      Damage: +10
+      AttackSpeed: +14%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Conviction:
+  Id: netherite_sword
+  Display: '&b&lConviction'
+  Model: 1
+  Lore:
+  - '&7Aegis IV'
+  - '&7Sanctity II'
+  - '&b&oStrong as long as danger is near.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +12
+      Health: +6
+    OffHand:
+      Armor: +25
+  Stats:
+  - PARRY_CHANCE 4
+  - CRITICAL_STRIKE_RESILIENCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Dreamscape:
+  Id: netherite_hoe
+  Display: '&d&lDreamscape'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&7Slow Falling III'
+  - '&b&oMake believe.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Luck: +15
+    OffHand:
+      Health: +10
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+VorticityCascade:
+  Id: ghast_tear
+  Display: '&2&lVorticity Cascade'
+  Model: 1
+  Lore:
+  - '&7Potency II'
+  - '&b&oWhorls and whorls from large to small'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +8%
+      AttackSpeed: +10%
+  Options:
+    PreventStacking: true
+TwistedKnife:
+  Id: netherite_sword
+  Display: '&5&lTwisted Knife'
+  Model: 1
+  Lore:
+  - '&b&oMake it hurt.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 4
+  Attributes:
+    MainHand:
+      Damage: +13
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+FaithlessLove:
+  Id: ghast_tear
+  Display: '&1&lFaithless Love'
+  Model: 1
+  Lore:
+  - '&7Sanctity III'
+  - '&b&oThe only hoax I''ll believe in.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +8
+      Luck: +5
+  Options:
+    PreventStacking: true
+BaitAndSwitch:
+  Id: netherite_sword
+  Display: '&b&lBait-and-Switch'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&b&oGotcha!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      AttackSpeed: +18%
+      Luck: +12
+  Stats:
+  - DODGE_CHANCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+PatchedTapestry:
+  Id: ghast_tear
+  Display: '&2&lPatched Tapestry'
+  Model: 1
+  Lore:
+  - '&7Regeneration II'
+  - '&b&oYou can barely see the claw marks.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +5
+      Health: +4
+  Options:
+    PreventStacking: true
+DoubleVision:
+  Id: netherite_helmet
+  Display: '&5&lDouble Vision'
+  Model: 1
+  Lore:
+  - '&7Night Vision IV'
+  - '&b&oI think I am seeing two of you.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      MovementSpeed: +5%
+      Luck: +10
+  Stats:
+  - DODGE_CHANCE 4
+  - DODGE_NEGATION 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BrandNewBoots:
+  Id: netherite_boots
+  Display: '&2&lBrand New Boots'
+  Model: 1
+  Lore:
+  - '&7Speed I'
+  - '&b&oIt''s easy enough to get blood stains out.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Boots]'
+  Attributes:
+    Feet:
+      MovementSpeed: +5%
+      Armor: +4
+  Stats:
+  - DODGE_CHANCE 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Nightfall:
+  Id: netherite_sword
+  Display: '&5&lNightfall'
+  Model: 1
+  Lore:
+  - '&b&oIt''s not the darkness you need to fear.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +14
+      AttackSpeed: +8%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+GloriousSunrise:
+  Id: netherite_sword
+  Display: '&d&lGlorious Sunrise'
+  Model: 1
+  Lore:
+  - '&7Sanctity IV'
+  - '&7Regeneration II'
+  - '&b&oDappled with flickers of light.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +10
+      Health: +6
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Coercion:
+  Id: netherite_sword
+  Display: '&1&lCoercion'
+  Model: 1
+  Lore:
+  - '&b&oCoaxed into Paradise and left there.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +12
+      KnockbackResistance: +10%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RetCaan:
+  Id: ghast_tear
+  Display: '&d&lRet-caan'
+  Model: 1
+  Lore:
+  - '&b&oAnd it has been as it always has been.'
+  - ''
+  - '&9Sacrifice this trinket to change the name of an item permanently.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +15
+  Options:
+    PreventStacking: true
+TiemEffort:
+  Id: netherite_sword
+  Display: '&b&lTiem Effort'
+  Model: 1
+  Lore:
+  - '&b&oThere is an I in team'
+  - ''
+  - '&9Sacrifice to give your death to someone else in a deathless run.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Attributes:
+    MainHand:
+      Damage: +18
+    OffHand:
+      Armor: +5
+  Stats:
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+QuestingBlade:
+  Id: netherite_sword
+  Display: '&b&lQuesting Blade'
+  Model: 1
+  Lore:
+  - '&b&oIt chose you'
+  - ''
+  - '&9Will occasionally give player a custom quest to do.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +11
+      Luck: +12
+  Stats:
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RatKingsBlade:
+  Id: netherite_sword
+  Display: '&1&lRat King''s Blade'
+  Model: 1
+  Lore:
+  - '&b&oYou can keep the crown, I''ll take the sword'
+  - ''
+  - '&9Blades can be used to combine onto other Rat King''s Blades for free.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +9
+      AttackSpeed: +18%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RelicOfTheGoldenMonkey:
+  Id: ghast_tear
+  Display: '&6&lRelic of the Golden Monkey'
+  Model: 1
+  Lore:
+  - '&7Luck IV'
+  - '&b&oI''m not sure we should have this'
+  - ''
+  - '&9Doubles the rewards you receive from events with no consequence :)'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +19
+      Health: +10
+  Stats:
+  - DODGE_CHANCE 3
+  Options:
+    PreventStacking: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+FuckingFireball:
+  Id: flint_and_steel
+  Display: '&6&lFUCKING FIREBALL'
+  Model: 1
+  Lore:
+  - '&b&oFIREBALL!!!!!!!!!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +15
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Sundrop:
+  Id: ghast_tear
+  Display: '&d&lSundrop'
+  Model: 1
+  Lore:
+  - '&7Regeneration V'
+  - '&7Sanctity III'
+  - '&b&oFlower, gleam and glow, let your power shine.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +14
+      Luck: +10
+  Options:
+    PreventStacking: true
+MoonstoneOpulent:
+  Id: netherite_sword
+  Display: '&d&lMoonstone'
+  Model: 1
+  Lore:
+  - '&7Night Vision IV'
+  - '&7Withering II'
+  - '&b&oA jagged blade of obsidian and neon blue light.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 4
+  Attributes:
+    MainHand:
+      Damage: +13
+      AttackSpeed: +15%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+EssenceOfTurbulence:
+  Id: ghast_tear
+  Display: '&2&lEssence of Turbulence'
+  Model: 1
+  Lore:
+  - '&b&oA swirling, violent concoction.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +10
+      MovementSpeed: +15%
+  Options:
+    PreventStacking: true
+Antisymmetry:
+  Id: ghast_tear
+  Display: '&5&lAntisymmetry'
+  Model: 1
+  Lore:
+  - '&b&oNo…. My model!'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +12
+      EntityInteractionRange: +3
+  Stats:
+  - DODGE_NEGATION 4
+  - PARRY_NEGATION 4
+  Options:
+    PreventStacking: true
+TheSecondLaw:
+  Id: netherite_sword
+  Display: '&1&lThe Second Law'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&b&oAll ends in chaos.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  Attributes:
+    MainHand:
+      Damage: +18
+      KnockbackResistance: +12%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Cyclone:
+  Id: netherite_sword
+  Display: '&d&lCyclone'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&b&oThe destructive force of a thousand storms.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - KNOCKBACK 4
+  Attributes:
+    MainHand:
+      Damage: +16
+      MovementSpeed: +10%
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Anticyclone:
+  Id: ghast_tear
+  Display: '&d&lAnticyclone'
+  Model: 1
+  Lore:
+  - '&7Sanctity IV'
+  - '&b&oThe warmth of a cloudless afternoon.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +8
+      Health: +10
+TheFirstHallow:
+  Id: netherite_sword
+  Display: '&6&lThe First Hallow'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Divine III'
+  - '&b&oDestined to win every duel.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 5
+  - BREACH 3
+  Attributes:
+    MainHand:
+      Damage: +19
+      AttackSpeed: +20%
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_COUNTERATTACK 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+TheSecondHallow:
+  Id: ghast_tear
+  Display: '&6&lThe Second Hallow'
+  Model: 1
+  Lore:
+  - '&7Divine V'
+  - '&b&oRecall those who have long since passed.'
+  - ''
+  - '&9Sacrifice to temporarily bring an NPC back to life.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +15
+      Luck: +19
+TheThirdHallow:
+  Id: ghast_tear
+  Display: '&6&lThe Third Hallow'
+  Model: 1
+  Lore:
+  - '&7Invisibility V'
+  - '&b&oA cloak to hide from Death himself.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      EntityInteractionRange: +5
+  Stats:
+  - DODGE_CHANCE 10
+  Options:
+    PreventStacking: true
+EssentialSingularity:
+  Id: ghast_tear
+  Display: '&d&lEssential Singularity'
+  Model: 1
+  Lore:
+  - '&b&oEverywhere around me is distorted'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +15
+      ArmorToughness: +10
+  Stats:
+  - PARRY_NEGATION 4
+  Options:
+    PreventStacking: true
+FinalEscort:
+  Id: netherite_sword
+  Display: '&5&lFinal Escort'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&7Withering III'
+  - '&b&oIt walks you to your grave.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 4
+  Attributes:
+    MainHand:
+      Damage: +17
+      Health: -5
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Reaper:
+  Id: netherite_sword
+  Display: '&6&lReaper'
+  Model: 1
+  Lore:
+  - '&7Vampiric V'
+  - '&7Potency V'
+  - '&b&ostolen from death himself.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - SMITE 5
+  Attributes:
+    MainHand:
+      Damage: +19
+      AttackSpeed: +10%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Shiv:
+  Id: netherite_sword
+  Display: '&1&lShiv'
+  Model: 1
+  Lore:
+  - '&b&oA temporary solution for a permanent problem.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +6
+      AttackSpeed: +20%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+InescapableDestruction:
+  Id: netherite_sword
+  Display: '&6&lInescapable Destruction'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Withering IV'
+  - '&b&oIt comes for us all.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 5
+  - KNOCKBACK 3
+  Attributes:
+    MainHand:
+      Damage: +19
+      KnockbackResistance: +15%
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  - PARRY_NEGATION 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+EyesOfTheGrave:
+  Id: player_head
+  Display: '&5&lEyes of the Grave'
+  Model: 1
+  Lore:
+  - '&7Night Vision V'
+  - '&b&oFrom bones to dust, they still watch.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Armor: +8
+      Health: +10
+      Luck: +5
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    PreventStacking: true
+    SkinTexture: [CODE]
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SilverChain:
+  Id: ghast_tear
+  Display: '&d&lSilver Chain'
+  Model: 1
+  Lore:
+  - '&7Divine III'
+  - '&b&oWithout our stories, we are incomplete.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +12
+      Luck: +15
+FreeFromPain:
+  Id: netherite_hoe
+  Display: '&b&lFree From Pain'
+  Model: 1
+  Lore:
+  - '&7Regeneration IV'
+  - '&7Sanctity II'
+  - '&b&oI can release you.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Health: +18
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+HeartsDesire:
+  Id: ghast_tear
+  Display: '&d&lHeart''s Desire'
+  Model: 1
+  Lore:
+  - '&7Invisibility III'
+  - '&7Slow Falling IV'
+  - '&b&oThere once was a young man who wished upon a star.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +10%
+      Luck: +19
+  Stats:
+  - DODGE_CHANCE 3
+  Options:
+    PreventStacking: true
+TheFirstPage:
+  Id: ghast_tear
+  Display: '&2&lThe First Page'
+  Model: 1
+  Lore:
+  - '&b&oThe King had three sons, each born under a different star.'
+  - ''
+  - '&9Page I.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +3
+  Options:
+    PreventStacking: true
+TheSecondPage:
+  Id: ghast_tear
+  Display: '&2&lTheSecondPage'
+  Model: 1
+  Lore:
+  - '&b&oThey fought day and night for the honor of being the heir.'
+  - ''
+  - '&9Page II.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +3
+  Options:
+    PreventStacking: true
+TheThirdPage:
+  Id: ghast_tear
+  Display: '&2&TheThirdPage'
+  Model: 1
+  Lore:
+  - '&b&oWhen their father died, the eldest claimed the crown.'
+  - ''
+  - '&9Page III.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +3
+  Options:
+    PreventStacking: true
+TheLostPage:
+  Id: ghast_tear
+  Display: '&2&TheLostPage'
+  Model: 1
+  Lore:
+  - '&b&oThe youngest took his oldest brother''s place.'
+  - ''
+  - '&9Lost Page.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +3
+  Options:
+    PreventStacking: true
+TheLostManuscript:
+  Id: ghast_tear
+  Display: '&1&The Lost Manuscript'
+  Model: 1
+  Lore:
+  - '&b&oThe King had three sons, each born under a different star.'
+  - '&b&oThey fought day and night for the honor of being the heir.'
+  - '&b&oThe youngest took his oldest brother''s place.'
+  - '&b&oWhen their father died, the eldest claimed the crown.'
+  - ''
+  - '&9The Full Story.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +3
+      Health: +3
+      Luck: +3
+      MovementSpeed: +3
+  Options:
+    PreventStacking: true
+ExplodedStar:
+  Id: netherite_sword
+  Display: '&d&lExploded Star'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&7Night Vision III'
+  - '&b&oYou and I are made of stardust.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Medium]'
+  Enchantments:
+  - FIRE_ASPECT 2
+  Attributes:
+    MainHand:
+      Damage: +15
+      AttackSpeed: +5%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+PrisonersDilemma:
+  Id: ghast_tear
+  Display: '&b&lPrisoner''s Dilemma'
+  Model: 1
+  Lore:
+  - '&7Invisibility II'
+  - '&b&oThe choice is never just yours.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +8%
+      Luck: +12
+  Stats:
+  - DODGE_NEGATION 4
+  Options:
+    PreventStacking: true
+KnittingNeedle:
+  Id: netherite_sword
+  Display: '&2&lKnitting Needle'
+  Model: 1
+  Lore:
+  - '&b&oSurprisingly sharp.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Enchantments:
+  - SHARPNESS 1
+  - LOOTING 1
+  Attributes:
+    MainHand:
+      Damage: +4
+      AttackSpeed: +25%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SilverFork:
+  Id: netherite_sword
+  Display: '&1&lSilver Fork'
+  Model: 1
+  Lore:
+  - '&7Potency I'
+  - '&b&oA fine utensil, though slightly more pointed than necessary.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +6
+      AttackSpeed: +10%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SharpenedSteakKnife:
+  Id: netherite_sword
+  Display: '&2&lSharpened Steak Knife'
+  Model: 1
+  Lore:
+  - '&7Invisibility I'
+  - '&b&oCuts through more than just meat.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +8
+      AttackSpeed: +15%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+WoodenSpoon:
+  Id: netherite_sword
+  Display: '&1&lWooden Spoon'
+  Model: 1
+  Lore:
+  - '&7Regeneration I'
+  - '&b&oSometimes the most humble tool makes the best weapon.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      KnockbackResistance: +5
+      Damage: +4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+GamblersLedger:
+  Id: ghast_tear
+  Display: '&5&lGambler''s Ledger'
+  Model: 1
+  Lore:
+  - '&b&oThe odds are always in your favor, if you write them yourself.'
+  - ''
+  - '&9Sacrifice to give two options for your next random roll; you choose which to keep.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +15
+  Options:
+    PreventStacking: true
+AncientDuelersBlade:
+  Id: netherite_sword
+  Display: '&6&lAncient Dueler''s Blade'
+  Model: 1
+  Lore:
+  - '&7Potency V'
+  - '&7Sanctity III'
+  - '&b&oAn old tradition of blood and steel.'
+  - ''
+  - '&9Once per week, challenge the Ancient Guard for currency.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Medium]'
+  Enchantments:
+  - SHARPNESS 5
+  Attributes:
+    MainHand:
+      Damage: +18
+      AttackSpeed: +10%
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_COUNTERATTACK 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+StoneOfRefinement:
+  Id: ghast_tear
+  Display: '&b&lStone of Refinement'
+  Model: 1
+  Lore:
+  - '&b&oGrind away the flaws to find the truth within.'
+  - ''
+  - '&9If used to grind, can choose one stat to keep on the new item.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +8
+  Options:
+    PreventStacking: true
+MerchantsVoucher:
+  Id: ghast_tear
+  Display: '&1&lMerchant''s Voucher'
+  Model: 1
+  Lore:
+  - '&b&oA favor for a friend of the guild.'
+  - ''
+  - '&9Sacrifice to discount one shop item by 50% until end of day.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +12
+  Options:
+    PreventStacking: true
+CardboardWings:
+  Id: elytra
+  Display: '&b&lCardboard Wings'
+  Model: 1
+  Lore:
+  - '&7Slow Falling III'
+  - '&b&oIt''s not flying, it''s falling with style.'
+  - ''
+  - '&9Breaks after 5 uses'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Chestplate]'
+  Attributes:
+    OffHand:
+      MovementSpeed: +15%
+  Options:
+    PreventStacking: true
+HarmonicPrism:
+  Id: ghast_tear
+  Display: '&d&lHarmonic Prism'
+  Model: 1
+  Lore:
+  - '&b&oFilling the gaps in your soul.'
+  - ''
+  - '&9Generates with a High value in your lowest stat.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +10
+  Options:
+    PreventStacking: true
+LethesVial:
+  Id: ghast_tear
+  Display: '&b&lLethe''s Vial'
+  Model: 1
+  Lore:
+  - '&b&oTo forget is sometimes the greatest mercy.'
+  - ''
+  - '&9Sacrifice to erase a memory from an NPC.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +5
+  Options:
+    PreventStacking: true
+WhisperStone:
+  Id: ghast_tear
+  Display: '&2&lWhisper Stone'
+  Model: 1
+  Lore:
+  - '&b&oLoose lips sink ships, but they fill pockets.'
+  - ''
+  - '&9Sacrifice to learn a piece of gossip.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +14
+  Options:
+    PreventStacking: true
+EchoingConch:
+  Id: ghast_tear
+  Display: '&5&lEchoing Conch'
+  Model: 1
+  Lore:
+  - '&b&oThe walls have ears, and the sea remembers everything.'
+  - ''
+  - '&9Sacrifice to hear something important spoken in this location.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +10
+  Options:
+    PreventStacking: true
+InterceptedLetter:
+  Id: ghast_tear
+  Display: '&2&lIntercepted Letter'
+  Model: 1
+  Lore:
+  - '&b&oA letter that was never meant to reach its destination.'
+  - ''
+  - '&9Sacrifice to cause Cameron''s next piece of mail to be misdelivered.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +12
+  Options:
+    PreventStacking: true
+AnonymousNote:
+  Id: ghast_tear
+  Display: '&1&lAnonymous Note'
+  Model: 1
+  Lore:
+  - '&b&oA scrap of paper with frantic, unfamiliar handwriting.'
+  - ''
+  - '&9Receive a piece of advice from an NPC.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +8
+  Options:
+    PreventStacking: true
+BiomeCore:
+  Id: ghast_tear
+  Display: '&d&lBiome Core'
+  Model: 1
+  Lore:
+  - '&7Conduit Power II'
+  - '&b&oThe earth inside this sphere hums with potential.'
+  - ''
+  - '&9Sacrifice to change the biome of a small area around you.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +10
+  Options:
+    PreventStacking: true
+CloudCharm:
+  Id: ghast_tear
+  Display: '&b&lCloud Charm'
+  Model: 1
+  Lore:
+  - '&7Slow Falling I'
+  - '&b&oA fluffy, condensing weight that smells like rain.'
+  - ''
+  - '&9Sacrifice to change the weather.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +15
+  Options:
+    PreventStacking: true
+BuildersManifest:
+  Id: ghast_tear
+  Display: '&1&lBuilder''s Manifest'
+  Model: 1
+  Lore:
+  - '&b&oA thick ledger detailing every resource required for the foundation.'
+  - ''
+  - '&9Sacrifice to receive 1 stack of any vanilla block.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +10
+  Options:
+    PreventStacking: true
+ConsumingMadness:
+  Id: netherite_helmet
+  Display: '&6&lConsuming Madness'
+  Model: 1
+  Lore:
+  - '&7Bulwark III'
+  - '&7Curse of Rage I'
+  - '&b&oThe madness took over, what was left was truly terrifying'
+  - ''
+  - '&9Gains a level of rage per level up with no cap.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Enchantments:
+  - BINDING_CURSE 1
+  Attributes:
+    Head:
+      Armor: +18
+      Damage: +15%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+MaleficScythe:
+  Id: netherite_sword
+  Display: '&5&lMalefic Scythe'
+  Model: 1
+  Lore:
+  - '&b&oDeath, comes.'
+  - ''
+  - '&9When a curse is added to this item, add ANOTHER curse.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - BINDING_CURSE 1
+  Attributes:
+    MainHand:
+      Damage: +19
+    OffHand:
+      Damage: +19
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ThirstingBlade:
+  Id: netherite_sword
+  Display: '&2&lThirsting Blade'
+  Model: 1
+  Lore:
+  - '&7Vampiric I'
+  - '&b&oWant me to check if that blade is cursed?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +12
+      AttackSpeed: +10%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+TheMillenniumPuzzle:
+  Id: ghast_tear
+  Display: '&6&lThe Millennium Puzzle'
+  Model: 1
+  Lore:
+  - '&b&oHeart of the cards!'
+  - ''
+  - '&9Sacrifice this item to guarantee the outcome of your next grind.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +19
+  Options:
+    PreventStacking: true
+TheCure:
+  Id: ghast_tear
+  Display: '&d&lThe Cure'
+  Model: 1
+  Lore:
+  - '&7Regeneration V'
+  - '&b&oHad to be me. Someone else may have gotten it wrong.'
+  - ''
+  - '&9Sacrifice this to cure any illness for any NPC.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +15
+  Options:
+    PreventStacking: true
+OmniTool:
+  Id: ghast_tear
+  Display: '&b&lOmni Tool'
+  Model: 1
+  Lore:
+  - '&b&oLemme scan this, lemme scan that.'
+  - ''
+  - '&9This item copies the stats of another item you currently have.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +5
+  Options:
+    PreventStacking: true
+HeartContainer:
+  Id: ghast_tear
+  Display: '&6&lHeart Container'
+  Model: 1
+  Lore:
+  - '&b&oHiyeahhhh!'
+  - ''
+  - '&9Sacrifice to give another item +15(+Player level) health.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +10
+  Options:
+    PreventStacking: true
+FIIIISSSHHHH:
+  Id: ghast_tear
+  Display: '&2&lFIIIISSSHHHH'
+  Model: 1
+  Lore:
+  - '&b&oNow we wait for turn 5 boys'
+  - ''
+  - '&9When this item is acquired, it automatically levels up.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +2
+  Stats:
+  - DODGE_CHANCE 1
+  Options:
+    PreventStacking: true
+Everbloom:
+  Id: ghast_tear
+  Display: '&d&lEverbloom'
+  Model: 1
+  Lore:
+  - '&b&oIt blooms even in the harshest conditions.'
+  - ''
+  - '&9Collect all flowers and sacrifice to this item to increase its stats.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +8
+      Regeneration: +2
+  Options:
+    PreventStacking: true
+PinkBanner:
+  Id: ghast_tear
+  Display: '&b&lPink Banner'
+  Model: 1
+  Lore:
+  - '&b&oit''s Pink!'
+  - ''
+  - '&9For every pink armor piece you are wearing, increase this item''s stats.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +12
+  Options:
+    PreventStacking: true
+SummoningSkull:
+  Id: ghast_tear
+  Display: '&5&lSummoning Skull'
+  Model: 1
+  Lore:
+  - '&b&oI thought it was obvious.'
+  - ''
+  - '&9Sacrifice this to cause the next Black Market to spawn in your base.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Armor: +5
+  Options:
+    PreventStacking: true
+StoneBlade:
+  Id: netherite_sword
+  Display: '&1&lStone Blade'
+  Model: 1
+  Lore:
+  - '&b&oThey knelt, waiting for their creator to return.'
+  - ''
+  - '&9GAINS stats for every session you miss.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Medium]'
+  Enchantments:
+  - SHARPNESS 3
+  Attributes:
+    MainHand:
+      Damage: +12
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+InnkeepersHat:
+  Id: netherite_helmet
+  Display: '&2&lInnkeeper''s Hat'
+  Model: 1
+  Lore:
+  - '&b&oA gift from the many people she housed.'
+  - ''
+  - '&9When you receive this item, an NPC moves into your base for a week.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Armor: +4
+      Health: +6
+  Stats:
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+AxolotlsLastGift:
+  Id: netherite_sword
+  Display: '&b&lAxolotl''s Last Gift'
+  Model: 1
+  Lore:
+  - '&b&oEven after you betrayed him, he still left this.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - KNOCKBACK 5
+  Attributes:
+    MainHand:
+      Damage: +14
+      KnockbackResistance: +10%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+PowerBottomPantaloons:
+  Id: netherite_leggings
+  Display: '&b&lPower bottom pantaloons'
+  Model: 1
+  Lore:
+  - '&b&oPulling yourself up by your own bootstraps.'
+  - ''
+  - '&9If this item is the lowest item level you have equipped, it increases by 2 levels.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Leggings]'
+  Attributes:
+    Legs:
+      Armor: +8
+      MovementSpeed: +5%
+  Stats:
+  - DODGE_CHANCE 3
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: GOLD
+      Pattern: COAST
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BarkStripper:
+  Id: netherite_axe
+  Display: '&1&lBark Stripper'
+  Model: 1
+  Lore:
+  - '&7Haste II'
+  - '&b&oOnly naked trees allowed here.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +9
+      AttackSpeed: +12%
+  Stats:
+  - CRITICAL_STRIKE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+TiltedCrown:
+  Id: netherite_helmet
+  Display: '&d&lTilted Crown'
+  Model: 1
+  Lore:
+  - '&7Sanctity III'
+  - '&b&oI used to own a castle.'
+  - ''
+  - '&9Sacrifice to gain favor with the ruling family.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Luck: +14
+      Armor: +6
+  Stats:
+  - PARRY_CHANCE 2
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: GOLD
+      Pattern: WARD
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Pestle:
+  Id: netherite_sword
+  Display: '&2&lPestle'
+  Model: 1
+  Lore:
+  - '&b&oCrush the spices...'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +7
+      KnockbackResistance: +5%
+  Stats:
+  - PARRY_POWER 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Mortar:
+  Id: ghast_tear
+  Display: '&2&lMortar'
+  Model: 1
+  Lore:
+  - '&b&o...in the bowl'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      ArmorToughness: +4
+  Options:
+    PreventStacking: true
+TrainingPack:
+  Id: netherite_chestplate
+  Display: '&b&lTraining Pack'
+  Model: 1
+  Lore:
+  - '&b&oMy mentor says carrying this makes me stronger'
+  - ''
+  - '&9If worn for the entirety of a level up challenge, removes speed penalty and gains a buff.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Chestplate]'
+  Attributes:
+    Chest:
+      MovementSpeed: -25%
+      Armor: +10
+      Health: +8
+  Stats:
+  - CRITICAL_STRIKE_RESILIENCE 4
+  Options:
+    Unbreakable: true
+    Trim:
+      Material: IRON
+      Pattern: SHAPER
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+SparringStick:
+  Id: netherite_sword
+  Display: '&2&lSparring Stick'
+  Model: 1
+  Lore:
+  - '&b&oIt''s easier to run away but today we''ve got to.'
+  - ''
+  - '&9Has multiple versions at each of the early levels.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Light]'
+  Attributes:
+    MainHand:
+      Damage: +5
+      AttackSpeed: +5%
+  Stats:
+  - PARRY_CHANCE 1
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+GreenHeadband:
+  Id: netherite_helmet
+  Display: '&b&lGreen Headband'
+  Model: 1
+  Lore:
+  - '&7Speed II'
+  - '&b&oA final stand, a shouting cry'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      MovementSpeed: +12%
+      Luck: +5
+  Stats:
+  - DODGE_CHANCE 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+DebtsUnpaid:
+  Id: netherite_sword
+  Display: '&5&lDebts Unpaid'
+  Model: 1
+  Lore:
+  - '&7Potency IV'
+  - '&b&oNothing to lose.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Heavy]'
+  Enchantments:
+  - SHARPNESS 4
+  - BINDING_CURSE 1
+  Attributes:
+    MainHand:
+      Damage: +16
+      KnockbackResistance: +10%
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+ChuruianScepter:
+  Id: netherite_hoe
+  Display: '&6&lChuruian Scepter'
+  Model: 1
+  Lore:
+  - '&b&oMay the softest paws guide your path.'
+  - ''
+  - '&9Befriend a Kitten. Do not let it die.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Staff]'
+  Attributes:
+    MainHand:
+      Damage: -99%
+      Luck: +15
+    OffHand:
+      Health: +10
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+HelpfulCompanion:
+  Id: ghast_tear
+  Display: '&d&lHelpful Companion'
+  Model: 1
+  Lore:
+  - '&b&oA gentle creature for a heavy price.'
+  - ''
+  - '&9Sacrifice to receive a Lamb companion. If it survives the raid, gain 2x rewards.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +12
+      Luck: +10
+  Options:
+    PreventStacking: true
+GogglesOfHindsight:
+  Id: netherite_helmet
+  Display: '&b&lGoggles of Hindsight'
+  Model: 1
+  Lore:
+  - '&7Night Vision III'
+  - '&b&oIt was so obvious!'
+  - ''
+  - '&9Learn about a secret that is no longer attainable.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Luck: +15
+      Armor: +4
+  Stats:
+  - DODGE_CHANCE 2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+RiskMinimizer:
+  Id: bow
+  Display: '&5&lRisk Minimizer'
+  Model: 1
+  Lore:
+  - '&b&oIn the presence of chaos, the best we can do is stay away.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Bow]'
+  Enchantments:
+  - POWER 5
+  - PUNCH 3
+  Attributes:
+    MainHand:
+      Damage: +18
+      MovementSpeed: -15%
+      Health: -6
+      EntityInteractionRange: +8
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+DualersBlade:
+  Id: netherite_sword
+  Display: '&d&lDualer''s Blade'
+  Model: 1
+  Lore:
+  - '&b&oOh, you thought I meant a fight?'
+  - ''
+  - '&9Sacrifice to flip the sign of an attribute on another item.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Medium]'
+  Attributes:
+    MainHand:
+      Damage: +14
+      AttackSpeed: +10%
+  Stats:
+  - PARRY_CHANCE 4
+  - PARRY_COUNTERATTACK 3
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Emptiness:
+  Id: netherite_axe
+  Display: '&d&lEmptiness'
+  Model: 1
+  Lore:
+  - '&7Blindness I'
+  - '&b&oMy lady... where did you go?'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Heavy]'
+  Attributes:
+    MainHand:
+      Damage: +16
+      KnockbackResistance: +12%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Denial:
+  Id: netherite_helmet
+  Display: '&2&lDenial'
+  Model: 1
+  Lore:
+  - '&b&oI''m fine. Everything is fine.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Health: -4
+      Armor: +18
+      Luck: -10
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Anger:
+  Id: netherite_chestplate
+  Display: '&1&lAnger'
+  Model: 1
+  Lore:
+  - '&b&oIt''s not fair!'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Chestplate]'
+  Attributes:
+    Chest:
+      Damage: +15%
+      ArmorToughness: -8
+      KnockbackResistance: +15%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Bargaining:
+  Id: netherite_leggings
+  Display: '&1&lBargaining'
+  Model: 1
+  Lore:
+  - '&b&oI''ll do anything. Just bring them back.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Leggings]'
+  Attributes:
+    Legs:
+      MovementSpeed: -10%
+      Luck: +19
+      Health: -2
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+Depression:
+  Id: netherite_boots
+  Display: '&2&lDepression'
+  Model: 1
+  Lore:
+  - '&b&oWhat''s the point?'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Boots]'
+  Attributes:
+    Feet:
+      MovementSpeed: -20%
+      Armor: +12
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+
+Acceptance:
+  Id: ghast_tear
+  Display: '&6&lAcceptance'
+  Model: 1
+  Lore:
+  - '&7Divine V'
+  - '&7Regeneration IV'
+  - '&b&oIt is what it is, and that is okay.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +20
+      Luck: +10
+  Options:
+    PreventStacking: true
+MagicDetector:
+  Id: ghast_tear
+  Display: '&5&lMagic Detector'
+  Model: 1
+  Lore:
+  - '&b&oSomething wicked this way comes.'
+  - ''
+  - '&9Antispy: Notifies you if attuned magic is used maliciously.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +12
+  Options:
+    PreventStacking: true
+FeastOfTheGods:
+  Id: ghast_tear
+  Display: '&6&lFeast of the Gods'
+  Model: 1
+  Lore:
+  - '&7Saturation V'
+  - '&b&oReclaim the ambrosia.'
+  - ''
+  - '&9Sacrifice before a raid to give all players permanent gapple effect'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Health: +10
+  Options:
+    PreventStacking: true
+CharonsToll:
+  Id: ghast_tear
+  Display: '&1&lCharon''s Toll'
+  Model: 1
+  Lore:
+  - '&b&oIt''s CHARON, not CHIRON.'
+  - ''
+  - '&9Sacrifice this item to see what an NPC saw right before their death.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Sneaky]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +14
+  Options:
+    PreventStacking: true
+BloodiedChalice:
+  Id: ghast_tear
+  Display: '&5&lBloodied Chalice'
+  Model: 1
+  Lore:
+  - '&b&oThe finest of gold for the finest of drinks.'
+  - ''
+  - '&9Gains power for each life you take.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Punchy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Damage: +5
+  Stats:
+  - CRITICAL_STRIKE_DAMAGE 4
+  Options:
+    PreventStacking: true
+LumpOfCoal:
+  Id: ghast_tear
+  Display: '&2&lLump of Coal'
+  Model: 1
+  Lore:
+  - '&b&oUnder pressure is where we truly shine.'
+  - ''
+  - '&9Transforms into a Diamond if you are the last one standing in a raid'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +2
+  Options:
+    PreventStacking: true
+WingedBowOfVictory:
+  Id: bow
+  Display: '&6&lWinged Bow of Victory'
+  Model: 1
+  Lore:
+  - '&7Regeneration III'
+  - '&b&oOne final push.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Bow]'
+  Attributes:
+    MainHand:
+      MovementSpeed: +10%
+      AttackSpeed: -20%
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+FaithsGuidance:
+  Id: netherite_helmet
+  Display: '&b&lFaith''s Guidance'
+  Model: 1
+  Lore:
+  - '&7Regeneration II'
+  - '&7Blindness I'
+  - '&b&oI walk in the valley of darkness... literally.'
+  - ''
+  - '&9[ITEM ABILITY]'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Helmet]'
+  Attributes:
+    Head:
+      Armor: +10
+      Health: +12
+  Options:
+    Unbreakable: true
+  Hide:
+    - HIDE_UNBREAKABLE
+    - HIDE_ARMOR_TRIM
+BartsLute:
+  Id: ghast_tear
+  Display: '&2&lBart''s Lute'
+  Model: 1
+  Lore:
+  - '&b&oAllow me to play you a song, m''lady.'
+  - ''
+  - '&Can play a song before a raid to provide a minor team-wide buff.'
+  - ''
+  - '&9[Level 1]'
+  - '&9[Growy]'
+  - '&9[Trinket]'
+  Attributes:
+    OffHand:
+      Luck: +5
+  Options:
+    PreventStacking: true
