@@ -12,13 +12,19 @@
 
   <div class="home-div">
     <h1>Welcome, Ian</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" />
+        <button type="submit">Upload</button>
+    </form>
+    <div id="response"></div>
     <p>Select a tool:</p>
     <div>
-      <button> <a href="item-creator/item_creator.html">🛠 Item Creator</a></button>
-      <button><a href="randomizer/index.html">🎲 Randomizer</a></button>
+      <a href="item-creator/item_creator.html"><button> 🛠 Item Creator</button></a>
+      <a href="randomizer/index.html"><button>🎲 Randomizer</button></a>
     </div>
 
   </div>
+  <script src="fileProcess.js"></script>
 </body>
 
 </html>
