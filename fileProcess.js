@@ -11,7 +11,7 @@
 //     })
 //     .then(response => response.text())
 //     .then(data => {
-       
+
 //         document.getElementById('response').innerHTML = data; // Display server response
 //     })
 //     .catch(error => console.error('Error:', error));
@@ -31,7 +31,7 @@
 //     }
 
 //     try {
-//         const response = await fetch('https://your-server-endpoint/upload', {
+//         const response = await fetch('https://uguu.se/upload', {
 //             method: 'POST',
 //             body: formData,
 //         });
@@ -49,19 +49,38 @@
 
 
 
+// const form = document.getElementById('uploadForm');
+// const fileInput = document.getElementById('fileInput');
+
+// form.addEventListener('submit', (event) => {
+//     event.preventDefault(); // Prevent form submission
+//     const files = fileInput.files; // Get selected files
+//     handleFiles(files); // Call function to handle files
+// });
+
+// function handleFiles(files) {
+//     for (const file of files) {
+//         console.log(`File name: ${file.name}, Size: ${file.size} bytes`);
+//         // Additional processing can be done here
+//     }
+// }
+
+
+
 const form = document.getElementById('uploadForm');
 const fileInput = document.getElementById('fileInput');
-
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
     event.preventDefault(); // Prevent form submission
-    const files = fileInput.files; // Get selected files
-    handleFiles(files); // Call function to handle files
-});
 
-function handleFiles(files) {
-    for (const file of files) {
-        console.log(`File name: ${file.name}, Size: ${file.size} bytes`);
-        // Additional processing can be done here
-    }
-}
+    const formData = new FormData();
+    formData.append('file', fileInput.files[0]); // fileInput is your file input element
+    formData.append('url', 'https://uguu.se/upload'); // Target upload URL
 
+    fetch('http://127.0.0.1:5500//uploadproxy.php', {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error gaaaaah:', error));
+})

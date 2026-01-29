@@ -1,5 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    header("Access-Control-Allow-Origin: *");
+
     $targetDir = "tempFiles/"; // Directory to save uploaded files
     $targetFile = $targetDir . basename($_FILES["file"]["name"]);
 
