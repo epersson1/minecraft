@@ -1,3 +1,14 @@
+/* 
+potential color set:
+#125454
+#259789 
+#8B4513
+#D2B48C
+#F2F2F2
+#1C1C1C
+#B22222
+#8B8C7A
+*/
 body {
     margin: 20px;
     display: flex;
@@ -12,21 +23,21 @@ body {
 
 .home-div {
     margin: auto;
-    border: #F2F2F2 double 10px;
+    border: #F2F2F2 ridge 10px;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex-flow: column nowrap;
     width: fit-content;
-    background-color: #C2B280;
+    background-color:#D2B48C;
 }
 
 button {
     margin: 5px;
     border-radius: 10px;
     padding: 10px;
-    background-color: darkblue;
+    background-color: #125454;
     max-width: 150px;
 
     font-family: "Teko", sans-serif;
@@ -36,9 +47,11 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0, 0, 57);
+    background-color:#259789 ;
+    /* rgb(0, 0, 57) */
     color: white;
     cursor: pointer;
+    text-shadow: 2px 2px 5px #1C1C1C;
 }
 
 a,
