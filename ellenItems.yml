@@ -18,13 +18,13 @@ ShatteredFaith:
   - SMITE 4
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       KnockbackResistance: +8%
-      Armor: +5
+      Armor: 5
     OffHand:
-      Damage: +14
+      Damage: 14
       KnockbackResistance: +8%
-      Armor: +5
+      Armor: 5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 3
@@ -32,9 +32,7 @@ ShatteredFaith:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
-
+  - HIDE_UNBREAKABLE
 BloodSoakedCrown:
   Id: netherite_helmet
   Display: '&5&lBlood-Soaked Crown'
@@ -55,21 +53,20 @@ BloodSoakedCrown:
   - THORNS 3
   Attributes:
     Head:
-      Health: +12
-      ArmorToughness: +7
+      Health: 12
+      ArmorToughness: 7
       Damage: +15%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: REDSTONE
       Pattern: SILENCE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
-
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 ChaosIncarnate:
   Id: ghast_tear
   Display: '&6&lChaos Incarnate'
@@ -87,14 +84,13 @@ ChaosIncarnate:
   Attributes:
     OffHand:
       AttackSpeed: +18%
-      Luck: +10
-      EntityInteractionRange: +2
+      Luck: 10
+      EntityInteractionRange: 2
   Stats:
   - DODGE_NEGATION 4
   - PARRY_NEGATION 3
   Options:
     PreventStacking: true
-
 DyingStar:
   Id: bow
   Display: '&2&lDying Star'
@@ -116,7 +112,7 @@ DyingStar:
   Attributes:
     MainHand:
       MovementSpeed: +15%
-      Luck: +9
+      Luck: 9
       AttackSpeed: +12%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
@@ -125,8 +121,7 @@ DyingStar:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 CorruptedVeil:
   Id: netherite_leggings
   Display: '&1&Corrupted Veil'
@@ -147,19 +142,19 @@ CorruptedVeil:
   Attributes:
     Legs:
       MovementSpeed: +19%
-      Armor: +4
+      Armor: 4
       Luck: +15%
   Stats:
   - DODGE_CHANCE 4
   - DODGE_NEGATION 2
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: QUARTZ
       Pattern: VEX
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 SoullessGaze:
   Id: player_head
   Display: '&5&lSoulless Gaze'
@@ -175,17 +170,14 @@ SoullessGaze:
   - '&9[Helmet]'
   Attributes:
     Head:
-      EntityInteractionRange: +3
+      EntityInteractionRange: 3
       MovementSpeed: +8%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 2
   - DODGE_CHANCE 4
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 BranchingRadiance:
   Id: netherite_hoe
   Display: '&b&lBranching Radiance'
@@ -204,19 +196,18 @@ BranchingRadiance:
   Attributes:
     MainHand:
       Damage: -99%
-      Health: +18
-      Luck: +12
+      Health: 18
+      Luck: 12
     OffHand:
-      Health: +10
-      ArmorToughness: +5
+      Health: 10
+      ArmorToughness: 5
   Stats:
   - PARRY_CHANCE 4
   - PARRY_POWER 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BastionOfIndependence:
   Id: shield
   Display: '&5&lBastion of Independence'
@@ -233,20 +224,19 @@ BastionOfIndependence:
   - '&9[Shield]'
   Enchantments:
   - PROTECTION 5
-  - UNBREAKING 3
   Attributes:
     OffHand:
-      KnockbackResistance: +15
-      Armor: +10
-      Health: +6
+      KnockbackResistance: 15
+      Armor: 10
+      Health: 6
   Stats:
   - PARRY_CHANCE 3
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ADDITIONAL_TOOLTIP
 WeaversVestige:
   Id: netherite_chestplate
   Display: '&1&lWeaver''s Vestige'
@@ -265,20 +255,20 @@ WeaversVestige:
   - PROTECTION 4
   Attributes:
     Chest:
-      Health: +14
-      Armor: +8
+      Health: 14
+      Armor: 8
       MovementSpeed: +5%
   Stats:
   - DODGE_CHANCE 2
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: AMETHYST
       Pattern: EYE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 GoreStainedSmasher:
   Id: netherite_sword
   Display: '&2&lGore-Stained Smasher'
@@ -299,21 +289,20 @@ GoreStainedSmasher:
   - KNOCKBACK 2
   Attributes:
     MainHand:
-      Damage: +18
-      KnockbackResistance: +12
-      Armor: +4
+      Damage: 18
+      KnockbackResistance: 12
+      Armor: 4
     OffHand:
-      Damage: +18
-      KnockbackResistance: +12
-      Armor: +4
+      Damage: 18
+      KnockbackResistance: 12
+      Armor: 4
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Ribcage:
   Id: netherite_chestplate
   Display: '&2&lRibcage'
@@ -333,21 +322,21 @@ Ribcage:
   - THORNS 4
   Attributes:
     Chest:
-      Armor: +15
-      ArmorToughness: +10
-      Health: +8
+      Armor: 15
+      ArmorToughness: 10
+      Health: 8
       KnockbackResistance: +5%
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - PARRY_CHANCE 2
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: NETHERITE
       Pattern: VEX
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 MANtle:
   Id: shield
   Display: '&1&lMANtle'
@@ -365,20 +354,19 @@ MANtle:
   - '&9[Shield]'
   Enchantments:
   - PROTECTION 4
-  - UNBREAKING 3
   Attributes:
     OffHand:
-      Armor: +12
+      Armor: 12
       KnockbackResistance: +18%
-      Health: +5
+      Health: 5
   Stats:
   - PARRY_POWER 4
   - PARRY_COUNTERATTACK 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ADDITIONAL_TOOLTIP
 StarfallLongbow:
   Id: bow
   Display: '&d&lStarfall Longbow'
@@ -400,7 +388,7 @@ StarfallLongbow:
   Attributes:
     MainHand:
       MovementSpeed: +14%
-      Luck: +18
+      Luck: 18
       AttackSpeed: +10%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
@@ -408,8 +396,7 @@ StarfallLongbow:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 VoidWalkersTreads:
   Id: netherite_boots
   Display: '&1&lVoid-Walker''s Treads'
@@ -430,16 +417,16 @@ VoidWalkersTreads:
   Attributes:
     Feet:
       MovementSpeed: +19%
-      EntityInteractionRange: +4
-      Luck: +12
+      EntityInteractionRange: 4
+      Luck: 12
   Stats:
   - DODGE_CHANCE 4
   - DODGE_NEGATION 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 DistortedImage:
   Id: player_head
   Display: '&2&lDistorted Image'
@@ -457,18 +444,15 @@ DistortedImage:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Luck: +15
+      Luck: 15
       MovementSpeed: +5%
-      EntityInteractionRange: +6
+      EntityInteractionRange: 6
   Stats:
   - DODGE_CHANCE 3
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 BoughOfLight:
   Id: netherite_hoe
   Display: '&d&lBough of Light'
@@ -487,19 +471,18 @@ BoughOfLight:
   Attributes:
     MainHand:
       Damage: -99%
-      Health: +19
-      Armor: +6
+      Health: 19
+      Armor: 6
     OffHand:
-      Health: +10
-      Luck: +8
+      Health: 10
+      Luck: 8
   Stats:
   - PARRY_CHANCE 4
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 OvergrownMossGuard:
   Id: netherite_leggings
   Display: '&2&lOvergrown Moss Guard'
@@ -518,20 +501,20 @@ OvergrownMossGuard:
   - PROTECTION 4
   Attributes:
     Legs:
-      Health: +12
-      Armor: +8
+      Health: 12
+      Armor: 8
       KnockbackResistance: +10%
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - DODGE_CHANCE 1
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: EMERALD
       Pattern: WILD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 CorruptedBloom:
   Id: ghast_tear
   Display: '&1&lCorrupted Bloom'
@@ -549,15 +532,15 @@ CorruptedBloom:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +15
-      ArmorToughness: +8
-      Luck: +10
+      Health: 15
+      ArmorToughness: 8
+      Luck: 10
   Stats:
   - PARRY_CHANCE 3
   - DODGE_CHANCE 2
   Options:
     PreventStacking: true
-BustersGreatsword:
+CandacesGreatsword:
   Id: netherite_sword
   Display: '&6&Candace''s Greatsword'
   Model: 1
@@ -577,21 +560,20 @@ BustersGreatsword:
   - SMITE 3
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       KnockbackResistance: +15%
-      Armor: +5
+      Armor: 5
     OffHand:
-      Damage: +19
+      Damage: 19
       KnockbackResistance: +15%
-      Armor: +5
+      Armor: 5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 MorgulVisage:
   Id: netherite_helmet
   Display: '&5&lMorgul Visage'
@@ -611,20 +593,20 @@ MorgulVisage:
   - THORNS 2
   Attributes:
     Head:
-      Health: +12
-      ArmorToughness: +8
+      Health: 12
+      ArmorToughness: 8
       Luck: -5
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - DODGE_NEGATION 2
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: NETHERITE
       Pattern: VEX
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 HylianGuard:
   Id: shield
   Display: '&d&lHylian Guard'
@@ -641,20 +623,19 @@ HylianGuard:
   - '&9[Shield]'
   Enchantments:
   - PROTECTION 5
-  - UNBREAKING 3
   Attributes:
     OffHand:
-      Armor: +10
+      Armor: 10
       KnockbackResistance: +20%
-      Health: +4
+      Health: 4
   Stats:
   - PARRY_CHANCE 4
   - PARRY_POWER 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ADDITIONAL_TOOLTIP
 SandalsOfHermes:
   Id: netherite_boots
   Display: '&1&lSandals of Hermes'
@@ -675,7 +656,7 @@ SandalsOfHermes:
   Attributes:
     Feet:
       MovementSpeed: +18%
-      Luck: +10
+      Luck: 10
       AttackSpeed: +5%
   Stats:
   - DODGE_CHANCE 4
@@ -683,8 +664,8 @@ SandalsOfHermes:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 HiddenBlade:
   Id: crossbow
   Display: '&2&lHidden Blade'
@@ -703,17 +684,16 @@ HiddenBlade:
   - PIERCING 4
   Attributes:
     MainHand:
-      Damage: +20
+      Damage: 20
       MovementSpeed: +5%
-      EntityInteractionRange: +3
+      EntityInteractionRange: 3
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - DODGE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 StaffOfTheEverbloom:
   Id: netherite_hoe
   Display: '&d&lStaff of the Everbloom'
@@ -732,19 +712,18 @@ StaffOfTheEverbloom:
   Attributes:
     MainHand:
       Damage: -99%
-      Health: +15
-      Luck: +12
+      Health: 15
+      Luck: 12
     OffHand:
-      Health: +10
-      Armor: +5
+      Health: 10
+      Armor: 5
   Stats:
   - PARRY_CHANCE 3
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 HeartOfTeFiti:
   Id: ghast_tear
   Display: '&b&lHeart of Te Fiti'
@@ -761,8 +740,8 @@ HeartOfTeFiti:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +18
-      Luck: +15
+      Health: 18
+      Luck: 15
       MovementSpeed: +5%
   Stats:
   - DODGE_CHANCE 2
@@ -787,20 +766,20 @@ LeggingsOfBirmanWood:
   - PROTECTION 4
   Attributes:
     Legs:
-      Health: +14
+      Health: 14
       KnockbackResistance: +12%
-      ArmorToughness: +6
+      ArmorToughness: 6
   Stats:
   - PARRY_POWER 3
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     Unbreakable: true
-    Trim: 
+    Trim:
       Material: EMERALD
       Pattern: WILD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 NineLivesExecutioner:
   Id: netherite_sword
   Display: '&6&lNine Lives Executioner'
@@ -821,20 +800,19 @@ NineLivesExecutioner:
   - FIRE_ASPECT 2
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       AttackSpeed: +12%
-      Luck: +7
+      Luck: 7
     OffHand:
-      Damage: +19
-      Armor: +4
+      Damage: 19
+      Armor: 4
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Stalker:
   Id: crossbow
   Display: '&1&lStalker'
@@ -855,17 +833,16 @@ Stalker:
   Attributes:
     MainHand:
       MovementSpeed: +15%
-      EntityInteractionRange: +5
+      EntityInteractionRange: 5
     OffHand:
-      Luck: +10
+      Luck: 10
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - DODGE_CHANCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 LonePawprint:
   Id: ghast_tear
   Display: '&d&lLonePawprint'
@@ -883,9 +860,9 @@ LonePawprint:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +18
-      Luck: +14
-      ArmorToughness: +6
+      Health: 18
+      Luck: 14
+      ArmorToughness: 6
   Stats:
   - PARRY_CHANCE 2
   - DODGE_CHANCE 3
@@ -910,9 +887,9 @@ IroncladStompers:
   - FEATHER_FALLING 4
   Attributes:
     Feet:
-      Armor: +10
+      Armor: 10
       KnockbackResistance: +15%
-      Health: +6
+      Health: 6
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - PARRY_POWER 2
@@ -922,8 +899,8 @@ IroncladStompers:
       Material: IRON
       Pattern: WARD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 ObsidianGoggles:
   Id: player_head
   Display: '&b&lObsidian Goggles'
@@ -940,18 +917,15 @@ ObsidianGoggles:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Luck: +19
+      Luck: 19
       MovementSpeed: +8%
-      EntityInteractionRange: +4
+      EntityInteractionRange: 4
   Stats:
   - DODGE_CHANCE 3
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 SunbeamedSprout:
   Id: netherite_hoe
   Display: '&2&lSunbeamed Sprout'
@@ -969,18 +943,17 @@ SunbeamedSprout:
   Attributes:
     MainHand:
       Damage: -99%
-      Health: +12
+      Health: 12
     OffHand:
-      Luck: +5
-      Armor: +3
-  Stats: 
+      Luck: 5
+      Armor: 3
+  Stats:
   - PARRY_CHANCE 2
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BlooddrinkerPlate:
   Id: netherite_chestplate
   Display: '&b&lBlooddrinker Plate'
@@ -1000,9 +973,9 @@ BlooddrinkerPlate:
   - THORNS 3
   Attributes:
     Chest:
-      Armor: +18
-      ArmorToughness: +12
-      Health: +10
+      Armor: 18
+      ArmorToughness: 12
+      Health: 10
   Stats:
   - CRITICAL_STRIKE_DAMAGE 3
   - PARRY_COUNTERATTACK 4
@@ -1012,8 +985,8 @@ BlooddrinkerPlate:
       Material: REDSTONE
       Pattern: SILENCE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 NebulaStrider:
   Id: netherite_leggings
   Display: '&d&lNebula Strider'
@@ -1034,7 +1007,7 @@ NebulaStrider:
   Attributes:
     Legs:
       MovementSpeed: +18%
-      Armor: +6
+      Armor: 6
       Luck: +12%
   Stats:
   - DODGE_CHANCE 4
@@ -1045,8 +1018,8 @@ NebulaStrider:
       Material: AMETHYST
       Pattern: VEX
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 OaksOwnGift:
   Id: shield
   Display: '&1&lOak''s Own Gift'
@@ -1065,8 +1038,8 @@ OaksOwnGift:
   - PROTECTION 4
   Attributes:
     OffHand:
-      Armor: +10
-      Health: +15
+      Armor: 10
+      Health: 15
       KnockbackResistance: +12%
   Stats:
   - PARRY_CHANCE 4
@@ -1074,8 +1047,8 @@ OaksOwnGift:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ADDITIONAL_TOOLTIP
 BloodyCarapace:
   Id: netherite_chestplate
   Display: '&5&lBloody Carapace'
@@ -1095,9 +1068,9 @@ BloodyCarapace:
   - THORNS 3
   Attributes:
     Chest:
-      Armor: +14
-      ArmorToughness: +8
-      Health: +10
+      Armor: 14
+      ArmorToughness: 8
+      Health: 10
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 3
   - PARRY_CHANCE 2
@@ -1107,8 +1080,8 @@ BloodyCarapace:
       Material: REDSTONE
       Pattern: SILENCE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 OnyxHeartstone:
   Id: ghast_tear
   Display: '&1&lOnyx Heartstone'
@@ -1126,7 +1099,7 @@ OnyxHeartstone:
   Attributes:
     OffHand:
       MovementSpeed: +12%
-      Luck: +15
+      Luck: 15
   Stats:
   - DODGE_CHANCE 4
   - CRITICAL_STRIKE_CHANCE 2
@@ -1148,8 +1121,8 @@ ClottingAgent:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +6
-      Armor: +2
+      Health: 6
+      Armor: 2
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
@@ -1172,8 +1145,8 @@ RepurposedCarcass:
   - PROTECTION 2
   Attributes:
     Chest:
-      Armor: +8
-      Health: +12
+      Armor: 8
+      Health: 12
   Stats:
   - PARRY_POWER 2
   Options:
@@ -1182,8 +1155,8 @@ RepurposedCarcass:
       Material: BONE
       Pattern: WILD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 EntrailWhip:
   Id: netherite_sword
   Display: '&5&lEntrail Whip'
@@ -1203,17 +1176,16 @@ EntrailWhip:
   - SWEEPING_EDGE 3
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
       AttackSpeed: +18%
-      EntityInteractionRange: +4
+      EntityInteractionRange: 4
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RiposteSabre:
   Id: netherite_sword
   Display: '&b&lRiposte Sabre'
@@ -1235,15 +1207,14 @@ RiposteSabre:
     MainHand:
       AttackSpeed: +15%
       MovementSpeed: +10%
-      Damage: +9
+      Damage: 9
   Stats:
   - PARRY_CHANCE 4
   - PARRY_COUNTERATTACK 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 StorytellersGrimoire:
   Id: ghast_tear
   Display: '&d&lStoryteller''s Grimoire'
@@ -1260,8 +1231,8 @@ StorytellersGrimoire:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +19
-      EntityInteractionRange: +5
+      Luck: 19
+      EntityInteractionRange: 5
   Stats:
   - DODGE_NEGATION 4
   - PARRY_NEGATION 3
@@ -1287,19 +1258,18 @@ LuxMortem:
   - FIRE_ASPECT 2
   Attributes:
     MainHand:
-      Damage: +15
-      Health: +8
+      Damage: 15
+      Health: 8
     OffHand:
-      Armor: +5
-      Luck: +10
+      Armor: 5
+      Luck: 10
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TheIconoclast:
   Id: netherite_sword
   Display: '&5&lThe Iconoclast'
@@ -1319,18 +1289,17 @@ TheIconoclast:
   - KNOCKBACK 2
   Attributes:
     MainHand:
-      Damage: +18
-      KnockbackResistance: +15
+      Damage: 18
+      KnockbackResistance: 15
     OffHand:
-      ArmorToughness: +10
+      ArmorToughness: 10
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Heartseeker:
   Id: netherite_sword
   Display: '&1&lHeartseeker'
@@ -1350,18 +1319,17 @@ Heartseeker:
   - BINDING_CURSE 1
   Attributes:
     MainHand:
-      Damage: +16
+      Damage: 16
       AttackSpeed: +5%
     OffHand:
-      Health: +4
+      Health: 4
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   - CRITICAL_STRIKE_DAMAGE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 AegisOfStars:
   Id: ghast_tear
   Display: '&b&lAegis of Stars'
@@ -1378,8 +1346,8 @@ AegisOfStars:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Armor: +8
-      Luck: +12
+      Armor: 8
+      Luck: 12
       MovementSpeed: +5%
   Stats:
   - DODGE_CHANCE 4
@@ -1402,17 +1370,14 @@ MementoMori:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Health: +15
-      ArmorToughness: +10
+      Health: 15
+      ArmorToughness: 10
   Stats:
   - PARRY_POWER 4
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 CoinForTheFerryman:
   Id: ghast_tear
   Display: '&d&lCoin for the Ferryman'
@@ -1429,16 +1394,13 @@ CoinForTheFerryman:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +19
-      Luck: +10
+      Health: 19
+      Luck: 10
   Stats:
   - DODGE_CHANCE 2
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 LeylineQuill:
   Id: netherite_sword
   Display: '&b&lLeyline Quill'
@@ -1458,18 +1420,17 @@ LeylineQuill:
   - FIRE_ASPECT 1
   Attributes:
     MainHand:
-      Damage: +10
+      Damage: 10
       AttackSpeed: +18%
     OffHand:
-      Luck: +15
+      Luck: 15
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   - PARRY_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 UnansweredPrayer:
   Id: netherite_helmet
   Display: '&2&lUnanswered Prayer'
@@ -1485,15 +1446,15 @@ UnansweredPrayer:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Armor: +5
-      Health: +4
+      Armor: 5
+      Health: 4
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 LorentzAttractor:
   Id: netherite_hoe
   Display: '&d&lLorentz Attractor'
@@ -1513,15 +1474,14 @@ LorentzAttractor:
       Damage: -99%
       MovementSpeed: +18%
     OffHand:
-      ArmorToughness: +9
+      ArmorToughness: 9
   Stats:
   - DODGE_NEGATION 4
   - PARRY_NEGATION 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BrokenManacles:
   Id: ghast_tear
   Display: '&1&lBroken Manacles'
@@ -1545,9 +1505,6 @@ BrokenManacles:
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 ForkedRoad:
   Id: netherite_sword
   Display: '&5&lForked Road'
@@ -1567,18 +1524,17 @@ ForkedRoad:
   - LOOTING 4
   Attributes:
     MainHand:
-      Damage: +14
-      Luck: +12
+      Damage: 14
+      Luck: 12
     OffHand:
-      EntityInteractionRange: +3
+      EntityInteractionRange: 3
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - DODGE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 GibberingHelm:
   Id: netherite_helmet
   Display: '&5&lGibbering Helm'
@@ -1598,16 +1554,16 @@ GibberingHelm:
   - BINDING_CURSE 1
   Attributes:
     Head:
-      Armor: +6
-      EntityInteractionRange: +2
+      Armor: 6
+      EntityInteractionRange: 2
       Health: -4
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 DelusionsManifest:
   Id: netherite_leggings
   Display: '&2&lDelusions Manifest'
@@ -1625,7 +1581,7 @@ DelusionsManifest:
   Attributes:
     Legs:
       MovementSpeed: +12%
-      Luck: +18
+      Luck: 18
   Stats:
   - DODGE_CHANCE 4
   Options:
@@ -1634,8 +1590,8 @@ DelusionsManifest:
       Material: QUARTZ
       Pattern: VEX
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 StarbroughtGrowth:
   Id: ghast_tear
   Display: '&b&lStarbrought Growth'
@@ -1652,15 +1608,12 @@ StarbroughtGrowth:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +6
-      Luck: +14
+      Health: 6
+      Luck: 14
   Stats:
   - DODGE_CHANCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 VeinWrappedRapier:
   Id: netherite_sword
   Display: '&1&lVein-Wrapped Rapier'
@@ -1680,7 +1633,7 @@ VeinWrappedRapier:
   - LOOTING 2
   Attributes:
     MainHand:
-      Damage: +11
+      Damage: 11
       AttackSpeed: +18%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
@@ -1688,8 +1641,7 @@ VeinWrappedRapier:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 ObscurialsBlessing:
   Id: netherite_helmet
   Display: '&d&lObscurial''s Blessing'
@@ -1707,15 +1659,15 @@ ObscurialsBlessing:
   Attributes:
     Head:
       MovementSpeed: +14%
-      Armor: +4
+      Armor: 4
   Stats:
   - DODGE_CHANCE 4
   - DODGE_NEGATION 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 FirstOath:
   Id: netherite_sword
   Display: '&2&lFirst Oath'
@@ -1732,15 +1684,14 @@ FirstOath:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +7
-      Health: +2
+      Damage: 7
+      Health: 2
   Stats:
   - PARRY_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 EntropiedEdge:
   Id: netherite_sword
   Display: '&1&lEntropied Edge'
@@ -1757,18 +1708,17 @@ EntropiedEdge:
   - '&9[Heavy]'
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       Luck: -5
     OffHand:
-      Damage: +19
+      Damage: 19
   Stats:
   - PARRY_NEGATION 4
   - DODGE_NEGATION 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BorrowedViscera:
   Id: netherite_chestplate
   Display: '&5&lBorrowed Viscera'
@@ -1788,8 +1738,8 @@ BorrowedViscera:
   - THORNS 3
   Attributes:
     Chest:
-      Armor: +15
-      Health: +12
+      Armor: 15
+      Health: 12
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
@@ -1798,8 +1748,8 @@ BorrowedViscera:
       Material: REDSTONE
       Pattern: SILENCE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 CaptivePixie:
   Id: ghast_tear
   Display: '&b&lCaptive Pixie'
@@ -1816,15 +1766,12 @@ CaptivePixie:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +19
+      Luck: 19
       MovementSpeed: +10%
   Stats:
   - DODGE_CHANCE 4
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 Experience:
   Id: netherite_sword
   Display: '&6&lExperience'
@@ -1845,11 +1792,11 @@ Experience:
   - SMITE 5
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       AttackSpeed: +10%
     OffHand:
-      Armor: +5
-      Luck: +5
+      Armor: 5
+      Luck: 5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - PARRY_POWER 4
@@ -1857,8 +1804,7 @@ Experience:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 JaggedPole:
   Id: netherite_sword
   Display: '&2&lJagged Pole'
@@ -1878,15 +1824,14 @@ JaggedPole:
   - SHARPNESS 2
   Attributes:
     MainHand:
-      Damage: +8
-      KnockbackResistance: +5
+      Damage: 8
+      KnockbackResistance: 5
   Stats:
   - PARRY_POWER 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 DistantDiatribe:
   Id: netherite_hoe
   Display: '&5&lDistant Diatribe'
@@ -1905,17 +1850,16 @@ DistantDiatribe:
     MainHand:
       Damage: -99%
       Luck: -5
-      Health: +4
+      Health: 4
     OffHand:
-      ArmorToughness: +5
+      ArmorToughness: 5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 3
   - PARRY_NEGATION 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 StochasticSymphony:
   Id: ghast_tear
   Display: '&d&lStochastic Symphony'
@@ -1934,15 +1878,12 @@ StochasticSymphony:
     OffHand:
       AttackSpeed: +18%
       MovementSpeed: +12%
-      Luck: +10
+      Luck: 10
   Stats:
   - DODGE_CHANCE 4
   - PARRY_CHANCE 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 FadedMap:
   Id: ghast_tear
   Display: '&1&lFaded Map'
@@ -1958,15 +1899,12 @@ FadedMap:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
+      Luck: 15
       MovementSpeed: +5%
   Stats:
   - DODGE_CHANCE 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 SacrificialLamb:
   Id: netherite_chestplate
   Display: '&6&lSacrificial Lamb'
@@ -1985,7 +1923,7 @@ SacrificialLamb:
   - PROTECTION 1
   Attributes:
     Chest:
-      Damage: +200
+      Damage: 200
       Health: -50
       AttackSpeed: -15%
   Stats:
@@ -1996,8 +1934,8 @@ SacrificialLamb:
       Material: QUARTZ
       Pattern: WILD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 AppleBottomJeans:
   Id: netherite_leggings
   Display: '&b&lApple Bottom Jeans'
@@ -2014,8 +1952,8 @@ AppleBottomJeans:
   Attributes:
     Legs:
       MovementSpeed: +15%
-      Luck: +10
-      Armor: +5
+      Luck: 10
+      Armor: 5
   Stats:
   - DODGE_CHANCE 4
   Options:
@@ -2024,8 +1962,8 @@ AppleBottomJeans:
       Material: GOLD
       Pattern: HOST
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 DecisionParalysis:
   Id: netherite_sword
   Display: '&5&lDecision Paralysis'
@@ -2044,7 +1982,7 @@ DecisionParalysis:
   - KNOCKBACK 1
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
       AttackSpeed: -10%
   Stats:
   - PARRY_POWER 4
@@ -2052,8 +1990,7 @@ DecisionParalysis:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TeddyBear:
   Id: ghast_tear
   Display: '&2&lTeddy Bear'
@@ -2070,13 +2007,10 @@ TeddyBear:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +8
-      Luck: +5
+      Health: 8
+      Luck: 5
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 Misled:
   Id: player_head
   Display: '&5&lMisled'
@@ -2093,17 +2027,14 @@ Misled:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Luck: +18
+      Luck: 18
       MovementSpeed: +8%
-      ArmorToughness: +4
+      ArmorToughness: 4
   Stats:
   - DODGE_CHANCE 2
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 StockSpear:
   Id: netherite_sword
   Display: '&2&lStock Spear'
@@ -2119,15 +2050,14 @@ StockSpear:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +7
+      Damage: 7
       AttackSpeed: +2%
   Stats:
   - PARRY_POWER 1
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Forgery:
   Id: netherite_sword
   Display: '&5&lForgery'
@@ -2146,15 +2076,14 @@ Forgery:
   - LOOTING 3
   Attributes:
     MainHand:
-      Damage: +9
-      Luck: +14
+      Damage: 9
+      Luck: 14
   Stats:
   - DODGE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BloodCursedAmulet:
   Id: ghast_tear
   Display: '&1&lBlood-Cursed Amulet'
@@ -2171,15 +2100,12 @@ BloodCursedAmulet:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +12
-      Armor: +4
+      Health: 12
+      Armor: 4
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 ScorpionsSting:
   Id: netherite_sword
   Display: '&b&lScorpion''s Sting'
@@ -2199,7 +2125,7 @@ ScorpionsSting:
   - BANE_OF_ARTHROPODS 5
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       AttackSpeed: +15%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
@@ -2207,8 +2133,7 @@ ScorpionsSting:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TimeOfDeath:
   Id: ghast_tear
   Display: '&5&lTime of Death'
@@ -2225,16 +2150,13 @@ TimeOfDeath:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +18
-      Health: +5
+      Luck: 18
+      Health: 5
   Stats:
   - PARRY_CHANCE 3
   - DODGE_CHANCE 1
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 BrokenLullaby:
   Id: ghast_tear
   Display: '&d&lBroken Lullaby'
@@ -2251,16 +2173,13 @@ BrokenLullaby:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +15
-      Luck: +10
+      Health: 15
+      Luck: 10
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   - PARRY_POWER 2
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 BladeOfTheBladeOf1000Knives:
   Id: netherite_sword
   Display: '&6&lBlade of the Blade of 1000 Knives'
@@ -2269,7 +2188,8 @@ BladeOfTheBladeOf1000Knives:
   - '&7Potency V'
   - '&7Divine V'
   - '&7Sanctity V'
-  - '&b&oForged for 1000 suns in the center of a sun in the middle of a supernova on God''s birthday'
+  - '&b&oForged for 1000 suns in the center of a sun in the middle of a supernova
+    on God''s birthday'
   - ''
   - '&9[ITEM ABILITY]'
   - ''
@@ -2282,11 +2202,11 @@ BladeOfTheBladeOf1000Knives:
   - SWEEPING_EDGE 3
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       AttackSpeed: +10%
       KnockbackResistance: +15%
     OffHand:
-      Armor: +8
+      Armor: 8
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   - CRITICAL_STRIKE_CHANCE 4
@@ -2294,8 +2214,7 @@ BladeOfTheBladeOf1000Knives:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BonkJuice:
   Id: ghast_tear
   Display: '&2&lBonk Juice'
@@ -2312,15 +2231,12 @@ BonkJuice:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +6
+      Damage: 6
       KnockbackResistance: +12%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 Glock:
   Id: crossbow
   Display: '&b&lGlock'
@@ -2339,18 +2255,17 @@ Glock:
   - PIERCING 4
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
       AttackSpeed: +18%
     OffHand:
-      Luck: +5
+      Luck: 5
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   - DODGE_NEGATION 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 DepressionHole:
   Id: netherite_helmet
   Display: '&5&lDepression Hole'
@@ -2367,8 +2282,8 @@ DepressionHole:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Armor: +10
-      Health: +8
+      Armor: 10
+      Health: 8
       Luck: -5
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
@@ -2378,8 +2293,8 @@ DepressionHole:
       Material: NETHERITE
       Pattern: SILENCE
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 TeamEffect:
   Id: netherite_sword
   Display: '&6&lTeam Effort'
@@ -2396,15 +2311,14 @@ TeamEffect:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +12
-      Health: +8
+      Damage: 12
+      Health: 8
     OffHand:
-      Armor: +5
+      Armor: 5
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 SeveredTongue:
   Id: ghast_tear
   Display: '&5&lSevered Tongue'
@@ -2420,7 +2334,7 @@ SeveredTongue:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +4
+      Damage: 4
       Luck: -2
   Stats:
   - PARRY_NEGATION 3
@@ -2442,8 +2356,10 @@ AncientStarChart:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +18
+      Luck: 18
       MovementSpeed: +5%
+  Options:
+    PreventStacking: true
 BurningOut:
   Id: netherite_sword
   Display: '&1&lBurning Out'
@@ -2463,15 +2379,14 @@ BurningOut:
   - SMITE 3
   Attributes:
     MainHand:
-      Damage: +16
+      Damage: 16
       AttackSpeed: -10%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 ChaoticCapture:
   Id: crossbow
   Display: '&d&lChaotic Capture'
@@ -2491,15 +2406,14 @@ ChaoticCapture:
   - QUICK_CHARGE 3
   Attributes:
     MainHand:
-      Damage: +14
-      EntityInteractionRange: +5
+      Damage: 14
+      EntityInteractionRange: 5
   Stats:
   - DODGE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RustedHeraldry:
   Id: shield
   Display: '&2&lRusted Heraldry'
@@ -2515,11 +2429,13 @@ RustedHeraldry:
   - '&9[Shield]'
   Attributes:
     OffHand:
-      Armor: +6
+      Armor: 6
       KnockbackResistance: +8%
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ADDITIONAL_TOOLTIP
+  Options:
+    Unbreakable: true
 ButterKnife:
   Id: netherite_sword
   Display: '&2&lButter Knife'
@@ -2535,15 +2451,14 @@ ButterKnife:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +5
+      Damage: 5
       AttackSpeed: +20%
   Stats:
   - DODGE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RepurposedTelescope:
   Id: netherite_hoe
   Display: '&1&lRepurposed Telescope'
@@ -2560,12 +2475,13 @@ RepurposedTelescope:
   Attributes:
     MainHand:
       Damage: -99%
-      EntityInteractionRange: +6
+      EntityInteractionRange: 6
     OffHand:
-      Luck: +10
+      Luck: 10
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  Options:
+    Unbreakable: true
 LastKiss:
   Id: netherite_sword
   Display: '&5&lLast Kiss'
@@ -2584,15 +2500,14 @@ LastKiss:
   - SHARPNESS 3
   Attributes:
     MainHand:
-      Damage: +10
+      Damage: 10
       AttackSpeed: +12%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 LeftVentricle:
   Id: ghast_tear
   Display: '&d&lLeft Ventricle'
@@ -2609,8 +2524,8 @@ LeftVentricle:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +19
-      ArmorToughness: +5
+      Health: 19
+      ArmorToughness: 5
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
@@ -2631,8 +2546,8 @@ RightVentricle:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +19
-      Armor: +5
+      Health: 19
+      Armor: 5
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
@@ -2657,14 +2572,13 @@ FeverDream:
   Attributes:
     MainHand:
       MovementSpeed: +12%
-      Luck: +10
+      Luck: 10
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 MorningLight:
   Id: ghast_tear
   Display: '&b&lMorning Light'
@@ -2681,8 +2595,8 @@ MorningLight:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +14
-      ArmorToughness: +5
+      Health: 14
+      ArmorToughness: 5
   Options:
     PreventStacking: true
 FingerBoneBrooch:
@@ -2700,7 +2614,7 @@ FingerBoneBrooch:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +2
+      Damage: 2
   Stats:
   - PARRY_POWER 1
   Options:
@@ -2720,8 +2634,8 @@ BurialJewels:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
-      Health: +4
+      Luck: 15
+      Health: 4
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 3
   Options:
@@ -2745,14 +2659,13 @@ StolenLullaby:
   Attributes:
     MainHand:
       AttackSpeed: +18%
-      Damage: +11
+      Damage: 11
   Stats:
   - DODGE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BottledMemories:
   Id: ghast_tear
   Display: '&b&lBottled Memories'
@@ -2768,8 +2681,8 @@ BottledMemories:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +12
-      Luck: +10
+      Health: 12
+      Luck: 10
   Options:
     PreventStacking: true
 MentalCage:
@@ -2791,7 +2704,7 @@ MentalCage:
   - BINDING_CURSE 1
   Attributes:
     Head:
-      ArmorToughness: +8
+      ArmorToughness: 8
       Luck: -4
       Damage: +15%
   Stats:
@@ -2799,8 +2712,8 @@ MentalCage:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 SphericalCurve:
   Id: bow
   Display: '&d&lSpherical Curve'
@@ -2820,7 +2733,7 @@ SphericalCurve:
   - INFINITY 1
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       AttackSpeed: +10%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
@@ -2828,8 +2741,7 @@ SphericalCurve:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 CrackedSign:
   Id: netherite_sword
   Display: '&1&lCracked Sign'
@@ -2845,13 +2757,12 @@ CrackedSign:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +9
+      Damage: 9
       KnockbackResistance: +8%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 BarbedWireBauble:
   Id: ghast_tear
   Display: '&2&lBarbed Wire Bauble'
@@ -2867,8 +2778,8 @@ BarbedWireBauble:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +2
-      Armor: +1
+      Damage: 2
+      Armor: 1
   Stats:
   - CRITICAL_STRIKE_DAMAGE 2
   Options:
@@ -2888,15 +2799,14 @@ BearPoke:
   - '&9[Heavy]'
   Attributes:
     MainHand:
-      Damage: +15
+      Damage: 15
       KnockbackResistance: +8%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 FigmentOfIntention:
   Id: netherite_sword
   Display: '&5&lFigment of Intention'
@@ -2914,13 +2824,12 @@ FigmentOfIntention:
   - LOOTING 3
   Attributes:
     MainHand:
-      Damage: +10
+      Damage: 10
       AttackSpeed: +14%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Conviction:
   Id: netherite_sword
   Display: '&b&lConviction'
@@ -2937,18 +2846,17 @@ Conviction:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +12
-      Health: +6
+      Damage: 12
+      Health: 6
     OffHand:
-      Armor: +25
+      Armor: 25
   Stats:
   - PARRY_CHANCE 4
   - CRITICAL_STRIKE_RESILIENCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Dreamscape:
   Id: netherite_hoe
   Display: '&d&lDreamscape'
@@ -2966,14 +2874,13 @@ Dreamscape:
   Attributes:
     MainHand:
       Damage: -99%
-      Luck: +15
+      Luck: 15
     OffHand:
-      Health: +10
+      Health: 10
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 VorticityCascade:
   Id: ghast_tear
   Display: '&2&lVorticity Cascade'
@@ -3009,15 +2916,14 @@ TwistedKnife:
   - SHARPNESS 4
   Attributes:
     MainHand:
-      Damage: +13
+      Damage: 13
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 FaithlessLove:
   Id: ghast_tear
   Display: '&1&lFaithless Love'
@@ -3033,8 +2939,8 @@ FaithlessLove:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +8
-      Luck: +5
+      Health: 8
+      Luck: 5
   Options:
     PreventStacking: true
 BaitAndSwitch:
@@ -3053,14 +2959,13 @@ BaitAndSwitch:
   Attributes:
     MainHand:
       AttackSpeed: +18%
-      Luck: +12
+      Luck: 12
   Stats:
   - DODGE_CHANCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 PatchedTapestry:
   Id: ghast_tear
   Display: '&2&lPatched Tapestry'
@@ -3076,8 +2981,8 @@ PatchedTapestry:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Armor: +5
-      Health: +4
+      Armor: 5
+      Health: 4
   Options:
     PreventStacking: true
 DoubleVision:
@@ -3096,15 +3001,15 @@ DoubleVision:
   Attributes:
     Head:
       MovementSpeed: +5%
-      Luck: +10
+      Luck: 10
   Stats:
   - DODGE_CHANCE 4
   - DODGE_NEGATION 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 BrandNewBoots:
   Id: netherite_boots
   Display: '&2&lBrand New Boots'
@@ -3121,14 +3026,14 @@ BrandNewBoots:
   Attributes:
     Feet:
       MovementSpeed: +5%
-      Armor: +4
+      Armor: 4
   Stats:
   - DODGE_CHANCE 1
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Nightfall:
   Id: netherite_sword
   Display: '&5&lNightfall'
@@ -3143,7 +3048,7 @@ Nightfall:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       AttackSpeed: +8%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
@@ -3151,8 +3056,7 @@ Nightfall:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 GloriousSunrise:
   Id: netherite_sword
   Display: '&d&lGlorious Sunrise'
@@ -3169,13 +3073,12 @@ GloriousSunrise:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +10
-      Health: +6
+      Damage: 10
+      Health: 6
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Coercion:
   Id: netherite_sword
   Display: '&1&lCoercion'
@@ -3190,13 +3093,12 @@ Coercion:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
       KnockbackResistance: +10%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RetCaan:
   Id: ghast_tear
   Display: '&d&lRet-caan'
@@ -3211,7 +3113,7 @@ RetCaan:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
+      Luck: 15
   Options:
     PreventStacking: true
 TiemEffort:
@@ -3228,16 +3130,15 @@ TiemEffort:
   - '&9[Heavy]'
   Attributes:
     MainHand:
-      Damage: +18
+      Damage: 18
     OffHand:
-      Armor: +5
+      Armor: 5
   Stats:
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 QuestingBlade:
   Id: netherite_sword
   Display: '&b&lQuesting Blade'
@@ -3252,15 +3153,14 @@ QuestingBlade:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +11
-      Luck: +12
+      Damage: 11
+      Luck: 12
   Stats:
   - PARRY_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RatKingsBlade:
   Id: netherite_sword
   Display: '&1&lRat King''s Blade'
@@ -3275,15 +3175,14 @@ RatKingsBlade:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +9
+      Damage: 9
       AttackSpeed: +18%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 RelicOfTheGoldenMonkey:
   Id: ghast_tear
   Display: '&6&lRelic of the Golden Monkey'
@@ -3299,15 +3198,12 @@ RelicOfTheGoldenMonkey:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +19
-      Health: +10
+      Luck: 19
+      Health: 10
   Stats:
   - DODGE_CHANCE 3
   Options:
     PreventStacking: true
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
 FuckingFireball:
   Id: flint_and_steel
   Display: '&6&lFUCKING FIREBALL'
@@ -3322,10 +3218,11 @@ FuckingFireball:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +15
+      Damage: 15
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  Options:
+    Unbreakable: true
 Sundrop:
   Id: ghast_tear
   Display: '&d&lSundrop'
@@ -3342,8 +3239,8 @@ Sundrop:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +14
-      Luck: +10
+      Health: 14
+      Luck: 10
   Options:
     PreventStacking: true
 MoonstoneOpulent:
@@ -3364,15 +3261,14 @@ MoonstoneOpulent:
   - SHARPNESS 4
   Attributes:
     MainHand:
-      Damage: +13
+      Damage: 13
       AttackSpeed: +15%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 EssenceOfTurbulence:
   Id: ghast_tear
   Display: '&2&lEssence of Turbulence'
@@ -3387,7 +3283,7 @@ EssenceOfTurbulence:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +10
+      Damage: 10
       MovementSpeed: +15%
   Options:
     PreventStacking: true
@@ -3405,8 +3301,8 @@ Antisymmetry:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +12
-      EntityInteractionRange: +3
+      Luck: 12
+      EntityInteractionRange: 3
   Stats:
   - DODGE_NEGATION 4
   - PARRY_NEGATION 4
@@ -3429,13 +3325,12 @@ TheSecondLaw:
   - SHARPNESS 5
   Attributes:
     MainHand:
-      Damage: +18
+      Damage: 18
       KnockbackResistance: +12%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Cyclone:
   Id: netherite_sword
   Display: '&d&lCyclone'
@@ -3453,15 +3348,14 @@ Cyclone:
   - KNOCKBACK 4
   Attributes:
     MainHand:
-      Damage: +16
+      Damage: 16
       MovementSpeed: +10%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Anticyclone:
   Id: ghast_tear
   Display: '&d&lAnticyclone'
@@ -3477,8 +3371,10 @@ Anticyclone:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Armor: +8
-      Health: +10
+      Armor: 8
+      Health: 10
+  Options:
+    PreventStacking: true
 TheFirstHallow:
   Id: netherite_sword
   Display: '&6&lThe First Hallow'
@@ -3498,7 +3394,7 @@ TheFirstHallow:
   - BREACH 3
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       AttackSpeed: +20%
   Stats:
   - PARRY_CHANCE 4
@@ -3506,8 +3402,7 @@ TheFirstHallow:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TheSecondHallow:
   Id: ghast_tear
   Display: '&6&lThe Second Hallow'
@@ -3523,8 +3418,10 @@ TheSecondHallow:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +15
-      Luck: +19
+      Health: 15
+      Luck: 19
+  Options:
+    PreventStacking: true
 TheThirdHallow:
   Id: ghast_tear
   Display: '&6&lThe Third Hallow'
@@ -3541,7 +3438,7 @@ TheThirdHallow:
   Attributes:
     OffHand:
       MovementSpeed: +10%
-      EntityInteractionRange: +5
+      EntityInteractionRange: 5
   Stats:
   - DODGE_CHANCE 10
   Options:
@@ -3560,8 +3457,8 @@ EssentialSingularity:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
-      ArmorToughness: +10
+      Luck: 15
+      ArmorToughness: 10
   Stats:
   - PARRY_NEGATION 4
   Options:
@@ -3584,15 +3481,14 @@ FinalEscort:
   - SHARPNESS 4
   Attributes:
     MainHand:
-      Damage: +17
+      Damage: 17
       Health: -5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Reaper:
   Id: netherite_sword
   Display: '&6&lReaper'
@@ -3612,15 +3508,14 @@ Reaper:
   - SMITE 5
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       AttackSpeed: +10%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Shiv:
   Id: netherite_sword
   Display: '&1&lShiv'
@@ -3635,15 +3530,14 @@ Shiv:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +6
+      Damage: 6
       AttackSpeed: +20%
   Stats:
   - CRITICAL_STRIKE_CHANCE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 InescapableDestruction:
   Id: netherite_sword
   Display: '&6&lInescapable Destruction'
@@ -3663,7 +3557,7 @@ InescapableDestruction:
   - KNOCKBACK 3
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
       KnockbackResistance: +15%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
@@ -3671,8 +3565,7 @@ InescapableDestruction:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 EyesOfTheGrave:
   Id: player_head
   Display: '&5&lEyes of the Grave'
@@ -3688,17 +3581,14 @@ EyesOfTheGrave:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Armor: +8
-      Health: +10
-      Luck: +5
+      Armor: 8
+      Health: 10
+      Luck: 5
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
     PreventStacking: true
-    SkinTexture: [CODE]
-  Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+    SkinTexture: CODE
 SilverChain:
   Id: ghast_tear
   Display: '&d&lSilver Chain'
@@ -3714,8 +3604,10 @@ SilverChain:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +12
-      Luck: +15
+      Health: 12
+      Luck: 15
+  Options:
+    PreventStacking: true
 FreeFromPain:
   Id: netherite_hoe
   Display: '&b&lFree From Pain'
@@ -3733,10 +3625,11 @@ FreeFromPain:
   Attributes:
     MainHand:
       Damage: -99%
-      Health: +18
+      Health: 18
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  Options:
+    Unbreakable: true
 HeartsDesire:
   Id: ghast_tear
   Display: '&d&lHeart''s Desire'
@@ -3754,7 +3647,7 @@ HeartsDesire:
   Attributes:
     OffHand:
       MovementSpeed: +10%
-      Luck: +19
+      Luck: 19
   Stats:
   - DODGE_CHANCE 3
   Options:
@@ -3773,7 +3666,7 @@ TheFirstPage:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +3
+      Health: 3
   Options:
     PreventStacking: true
 TheSecondPage:
@@ -3790,7 +3683,7 @@ TheSecondPage:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +3
+      Damage: 3
   Options:
     PreventStacking: true
 TheThirdPage:
@@ -3807,7 +3700,7 @@ TheThirdPage:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      MovementSpeed: +3
+      MovementSpeed: 3
   Options:
     PreventStacking: true
 TheLostPage:
@@ -3824,7 +3717,7 @@ TheLostPage:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +3
+      Luck: 3
   Options:
     PreventStacking: true
 TheLostManuscript:
@@ -3844,10 +3737,10 @@ TheLostManuscript:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +3
-      Health: +3
-      Luck: +3
-      MovementSpeed: +3
+      Damage: 3
+      Health: 3
+      Luck: 3
+      MovementSpeed: 3
   Options:
     PreventStacking: true
 ExplodedStar:
@@ -3868,13 +3761,15 @@ ExplodedStar:
   - FIRE_ASPECT 2
   Attributes:
     MainHand:
-      Damage: +15
+      Damage: 15
       AttackSpeed: +5%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
+  Hide:
+  - HIDE_UNBREAKABLE
 PrisonersDilemma:
   Id: ghast_tear
   Display: '&b&lPrisoner''s Dilemma'
@@ -3891,7 +3786,7 @@ PrisonersDilemma:
   Attributes:
     OffHand:
       MovementSpeed: +8%
-      Luck: +12
+      Luck: 12
   Stats:
   - DODGE_NEGATION 4
   Options:
@@ -3913,15 +3808,14 @@ KnittingNeedle:
   - LOOTING 1
   Attributes:
     MainHand:
-      Damage: +4
+      Damage: 4
       AttackSpeed: +25%
   Stats:
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 SilverFork:
   Id: netherite_sword
   Display: '&1&lSilver Fork'
@@ -3937,13 +3831,12 @@ SilverFork:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +6
+      Damage: 6
       AttackSpeed: +10%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 SharpenedSteakKnife:
   Id: netherite_sword
   Display: '&2&lSharpened Steak Knife'
@@ -3959,15 +3852,14 @@ SharpenedSteakKnife:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +8
+      Damage: 8
       AttackSpeed: +15%
   Stats:
   - CRITICAL_STRIKE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 WoodenSpoon:
   Id: netherite_sword
   Display: '&1&lWooden Spoon'
@@ -3983,13 +3875,12 @@ WoodenSpoon:
   - '&9[Light]'
   Attributes:
     MainHand:
-      KnockbackResistance: +5
-      Damage: +4
+      KnockbackResistance: 5
+      Damage: 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 GamblersLedger:
   Id: ghast_tear
   Display: '&5&lGambler''s Ledger'
@@ -3997,14 +3888,15 @@ GamblersLedger:
   Lore:
   - '&b&oThe odds are always in your favor, if you write them yourself.'
   - ''
-  - '&9Sacrifice to give two options for your next random roll; you choose which to keep.'
+  - '&9Sacrifice to give two options for your next random roll; you choose which to
+    keep.'
   - ''
   - '&9[Level 1]'
   - '&9[Sneaky]'
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
+      Luck: 15
   Options:
     PreventStacking: true
 AncientDuelersBlade:
@@ -4025,7 +3917,7 @@ AncientDuelersBlade:
   - SHARPNESS 5
   Attributes:
     MainHand:
-      Damage: +18
+      Damage: 18
       AttackSpeed: +10%
   Stats:
   - PARRY_CHANCE 4
@@ -4033,8 +3925,7 @@ AncientDuelersBlade:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 StoneOfRefinement:
   Id: ghast_tear
   Display: '&b&lStone of Refinement'
@@ -4049,7 +3940,7 @@ StoneOfRefinement:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +8
+      Luck: 8
   Options:
     PreventStacking: true
 MerchantsVoucher:
@@ -4066,7 +3957,7 @@ MerchantsVoucher:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +12
+      Luck: 12
   Options:
     PreventStacking: true
 CardboardWings:
@@ -4086,7 +3977,10 @@ CardboardWings:
     OffHand:
       MovementSpeed: +15%
   Options:
-    PreventStacking: true
+    Unbreakable: true
+  Hide:
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 HarmonicPrism:
   Id: ghast_tear
   Display: '&d&lHarmonic Prism'
@@ -4101,7 +3995,7 @@ HarmonicPrism:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +10
+      Luck: 10
   Options:
     PreventStacking: true
 LethesVial:
@@ -4118,7 +4012,7 @@ LethesVial:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +5
+      Luck: 5
   Options:
     PreventStacking: true
 WhisperStone:
@@ -4135,7 +4029,7 @@ WhisperStone:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +14
+      Luck: 14
   Options:
     PreventStacking: true
 EchoingConch:
@@ -4152,7 +4046,7 @@ EchoingConch:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +10
+      Luck: 10
   Options:
     PreventStacking: true
 InterceptedLetter:
@@ -4169,7 +4063,7 @@ InterceptedLetter:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +12
+      Luck: 12
   Options:
     PreventStacking: true
 AnonymousNote:
@@ -4186,7 +4080,7 @@ AnonymousNote:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +8
+      Luck: 8
   Options:
     PreventStacking: true
 BiomeCore:
@@ -4204,7 +4098,7 @@ BiomeCore:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +10
+      Health: 10
   Options:
     PreventStacking: true
 CloudCharm:
@@ -4222,7 +4116,7 @@ CloudCharm:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +15
+      Luck: 15
   Options:
     PreventStacking: true
 BuildersManifest:
@@ -4239,7 +4133,7 @@ BuildersManifest:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +10
+      Luck: 10
   Options:
     PreventStacking: true
 ConsumingMadness:
@@ -4260,13 +4154,13 @@ ConsumingMadness:
   - BINDING_CURSE 1
   Attributes:
     Head:
-      Armor: +18
+      Armor: 18
       Damage: +15%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 MaleficScythe:
   Id: netherite_sword
   Display: '&5&lMalefic Scythe'
@@ -4283,14 +4177,13 @@ MaleficScythe:
   - BINDING_CURSE 1
   Attributes:
     MainHand:
-      Damage: +19
+      Damage: 19
     OffHand:
-      Damage: +19
+      Damage: 19
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 ThirstingBlade:
   Id: netherite_sword
   Display: '&2&lThirsting Blade'
@@ -4306,15 +4199,14 @@ ThirstingBlade:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
       AttackSpeed: +10%
   Stats:
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TheMillenniumPuzzle:
   Id: ghast_tear
   Display: '&6&lThe Millennium Puzzle'
@@ -4329,7 +4221,7 @@ TheMillenniumPuzzle:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +19
+      Luck: 19
   Options:
     PreventStacking: true
 TheCure:
@@ -4347,7 +4239,7 @@ TheCure:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +15
+      Health: 15
   Options:
     PreventStacking: true
 OmniTool:
@@ -4364,7 +4256,7 @@ OmniTool:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +5
+      Luck: 5
   Options:
     PreventStacking: true
 HeartContainer:
@@ -4381,7 +4273,7 @@ HeartContainer:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +10
+      Health: 10
   Options:
     PreventStacking: true
 FIIIISSSHHHH:
@@ -4398,7 +4290,7 @@ FIIIISSSHHHH:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +2
+      Luck: 2
   Stats:
   - DODGE_CHANCE 1
   Options:
@@ -4417,8 +4309,8 @@ Everbloom:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +8
-      Regeneration: +2
+      Health: 8
+      Regeneration: 2
   Options:
     PreventStacking: true
 PinkBanner:
@@ -4435,7 +4327,7 @@ PinkBanner:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +12
+      Luck: 12
   Options:
     PreventStacking: true
 SummoningSkull:
@@ -4452,7 +4344,7 @@ SummoningSkull:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Armor: +5
+      Armor: 5
   Options:
     PreventStacking: true
 StoneBlade:
@@ -4471,12 +4363,11 @@ StoneBlade:
   - SHARPNESS 3
   Attributes:
     MainHand:
-      Damage: +12
+      Damage: 12
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 InnkeepersHat:
   Id: netherite_helmet
   Display: '&2&lInnkeeper''s Hat'
@@ -4491,15 +4382,15 @@ InnkeepersHat:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Armor: +4
-      Health: +6
+      Armor: 4
+      Health: 6
   Stats:
   - PARRY_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 AxolotlsLastGift:
   Id: netherite_sword
   Display: '&b&lAxolotl''s Last Gift'
@@ -4516,13 +4407,12 @@ AxolotlsLastGift:
   - KNOCKBACK 5
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       KnockbackResistance: +10%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 PowerBottomPantaloons:
   Id: netherite_leggings
   Display: '&b&lPower bottom pantaloons'
@@ -4530,14 +4420,15 @@ PowerBottomPantaloons:
   Lore:
   - '&b&oPulling yourself up by your own bootstraps.'
   - ''
-  - '&9If this item is the lowest item level you have equipped, it increases by 2 levels.'
+  - '&9If this item is the lowest item level you have equipped, it increases by 2
+    levels.'
   - ''
   - '&9[Level 1]'
   - '&9[Sneaky]'
   - '&9[Leggings]'
   Attributes:
     Legs:
-      Armor: +8
+      Armor: 8
       MovementSpeed: +5%
   Stats:
   - DODGE_CHANCE 3
@@ -4547,8 +4438,8 @@ PowerBottomPantaloons:
       Material: GOLD
       Pattern: COAST
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 BarkStripper:
   Id: netherite_axe
   Display: '&1&lBark Stripper'
@@ -4564,15 +4455,14 @@ BarkStripper:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +9
+      Damage: 9
       AttackSpeed: +12%
   Stats:
   - CRITICAL_STRIKE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 TiltedCrown:
   Id: netherite_helmet
   Display: '&d&lTilted Crown'
@@ -4588,8 +4478,8 @@ TiltedCrown:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Luck: +14
-      Armor: +6
+      Luck: 14
+      Armor: 6
   Stats:
   - PARRY_CHANCE 2
   Options:
@@ -4598,8 +4488,8 @@ TiltedCrown:
       Material: GOLD
       Pattern: WARD
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Pestle:
   Id: netherite_sword
   Display: '&2&lPestle'
@@ -4614,15 +4504,14 @@ Pestle:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +7
+      Damage: 7
       KnockbackResistance: +5%
   Stats:
   - PARRY_POWER 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Mortar:
   Id: ghast_tear
   Display: '&2&lMortar'
@@ -4637,7 +4526,7 @@ Mortar:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      ArmorToughness: +4
+      ArmorToughness: 4
   Options:
     PreventStacking: true
 TrainingPack:
@@ -4647,7 +4536,8 @@ TrainingPack:
   Lore:
   - '&b&oMy mentor says carrying this makes me stronger'
   - ''
-  - '&9If worn for the entirety of a level up challenge, removes speed penalty and gains a buff.'
+  - '&9If worn for the entirety of a level up challenge, removes speed penalty and
+    gains a buff.'
   - ''
   - '&9[Level 1]'
   - '&9[Growy]'
@@ -4655,8 +4545,8 @@ TrainingPack:
   Attributes:
     Chest:
       MovementSpeed: -25%
-      Armor: +10
-      Health: +8
+      Armor: 10
+      Health: 8
   Stats:
   - CRITICAL_STRIKE_RESILIENCE 4
   Options:
@@ -4665,8 +4555,8 @@ TrainingPack:
       Material: IRON
       Pattern: SHAPER
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 SparringStick:
   Id: netherite_sword
   Display: '&2&lSparring Stick'
@@ -4681,15 +4571,14 @@ SparringStick:
   - '&9[Light]'
   Attributes:
     MainHand:
-      Damage: +5
+      Damage: 5
       AttackSpeed: +5%
   Stats:
   - PARRY_CHANCE 1
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 GreenHeadband:
   Id: netherite_helmet
   Display: '&b&lGreen Headband'
@@ -4706,14 +4595,14 @@ GreenHeadband:
   Attributes:
     Head:
       MovementSpeed: +12%
-      Luck: +5
+      Luck: 5
   Stats:
   - DODGE_CHANCE 3
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 DebtsUnpaid:
   Id: netherite_sword
   Display: '&5&lDebts Unpaid'
@@ -4732,15 +4621,14 @@ DebtsUnpaid:
   - BINDING_CURSE 1
   Attributes:
     MainHand:
-      Damage: +16
+      Damage: 16
       KnockbackResistance: +10%
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 ChuruianScepter:
   Id: netherite_hoe
   Display: '&6&lChuruian Scepter'
@@ -4756,14 +4644,13 @@ ChuruianScepter:
   Attributes:
     MainHand:
       Damage: -99%
-      Luck: +15
+      Luck: 15
     OffHand:
-      Health: +10
+      Health: 10
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 HelpfulCompanion:
   Id: ghast_tear
   Display: '&d&lHelpful Companion'
@@ -4778,8 +4665,8 @@ HelpfulCompanion:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +12
-      Luck: +10
+      Health: 12
+      Luck: 10
   Options:
     PreventStacking: true
 GogglesOfHindsight:
@@ -4797,15 +4684,15 @@ GogglesOfHindsight:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Luck: +15
-      Armor: +4
+      Luck: 15
+      Armor: 4
   Stats:
   - DODGE_CHANCE 2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 RiskMinimizer:
   Id: bow
   Display: '&5&lRisk Minimizer'
@@ -4823,15 +4710,14 @@ RiskMinimizer:
   - PUNCH 3
   Attributes:
     MainHand:
-      Damage: +18
+      Damage: 18
       MovementSpeed: -15%
       Health: -6
-      EntityInteractionRange: +8
+      EntityInteractionRange: 8
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 DualersBlade:
   Id: netherite_sword
   Display: '&d&lDualer''s Blade'
@@ -4846,7 +4732,7 @@ DualersBlade:
   - '&9[Medium]'
   Attributes:
     MainHand:
-      Damage: +14
+      Damage: 14
       AttackSpeed: +10%
   Stats:
   - PARRY_CHANCE 4
@@ -4854,8 +4740,7 @@ DualersBlade:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Emptiness:
   Id: netherite_axe
   Display: '&d&lEmptiness'
@@ -4871,13 +4756,12 @@ Emptiness:
   - '&9[Heavy]'
   Attributes:
     MainHand:
-      Damage: +16
+      Damage: 16
       KnockbackResistance: +12%
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 Denial:
   Id: netherite_helmet
   Display: '&2&lDenial'
@@ -4891,13 +4775,13 @@ Denial:
   Attributes:
     Head:
       Health: -4
-      Armor: +18
+      Armor: 18
       Luck: -10
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Anger:
   Id: netherite_chestplate
   Display: '&1&lAnger'
@@ -4916,8 +4800,8 @@ Anger:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Bargaining:
   Id: netherite_leggings
   Display: '&1&lBargaining'
@@ -4931,13 +4815,13 @@ Bargaining:
   Attributes:
     Legs:
       MovementSpeed: -10%
-      Luck: +19
+      Luck: 19
       Health: -2
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Depression:
   Id: netherite_boots
   Display: '&2&lDepression'
@@ -4951,13 +4835,12 @@ Depression:
   Attributes:
     Feet:
       MovementSpeed: -20%
-      Armor: +12
+      Armor: 12
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
-
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 Acceptance:
   Id: ghast_tear
   Display: '&6&lAcceptance'
@@ -4972,8 +4855,8 @@ Acceptance:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +20
-      Luck: +10
+      Health: 20
+      Luck: 10
   Options:
     PreventStacking: true
 MagicDetector:
@@ -4990,7 +4873,7 @@ MagicDetector:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +12
+      Luck: 12
   Options:
     PreventStacking: true
 FeastOfTheGods:
@@ -5008,7 +4891,7 @@ FeastOfTheGods:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Health: +10
+      Health: 10
   Options:
     PreventStacking: true
 CharonsToll:
@@ -5025,7 +4908,7 @@ CharonsToll:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +14
+      Luck: 14
   Options:
     PreventStacking: true
 BloodiedChalice:
@@ -5042,7 +4925,7 @@ BloodiedChalice:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Damage: +5
+      Damage: 5
   Stats:
   - CRITICAL_STRIKE_DAMAGE 4
   Options:
@@ -5061,7 +4944,7 @@ LumpOfCoal:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +2
+      Luck: 2
   Options:
     PreventStacking: true
 WingedBowOfVictory:
@@ -5084,8 +4967,7 @@ WingedBowOfVictory:
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
 FaithsGuidance:
   Id: netherite_helmet
   Display: '&b&lFaith''s Guidance'
@@ -5102,13 +4984,13 @@ FaithsGuidance:
   - '&9[Helmet]'
   Attributes:
     Head:
-      Armor: +10
-      Health: +12
+      Armor: 10
+      Health: 12
   Options:
     Unbreakable: true
   Hide:
-    - HIDE_UNBREAKABLE
-    - HIDE_ARMOR_TRIM
+  - HIDE_UNBREAKABLE
+  - HIDE_ARMOR_TRIM
 BartsLute:
   Id: ghast_tear
   Display: '&2&lBart''s Lute'
@@ -5123,6 +5005,6 @@ BartsLute:
   - '&9[Trinket]'
   Attributes:
     OffHand:
-      Luck: +5
+      Luck: 5
   Options:
     PreventStacking: true
